@@ -3,7 +3,6 @@ import './Upgrades.css';
 import './modal.css'
 import {upgradesData} from '../data/upgradesData';
 
-
 const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
   
@@ -12,7 +11,7 @@ const Modal = ({ handleClose, show, children }) => {
         <section className="modal-main">
           {children}
           <button type="button" onClick={handleClose}>
-            Close
+            Chiudi
           </button>
         </section>
       </div>
@@ -39,6 +38,7 @@ class UpgradeItem extends React.Component{
 
 
     render(){
+        
         return(
             <div className='upgradeItemContainer'>
                 <div className='upgradeItem' onClick={this.showModal}>
@@ -49,7 +49,13 @@ class UpgradeItem extends React.Component{
                     </div>    
                 </div>
                 <Modal show={this.state.show} handleClose={this.hideModal}>
-                        <h1>{this.props.title}</h1>
+                        <h1 className='title'>{this.props.title}</h1>
+                        <div className='infoContainer'>
+                            <img width="200" height="200" src={this.props.img}></img>
+                            <p className="description">{this.props.detailedDescription}</p>
+                        </div>
+                        <a className='link' href={this.props.link} target="_blank">Link</a>
+
                 </Modal>
             </div>
         )
@@ -67,7 +73,13 @@ class Upgrades extends React.Component{
             <div id='upgradeItems'>
                 {
                 upgradesData.map( item => (
-                    <UpgradeItem title={item.title} description={item.desc}/>
+                    <UpgradeItem 
+                        title={item.title} 
+                        description={item.desc} 
+                        link={item.link} 
+                        img={item.img} 
+                        detailedDescription={item.description}
+                    />
                 ))
                 }
             </div>

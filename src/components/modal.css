@@ -26,3 +26,40 @@
   .display-none {
     display: none;
   }
+
+  .link{
+      background-color: wheat;
+      text-align: center;
+      color: black;
+      border-radius: 15px 50px;
+      width: 50%;
+      align-self: center;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .title{
+    background-color: wheat;
+    text-align: center;
+    color: black;
+    border-radius: 15px 50px;
+    width: 100%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.infoContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.description{
+    white-space: pre-line;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (max-width: 900px) {
+    .infoContainer { flex-direction: column; }
+}

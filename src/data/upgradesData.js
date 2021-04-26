@@ -16,14 +16,19 @@ export const upgradesData = [
     }
     ,    
     {
-        title: 'Testo 4',
+        title: 'Driver TMC2209',
         imgSrc:'',
-        desc:'Testo 4'
+        desc:'Driver TMC2209',
+        link:'https://a.aliexpress.com/_BPl4HL',
+
     },
     {
-        title: 'Testo 5',
+        title: 'Molle Rigide',
         imgSrc:'',
-        desc:'Testo 5'
+        desc:'Testo 5',
+        link:'https://a.aliexpress.com/_BOJ6kD',
+        img: '/static/img/molleRigide.jpg',
+        description: 'Diciamocelo: a nessuno piace perdere tempo a livellare il piatto...\nLe molle rigide servono a mantenere il piatto più stabile e a non farlo scalibrare tanto velocemente quanto le molle originali'
     },
     {
         title: 'Testo 6',
