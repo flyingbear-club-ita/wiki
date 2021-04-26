@@ -2,6 +2,7 @@
   "name": "my-website",
   "version": "0.0.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -20,8 +21,7 @@
     "clsx": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-image-gallery": "^1.0.9",
-    "stl-viewer": "^0.12.0"
+    "react-image-gallery": "^1.0.9"
   },
   "browserslist": {
     "production": [
