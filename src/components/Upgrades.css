@@ -1,0 +1,69 @@
+.upgradeItem {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.upgradeItem:hover{
+    border: 3px solid red;
+}
+
+.upgradeItemTitle {
+    width: auto;
+    background-color: cadetblue;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.upgradeItemTitle:hover {
+    background-color: red;
+}
+
+.hidden {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.displayed {
+  padding: 0 18px;
+  display: block;
+}
+
+.upgradeItemInfo{
+    float: left;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.upgradeItemImg{
+    display: inline;
+    float: left;
+    margin-right: 3px;
+}
+
+.upgradeItemDescription{
+    margin-left: 5px;
+}
+
+#upgradeItems{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+body { padding: 1rem; }
+
+@media (min-width: 600px) {
+    #upgradeItems { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    #upgradeItems { grid-template-columns: repeat(3, 1fr); }
+}
