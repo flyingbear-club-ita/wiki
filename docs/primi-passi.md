@@ -20,7 +20,7 @@ Una volta copiato il contenuto della scheda in una cartella di vostra preferenza
 6. Spegnere (se accesa) e accendere la stampante
 
 Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware
-![alt text](/img/TFT_Update.jpg "Barra di progresso aggiornamento")
+[ ![Barra di progresso aggiornamento](/img/TFT_Update.jpg) ](/img/TFT_Update.jpg)
 
 
 Completata questa operazione, vi si presentarà il menu. Siete un passo più vicini alla vostra prima stampa con la Flying Bear Ghost!

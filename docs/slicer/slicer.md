@@ -43,36 +43,3 @@ Comune per tutti gli slicer
  
  M84 X Y E ;Disable all steppers but Z
 ```
-
-## Cura
-
-Lo slicer piu' diffuso tra i membri della community, contiene gia' le impostazioni per la flyingbear ghost (dalla 4.6.0 quello per la 4s, dalla 4.8.0 quello per la 5)
-
-[Scarica qui (gratuito)](https://ultimaker.com/software/ultimaker-cura)
-
-*  [[Come_configurare_la_stampa_di_una_Temp_Tower | Configurazione Temp Tower]]
-*  [I migliori plugin di cura](https://all3dp.com/2/5-must-have-cura-plugins)
-*  [Settaggi per stampare miniature al meglio](https://www.youtube.com/watch?v=AqEWl51s9Rw)
-*  [Come rimuovere lo stringing](https://youtu.be/_QRb54zVPfQ)
-
-## Simplify3d
-L'unico slicer a pagamento su questa pagina, sembra che sia rimasto un po' indietro rispetto agli altri slicer, non avendo ricevuto aggiornamenti da un bel po', pero' comunque sempre ottimo
-
-[Scarica qui](https://www.simplify3d.com/) (gratuito per un periodo di prova, poi pagamento unico di $149) 
-
-* [[TempTowerSimplify3d | Configurazione Temp Tower]]
-
-## Ideamaker
-Questo slicer sta prendendo sempre piu' piede, alcuni membri della community riportano una qualita' di stampa superiore a parita' di parametri
-
-Per ora ci mettiamo un paio di link, poi vediamo come si evolvera'
-
-[Scarica qui (gratuito)](https://www.raise3d.com/ideamaker/)
-
-Tutorial:
-
-[Introduzione](https://www.youtube.com/watch?v=rHL2ZSXvRxY&t=855s)
-
-[Come creare un profilo - parte 1](https://www.youtube.com/watch?v=bOTC2CZQNgY)
-
-[Come creare un profilo - parte 2](https://www.youtube.com/watch?v=IcyBEYYFn5s&t=1525s)

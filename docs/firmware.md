@@ -23,7 +23,9 @@ In questa pagina puoi recuperare il firmware per la stampante e le procedure di 
 10. Attendi il caricamento del nuovo firmware
 11. Concluso l'aggiornamento sullo schermo della stampante visualizzerai il menu iniziale
 
-**Attenzione: non spegnere per nessun motivo la stampante durante la procedura di aggiornamento!!!**
+:::danger
+Attenzione: non spegnere per nessun motivo la stampante durante la procedura di aggiornamento!!!
+:::
 
 ## Aumentare la velocita' di stampa
 Il firmware stock limita la velocita' della stampante, che puo' raggiungere accelerazioni piu' elevate
@@ -55,18 +57,10 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
 ## Versioni firmware disponibili
 
 ### Ultima Versione
-[https://cdn.discordapp.com/attachments/748683783053508608/765342649254281256/Ghost_5_firmware_V5-8.zip FlyingBear Ghost 5 v5.8]
+[FlyingBear Ghost 5 v5.9.1](https://github.com/flyingbear-club-ita/firmware_stock_5)
 
-[https://drive.google.com/file/d/1vDnWWdbUTEPOXtujBzZlqj_kYj7JfvA9/view?usp=drivesdk Flying Bear Ghost 4S/5 - V3.5.1]
+[FlyingBear Ghost 4s v3.5.1](https://github.com/flyingbear-club-ita/firmware_stock_4s)
 
-### Versioni precedenti
-[https://mega.nz/file/eSJjxaTI#JxVVNFDUrNq81HcS4XBuU9win8FDVtE-zTfRjMibIr8 Flying Bear Ghost 4S - V3.3]
-
-[https://mega.nz/file/LTBXFICC#BSS9NieEZ_wKpGZhmtdu53qSCL3aKAt4C2mj3HF57tA Flying Bear Ghost 4S - V3.1]
-
-[https://mega.nz/file/PDBXRYxZ#GvwkgY8vtL3-vpMNp3M9hTMODYWC7_Uf6s0ftMhUoXc Flying Bear Ghost 4S - V3]
-
-[https://mega.nz/file/nWY31SKC#02tis-dXOA0T-f3d91e1os5ZQaT_qf-2zK_8AtFIhZc Flying Bear Ghost 4S - V2]
 
 ## Link utili
-[https://youtu.be/YxKrXQ3jQcA Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube]
+[Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube](https://youtu.be/YxKrXQ3jQcA) 

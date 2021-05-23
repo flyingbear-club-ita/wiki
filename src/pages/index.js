@@ -9,41 +9,45 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Iscriviti alla community su Discord',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/discordLogoNew.svg',
     description: (
       <>
       La community su Discord e' il nostro punto di riferimento, tutti i contenuti partono da li'
       </>
     ),
+    link: "https://discord.gg/p2gtrKm",
   },
   {
     title: 'Seguici su Instagram',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/instagramLogo.svg',
     description: (
       <>
       Le piu' belle stampe della community, manda quelle di cui vai piu' orgoglioso
       </>
       ),
+      link: "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Seguici su Facebook',
+    imageUrl: 'img/facebookLogo.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        La nostra pagina su Facebook
       </>
     ),
+    link: "https://www.facebook.com/groups/600126627631693/"
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, link}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <Link to={link}>
+            <img className={styles.featureImage} src={imgUrl} alt={title} />
+          </Link>
         </div>
       )}
       <h3>{title}</h3>

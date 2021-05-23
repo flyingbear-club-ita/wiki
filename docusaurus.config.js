@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Flyingbear Ghost Wiki',
+  title: 'Flying Bear Ghost Wiki',
   tagline: 'Setup, calibrazioni, upgrade e molto altro',
   url: 'https://flyingbear-club-ita.github.io/',
   baseUrl: '/wiki/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'flyingbear-club-ita', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
+  organizationName: 'flyingbear-club-ita',
+  projectName: 'wiki',
   themeConfig: {
     navbar: {
       title: 'Home',
@@ -17,6 +17,23 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          href: '/gallery',
+          label: 'Scheda tecnica',
+          position: 'left',
+          items:[
+            {
+              href:'/four_s',
+              label: 'Ghost 4s',
+              position: 'left',
+            },
+            {
+              href: '/five',
+              label: 'Ghost 5',
+              position: 'left',
+            }
+          ]
+        },
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -33,10 +50,13 @@ module.exports = {
           label: 'Upgrades',
           position: 'left',
         },
-
-//        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: '/faq',
+          label: 'FAQ',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/flyingbear-club-ita',
           label: 'GitHub',
           position: 'right',
         },
@@ -53,16 +73,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/flyingbear-club-ita',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

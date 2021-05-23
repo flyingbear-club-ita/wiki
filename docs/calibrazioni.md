@@ -22,7 +22,9 @@ Inizialmente può sembrare una procedura complicata ma con questi semplici passi
 ''Un ringraziamento a Magnas per aver realizzato la guida.''
 
 ## Calibrazione PID
-**ATTENZIONE!!! La calibrazione del PID deve essere sempre supervisionata: la temperatura dell'estrusore potrebbe salire troppo, se dovesse superare la temperatura desiderata del 15%, SPEGNERE SUBITO la stampante**
+:::danger
+La calibrazione del PID deve essere sempre supervisionata: la temperatura dell'estrusore potrebbe salire troppo, se dovesse superare la temperatura desiderata del 15%, SPEGNERE SUBITO la stampante
+:::
 
 Il PID e' un algoritmo di controllo per la temperatura del letto e del nozzle. Se ti trovi ad avere a che fare con fluttuazioni della temperatura, potresti avere bisogno di calibrare il PID
 
@@ -46,27 +48,39 @@ In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
+<!--
 <a href="/img/impostazioni_rh.jpg" target="_blank">
-  <img alt="Settings Repetier Host" src="/img/impostazioni_rh.jpg" width="400"/>
+  <img alt="Settings Repetier Host" src="img/impostazioni_rh.jpg" width="400"/>
 </a>
+-->
+![alt text](/img/impostazioni_rh.jpg "Settings Repetier Host")
 
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 
+<!--
 <a href="/img/home_rh.jpg" target="_blank">
   <img alt="Home Repetier Host" src="/img/home_rh.jpg" width="400"/>
 </a>
+-->
+![alt text](/img/home_rh.jpg "Home Repetier Host")
 
 A questo punto, dovreste vedere un po' di log scorrere. 
 
-*Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potete disabilitarlo navigando in "Preferences" e selezionando "remove temperature requests from log"*
+:::tip
+Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potete disabilitarlo navigando in "Preferences" e selezionando "remove temperature requests from log"
+:::
 
 Per dare i comandi Gcode alla stampante andare nel flag Controlli Manuali
 
+<!--
 <a href="/img/controlli_manuali.jpg" target="_blank">
   <img alt="Controlli Manuali" src="/img/controlli_manuali.jpg" width="200" target="_blank"/>
 </a>
- 
+-->
+
+![alt text](/img/controlli_manuali.jpg "Controlli Manuali")
+
 
 ### Calibrazione PID Blocco riscaldante
 Prima di cominciare la calibrazione, bisogna riscaldare il nozzle, portandolo alla temperatura solitamente utilizzata (200/210 nella maggior parte dei casi), ed accendere la ventola
@@ -81,7 +95,7 @@ Il comando da inserire e' questo:
  ```
  M303 E0 S210 C8; 
  ```
- 
+:::info
  **M303** indica l'inizio del pid tuning
  
  **E0** rappresenta l'hotend da calibrare (la ghost ne ha solo uno, di default)
@@ -89,6 +103,7 @@ Il comando da inserire e' questo:
  **S210** rappresenta la temperatura scelta, se si stampa, per esempio, a 200, usare S200
  
  **C8** rappresenta il numero di cicli da effettuare, 8 e' il valore raccomandato per i firmware basati su Marlin
+:::
 
 Questo comando inizia la sequenza di calibrazione del PID per l'estrusore
 
@@ -133,10 +148,10 @@ Una volta aggiornato il firmware (tramite robin_nano3_cfg.txt), il gcode da util
 ```
  M303 E-1 S70 C8; 
 ```
-**n.b.**
 
-**S70 rappresenta la temperatura scelta. Se si stampa solitamente col tavolo a 60, sostituire S70 con S60**
-
+:::tip
+**S70** rappresenta la temperatura scelta. Se si stampa solitamente col tavolo a 60, sostituire S70 con S60
+:::
 
 ## Step
 
@@ -194,9 +209,11 @@ Cercare:
 
 Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore 
 
-**N.B. È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati**
+:::tip
+È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati
 
 *Consigliati calicat, benchy, calibrationCube*
+:::
 
 ### Assi
 *Coming soon*
