@@ -53,8 +53,9 @@ class GridItem extends React.Component{
                             <img width="200" height="200" src={this.props.img}></img>
                             <p className="description">{this.props.detailedDescription}</p>
                         </div>
-                        <a className='link' href={this.props.link} target="_blank">Link</a>
-
+                        {this.props.links.map(function (link, i) {
+                           return <a className='link' href={link} target="_blank">Link {i+1}</a>
+                        })}
                 </Modal>
             </div>
         )

@@ -37,6 +37,16 @@ const features = [
     ),
     link: "https://www.facebook.com/groups/600126627631693/"
   },
+  {
+    title: 'Seguici su Youtube',
+    imageUrl: 'img/facebookLogo.svg',
+    description: (
+      <>
+        Prossimamente anche su Youtube!
+      </>
+    ),
+
+  },
 ];
 
 function Feature({imageUrl, title, description, link}) {

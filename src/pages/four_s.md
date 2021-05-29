@@ -2,6 +2,10 @@
 title: Ghost 4s Specs
 slug: /four_s
 ---
+:::danger
+La Ghost 4s e' fuori produzione
+:::
+
 # Scheda Tecnica Ghost 4s
 
 La Ghost è una stampante cartesiana (vuol dire che l'ugello si muove su un asse x,y, mentre il piatto, sul quale si va a stampare, si muove solo sull'asse delle z), a differenza delle più famose Ender 3 o Prusa. I vantaggi che questo comporta sono una maggiore velocità di stampa e maggiore stabilità, essendo il piatto fisso

@@ -35,3 +35,11 @@
   height: 200px;
   width: 200px;
 }
+
+h3{
+  text-align: center;
+}
+
+.col.col--4 p{
+  text-align: center;
+}

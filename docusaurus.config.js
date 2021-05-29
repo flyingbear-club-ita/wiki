@@ -51,6 +51,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: '/ricambi',
+          label: 'Ricambi',
+          position: 'left',
+        },
+        {
           href: '/faq',
           label: 'FAQ',
           position: 'left',

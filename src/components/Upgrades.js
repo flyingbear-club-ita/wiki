@@ -16,7 +16,7 @@ class Upgrades extends React.Component{
                     <GridItem 
                         title={item.title} 
                         description={item.desc} 
-                        link={item.link} 
+                        links={item.links} 
                         img={item.img} 
                         detailedDescription={item.description}
                     />
