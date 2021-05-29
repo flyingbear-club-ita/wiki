@@ -123,7 +123,7 @@ export const upgradesData = [
         title: 'Copertura',
         imgSrc:'',
         desc:'Mantiene la temperatura costante, attutisce il rumore',
-        links:['https://www.thingiverse.com/thing:4671738'],
+        links:['/wiki/copertura'],
         img: 'img/coperturaGlobal.jpg',
         description: 'Seguire il link qui sotto per la procedura completa',
     },
