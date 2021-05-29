@@ -29,7 +29,6 @@ module.exports = {
         },
         'errori',
         'manuale',
-        'tmc2209',
       ],
     },
   ],
