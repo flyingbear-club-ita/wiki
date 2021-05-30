@@ -39,7 +39,7 @@ const features = [
   },
   {
     title: 'Seguici su Youtube',
-    imageUrl: 'img/facebookLogo.svg',
+    imageUrl: 'img/youtube.svg',
     description: (
       <>
         Prossimamente anche su Youtube!
