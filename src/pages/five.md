@@ -4,9 +4,7 @@ slug: /five
 ---
 # Scheda Tecnica Ghost 5
 
-
-
-La Ghost è una stampante cartesiana (vuol dire che l'ugello si muove su un asse x,y, mentre il piatto, sul quale si va a stampare, si muove solo sull'asse delle z), a differenza delle più famose Ender 3 o Prusa. I vantaggi che questo comporta sono una maggiore velocità di stampa e maggiore stabilità, essendo il piatto fisso
+La Ghost è una stampante cartesiana in quanto ogni asse è comandato da un motore ma, a differenza delle più famose Ender 3 o Prusa, il piano si muove sull'asse z invece dell'asse y, migliorando notevolmente la qualità di stampa e permettendo una velocità maggiore
 
 [ ![Ghost 5](/img/ghost5.jpg) ](/img/ghost5.jpg)
 
@@ -18,9 +16,15 @@ Questa configurazione permette molto facilmente di crearsi in casa una copertura
 
 Il fiore all'occhiello della ghost molto probabilmente è il piatto in vetro che, grazie alla finitura porosa, riesce a far aderire le stampe perfettamente a caldo e a staccarle con molta facilità (in alcuni casi sono già staccate) quando il piatto è freddo
 
-L'estrusore e' un clone del BMG Bondtech dual drive
+L'estrusore e' un dual drive ed ha la peculiarità di essere trasparente
 
-La lista delle feature è completata da un bellissimo touch screen e connettività Wi-Fi
+La scheda madre e' una versione rebrandizzata della mks robin nano 1.1, con la predisposizione per un secondo estrusore
+
+I driver degli assi X ed Y sono TMC2208, estremamente silenziosi, mentre asse Z ed estrusore montano gli A4988
+
+
+
+La lista delle feature è completata dal sensore di filamento (per arrestare la stampa quando il filamento finisce o si spezza), un bellissimo touch screen e connettività Wi-Fi
 
 | | |
 |-|-|

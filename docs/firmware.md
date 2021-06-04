@@ -56,7 +56,8 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
 
 ## Versioni firmware disponibili
 
-### Ultima Versione
+**Versione piu' recente**
+
 [FlyingBear Ghost 5 v5.9.1](https://github.com/flyingbear-club-ita/firmware_stock_5)
 
 [FlyingBear Ghost 4s v3.5.1](https://github.com/flyingbear-club-ita/firmware_stock_4s)

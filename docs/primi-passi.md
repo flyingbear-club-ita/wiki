@@ -7,7 +7,7 @@ Il firmware, cioè il programma che fa funzionare la stampante, è installato ne
 
 Può essere aggiornato molto facilmente tramite la scheda microSD fornita con la stampante
 
-Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare (link in fondo alla pagina): conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki
+Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare da Github (link in alto a destra, oppure nella sezione *Firmware*): conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki
 
 Per prima cosa, effettuare un backup della scheda (passo facoltativo, se non vi importa niente del contenuto, che, di default, dovrebbe essere il file di config per il firmware e i file stl e gcode della vite e del bullone)
 
@@ -81,6 +81,9 @@ Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il qu
 
 La procedura di aggiornamento e' la solita
 
-
 ## Considerazioni finali
-Prima di cominciare a stampare, passare alla pagina successiva, in cui ci sono tutte le calibrazioni necessarie
+Una volta completati i passi precedenti, e' sempre meglio fare una copia del robin_nano_cfg.txt e cancellare il contenuto della SD
+
+La stampante, cosi' com'e', e' pronta per stampare. Per aumentare la qualita' di stampa, pero', ci sono alcune calibrazioni da fare
+
+Nella pagina successiva ci sono tutte le calibrazioni necessarie

@@ -9,17 +9,20 @@ La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da eff
 Inizialmente può sembrare una procedura complicata ma con questi semplici passi potrai ottenere una calibrazione semplice ed efficiente.
 
 1. Chiudere (stringere) le 4 molle del piano a fine corsa
-2. Regolare la vite di fine corsa del piano "Z" in modo tale da ottenere uno spazio tra punta e ugello di 2mm. *Tips and tricks: Come misura di riferimento puoi usare la brugola in dotazione, la seconda più piccola*
+2. Regolare la vite di fine corsa del piano "Z" in modo tale da ottenere uno spazio tra punta e ugello di 2mm. 
+:::tip
+Come misura di riferimento puoi usare la brugola in dotazione, la seconda più piccola
+:::
 3. Iniziare usando la funzione "leveling" della stampante
 4. Usare il foglio in dotazione o un foglio A4 per calibrare tutti e 4 i punti. Tra ugello e foglio dev'essere presente un leggero attrito
 
 ### Consigli per una buona calibrazione
-* Riscaldare il piano a 60°C durante tutto il processo di calibrazione;
-* Ripetere la calibrazione 4/5 volte;
-* Tra una calibrazione e l’altra portare tutti gli assi in "home";
-* Pulire il piano di stampa con alcool isopropilico.
+* Riscaldare il piano a 60°C durante tutto il processo di calibrazione
+* Ripetere la calibrazione 4/5 volte
+* Tra una calibrazione e l’altra portare tutti gli assi in "home"
+* Pulire il piano di stampa con alcool isopropilico
 
-''Un ringraziamento a Magnas per aver realizzato la guida.''
+*Un ringraziamento a Magnas per aver realizzato la guida*
 
 ## Calibrazione PID
 :::danger
