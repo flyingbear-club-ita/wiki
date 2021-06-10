@@ -91,7 +91,7 @@ export const upgradesData = [
         title: 'Tappetino Magnetico',
         imgSrc:'',
         desc:'Tappetino magnetico per il piatto',
-        links:['https://www.amazon.it/magnetico-costruire-superficie-piattaforma-riscaldata/dp/B07GPKM54G/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2VDQO07E5ATAX&dchild=1&keywords=sooway+flex+magnetico&qid=1622230622&sprefix=sooway%2Caps%2C211&sr=8-1'],
+        links:['https://www.amazon.it/magnetico-costruire-superficie-piattaforma-riscaldata/dp/B07H6F4Q4C/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2VDQO07E5ATAX&dchild=1&keywords=sooway%2Bflex%2Bmagnetico&qid=1622230622&sprefix=sooway%2Caps%2C211&sr=8-1&th=1'],
         img: 'img/tappetinoMagnetico.jpg',
         description: 'Rimuovere i morsetti dal piatto, tagliare il tappetino secondo la misura del piatto (255x210), applicare la parte adesiva direttamente sul piatto',
     },
