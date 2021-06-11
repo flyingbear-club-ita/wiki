@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Upgrades.css';
 import './modal.css'
+import { url, baseUrl } from '../../docusaurus.config'
 
 
 const Modal = ({ handleClose, show, children }) => {
@@ -19,13 +20,24 @@ const Modal = ({ handleClose, show, children }) => {
     );
   };
 
+function setBaseUrl(){
+    console.log(process.env);
+    if (process.env.ENV == 'dev'){
+        return 'http://localhost:3000/wiki/'
+    } else {
+        return url + baseUrl
+    }
+}
+
 class GridItem extends React.Component{
     constructor(props){
         super(props);
         this.state = {show: false}
-        this.props = props
+        this.props = props;
         this.showModal = this.showModal.bind(this);
         this.hideModal = this.hideModal.bind(this);
+        this.imgUrl =  setBaseUrl() + props.img;
+        console.log(baseUrl)
     }
     
     showModal()  {
@@ -43,14 +55,14 @@ class GridItem extends React.Component{
                 <div className='upgradeItem' onClick={this.showModal}>
                     <span className='upgradeItemTitle'>{this.props.title}</span>
                     <div className='upgradeItemInfo'>
-                        <img className='upgradeItemImg' src={this.props.img}/>
+                        <img className='upgradeItemImg' src={this.imgUrl}/>
                         <p className='upgradeItemDescription'>{this.props.description}</p>
                     </div>    
                 </div>
                 <Modal show={this.state.show} handleClose={this.hideModal}>
                         <h1 className='title'>{this.props.title}</h1>
                         <div className='infoContainer'>
-                            <img width="200" height="200" src={this.props.img}></img>
+                            <img width="200" height="200" src={this.imgUrl}></img>
                             <p className="description">{this.props.detailedDescription}</p>
                         </div>
                         {this.props.links.map(function (link, i) {
