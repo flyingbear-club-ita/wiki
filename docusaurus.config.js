@@ -79,7 +79,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/flyingbear-club-ita',
+            'https://github.com/flyingbear-club-ita/wiki/tree/master/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
