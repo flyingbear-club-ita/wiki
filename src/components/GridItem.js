@@ -37,7 +37,6 @@ class GridItem extends React.Component{
         this.showModal = this.showModal.bind(this);
         this.hideModal = this.hideModal.bind(this);
         this.imgUrl =  setBaseUrl() + props.img;
-        console.log(baseUrl)
     }
     
     showModal()  {
