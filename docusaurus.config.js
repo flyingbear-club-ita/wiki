@@ -87,4 +87,12 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
+  ],
 };
