@@ -198,5 +198,13 @@ export const upgradesData = [
         links:['/wiki/illuminazioneinterna'],
         img: 'img/illuminazioneInterna.jpg',
         description: 'Seguire il link qui sotto per la procedura completa',
+    },
+    {
+        title: 'Ventola raffreddamento dissipatore',
+        imgSrc:'',
+        desc:'Ventola piu\' sileziosa',
+        links:['https://it.aliexpress.com/item/4000571411641.html?spm=a2g0s.9042311.0.0.63014c4dTQer14'],
+        img: 'img/ventolaDissipatore.webp',
+        description: 'ATTENZIONE!!!\nPrendere la ventola da 24v!!!',
     },   
 ];

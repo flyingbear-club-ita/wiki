@@ -55,4 +55,29 @@ export const upgradesData = [
         img: 'img/stepperMotor.jpg',
         description: 'Motori originali dallo store ufficiale su aliexpress della Flyingbear',
     },
+    {
+        title: 'Blocco riscaldante',
+        imgSrc:'',
+        desc:'V5, simile all\'originale',
+        links:['https://it.aliexpress.com/item/4000875023800.html?spm=a2g0s.9042311.0.0.17994c4d3U7uEm'],
+        img: 'img/hotendv5.png',
+        description: 'V5, simile all\'originale',
+    },
+    {
+        title: 'Gola',
+        imgSrc:'',
+        desc:'Ricambio per la gola',
+        links:['https://it.aliexpress.com/item/32893633413.html?spm=a2g0s.9042311.0.0.17994c4d3U7uEm'],
+        img: 'img/gola.jpg',
+        description: 'Compatibile sia col blocco riscaldante originale che con quello in questa pagina',
+    },
+    {
+        title: 'Isolamento piatto',
+        imgSrc:'',
+        desc:'Isolamento piatto',
+        links:['https://it.aliexpress.com/item/32948583198.html?spm=a2g0s.9042311.0.0.17994c4d3U7uEm'],
+        img: 'img/isolamento.jpg',
+        description: 'Isolamento piatto',
+    },
+
 ];
