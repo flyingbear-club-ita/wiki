@@ -120,7 +120,10 @@ Osservate il log: ad un certo punto, compriranno dei messaggi simili a questi:
 
 Dove ci sono le XX, li' troverete i valori dopo la calibrazione
 
-Adesso prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle seguenti righe:
+Per aggiornare i valori ci sono due opzioni:
+
+#### Tramite robin_nano35_cfg.txt
+Prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle seguenti righe (i valori riportati sono solo esemplificativi):
  ```
   PIDTEMPE 1 # Mode 1: PID; 0: bang-bang 
   DEFAULT_Kp 11.14 # P value 
@@ -128,13 +131,37 @@ Adesso prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle s
   DEFAULT_Kd 43.09 # D value 
 ```
 
+
 La prima riga cambia il sistema di regolazione della temperatura da bang bang a PID
 
 Nella seconda, terza e quarta riga, inserire i valori appena trovati con repetier host
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
 
-Voila', il PID dell'estrusore e' calibrato!
+#### Tramite Repetier Host
+Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
+
+```
+M301 P24.36 I1.39 D106.76
+```
+
+Questo comando cambia i valori del PID, quindi la stampante e' gia' aggiornata. Questi valori, pero', non sono stati salvati nella EEPROM (la memoria persistente della scheda madre), una volta spenta la stampante, questi valori verranno resettati a quelli precedenti
+
+Per rendere le modifiche permanenti, usare il seguente comando:
+
+```
+M500
+```
+
+Una volta lanciato, per controllare che i valori siano stati salvati correttamente, usare il seguente comando:
+```
+M503
+```
+
+Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che dovrebbero combaciare con quelli appena inseriti
+
+
+**Voila', il PID dell'estrusore e' calibrato!**
 
 ### Calibrazione PID Piatto
 La calibrazione del PID del piatto e' analoga, pero' c'e' una modifica da fare nel file di config
@@ -155,6 +182,48 @@ Una volta aggiornato il firmware (tramite robin_nano3_cfg.txt), il gcode da util
 :::tip
 **S70** rappresenta la temperatura scelta. Se si stampa solitamente col tavolo a 60, sostituire S70 con S60
 :::
+
+Finita la procedura di calibrazione, i valori saranno riportati in output come per il blocco riscaldante
+
+Cosi' come per il blocco riscaldante, per aggiornare i valori ci sono due opzioni:
+
+#### Tramite robin_nano35_cfg.txt
+Prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle seguenti righe (i valori riportati sono solo esemplificativi):
+ ```
+ >DEFAULT_bedKp			52.63
+ >DEFAULT_bedKi			9.75
+ >DEFAULT_bedKd			71.01
+```
+
+Nella prima, seconda e terza riga, inserire i valori appena trovati con repetier host
+
+Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
+
+#### Tramite Repetier Host
+Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
+
+```
+M304 P824.78 I154.89 D1097.99
+```
+
+Questo comando cambia i valori del PID, quindi la stampante e' gia' aggiornata. Questi valori, pero', non sono stati salvati nella EEPROM (la memoria persistente della scheda madre), una volta spenta la stampante, questi valori verranno resettati a quelli precedenti
+
+Per rendere le modifiche permanenti, usare il seguente comando:
+
+```
+M500
+```
+
+Una volta lanciato, per controllare che i valori siano stati salvati correttamente, usare il seguente comando:
+```
+M503
+```
+
+Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che dovrebbero combaciare con quelli appena inseriti
+
+
+**Voila', il PID del piatto e' calibrato!**
+
 
 ## Step
 
