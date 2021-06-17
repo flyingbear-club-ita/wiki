@@ -71,6 +71,12 @@ module.exports = {
       style: 'dark',
       copyright: 'Created by the Flyingbear Italian Community',
     },
+    googleAnalytics: {
+      trackingID: 'UA-199656279-2',
+      // Optional fields.
+      anonymizeIP: false, // Should IPs be anonymized?
+    },
+
   },
   presets: [
     [
