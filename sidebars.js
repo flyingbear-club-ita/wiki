@@ -29,6 +29,12 @@ module.exports = {
         },
         'errori',
         'manuale',
+        {
+          type: 'category',
+          label: 'Raspberry',
+          items: ['raspberry/introduzione', 'raspberry/installare_raspbian'
+          ],
+        },
       ],
     },
   ],
