@@ -2,10 +2,10 @@ export const upgradesData = [
     {
         title: 'Molle Rigide',
         imgSrc:'',
-        desc:'Aumentano la rigidita\' del piatto, aumentando la precisione della calibrazione\nConsigliate solo per la 4S',
+        desc:'Aumentano la rigidita\' del piatto, aumentando la precisione della calibrazione',
         links:['https://a.aliexpress.com/_BOJ6kD'],
         img: 'img/molle.png',
-        description: 'Diciamocelo: a nessuno piace perdere tempo a livellare il piatto...\nLe molle rigide servono a mantenere il piatto più stabile e a non farlo scalibrare tanto velocemente quanto le molle originali',
+        description: 'Consigliate solo per la 4S\nDiciamocelo: a nessuno piace perdere tempo a livellare il piatto...\nLe molle rigide servono a mantenere il piatto più stabile e a non farlo scalibrare tanto velocemente quanto le molle originali',
     },
     {
         title: 'Convogliatore per ventola',
