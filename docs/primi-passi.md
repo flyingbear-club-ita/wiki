@@ -36,7 +36,7 @@ Questo file contiente tutti i principali parametri della stampante. Cambiare un 
 Vediamo come e cosa cambiare:
 
 
-Aprite il file robin_nano35_cfg.txt che avevate creato prima, apritelo con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
+Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
 
 
 ### Lingua
