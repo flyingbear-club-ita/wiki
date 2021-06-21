@@ -32,7 +32,7 @@ module.exports = {
         {
           type: 'category',
           label: 'Raspberry',
-          items: ['raspberry/introduzione', 'raspberry/installare_raspbian'
+          items: ['raspberry/introduzione', 'raspberry/installare_raspbian', 'raspberry/configurare_la_ghost'
           ],
         },
       ],
