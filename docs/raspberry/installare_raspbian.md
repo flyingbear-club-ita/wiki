@@ -2,6 +2,7 @@
 title: Installare Octoprint
 slug: /raspberry/installazione_raspbian
 ---
+**Autore: Nick_it**
 
 ## Installazione e prima configurazione
 
