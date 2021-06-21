@@ -206,5 +206,13 @@ export const upgradesData = [
         links:['https://it.aliexpress.com/item/4000571411641.html?spm=a2g0s.9042311.0.0.63014c4dTQer14'],
         img: 'img/ventolaDissipatore.webp',
         description: 'ATTENZIONE!!!\nPrendere la ventola da 24v!!!',
+    },
+    {
+        title: 'Supporto Cam per piatto',
+        imgSrc:'',
+        desc:'supporto generico per attaccare una cam al piatto',
+        links:['https://github.com/flyingbear-club-ita/stl/tree/master/supportoCamPiatto'],
+        img: 'img/camPiatto.jpg',
+        description: 'Due versioni:\nLa prima, 32mm, e\' fatta per chi ha la porta, per evitare che la testa a bordo piatto la urti\nLa seconda, 42mm, ha una staffa piu\' sporgente',
     },   
 ];
