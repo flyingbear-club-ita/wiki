@@ -35,6 +35,7 @@ module.exports = {
           items: ['raspberry/introduzione', 'raspberry/installare_raspbian', 'raspberry/configurare_la_ghost'
           ],
         },
+        'marlin',
       ],
     },
   ],
