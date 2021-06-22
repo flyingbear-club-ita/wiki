@@ -3,7 +3,7 @@ title: Firmware MKS
 slug: /marlin
 ---
 
-In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su **Marlin 2.0.X**
+In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su **Marlin 2.0.X**, a cura di The_Wolf_87
 
 Questo tipo di firmware ha un po' di opzioni in piu' rispetto al firmware stock (per esempio, non e' necessario aggiornare gli step/mm dal config, basta aggiornare nella UI), oltre ad avere una grafica piu' accattivante
 
