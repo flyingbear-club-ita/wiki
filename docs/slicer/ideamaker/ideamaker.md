@@ -1,9 +1,8 @@
 ---
-title: Informazioni
+title: Ideamaker - Introduzione
 slug: /slicer/ideamaker
 ---
 
-## Ideamaker
 Questo slicer sta prendendo sempre piu' piede, grazie anche ai profili per le Ghost disponibili su [ideamaker.io](https://ideamaker.io)
 
 Alcuni membri della community riportano una qualita' di stampa superiore a parita' di parametri
