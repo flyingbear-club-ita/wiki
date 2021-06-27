@@ -8,11 +8,9 @@ Questo slicer sta prendendo sempre piu' piede, grazie anche ai profili per le Gh
 
 Alcuni membri della community riportano una qualita' di stampa superiore a parita' di parametri
 
-Per ora ci mettiamo un paio di link, poi vediamo come si evolvera'
+Per le istruzioni per installare ideamaker ed importare un profilo per la stampante, proseguite alla sezione successiva
 
-[Scarica qui (gratuito)](https://www.raise3d.com/ideamaker/)
-
-Tutorial:
+Se invece preferite dei video o volete approfondire un po' di piu' sul processo di configurazione e sullo slicer, guardate i link qui sotto (in italiano)
 
 [Introduzione](https://www.youtube.com/watch?v=rHL2ZSXvRxY&t=855s)
 
@@ -31,109 +29,86 @@ Ideamaker, insieme a Cura e Prusa slicing, e' uno dei programmi più usati nel m
 
 Perché scegliere uno o l'altro è più una preferenza personale, ognuno ha i propri punti positivi e negativi, Io ho scelto di fare 2 guide, una per Ideamaker e una per Cura (a breve online) solo perché hanno la possibilità di usare un raspberry con octoprint
 
-### Partiamo
+### Partiamo!!! 🚀
 
 Per prima cosa andiamo sulla pagina per scaricare ideamaker (https://www.raise3d.com/ideamaker/) 
 
-[ ![Ideamaker download page](/img/ideamakerInstall1.JPG) ](/img/ideamakerInstall1.JPG)
-
-![image-20210624134649992](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624134649992.png)
+[ ![Ideamaker download page](/img/installIdeamaker1.png) ](/img/installIdeamaker1.png)
 
 e clicchiamo su **Free Download**
 
-Si aprirà una nuova pagina dove vi sarà chiesto che versione di sistema operativo avete, voi scegliete la vostra :-)
+Si aprirà una nuova pagina dove vi sarà chiesto che versione di sistema operativo avete, voi scegliete la vostra 😀
 
-![image-20210624135110486](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624135110486.png)
+[ ![OS selection](/img/installIdeamaker2.png) ](/img/installIdeamaker2.png)
 
-Appena fatta partire la installazione la prima richiesta è di scegliere la lingua del programma, anche qui la scelta è personale
+Appena fatta partire la installazione, la prima scelta sara' la lingua del programma, anche qui è personale
 
-![image-20210624140337517](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624140337517.png)
+[ ![Language selection](/img/installIdeamaker3.png) ](/img/installIdeamaker3.png)
 
 e a questo punto partirà la installazione vera e propria. Bene premete **Avanti**
 
-![image-20210624140522743](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624140522743.png)
+[ ![Avanti](/img/installIdeamaker4.png) ](/img/installIdeamaker4.png)
 
-La prossima schermata è la accettazione dei termini di contratto, che dovreste leggere, ma se non li leggete e cliccate "**accetto**" il programma non si arrabbia mica.
+La prossima schermata è l'accettazione dei termini di contratto, che dovreste leggere, ma se non li leggete e cliccate "**accetto**" il programma non si arrabbia mica
 
-![image-20210624140738819](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624140738819.png)
+[ ![Termini del contratto](/img/installIdeamaker5.png) ](/img/installIdeamaker5.png)
 
 Dopo avere accettato nella prossima schermata premete **avanti**
 
-![image-20210624142506922](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624142506922.png)
+[ ![Avanti 2](/img/installIdeamaker6.png) ](/img/installIdeamaker6.png)
 
+E continuate cosi fino alla fine della installazione
 
+### Lanciamo il software 🏎️
 
-E continuate cosi fino alla fine della installazione.
+Dopo avere completato l'installazione, possiamo partire con il primo avvio
 
-
-
-### Si Parte
-
-Dopo avere installato il software possiamo partire con il primo avvio.
-
-Clicchiamo 2 volte sulla icona IDEAMAKER
+Su windows, clicchiamo 2 volte sulla icona IDEAMAKER (su linux e mac il metodo scelto dall'utente per lanciare le applicazioni potrebbe essere differente)
 
 La prima pagine è la richiesta del tema del desktop se chiaro o scuro
 
-![image-20210624154237286](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624154237286.png)
+[ ![Avanti 2](/img/installIdeamaker7.png) ](/img/installIdeamaker7.png)
 
-scegliete cosa vi aggrada di più.
+Scegliete cosa vi aggrada di più, poi partite con la configurazione
 
-e a questo punto partire con la installazione.
+[ ![Configurazione stampante](/img/installIdeamaker8.png) ](/img/installIdeamaker8.png)
 
-![image-20210624154841521](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624154841521.png)
+Se non trovate la vostra stampante, andate su  **Annulla**
 
+Ora, con il programma IdeaMaker aperto, torniamo sul nostro browser, e andiamo su [ideamaker.io](https://www.ideamaker.io/)
 
+Nella barra di ricerca, inseriamo il nome della nostra stampante
 
-Se non trovate la vostra stampante andate su  **Annulla**
+[ ![Nome stampante](/img/installIdeamaker10.png) ](/img/installIdeamaker10.png)
 
-Ora con il programma IdeaMaker aperto torniamo sul nostro browser, e andiamo su questo indirizzo: https://www.ideamaker.io/
+Nel mio caso, ho trovato 2 corrispondenze
 
-e scriviamo nella barra di ricerca il nome della nostra stampante.
-
-![image-20210624162714515](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624162714515.png)
-
-
-
-Nel mio caso ho trovato 2 corrispondenze:
-
-![image-20210624162922623](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624162922623.png)
+[ ![Risultati ricerca nome stampante](/img/installIdeamaker11.png) ](/img/installIdeamaker11.png)
 
 Vi suggerisco di cliccare su quella che ha il punteggio di valutazione maggiore
 
-![image-20210624163624701](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624163624701.png)
+[ ![Risultati ricerca nome stampante](/img/installIdeamaker12.png) ](/img/installIdeamaker12.png)
 
+Da questa schermata, cliccate sul pulsante **Import to Ideamaker**, seguite le istruzioni sullo schermo e cliccate su **Copy**
 
-
-
-
-Seguite le istruzioni su schermo e cliccate su **Copy**
-
-![image-20210624164027956](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624164027956.png)
+[ ![Copy](/img/installIdeamaker15.png) ](/img/installIdeamaker15.png)
 
 Tornate su IdeaMaker e premete **Scarica**
 
-![image-20210624163833904](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624163833904.png)
-
-
+[ ![Download](/img/installIdeamaker13.png) ](/img/installIdeamaker13.png)
 
 E poi **Avanti**
 
-![image-20210624163912534](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624163912534.png)
+[ ![Avanti Carica profilo](/img/installIdeamaker14.png) ](/img/installIdeamaker14.png)
+
+A questo punto scegliete la nuova stampante e premete **OK**, ed ecco che Ideamaker è pronto a lavorare con la vostra stampante
 
 
+:::info
+Prossimo tutorial: come collegarla ad **octoprint**
 
-A questo punto scegliete la nuova stampante e premete *OK*
+E' una promessa!
 
-![image-20210624165533363](C:\Users\nk\AppData\Roaming\Typora\typora-user-images\image-20210624165533363.png)
-
-Ed ecco il vostro Ideamaker è pronto a lavorare con la vostra stampante.
-
-
-
-Prossimo tutorial come collegarla ad **octoprint**.
-
-
-
+:::
 
 
