@@ -68,6 +68,11 @@ class Gallery extends React.Component {
         thumbnail: 'photos/polipo.jpg',
         description: [<h1>Polipo articolato</h1>, <h2>PLA+ Esun Red</h2>],
       },
+      {
+        original: 'photos/batman.jpg',
+        thumbnail: 'photos/batman.jpg',
+        description: [<h1>Busto di Batman</h1>, <h2>PLA Eryone Black</h2>],
+      },
     ]
 
     return (
