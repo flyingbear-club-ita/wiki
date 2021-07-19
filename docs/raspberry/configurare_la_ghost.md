@@ -1,6 +1,6 @@
 ---
 title: Configurare la Ghost su octprint
-slug: /configurazione_octoprint
+slug: /raspberry/configurazione_octoprint
 ---
 
 **Autore: Nick_it**
