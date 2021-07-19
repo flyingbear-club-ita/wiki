@@ -51,22 +51,11 @@ In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
-<!--
-<a href="/img/impostazioni_rh.jpg" target="_blank">
-  <img alt="Settings Repetier Host" src="img/impostazioni_rh.jpg" width="400"/>
-</a>
--->
-![alt text](/img/impostazioni_rh.jpg "Settings Repetier Host")
-
+[ ![Settings Repetier Host](/img/impostazioni_rh.jpg) ](/img/impostazioni_rh.jpg)
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 
-<!--
-<a href="/img/home_rh.jpg" target="_blank">
-  <img alt="Home Repetier Host" src="/img/home_rh.jpg" width="400"/>
-</a>
--->
-![alt text](/img/home_rh.jpg "Home Repetier Host")
+[ ![Home Repetier Host](/img/home_rh.jpg) ](/img/home_rh.jpg)
 
 A questo punto, dovreste vedere un po' di log scorrere. 
 
@@ -75,15 +64,7 @@ Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potet
 :::
 
 Per dare i comandi Gcode alla stampante andare nel flag Controlli Manuali
-
-<!--
-<a href="/img/controlli_manuali.jpg" target="_blank">
-  <img alt="Controlli Manuali" src="/img/controlli_manuali.jpg" width="200" target="_blank"/>
-</a>
--->
-
-![alt text](/img/controlli_manuali.jpg "Controlli Manuali")
-
+[ ![Controlli Manuali](/img/controlli_manuali.jpg) ](/img/controlli_manuali.jpg)
 
 ### Calibrazione PID Blocco riscaldante
 Prima di cominciare la calibrazione, bisogna riscaldare il nozzle, portandolo alla temperatura solitamente utilizzata (200/210 nella maggior parte dei casi), ed accendere la ventola
