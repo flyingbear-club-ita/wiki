@@ -11,7 +11,7 @@ class Gallery extends React.Component {
       {
         original: 'photos/benchyBlu.jpg',
         thumbnail: 'photos/benchyBlu.jpg',
-        description: [<h1>Benchy</h1>, <h2>PLA Sunlu Silk Blue</h2>],
+        description: [<h1>Benchy</h1>, <h2>PLA Sunlu Silk Blue</h2>,<h2>By: ZeroPX</h2>],
       },
       {
         original: 'photos/alien.jpg',
@@ -26,7 +26,7 @@ class Gallery extends React.Component {
       {
         original: 'photos/vegeta.jpg',
         thumbnail: 'photos/vegeta.jpg',
-        description: [<h1>Vegeta</h1>, <h2>PLA Eryone White</h2>],
+        description: [<h1>Vegeta</h1>, <h2>PLA Eryone White</h2>, <h2>By: Luca2210</h2>],
       },
       {
         original: 'photos/soldatino.jpeg',
@@ -36,32 +36,32 @@ class Gallery extends React.Component {
       {
         original: 'photos/yoda.jpg',
         thumbnail: 'photos/yoda.jpg',
-        description: [<h1>Yoda</h1>, <h2>PLA Sunlu Silk Green</h2>],
+        description: [<h1>Yoda</h1>, <h2>PLA Sunlu Silk Green</h2>, <h2>By: ZeroPX</h2>],
       },
       {
         original: 'photos/vasoOro.jpg',
         thumbnail: 'photos/vasoOro.jpg',
-        description: [<h1>Vaso Oro</h1>, <h2>PLA Sunlu Silk Gold</h2>],
+        description: [<h1>Vaso Oro</h1>, <h2>PLA Sunlu Silk Gold</h2>, <h2>By: Berlingo</h2>],
       },
       {
         original: 'photos/coniglio.jpg',
         thumbnail: 'photos/coniglio.jpg',
-        description: [<h1>Coniglio arrabbiato</h1>, <h2>Unknown</h2>],
+        description: [<h1>Coniglio arrabbiato</h1>, <h2>Unknown</h2>, <h2>By: Wolf87</h2>],
       },
       {
         original: 'photos/coniglioNormale.jpg',
         thumbnail: 'photos/coniglioNormale.jpg',
-        description: [<h1>Coniglio</h1>, <h2>Unknown</h2>],
+        description: [<h1>Coniglio</h1>, <h2>Unknown</h2>, <h2>By: Wolf87</h2>],
       },
       {
         original: 'photos/cuoreVoronoi.jpg',
         thumbnail: 'photos/cuoreVoronoi.jpg',
-        description: [<h1>Cuore Voronoi</h1>, <h2>PET Basicfil Red</h2>],
+        description: [<h1>Cuore Voronoi</h1>, <h2>PET Basicfil Red</h2>, <h2>By: ZeroPX</h2>],
       },
       {
         original: 'photos/clock.jpg',
         thumbnail: 'photos/clock.jpg',
-        description: [<h1>Orologio Star Wars</h1>, <h2>PLA Geetech Fluo</h2>, <h2>PLA GST3D Black</h2>,],
+        description: [<h1>Orologio Star Wars</h1>, <h2>PLA Geetech Fluo</h2>, <h2>PLA GST3D Black</h2>, <h2>By: Wolf87</h2>],
       },
       {
         original: 'photos/polipo.jpg',
@@ -71,7 +71,12 @@ class Gallery extends React.Component {
       {
         original: 'photos/batman.jpg',
         thumbnail: 'photos/batman.jpg',
-        description: [<h1>Busto di Batman</h1>, <h2>PLA Eryone Black</h2>],
+        description: [<h1>Busto di Batman</h1>, <h2>PLA Eryone Black</h2>, <h2>By: Willysmitch</h2>],
+      },
+      {
+        original: 'photos/alexa.jpg',
+        thumbnail: 'photos/alexa.jpg',
+        description: [<h1>Porta Alexa Sweepy</h1>, <h2>PLA Eryone Black</h2>, <h2>Thingiverse: WikiZell</h2>],
       },
     ]
 
