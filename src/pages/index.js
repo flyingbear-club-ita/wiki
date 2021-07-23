@@ -42,9 +42,10 @@ const features = [
     imageUrl: 'img/youtube.svg',
     description: (
       <>
-        Prossimamente anche su Youtube!
+        Il nostro canale su Youtube!!!
       </>
     ),
+    link: "https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
 
   },
 ];
