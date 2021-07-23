@@ -32,7 +32,11 @@ module.exports = {
         {
           type: 'category',
           label: 'Raspberry',
-          items: ['raspberry/introduzione', 'raspberry/installare_raspbian', 'raspberry/configurare_la_ghost'
+          items: [
+            'raspberry/introduzione', 
+            'raspberry/installare_raspbian', 
+            'raspberry/configurare_la_ghost',
+            'raspberry/multiboot'
           ],
         },
         'marlin',

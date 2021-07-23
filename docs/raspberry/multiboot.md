@@ -45,7 +45,7 @@ Le immagini non sono le solite che trovate online, devono essere "**trattate**" 
 Se vi interessa sapere come si creano le immagini, fatecelo sapere
 :::
 
-Per prima cosa, scaricate l'immagine che vi interessa da [qui](https://github.com/flyingbear-club-ita/raspberrypi_images), poi, dopo aver lanciato Berryboot, scegliete **Use custom** 
+Per prima cosa, scaricate l'immagine che vi interessa da [qui](https://www.dropbox.com/sh/ix1wvrs30j5ztcm/AAAwG7jvsUimc-nZrv3TQX8Wa/raspberry_pi_multiboot_images?dl=0&subfolder_nav_tracking=1), poi, dopo aver lanciato Berryboot, scegliete **Use custom** 
 
 [ ![BerryBoot use custom](/img/multiboot1.png) ](/img/multiboot1.png)
 
@@ -73,9 +73,9 @@ Nella schermata successiva vi verra chiesto di confermare la connessione che ave
 
 A questo punto vi verra chiesto di formattare la scheda per far partire l'installazione
 
-[ ![BerryBoot Format SD](/img/multiboot4.jpg) ](/img/multiboot4.jpg)
-
 Scegliete mmcblk0, che è la SD card, e aspettate la fine della formattazione
+
+[ ![BerryBoot Format SD](/img/multiboot4.jpg) ](/img/multiboot4.jpg)
 
 Una volta terminata, vi verra presentata la schermata di selezione del sistema operativo
 
@@ -113,10 +113,10 @@ Troverete delle versioni customizzate per essere usate su BerryBoot nell'area ap
 
 Le versioni fino ad ora pronte sono:
 
-* Octopint
+* [Octopint](https://www.dropbox.com/sh/ix1wvrs30j5ztcm/AAD1cI80owdBObkl2RpwGh0pa/raspberry_pi_multiboot_images/octoprint0.18.img?dl=0)
 
-* RetroPie
+* [RetroPie](https://www.dropbox.com/sh/ix1wvrs30j5ztcm/AADsh5eRcQIXhRoiJU4X1WHPa/raspberry_pi_multiboot_images/retropie-converted.img?dl=0)
 
-* Kali
+* [Kali](https://www.dropbox.com/sh/ix1wvrs30j5ztcm/AAA3N7HxR0At0_PHf5sSediVa/raspberry_pi_multiboot_images/kali.img?dl=0)
 
 Per ora la guida è terminata, se avete dubbi o suggerimenti siete pregati di inviarli

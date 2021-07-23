@@ -176,6 +176,14 @@ export const upgradesData = [
         description: 'Serve a rimuovere il corrugato, necessaria per la costruzione della enclosure\nN.B.\nIL TUBO IN TEFLON NON VA NELLA CATENA!!!',
     },
     {
+        title: 'Catena Portacavo 4S Direct',
+        imgSrc:'',
+        desc:'Catena per i cavi per Ghost 4s, stampata',
+        links:['https://www.thingiverse.com/thing:4661028'],
+        img: 'img/catena4sDirect.png',
+        description: 'Compatibile con il direct drive per la 4S, serve a rimuovere il corrugato, necessaria per la costruzione della enclosure\nN.B.\nIL TUBO IN TEFLON NON VA NELLA CATENA!!!',
+    },
+    {
         title: 'Catena Portacavo 5',
         imgSrc:'',
         desc:'Catena per i cavi, stampata',
@@ -214,5 +222,13 @@ export const upgradesData = [
         links:['https://github.com/flyingbear-club-ita/stl/tree/master/supportoCamPiatto'],
         img: 'img/camPiatto.jpg',
         description: 'Due versioni:\nLa prima, 32mm, e\' fatta per chi ha la porta, per evitare che la testa a bordo piatto la urti\nLa seconda, 42mm, ha una staffa piu\' sporgente',
+    },
+    {
+        title: 'SD Card per Raspberry PI',
+        imgSrc:'',
+        desc:'Descrizione a breve',
+        links:['https://www.amazon.it/Samsung-MB-MJ32G-MicroSDHC-UHS-I-memory/dp/B07CY3QSST/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Samsung+PRO+Endurance+MicroSD+Memory+Card%2C+32GB&qid=1626905360&sr=8-1'],
+        img: 'img/sdCard.jpg',
+        description: 'Descrizione a breve',
     },   
 ];
