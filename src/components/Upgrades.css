@@ -68,3 +68,16 @@ body { padding: 1rem; }
 @media (min-width: 900px) {
     #upgradeItems { grid-template-columns: repeat(3, 1fr); }
 }
+
+.low{
+    background-color: green;
+}
+
+.medium{
+    background-color: gold;
+    color: black;
+}
+
+.high{
+    background-color: red;
+}

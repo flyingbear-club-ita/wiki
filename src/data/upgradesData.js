@@ -1,5 +1,6 @@
 export const upgradesData = [
     {
+        difficulty: 'low',
         title: 'Molle Rigide',
         imgSrc:'',
         desc:'Aumentano la rigidita\' del piatto, aumentando la precisione della calibrazione',
@@ -8,6 +9,7 @@ export const upgradesData = [
         description: 'Consigliate solo per la 4S\nDiciamocelo: a nessuno piace perdere tempo a livellare il piatto...\nLe molle rigide servono a mantenere il piatto più stabile e a non farlo scalibrare tanto velocemente quanto le molle originali',
     },
     {
+        difficulty: 'low',
         title: 'Convogliatore per ventola',
         imgSrc:'img/GHOST_4S_4010FanDuct.png',
         desc:'Aumenta il flusso di aria per la 4S',
@@ -16,6 +18,7 @@ export const upgradesData = [
         description: 'Quello di default montato dalla Flyingbear non è malaccio, ma non è nemmeno il migliore in circolazione. In alcuni casi, specialmente con alte velocità di stampa, il filamento potrebbe non depositarsi correttamente a causa della eccessiva temperatura. Per ovviare a questo problema, si puo\' utilizzare un convogliatore circolare. N.B. Da stampare in verticale con i supporti ove necessario. Materiale Consigliato: PETG o ABS (funziona anche in PLA ma a lungo andare potrebbe subire deformazioni)',
     },
     {
+        difficulty: 'medium',
         title: 'Driver TMC2209',
         imgSrc:'',
         desc:'Driver silenziosi',
@@ -104,6 +107,7 @@ export const upgradesData = [
         description: 'Cuscinetto ad alta qualità che riduce ulteriormente il rumore durante gli spostamenti degli assi',
     },
     {
+        difficulty: 'high',
         title: 'Spessore Livellamento Piatto',
         imgSrc:'',
         desc:'Elimina la concavita\' del piatto',
@@ -120,6 +124,7 @@ export const upgradesData = [
         description: 'Mantiene la temperatura costante, attutisce il rumore\nCosto totale: 25 euro',
     },
     {
+        difficulty: 'high',
         title: 'Copertura',
         imgSrc:'',
         desc:'Mantiene la temperatura costante, attutisce il rumore',
@@ -128,6 +133,7 @@ export const upgradesData = [
         description: 'Seguire il link qui sotto per la procedura completa',
     },
     {
+        difficulty: 'high',
         title: 'Testa Doppia Ventola Ghost 4s',
         imgSrc:'',
         desc:'Allegerisce la testa, aumenta la ventilazione',
@@ -216,6 +222,7 @@ export const upgradesData = [
         description: 'ATTENZIONE!!!\nPrendere la ventola da 24v!!!',
     },
     {
+        difficulty: 'low',
         title: 'Supporto Cam per piatto',
         imgSrc:'',
         desc:'supporto generico per attaccare una cam al piatto',
@@ -224,6 +231,7 @@ export const upgradesData = [
         description: 'Due versioni:\nLa prima, 32mm, e\' fatta per chi ha la porta, per evitare che la testa a bordo piatto la urti\nLa seconda, 42mm, ha una staffa piu\' sporgente',
     },
     {
+        difficulty: 'low',
         title: 'SD Card per Raspberry PI',
         imgSrc:'',
         desc:'Descrizione a breve',
