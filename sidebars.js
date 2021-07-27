@@ -36,7 +36,8 @@ module.exports = {
             'raspberry/introduzione', 
             'raspberry/installare_raspbian', 
             'raspberry/configurare_la_ghost',
-            'raspberry/multiboot'
+            'raspberry/multiboot',
+            'raspberry/octodash',
           ],
         },
         'marlin',
