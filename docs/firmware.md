@@ -3,7 +3,7 @@ title: Firmware
 slug: /firmware
 ---
 
-In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso.
+In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso
 
 ## Verifica della versione attualmente installata
 1. Dal menu principale della stampante tocca l'icona "Tool"
@@ -56,12 +56,30 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
 
 ## Versioni firmware disponibili
 
-**Versione piu' recente**
+:::danger
+Ultimamente, Flyingbear ha consegnato delle stampanti con chipset e driver diversi
 
-[FlyingBear Ghost 5 v5.9.1](https://github.com/flyingbear-club-ita/firmware_stock_5)
+Prima di scaricare ed installare il firmware, controllate la stampante, per sapere quale modello avete
 
-[FlyingBear Ghost 4s v3.5.1](https://github.com/flyingbear-club-ita/firmware_stock_4s)
+Purtroppo, l'unica maniera per farlo e' aprire la parte inferiore della stampante, oppure potete sempre andare a culo e provare tutte le diverse versioni...
+
+Una volta trovata la configurazione, consultate la figura qui sotto per decidere quale firmware scaricare
+:::
+
+[ ![Configurazioni Firmware](/img/ghost5_configuration.jpg) ](/img/ghost5_configuration.jpg)
+
+
+
+Stampante  | Chipset   | Driver    | Versione  | Link
+:---------:| :-------: | :------:  | :------:  | :--:
+4S         |   NA      |  STOCK    | **3.5.1** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_4s)
+5          | STM32F103 | TMC2208/9 | **5.8**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F103 |  STOCK    | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F407 |  TMC2225  | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F407 |  STOCK    | **v6**    | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+
 
 
 ## Link utili
 [Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube](https://youtu.be/YxKrXQ3jQcA) 
+    
