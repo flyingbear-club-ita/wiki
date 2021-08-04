@@ -13,6 +13,8 @@ Ad oggi ci sono 227 plug in ufficiali per octoprint (esistono anche plugin perso
 
 Oggi ne vedremo solo alcuni, i migliori per me, poi il mio giudizio è personale
 
+Se non vi va di leggere, andate a vedervi il [video su youtube](https://www.youtube.com/watch?v=n4Lk35F1wP8&t=259s&pp=sAQA)
+
 **Se avete altri plugin da consigliare, fateci sapere!!!**
 
 ## Come si installa un plugin
