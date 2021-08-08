@@ -131,3 +131,43 @@ Uno dei miei preferiti, non si scarica da octoprint ma dallo store del vostro sm
 
 Da avere
 </PluginInfo>
+
+<PluginInfo title="Bed Level Visualizer">
+
+Se hai un sensore BLtouch  sulla tua macchina, allora Bed Level Visualizer dovrebbe essere uno dei primi plugin che installi sul tuo server Octoprint
+
+[ ![Bed Level Visualizer](/img/bedLevelVisualizer.png) ](/img/bedLevelVisualizer.png)
+
+</PluginInfo>
+
+<PluginInfo title="Telegram">
+
+Il plugin Telegram è uno dei miei plugin preferiti quando si tratta di monitorare le stampe con OctoPrint
+
+Dopo aver configurato il plugin di Telegram, potrai “chattare” con la tua stampante con una serie di comandi: potresti "chiederti" di inviarti lo stato corrente della stampa incluso uno screenshot dalla webcam o di avvisarti quando una stampa è terminata
+
+Davvero utile!
+
+<a href="https://plugins.octoprint.org/plugins/telegram/" style={{color:"#ff0000"}}>Link Plugin Telegram</a>
+
+</PluginInfo>
+
+<PluginInfo title="Resource Monitor">
+
+Dalla schermata non avete bisogno di presentazioni: non solo la stampante deve essere sottocontrollo, ma anche il raspberry e con questo tool potrete farlo senza problemi
+
+[ ![Resource Monitor](/img/resourceMonitor.jpg) ](/img/resourceMonitor.jpg)
+
+</PluginInfo>
+
+<PluginInfo title="BL Touch">
+
+Se hai una sonda BLTouch installata sulla tua stampante 3D, ti consiglio di installare il plug-in BLTouch per OctoPrint
+
+Con questo plugin ottieni alcuni pulsanti che ti consentono di controllare la sonda BLTouch sulla tua stampante, eseguire un autotest, eseguire la calibrazione  e anche rilasciare l'allarme se vi è qualche problema
+
+<a href="https://plugins.octoprint.org/plugins/BLTouch/" style={{color:"#ff0000"}}> Link Plugin BL Touch</a>
+
+
+</PluginInfo>
+
