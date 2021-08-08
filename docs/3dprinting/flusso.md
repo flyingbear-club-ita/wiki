@@ -60,7 +60,6 @@ Dalla quale troveremo:
 
 Adesso ristampiamo il test coi parametri aggiornati e andiamo a misurare lo spessore delle pareti
 
-[![](/img/afterCalib1.jpg)](/img/afterCalib1.jpg)
 Primo Lato  | Secondo Lato | Terzo Lato  | Quarto Lato  
 :----------:|:------------:|:-----------:|:------------:
 [![](/img/afterCalib1.jpg)](/img/afterCalib1.jpg)  |  [![](/img/afterCalib2.jpg)](/img/afterCalib2.jpg)  | [![](/img/afterCalib3.jpg)](/img/afterCalib3.jpg)  |  [![](/img/afterCalib4.jpg)](/img/afterCalib4.jpg)
