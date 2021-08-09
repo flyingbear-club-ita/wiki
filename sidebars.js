@@ -38,7 +38,8 @@ module.exports = {
             'raspberry/configurare_la_ghost',
             'raspberry/multiboot',
             'raspberry/octodash',
-            'raspberry/plugins'
+            'raspberry/plugins',
+            'raspberry/octo_docker',
           ],
         },
         'marlin',
