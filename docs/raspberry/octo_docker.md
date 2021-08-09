@@ -2,7 +2,7 @@
 title: Due Octoprint in uno
 slug: /raspberry/docker
 description: Due Octoprint su un raspberry pi con Docker
-keywords: octoprint, raspberry, raspberrypi, docker, 3d printing
+keywords: octoprint, raspberry, raspberrypi, docker, 3d printing, flyingbear, flying bear, flyingbear ghost
 image: /img/multiInstanceLogo.png
 ---
 
