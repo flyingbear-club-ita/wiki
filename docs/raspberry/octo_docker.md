@@ -11,6 +11,10 @@ image: /img/multiInstanceLogo.png
 
 tutorial a cura di **ReneG**
 
+:::tip
+Per i pelandroni che non hanno voglia di leggere, questa guida e' disponibile anche in [formato video su youtube!](https://youtu.be/O2CMUSZjmbw)
+
+
 Oggi spiegherò come installare multiple istanze di Octoprint in un contenitore docker con supporto multi webcam USB
 
 Con questo setup, potrai avere **controllo indipendente su 2 stampanti tramite un solo Raspberry Pi** cambiando semplicemente porta per decidere quale stampante controllare
