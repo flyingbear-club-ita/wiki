@@ -31,12 +31,12 @@ Iniziamo!
 
 ## Setup iniziale
 
-Dopo aver preparato la SD card con l'immagine con [Balena Etcher](/docs/raspberry/installazione_raspbian) o tramite [Raspberry Pi Imager](https://www.raspberrypi.org/software/), passiamo a configurare l'accesso alla wifi e tramite SSH
+Dopo aver preparato la SD card con l'immagine con [Balena Etcher](/docs/raspberry/installazione_raspbian) o tramite [Raspberry Pi Imager](https://www.raspberrypi.org/software/), passiamo a configurare l'accesso alla wifi e l'abilitazione del protocollo SSH
 
 Per abilitare l’accesso tramite protocollo SSH dobbiamo aggiungere un semplice file vuoto nominato **ssh** nella root della partizione boot della
 SD card
 
-Per garantire al raspberry pi di collegarsi alla tua rete WiFi, dobbiamo nuovamente creare un nuovo file nella root della partizione boot, questa volta nominandolo **wpa_supplicant.conf**
+Per garantire al raspberry pi di collegarsi alla tua rete WiFi, dobbiamo creare un nuovo file nella root della partizione boot, questa volta nominandolo **wpa_supplicant.conf**
 
 Dopo aver creato questo file, apriamolo con un qualsiasi editor di testo, tipo Blocco Note (mi raccomando: NON WORD!!!), ed inseriamo le righe seguenti:
 
@@ -60,7 +60,7 @@ A questo punto, il setup iniziale è completato, puoi rimuovere la SD card dal c
 
 Dopo aver completato la procedura di installazione, il raspberry dovrebbe essere collegato alla tua rete aspettando istruzioni
 
-Apri il client SSH (Sto usando PuTTy per windows) e cerca di raggiungere il terminale utilizzando l’hostname standard del raspberry pi, **raspberripi** sulla porta **22**, poi clicca sul bottone **OPEN**
+Apri il client SSH (Sto usando PuTTy per windows) e cerca di raggiungere il terminale utilizzando l’hostname standard del raspberry pi, **raspberripy** sulla porta **22**, poi clicca sul bottone **OPEN**
 
 [ ![Putty](/img/putty.png) ](/img/putty.png)
 
