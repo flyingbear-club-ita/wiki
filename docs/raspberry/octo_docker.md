@@ -20,19 +20,68 @@ Iniziamo!
 ## Requisiti
 
 * Raspberry Pi 3B+ o superiore
-* Raspberry Pi Os fresco di installazione (Consiglio la versione Lite)
+* Raspberry Pi Os fresco di installazione (Consiglio la [versione Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip))
 * Client SSH installato
 * 2 Stampanti 3D
 * 2 Webcam USB
 
 ## Setup iniziale
 
-Dopo aver [preparato la SD card con l'immagine](/docs/raspberry/installazione_raspbian) e [configurato l'accesso alla rete wifi](http://localhost:3000/wiki/docs/raspberry/installazione_raspbian#configurazione-wifi), puoi rimuovere la scheda SD
-dal computer e metterla nel Raspberry Pi, connettere le due stampanti e webcam ed avviare il sistema
+Dopo aver preparato la SD card con l'immagine con [Balena Etcher](/docs/raspberry/installazione_raspbian) o tramite [Raspberry Pi Imager](https://www.raspberrypi.org/software/), passiamo a configurare l'accesso alla wifi e tramite SSH
 
-Dopo aver completato la procedura di installazione, il tuo raspberry dovrebbe essere collegato alla tua rete aspettando istruzioni
+Per abilitare l’accesso tramite protocollo SSH dobbiamo aggiungere un semplice file vuoto nominato **ssh** nella root della partizione boot della
+SD card
 
-Adesso prova ad [accedere al raspberry pi tramite SSH](/docs/raspberry/installazione_raspbian#prima-accensione) per cambiare password ed aggiornare il sistema operativo (seguire la guida nel link precedente)
+Per garantire al raspberry pi di collegarsi alla tua rete WiFi, dobbiamo nuovamente creare un nuovo file nella root della partizione boot, questa volta nominandolo **wpa_supplicant.conf**
+
+Dopo aver creato questo file, apriamolo con un qualsiasi editor di testo, tipo Blocco Note (mi raccomando: NON WORD!!!), ed inseriamo le righe seguenti:
+
+```shell
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+country=IT #Insert 2 letter ISO 3166-1 country
+update_config=1
+network={
+ssid="Your WiFi Network SSID"
+psk="Your WiFi Network Password"
+}
+
+```
+:::tip
+Nel campo **SSID**, inserire il nome della propria rete wifi
+
+Nel campo **PSK**, inserire la password della propria rete wifi
+:::
+
+A questo punto, il setup iniziale è completato, puoi rimuovere la SD card dal computer e metterla nel Raspberry Pi, connettere le due stampanti e webcam ed avviare il sistema
+
+Dopo aver completato la procedura di installazione, il raspberry dovrebbe essere collegato alla tua rete aspettando istruzioni
+
+Apri il client SSH (Sto usando PuTTy per windows) e cerca di raggiungere il terminale utilizzando l’hostname standard del raspberry pi, **raspberripi** sulla porta **22**, poi clicca sul bottone **OPEN**
+
+[ ![Putty](/img/putty.png) ](/img/putty.png)
+
+:::tip
+Nel caso in cui non si riesca a raggiungere il raspberry tramite hostname, devi trovare il suo indirizzo IP
+Per fare questo c’è un software chiamato **Advanced IP Scanner** che puo' aiutarti in questo compito
+
+[ ![Advanced IP Scanner](/img/advancedIPScanner.png) ](/img/advancedIPScanner.png)
+:::
+
+
+Quando la connesione è stata stabilita, ti verrà chiesto di inserire username e password
+
+Digita quelle di default
+
+```shell
+username: pi
+password: raspberry
+```
+
+Ora andremo a cambiare la password del terminale per ragioni di sicurezza
+
+Digita ```passwd``` e segui le istruzioni a schermo
+
+Ora riavvia il sistema tramite ```sudo reboot```
 
 ## Installazione di Docker
 
