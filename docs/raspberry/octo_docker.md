@@ -13,7 +13,7 @@ tutorial a cura di **ReneG**
 
 :::tip
 Per i pelandroni che non hanno voglia di leggere, questa guida e' disponibile anche in [formato video su youtube!](https://youtu.be/O2CMUSZjmbw)
-
+:::
 
 Oggi spiegherò come installare multiple istanze di Octoprint in un contenitore docker con supporto multi webcam USB
 
