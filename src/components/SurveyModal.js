@@ -24,13 +24,13 @@ class SurveyModal extends React.Component {
                     <p>
                         Volevamo chiederti un parere. Potresti rispondere a questo sondaggio?
                     </p>
-                    <a href="https://pyrmtm7h0ik.typeform.com/to/TcAO44xN" target="_blank">Link per il sondaggio</a>
+                    <a href="https://freeonlinesurveys.com/s/KaYmi8kg" target="_blank">Link per il sondaggio</a>
                     <br></br>
                     <p>Hello!</p>
                     <p>
                         We would like to ask you a couple of questions. Could you please complete this survey?
                     </p>
-                    <a href="https://pyrmtm7h0ik.typeform.com/to/zYGKTj5D" target="_blank">Survey link</a>
+                    <a href="https://freeonlinesurveys.com/s/RFtgJbXB" target="_blank">Survey link</a>
                 </div>
                 <div className="closeButtonContainer">
                     <button className="closeButton" onClick={this.closeModal}>
