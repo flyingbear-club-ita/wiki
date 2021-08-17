@@ -1,6 +1,9 @@
 ---
 title: Informazioni
 slug: /slicer/cura
+description: Ultimaker Cura, the most popular slicer
+keywords: cura, ultimaker, ultimaker cura, 3d printing, flyingbear, flying bear, flyingbear ghost, slicer, slicing
+image: /img/Ultimaker_cura.png
 ---
 
 Lo slicer piu' diffuso tra i membri della community, contiene gia' le impostazioni per la flyingbear ghost (dalla 4.6.0 quello per la 4s, dalla 4.8.0 quello per la 5)
@@ -43,7 +46,7 @@ Da qui potete fare il backup prima di installare la nuova versione e fare il res
 
 Ora avviate l'installazione del software e lasciate tutte le impostazioni standard
 
-[ ![inizio installazione cura](/img/install_cura_inizio.PNG) ](/img/install_inizio_cura.PNG)
+[ ![inizio installazione cura](/img/install_cura_inizio.PNG) ](/img/install_cura_inizio.PNG)
   
 Accettiamo i termini della licenza e continuamo, lasciando tutte le impostazioni di default, fino al termine dell'installazione
 
