@@ -13,7 +13,7 @@ module.exports = {
           items: ['slicer/slicer', {
             type: 'category',
             label: 'Cura',
-            items: ['slicer/cura/cura','slicer/cura/curaTempTower','slicer/cura/mkswifiPlugin'],
+            items: ['slicer/cura/cura','slicer/cura/cura_plugins', 'slicer/cura/curaTempTower','slicer/cura/mkswifiPlugin'],
           },
           {
             type: 'category',
