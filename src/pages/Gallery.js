@@ -78,6 +78,31 @@ class Gallery extends React.Component {
         thumbnail: 'photos/alexa.jpg',
         description: [<h1>Porta Alexa Sweepy</h1>, <h2>PLA Eryone Black</h2>, <h2>Thingiverse: WikiZell</h2>],
       },
+      {
+        original: 'photos/arthurFleck.jpg',
+        thumbnail: 'photos/arthurFleck.jpg',
+        description: [<h1>Arthur Fleck</h1>, <h2>By: Racknos</h2>],
+      },
+      {
+        original: 'photos/diceTower.jpg',
+        thumbnail: 'photos/diceTower.jpg',
+        description: [<h1>Dice Tower</h1>, <h2>PLA Sunlu</h2>, <h2>By: Giomma98</h2>],
+      },
+      {
+        original: 'photos/portaUova.jpg',
+        thumbnail: 'photos/portaUova.jpg',
+        description: [<h1>Porta uova</h1>, <h2>By: imatte14</h2>],
+      },
+      {
+        original: 'photos/yodaWhite.jpg',
+        thumbnail: 'photos/yodaWhite.jpg',
+        description: [<h1>Yoda</h1>, <h2>By: Andrea Manca</h2>],
+      },
+      {
+        original: 'photos/yodaBustGreen.jpg',
+        thumbnail: 'photos/yodaBustGreen.jpg',
+        description: [<h1>Yoda Bust</h1>, <h2>By: Racknos</h2>],
+      },
     ]
 
     return (
