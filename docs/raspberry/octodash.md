@@ -51,7 +51,7 @@ Perché mi piace vedere la soddisfazione di mia figlia che è riuscita a stampar
 
 ## Installazione
 
-Se siete novizi sulla installazione di una immagine del raspberry su scheda Micro SD, vi suggerisco di seguire [questa mia guida](https://flyingbear-club-ita.github.io/wiki/docs/raspberry/installazione_raspbian) e poi riprendere dal punto successivo
+Se siete novizi sulla installazione di una immagine del raspberry su scheda Micro SD, vi suggerisco di seguire [questa mia guida](/docs/raspberry/installazione_raspbian) e poi riprendere dal punto successivo
 
 Dopo avere completato l'installazione e  la configurazione di Octoprint (come riferimento usate il video girato come supporto, oppure il link precedente), una buona cosa da fare è quella di aggiornare il raspberry all'ultima versione software disponibile
 
