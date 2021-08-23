@@ -16,6 +16,7 @@ module.exports = {
             items: [
               'slicer/cura/cura',
               'slicer/cura/cura_plugins',
+              'slicer/cura/impostazioni_cura',
               'slicer/cura/mkswifiPlugin', 
               'slicer/cura/curaTempTower'
             ],
