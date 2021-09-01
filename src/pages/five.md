@@ -37,7 +37,7 @@ La lista delle feature è completata dal sensore di filamento (per arrestare la 
 |__Velocita' di Stampa__ | 20-150mm/s |
 |__Velocita' Spostamenti__ | 120mm/s |
 |__Filamenti Supportati__ | PLA, PET, PETG, ABS, etc |
-|__Formati Supportati__ | PLA, PET, PETG, ABS, etc |
+|__Formati File Supportati__ | .gcode |
 |__Massima Temperatura Ugello__ | 260 gradi |
 |__Massima Temperatura Piatto__ | 110 gradi |
 
