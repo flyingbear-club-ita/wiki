@@ -75,7 +75,10 @@ export default function Home() {
     <Layout
       title={`Benvenuto nella ${siteConfig.title}`}
       description="La wiki della community italiana sulla Flyingbear Ghost">
-      <SurveyModal/>
+      {/*
+        Leaving modal here, we'll reactivate for some other surveys
+        <SurveyModal/>
+      */}
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
