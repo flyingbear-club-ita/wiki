@@ -27,6 +27,7 @@ export const upgradesData = [
         description: 'I driver stock della Ghost sono un po\' rumorosi. Per ovviare a questo problema, si possono sostituire con dei TMC2209. La procedura per la sostituzione e dove acquistare i driver si trovano nel link qui sotto',
     },
     {
+        difficulty: 'low',
         title: 'Guida Filamento',
         imgSrc:'',
         desc:'Serve ad evitare che il filamento passi dietro alla bobina',
@@ -35,6 +36,7 @@ export const upgradesData = [
         description: 'Serve ad evitare che il filamento passi dietro alla bobina',
     },      
     {
+        difficulty: 'low',
         title: 'Reggi Tubo',
         imgSrc:'',
         desc:'Sostituisce le fascette che tengono attaccato il tubo PTFE al tubo corrugato',
@@ -43,6 +45,7 @@ export const upgradesData = [
         description: 'Sostituisce le fascette che tengono attaccato il tubo PTFE al tubo corrugato',
     },
     {
+        difficulty: 'low',
         title: 'Supporto Bobina',
         imgSrc:'',
         desc:'Migliora notevolmente lo scivolamento della bobina, evita che il filo si tenda troppo fino a far scattare di colpo la bobina',
@@ -51,6 +54,7 @@ export const upgradesData = [
         description: 'Migliora notevolmente lo scivolamento della bobina, evita che il filo si tenda troppo fino a far scattare di colpo la bobina',
     },
     {
+        difficulty: 'low',
         title: 'Protezione Slot SD Card',
         imgSrc:'',
         desc:'Protezione per evitare che la SD cada nella base della ghost',
@@ -59,6 +63,7 @@ export const upgradesData = [
         description: 'Protezione per evitare che la SD cada nella base della ghost',
     },
     {
+        difficulty: 'medium',
         title: 'Cerniere Porta',
         imgSrc:'',
         desc:'Copertura per copertura frontale',
@@ -67,6 +72,7 @@ export const upgradesData = [
         description: 'Cerniera per la copertura frontale, non serve bucare il pannello di plexiglass, basta incollarlo. Dimensioni plexiglass: 380 x 400 x 2 mm. Magneti: ϕ10 x 1 mm',
     },
     {
+        difficulty: 'medium',
         title: 'Estrusore',
         imgSrc:'',
         desc:'Estrusore con ingranaggi di migliore fattura',
@@ -75,6 +81,7 @@ export const upgradesData = [
         description: 'Per garantire una estrusione piu\' costante, questo clone della bmg e\' un ottimo compromesso tra qualita\' e prezzo. Versione: right',
     },
     {
+        difficulty: 'medium',
         title: 'Ingranaggi Estrusore',
         imgSrc:'',
         desc:'Ingranaggi dell\'estrusore di migliore fattura (mettere link e foto giusti)',
@@ -83,6 +90,7 @@ export const upgradesData = [
         description: 'L\'estrusore completo e\' un po\' costoso, cambiare solo la ruota godronata e\' comunque un salto di qualita\'',
     },
     {
+        difficulty: 'low',
         title: 'Specchio Ikea per il piatto',
         imgSrc:'',
         desc:'Superficie liscia per il piatto',
@@ -91,6 +99,7 @@ export const upgradesData = [
         description: 'Lo specchio va tagliato, poi, dopo aver rimosso i morsetti dal piatto, appoggiare lo specchio direttamente sul piatto e stringerlo con quattro fermacarta (piccoli)',
     },
     {
+        difficulty: 'low',
         title: 'Tappetino Magnetico',
         imgSrc:'',
         desc:'Tappetino magnetico per il piatto',
@@ -99,6 +108,7 @@ export const upgradesData = [
         description: 'Rimuovere i morsetti dal piatto, tagliare il tappetino secondo la misura del piatto (255x210), applicare la parte adesiva direttamente sul piatto',
     },
     {
+        difficulty: 'medium',
         title: 'Cuscinetti Lineari per gli assi',
         imgSrc:'',
         desc:'Modello LM8LUU',
@@ -116,6 +126,7 @@ export const upgradesData = [
         description: 'Se hai il piatto concavo, cioe\' il centro del piatto e\' piu\' lontano dall\'ugello degli angoli, mettendo questo spessore si puo\' ottenere una superficie omogenea\n Serve una vite M4 per regolarlo\nPer usare la vite M4 devi filettare il foro che c\'è al centro del supporto del piano\nSe non hai maschi per filettare, inizialmente puoi usare vite m3 con dado e contro dado',
     },
     {
+        difficulty: 'medium',
         title: 'Copertura frontale magnetica',
         imgSrc:'',
         desc:'Mantiene la temperatura costante, attutisce il rumore',
@@ -142,6 +153,7 @@ export const upgradesData = [
         description: 'Nuova Ventola, da collegare in parallelo nello stesso morsetto\nhttps://a.aliexpress.com/_mKgdXiT\nModello : 24V Ball XH2.54',
     },
     {
+        difficulty: 'high',
         title: 'Testa Doppia Ventola Ghost 5',
         imgSrc:'',
         desc:'Allegerisce la testa, aumenta la ventilazione',
@@ -150,6 +162,7 @@ export const upgradesData = [
         description: 'Nuova Ventola, da collegare in parallelo nello stesso morsetto\nhttps://a.aliexpress.com/_mKgdXiT\nModello : 24V Ball XH2.54',
     },
     {
+        difficulty: 'low',
         title: 'Belt Tensioner',
         imgSrc:'',
         desc:'Tensionatore per le cinghie',
@@ -158,6 +171,7 @@ export const upgradesData = [
         description: 'Stampare solamente i file: tensioner_big_2.7mm_standard.stl e tensioner_small_part.stl\nInoltre, è necessaria una vite M3x*** che potete recuperare da quelle di ricambio fornite con la stampante',
     },
     {
+        difficulty: 'high',
         title: 'Direct Drive Ghost 4s',
         imgSrc:'',
         desc:'Rimuove il bowden, riduce la ritrazione',
@@ -166,6 +180,7 @@ export const upgradesData = [
         description: 'Con l\'estrusore diretto appena sopra la testa di stampa si andrà ad ovviare a tutti quei problemi dovuti al "lasco" del filo che precorre il tubo il PFTE\nUpgrade consigliatissimo se si stampa TPU.',
     },
     {
+        difficulty: 'high',
         title: 'Direct Drive Ghost 5',
         imgSrc:'',
         desc:'Rimuove il bowden, riduce la ritrazione',
@@ -174,6 +189,7 @@ export const upgradesData = [
         description: 'Con l\'estrusore diretto appena sopra la testa di stampa si andrà ad ovviare a tutti quei problemi dovuti al "lasco" del filo che precorre il tubo il PFTE\nUpgrade consigliatissimo se si stampa TPU.',
     },
     {
+        difficulty: 'low',
         title: 'Catena Portacavo 4S',
         imgSrc:'',
         desc:'Catena per i cavi, stampata',
@@ -182,6 +198,7 @@ export const upgradesData = [
         description: 'Serve a rimuovere il corrugato, necessaria per la costruzione della enclosure\nN.B.\nIL TUBO IN TEFLON NON VA NELLA CATENA!!!',
     },
     {
+        difficulty: 'low',
         title: 'Catena Portacavo 4S Direct',
         imgSrc:'',
         desc:'Catena per i cavi per Ghost 4s, stampata',
@@ -190,6 +207,7 @@ export const upgradesData = [
         description: 'Compatibile con il direct drive per la 4S, serve a rimuovere il corrugato, necessaria per la costruzione della enclosure\nN.B.\nIL TUBO IN TEFLON NON VA NELLA CATENA!!!',
     },
     {
+        difficulty: 'low',
         title: 'Catena Portacavo 5',
         imgSrc:'',
         desc:'Catena per i cavi, stampata',
@@ -198,6 +216,7 @@ export const upgradesData = [
         description: 'Serve a rimuovere il corrugato, necessaria per la costruzione della enclosure\nN.B.\nIL TUBO IN TEFLON NON VA NELLA CATENA!!!',
     },
     {
+        difficulty: 'medium',
         title: 'Illuminazione Esterna',
         imgSrc:'',
         desc:'Per illuminare il piano di stampa',
@@ -206,6 +225,7 @@ export const upgradesData = [
         description: 'Seguire il link qui sotto per ulteriori dettagli',
     },
     {
+        difficulty: 'medium',
         title: 'Illuminazione Interna',
         imgSrc:'',
         desc:'Per illuminare il piano di stampa',
@@ -214,6 +234,7 @@ export const upgradesData = [
         description: 'Seguire il link qui sotto per la procedura completa',
     },
     {
+        difficulty: 'low',
         title: 'Ventola raffreddamento dissipatore',
         imgSrc:'',
         desc:'Ventola piu\' sileziosa',
@@ -238,5 +259,14 @@ export const upgradesData = [
         links:['https://www.amazon.it/Samsung-MB-MJ32G-MicroSDHC-UHS-I-memory/dp/B07CY3QSST/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Samsung+PRO+Endurance+MicroSD+Memory+Card%2C+32GB&qid=1626905360&sr=8-1'],
         img: 'img/sdCard.jpg',
         description: 'Descrizione a breve',
-    },   
+    },
+    {
+        difficulty: 'high',
+        title: 'Sherpa Mini',
+        imgSrc:'',
+        desc:'Estrusore leggerissimo!',
+        links:['/wiki/sherpamini'],
+        img: 'img/sherpaMini.jpg',
+        description: 'Riduce il peso sulla testa per la modifica in direct drive',
+    },    
 ];
