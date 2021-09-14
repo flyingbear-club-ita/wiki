@@ -48,7 +48,13 @@ module.exports = {
             'raspberry/octo_docker',
           ],
         },
-        'marlin',
+        {
+          type: 'category',
+          label: 'Marlin',
+          items: [
+            'marlin/firmware_compilato',
+          ],
+        },
       ],
     },
   ],
