@@ -3,7 +3,7 @@ module.exports = {
   title: 'Flying Bear Ghost Wiki',
   tagline: 'Setup, calibrazioni, upgrade e molto altro',
   url: 'https://flyingbear-club-ita.github.io/',
-  baseUrl: '/wiki/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -76,7 +76,9 @@ module.exports = {
       // Optional fields.
       anonymizeIP: false, // Should IPs be anonymized?
     },
-
+    googleAdsense: {
+      dataAdClient: "ca-pub-3253384067482467",
+    },
   },
   presets: [
     [
@@ -100,5 +102,6 @@ module.exports = {
         systemvars: true,
       },
     ],
+    "docusaurus-plugin-google-adsense",
   ],
 };
