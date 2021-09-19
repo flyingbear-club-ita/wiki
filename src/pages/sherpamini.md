@@ -67,12 +67,12 @@ Voi dovete collegare questo connettore al connettore del cavetto che è attualme
 ::tip
 Puoi fare come me e comprare una prolunga, cioè un cavo Dupont maschio-femmina a 4 pin da AWG 24. Compra anche una crimpatrice che possa crimpare connettori JST-PH 2.0
 :::
-2) taglia il connettore dupont femmina della prolunga, spela i vavi e con una crimpatrice inserisci i connettori JST-PH 2.0
+2) taglia il connettore dupont femmina della prolunga, spela i cavi e con una crimpatrice inserisci i connettori JST-PH 2.0
 
 I collegamenti tra motore sherpa e connettore JST della stampante sono:
 * Rosso --> pin1
 * Verde --> pin3 
-* Giall--> pin4 
+* Giallo --> pin4 
 * Blu --> Pin6
 
 :::caution

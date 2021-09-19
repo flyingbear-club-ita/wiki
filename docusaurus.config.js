@@ -56,11 +56,6 @@ module.exports = {
           position: 'left',
         },
         {
-          href: '/faq',
-          label: 'FAQ',
-          position: 'left',
-        },
-        {
           href: 'https://github.com/flyingbear-club-ita',
           label: 'GitHub',
           position: 'right',
