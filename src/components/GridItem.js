@@ -25,7 +25,7 @@ function setBaseUrl(){
     if (process.env.ENV == 'dev'){
         return 'http://localhost:3000/wiki/'
     } else {
-        return url + baseUrl
+        return url + '/wiki/'
     }
 }
 

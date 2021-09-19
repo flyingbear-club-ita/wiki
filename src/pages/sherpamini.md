@@ -2,8 +2,7 @@
 title: Sherpa Mini
 slug: /sherpamini
 ---
-# Sherpa Mini
-
+## Sherpa Mini
 [![](/img/sherpaMini1.jpg)](/img/sherpaMini1.jpg)
 
 ## Dove scaricare il progetto
