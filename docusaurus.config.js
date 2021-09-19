@@ -60,6 +60,10 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -99,4 +103,8 @@ module.exports = {
     ],
     "docusaurus-plugin-google-adsense",
   ],
+  i18n: {
+    defaultLocale: 'it',
+    locales: ['en', 'it'],
+  },
 };

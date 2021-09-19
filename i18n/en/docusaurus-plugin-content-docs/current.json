@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Wiki": {
+    "message": "Wiki",
+    "description": "The label for category Wiki in sidebar docs"
+  },
+  "sidebar.docs.category.Slicer": {
+    "message": "Slicer",
+    "description": "The label for category Slicer in sidebar docs"
+  },
+  "sidebar.docs.category.Cura": {
+    "message": "Cura",
+    "description": "The label for category Cura in sidebar docs"
+  },
+  "sidebar.docs.category.Ideamaker": {
+    "message": "Ideamaker",
+    "description": "The label for category Ideamaker in sidebar docs"
+  },
+  "sidebar.docs.category.3D Printing in generale": {
+    "message": "3D Printing in generale",
+    "description": "The label for category 3D Printing in generale in sidebar docs"
+  },
+  "sidebar.docs.category.Raspberry": {
+    "message": "Raspberry",
+    "description": "The label for category Raspberry in sidebar docs"
+  },
+  "sidebar.docs.category.Marlin": {
+    "message": "Marlin",
+    "description": "The label for category Marlin in sidebar docs"
+  }
+}
