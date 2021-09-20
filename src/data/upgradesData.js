@@ -268,5 +268,14 @@ export const upgradesData = [
         links:['/sherpamini'],
         img: 'img/sherpaMini.jpg',
         description: 'Riduce il peso sulla testa per la modifica in direct drive',
-    },    
+    },
+    {
+        difficulty: 'low',
+        title: 'Convogliatore Ghost 5',
+        imgSrc:'',
+        desc:'Aumenta il flusso di aria per la Ghost 5',
+        links:['https://www.thingiverse.com/thing:4659428'],
+        img: 'img/fanDuctGhost5.jpg',
+        description: 'Quello di default montato dalla Flyingbear non è malaccio, ma non è nemmeno il migliore in circolazione. In alcuni casi, specialmente con alte velocità di stampa, il filamento potrebbe non depositarsi correttamente a causa della eccessiva temperatura. Per ovviare a questo problema, si puo\' utilizzare un convogliatore circolare. N.B. Da stampare con i supporti ove necessario, ma potrebbe funzionare anche senza. Materiale Consigliato: PETG o ABS (funziona anche in PLA+, ma a lungo andare potrebbe subire deformazioni)',
+    },  
 ];
