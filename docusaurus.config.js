@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          href: '/gallery',
+          href: '/',
           label: 'Scheda tecnica',
           position: 'left',
           items:[
