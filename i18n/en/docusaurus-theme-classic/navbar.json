@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Scheda tecnica": {
-    "message": "Scheda tecnica",
+    "message": "Technical Sheet",
     "description": "Navbar item with label Scheda tecnica"
   },
   "item.label.Wiki": {
@@ -20,7 +20,7 @@
     "description": "Navbar item with label Upgrades"
   },
   "item.label.Ricambi": {
-    "message": "Ricambi",
+    "message": "Spare Parts",
     "description": "Navbar item with label Ricambi"
   },
   "item.label.GitHub": {

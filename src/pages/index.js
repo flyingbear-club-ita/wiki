@@ -6,48 +6,55 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import SurveyModal from '../components/SurveyModal';
+import Translate, {translate} from '@docusaurus/Translate';
 
 const features = [
   {
-    title: 'Iscriviti alla community su Discord',
+    title: translate({id: 'discord.header', message:'Iscriviti alla community su Discord'}),
     imageUrl: 'img/discordLogoNew.svg',
     description: (
-      <>
-      La community su Discord e' il nostro punto di riferimento, tutti i contenuti partono da li'
-      </>
+      translate({
+        id: 'discord.message',
+        message: "La community su Discord e' il nostro punto di riferimento, tutti i contenuti partono da li'"
+      })
     ),
-    link: "https://discord.gg/p2gtrKm",
+    link: translate({id: 'discord.link', message:"https://discord.gg/p2gtrKm"}),
   },
   {
-    title: 'Seguici su Instagram',
+    title: translate({id:'instagram.header', message:"Seguici su Instagram"}),
     imageUrl: 'img/instagramLogo.svg',
     description: (
-      <>
-      Le piu' belle stampe della community, manda quelle di cui vai piu' orgoglioso
-      </>
+      translate({
+        id: 'instagram.message',
+        message: "Le piu' belle stampe della community, manda quelle di cui vai piu' orgoglioso"
+      })
       ),
-      link: "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"
+      link: translate({id:"instagram.link", message: "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"})
   },
   {
-    title: 'Seguici su Facebook',
+    title: translate({id: "facebook.header", message:"Seguici su Facebook"}),
     imageUrl: 'img/facebookLogo.svg',
     description: (
-      <>
-        La nostra pagina su Facebook
-      </>
+      translate({
+        id: "facebook.message",
+        message: "La nostra pagina su Facebook"
+      })
     ),
-    link: "https://www.facebook.com/groups/600126627631693/"
+    link: translate({id:"facebook.link", message:"https://www.facebook.com/groups/600126627631693/"})
   },
   {
-    title: 'Seguici su Youtube',
+    title: translate({id: "youtube.header", message:"Seguici su Youtube"}),
     imageUrl: 'img/youtube.svg',
     description: (
-      <>
-        Il nostro canale su Youtube!!!
-      </>
+      translate({
+        id: "youtube.message",
+        message: "Il nostro canale su Youtube!!!"
+      })
     ),
-    link: "https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
-
+    link: translate({
+      id: "youtube.link",
+      message:"https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
+    })
   },
 ];
 
@@ -71,18 +78,28 @@ function Feature({imageUrl, title, description, link}) {
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
+  const title = translate({id:"pageTitle", message:"Benvenuto nella wiki sulla Flyingbear Ghost"})
+  const description = translate({id:"description", message:"La wiki della community italiana sulla Flyingbear Ghost"})
   return (
     <Layout
-      title={`Benvenuto nella ${siteConfig.title}`}
-      description="La wiki della community italiana sulla Flyingbear Ghost">
+      title={title}
+      description={description}>
       {/*
         Leaving modal here, we'll reactivate for some other surveys
         <SurveyModal/>
       */}
+      
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          
+            <p className="hero__subtitle">
+              <Translate
+                id="homepage.subtitle"
+                description="homepage subtitle">
+                Setup, calibrazioni, upgrade e molto altro
+              </Translate>
+            </p>
           <div className={styles.buttons}>
             <Link
               className={clsx(

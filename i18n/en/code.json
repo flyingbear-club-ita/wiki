@@ -154,5 +154,51 @@
   "theme.common.skipToMainContent": {
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "discord.header": {
+    "message": "Join our community on Discord in English!"
+  },
+  "discord.message": {
+    "message": "Our community on discord is the main source of this wiki, all contents spawn from there"
+  },
+  "discord.link": {
+    "message": "https://discord.gg/xvhYs25C"
+  },
+  "instagram.header": {
+    "message": "Follow us on Instagram"
+  },
+  "instagram.message": {
+    "message": "The best prints made with the Flyingbear Ghost, send us the ones you are really proud of!"
+  },
+  "instagram.link": {
+    "message": "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"
+  },
+  "facebook.header": {
+    "message": "Follow us on Facebook"
+  },
+  "facebook.message": {
+    "message": "Our Facebook page, open to any language, mostly English"
+  },
+  "facebook.link": {
+    "message": "https://www.facebook.com/groups/600126627631693/"
+  },
+  "youtube.header": {
+    "message": "Follow us on Youtube"
+  },
+  "youtube.message": {
+    "message": "Our channel on Youtube! Mostly videos in italian, but with subtitles!"
+  },
+  "youtube.link": {
+    "message": "https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
+  },
+  "pageTitle": {
+    "message": "Welcome to the Flyingbear Ghost wiki"
+  },
+  "description": {
+    "message": "The best wiki about the Flyingbear Ghost 3d printer"
+  },
+  "homepage.subtitle": {
+    "message": "Setup, calibrations and much more",
+    "description": "homepage subtitle"
   }
 }
