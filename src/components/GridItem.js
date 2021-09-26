@@ -21,9 +21,8 @@ const Modal = ({ handleClose, show, children }) => {
   };
 
 function setBaseUrl(){
-    console.log(process.env);
     if (process.env.ENV == 'dev'){
-        return 'http://localhost:3000/wiki/'
+        return 'http://localhost:3000/'
     } else {
         return url + '/wiki/'
     }
