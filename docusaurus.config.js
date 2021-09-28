@@ -95,6 +95,12 @@ module.exports = {
     ],
   ],
   plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true,
+      },
+    ],
     "docusaurus-plugin-google-adsense",
   ],
   i18n: {
