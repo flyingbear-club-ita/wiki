@@ -123,7 +123,8 @@ export const upgradesData = [
         desc:'Elimina la concavita\' del piatto',
         links:['https://cdn.discordapp.com/attachments/699393530426163280/822928329161703424/center_point_bed.stl'],
         img: 'img/center_point_bed.stl.png',
-        description: 'Se hai il piatto concavo, cioe\' il centro del piatto e\' piu\' lontano dall\'ugello degli angoli, mettendo questo spessore si puo\' ottenere una superficie omogenea\n Serve una vite M4 per regolarlo\nPer usare la vite M4 devi filettare il foro che c\'è al centro del supporto del piano\nSe non hai maschi per filettare, inizialmente puoi usare vite m3 con dado e contro dado',
+        descriptionImage: 'img/spessoreLivellamentoSketch.png',
+        description: 'Se hai il piatto concavo, cioe\' il centro del piatto e\' piu\' lontano dall\'ugello degli angoli, mettendo questo spessore si puo\' ottenere una superficie omogenea\n Serve una vite M4 per regolarlo\nPer usare la vite M4 devi filettare il foro che c\'è al centro del supporto del piano\nSe non hai maschi per filettare, inizialmente puoi usare vite m3 con dado e contro dado\nPer capire meglio come va montato, guarda l\'immagine qui sotto',
     },
     {
         difficulty: 'medium',

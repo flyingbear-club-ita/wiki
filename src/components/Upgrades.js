@@ -20,6 +20,7 @@ class Upgrades extends React.Component{
                         img={item.img} 
                         detailedDescription={item.description}
                         difficulty={item.difficulty}
+                        descriptionImage={item.descriptionImage}
                     />
                 ))
                 }
