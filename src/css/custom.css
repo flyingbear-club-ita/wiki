@@ -15,6 +15,18 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --textcolor-light-mode: #FFFFFF;
+  --textcolor-dark-mode: #333333;
+  --bkg-light-mode: #FFFFFF;
+  --bkg-dark-mode: #000000;
+  --upgrade-undefined: var(--ifm-font-color-base);
+  --upgrade-low: green;
+  --upgrade-medium: gold;
+  --upgrade-high: red;
+  --upgrade-textcolor-undefined: var(--ifm-background-color);
+  --upgrade-textcolor-low: #FFFFFF;
+  --upgrade-textcolor-medium: #000000;
+  --upgrade-textcolor-high: #FFFFFF;
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +34,36 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+body{
+	line-height:1.5;
+}
+
+h1{
+	line-height:1.6;
+	font-size: 4.5vw;
+}
+
+@media (min-width: 768px) {
+    h1 { 
+		font-size: 3.5vw;
+	}
+}
+
+.pageTitle{
+	text-align:center;
+	margin: 3% 10px;
+}
+
+.pageDescription{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.menu__link{
+line-height: 2;
 }

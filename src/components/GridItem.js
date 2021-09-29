@@ -51,6 +51,7 @@ class GridItem extends React.Component{
 
     render(){        
         return(
+		
             <div className='upgradeItemContainer'>
                 <div className={`upgradeItem ${this.props.difficulty}`} onClick={this.showModal}>
                     <span className='upgradeItemTitle'>{this.props.title}</span>
@@ -60,7 +61,7 @@ class GridItem extends React.Component{
                     </div>    
                 </div>
                 <Modal show={this.state.show} handleClose={this.hideModal}>
-                        <h1 className='title'>{this.props.title}</h1>
+                        <h1 className={`title ${this.props.difficulty}`}>{this.props.title}</h1>
                         <div className='infoContainer'>
                             <img width="200" height="200" src={setBaseUrl(this.props.img)}></img>
                             <div className='descriptionContainer'>

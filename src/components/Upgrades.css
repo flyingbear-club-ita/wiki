@@ -1,24 +1,122 @@
+body { 
+	padding: 1rem; 
+	font-size: 6vmin;
+}
+@media (min-width: 300px) {
+    body { 
+		padding: 1rem; 
+		font-size: 5vmin;
+	}
+}
+@media (min-width: 400px) {
+    body { 
+		padding: 1rem; 
+		font-size: 3.3vmin;
+	}
+}
+
+@media (min-width: 550px) {
+    body { 
+		padding: 1rem; 
+		font-size: 2.5vmin;
+	}
+}
+
+
+
 .upgradeItem {
-    background-color: dodgerblue;
-    color: white;
+    background-color: var(--ifm-background-color);
+    border: 2px solid var(--ifm-font-color-base);
+    color: var(--ifm-font-color-base);
     padding: 1rem;
     display: flex;
     flex-direction: column;
+	height: 100%;
+}
+
+.upgradeItemContainer{
+	margin-bottom: 20px;
+	padding: 0 10px 0 10px;
+	width: 300px;
+}
+.upgradeItemContainer .upgradeItemInfo{
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0 5px 0px;
+}
+#upgradeItems{
+	display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 .upgradeItem:hover{
-    border: 3px solid red;
+    /*border: 3px solid red;*/
+    cursor: pointer;
+}
+html[data-theme="light"] .upgradeItem.undefined:hover {
+ color: var(--textcolor-light-mode);
+}
+html[data-theme="dark"] .upgradeItem.undefined:hover {
+ color: var(--textcolor-dark-mode);
+}
+.upgradeItem.undefined:hover {
+    background-color: var(--upgrade-undefined); 
+    /*color: var(--upgrade-textcolor-undefined);*/
+}
+
+.upgradeItem.low:hover {
+    background-color: var(--upgrade-low); 
+    color: var(--upgrade-textcolor-low);
+}
+.upgradeItem.medium:hover {
+    background-color: var(--upgrade-medium); 
+    color: var(--upgrade-textcolor-medium);
+}
+.upgradeItem.high:hover {
+    background-color: var(--upgrade-high); 
+    color: var(--upgrade-textcolor-high);
 }
 
 .upgradeItemTitle {
     width: auto;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     text-align: center;
-    margin: 5px 0px;
+    margin: 10px 5px 20px 5px;
+	font-weight: bold;
+	font-size: 4vw;
+    font-weight:bold;
+}
+
+@media (min-width: 500px) {
+    .upgradeItemTitle { 
+		font-size: 3vw;
+	}
+}
+
+@media (min-width: 768px) {
+    .upgradeItemTitle { 
+		font-size: 2vw;
+	}
+}
+
+@media (min-width: 1200px) {
+    .upgradeItemTitle { 
+		font-size: 1.5vw;
+	}
+}
+
+@media (min-width: 1750px) {
+    .upgradeItemTitle { 
+		font-size: 1.2vw;
+	}
 }
 
 .upgradeItemTitle:hover {
-    background-color: red;
+    /*background-color: red;*/
+    cursor: pointer;
 }
 
 .hidden {
@@ -33,51 +131,76 @@
   display: block;
 }
 
-.upgradeItemInfo{
-    float: left;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-}
-
 .upgradeItemImg{
-    display: inline;
-    float: left;
-    margin-right: 3px;
+    margin-bottom: 10px;
 }
 
-.upgradeItemDescription{
-    margin-left: 5px;
-}
 
-#upgradeItems{
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-    padding: 10px;
-}
-
-body { padding: 1rem; }
 
 @media (min-width: 600px) {
-    #upgradeItems { grid-template-columns: repeat(2, 1fr); }
+    /*#upgradeItems { grid-template-columns: repeat(2, 1fr); }*/
 }
 
 @media (min-width: 900px) {
-    #upgradeItems { grid-template-columns: repeat(3, 1fr); }
+    /*#upgradeItems { grid-template-columns: repeat(3, 1fr); }*/
 }
 
-.low{
-    background-color: green;
-}
 
-.medium{
-    background-color: gold;
+.low {
     color: black;
+    border: 2px solid var(--upgrade-low);
+    border-bottom: 40px solid var(--upgrade-low);
+    
 }
 
-.high{
-    background-color: red;
+.medium {
+    color: black;
+    border: 2px solid var(--upgrade-medium);
+    border-bottom: 40px solid var(--upgrade-medium);
+    
+}
+
+.high {
+    color: black;
+    border: 2px solid var(--upgrade-high);
+    border-bottom: 40px solid var(--upgrade-high);
+    
+}
+
+.low, .medium, .high{
+    background-color: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
+	height: 100%;
+}
+
+.legendaUpgrades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 20px 30px;
+}
+.legendaUpgrades p{
+    margin:0;
+}
+.legendaUpgrades div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.legendaUpgrades-color{
+    width: 50px;
+    margin-right:10px
+}
+.legendaUpgrades-color.low{
+    background-color: var(--upgrade-low);
+	height: 100%;
+}
+.legendaUpgrades-color.medium{
+    background-color: var(--upgrade-medium);
+	height: 100%;
+}
+.legendaUpgrades-color.high{
+    background-color: var(--upgrade-high);
+	height: 100%;
 }
