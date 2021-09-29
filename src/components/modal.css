@@ -9,7 +9,8 @@
   
   .modal-main {
     position:fixed;
-    background: white;
+    background: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
     width: 80%;
     height: auto;
     top:50%;

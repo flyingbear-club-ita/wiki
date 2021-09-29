@@ -155,7 +155,8 @@ body {
 }
 
 .low, .medium, .high{
-    background-color: white;
+    background-color: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
 	height: 100%;
 }
 
