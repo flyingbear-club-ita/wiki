@@ -18,6 +18,9 @@
   --upgrade-low: green;
   --upgrade-medium: gold;
   --upgrade-high: red;
+  --upgrade-textcolor-low: #FFFFFF;
+  --upgrade-textcolor-medium: #000000;
+  --upgrade-textcolor-high: #FFFFFF;
 }
 
 .docusaurus-highlight-code-line {

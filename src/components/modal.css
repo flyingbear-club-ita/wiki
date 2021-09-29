@@ -28,25 +28,46 @@
   }
 
   .link{
-      background-color: wheat;
-      text-align: center;
-      color: black;
-      border-radius: 15px 50px;
-      width: 50%;
-      align-self: center;
-      margin-top: 10px;
-      margin-bottom: 10px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px;
+	padding: 10px 40px;
+	align-self: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
   }
+  
+  .modal-main button {
+    padding: 20px 30px;
+	}
+	
+	.modal-main button:hover, .link:hover{
+		cursor:pointer;
+	}
 
   .title{
-    background-color: wheat;
     text-align: center;
-    color: black;
-    border-radius: 15px 50px;
     width: 100%;
-    align-self: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.title.low, .link.low{
+    background-color: var(--upgrade-low); 
+    color: var(--upgrade-textcolor-low);
+    border-bottom: 10px solid var(--upgrade-low);
+	height: 100%;
+}
+.title.medium{
+    background-color: var(--upgrade-medium);    
+    color: var(--upgrade-textcolor-medium);
+    border-bottom: 10px solid var(--upgrade-medium);
+	height: 100%;
+}
+.title.high{
+    background-color: var(--upgrade-high); 
+    color: var(--upgrade-textcolor-high);
+    border-bottom: 10px solid var(--upgrade-high);
+	height: 100%;
 }
 
 .infoContainer{
@@ -62,10 +83,19 @@
 
 .description{
     white-space: pre-line;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 20px;
+}
+
+.descriptionContainer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 @media (max-width: 900px) {
-    .infoContainer { flex-direction: column; }
+    .infoContainer { flex-direction: column; align-items: center; }
+    .descriptionContainer {
+		flex-flow: column;
+		align-items: center;
+	}
 }
