@@ -54,6 +54,19 @@ body {
     cursor: pointer;
 }
 
+.upgradeItem.low:hover {
+    background-color: var(--upgrade-low); 
+    color: var(--upgrade-textcolor-low);
+}
+.upgradeItem.medium:hover {
+    background-color: var(--upgrade-medium); 
+    color: var(--upgrade-textcolor-medium);
+}
+.upgradeItem.high:hover {
+    background-color: var(--upgrade-high); 
+    color: var(--upgrade-textcolor-high);
+}
+
 .upgradeItemTitle {
     width: auto;
     /*background-color: cadetblue;*/
