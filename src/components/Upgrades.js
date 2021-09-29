@@ -9,7 +9,7 @@ class Upgrades extends React.Component{
     }
 
     render(){
-        return(
+        return(        
             <div id='upgradeItems'>
                 {
                 this.props.data.map( item => (

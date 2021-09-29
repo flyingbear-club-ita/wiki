@@ -51,6 +51,7 @@ class GridItem extends React.Component{
 
     render(){        
         return(
+		
             <div className='upgradeItemContainer'>
                 <div className={`upgradeItem ${this.props.difficulty}`} onClick={this.showModal}>
                     <span className='upgradeItemTitle'>{this.props.title}</span>
