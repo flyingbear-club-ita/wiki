@@ -15,9 +15,15 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --textcolor-light-mode: #FFFFFF;
+  --textcolor-dark-mode: #333333;
+  --bkg-light-mode: #FFFFFF;
+  --bkg-dark-mode: #000000;
+  --upgrade-undefined: var(--ifm-font-color-base);
   --upgrade-low: green;
   --upgrade-medium: gold;
   --upgrade-high: red;
+  --upgrade-textcolor-undefined: var(--ifm-background-color);
   --upgrade-textcolor-low: #FFFFFF;
   --upgrade-textcolor-medium: #000000;
   --upgrade-textcolor-high: #FFFFFF;
@@ -55,4 +61,5 @@ h1{
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: flex-start;
+	margin-bottom: 30px;
 }
