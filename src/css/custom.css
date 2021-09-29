@@ -63,3 +63,7 @@ h1{
 	align-items: flex-start;
 	margin-bottom: 30px;
 }
+
+.menu__link{
+line-height: 2;
+}
