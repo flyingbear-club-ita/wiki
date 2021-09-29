@@ -1,9 +1,8 @@
 import React from 'react';
+import { url } from '../../docusaurus.config'
 
 import './Upgrades.css';
 import './modal.css'
-import { url, baseUrl } from '../../docusaurus.config'
-
 
 const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
@@ -20,11 +19,14 @@ const Modal = ({ handleClose, show, children }) => {
     );
   };
 
-function setBaseUrl(){
-    if (process.env.ENV == 'dev'){
-        return 'http://localhost:3000/'
-    } else {
-        return url + '/wiki/'
+  function setBaseUrl(url){
+    try {
+        if (process.env.ENV == 'dev'){
+            return url
+        }
+    }
+    finally{
+        return 'https://flyingbearghost.com/'+url
     }
 }
 
@@ -35,7 +37,7 @@ class GridItem extends React.Component{
         this.props = props;
         this.showModal = this.showModal.bind(this);
         this.hideModal = this.hideModal.bind(this);
-        this.imgUrl =  setBaseUrl() + props.img;
+        this.imgUrl =  setBaseUrl(props.img);
     }
     
     showModal()  {
@@ -60,11 +62,11 @@ class GridItem extends React.Component{
                 <Modal show={this.state.show} handleClose={this.hideModal}>
                         <h1 className='title'>{this.props.title}</h1>
                         <div className='infoContainer'>
-                            <img width="200" height="200" src={this.imgUrl}></img>
+                            <img width="200" height="200" src={setBaseUrl(this.props.img)}></img>
                             <div className='descriptionContainer'>
                                 <p className="description">{this.props.detailedDescription}</p>
                                 { this.props.descriptionImage!=null &&
-                                    <img src={this.props.descriptionImage} width="70%" height="80%"/>
+                                    <img src={setBaseUrl(this.props.descriptionImage)} width="70%" height="80%"/>
                                 }
                             </div>
                         </div>
