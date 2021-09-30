@@ -15,6 +15,9 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --brand-primary: #044389;
+  --brand-primary-dark: #333333;
+  --brand-second: #FFAD05;
   --textcolor-light-mode: #FFFFFF;
   --textcolor-dark-mode: #333333;
   --bkg-light-mode: #FFFFFF;
@@ -38,11 +41,92 @@
 
 body{
 	line-height:1.5;
+	padding: 0 !important;
 }
+
+.navbar__toggle {
+    color: white;
+    }
+    
+html[data-theme="light"] .navbar-sidebar {
+    background: var(--brand-primary) ;
+}
+
+html[data-theme="light"] .docMainContainer_node_modules-@docusaurus-theme-classic-lib-next-theme-DocPage- a {
+    color: var(--brand-primary) !important;
+}
+
+html[data-theme="light"] .col.docItemCol_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem- a{
+    color: var(--brand-primary) !important;
+}
+
+html[data-theme="light"] .hash-link {
+    color: var(--brand-primary) !important;
+}
+html[data-theme="dark"] .docMainContainer_node_modules-@docusaurus-theme-classic-lib-next-theme-DocPage- a {
+    color: var(--brand-primary) !important;
+}
+
+html[data-theme="dark"] .col.docItemCol_node_modules-@docusaurus-theme-classic-lib-next-theme-DocItem- a{
+    color: var(--brand-second) !important;
+}
+
+html[data-theme="dark"] .hash-link {
+    color: var(--brand-second) !important;
+}
+
+.menu__link{
+line-height: 2;
+color: var(--textcolor-light-mode);
+}
+
+html[data-theme="light"] table a, html[data-theme="light"] .markdown a {
+    color: var(--brand-primary) !important;
+}
+html[data-theme="dark"] table a, html[data-theme="dark"] .markdown a {
+    color: var(--brand-second) !important;
+}
+html[data-theme="light"] table a:hover, html[data-theme="light"] .markdown a:hover {
+    color: var(--brand-second) !important;
+}
+html[data-theme="dark"] table a:hover, html[data-theme="dark"] .markdown a:hover {
+    color: #7CAFC4 !important;
+}
+
+html[data-theme="dark"] .pagination-nav__link, html[data-theme="dark"] .pagination-nav__label, html[data-theme="dark"] .dropdown__link {
+    border-color: var(--textcolor-light-mode);
+    color: var(--textcolor-light-mode);
+}
+
+html[data-theme="dark"] .pagination-nav__link:hover, html[data-theme="dark"] .pagination-nav__link:active, html[data-theme="dark"] .pagination-nav__label:hover,
+html[data-theme="dark"] .dropdown__link:hover, html[data-theme="dark"] .dropdown__link--active {
+    border-color: var(--brand-second);
+    color: var(--brand-second);
+}
+
+html[data-theme="light"] .pagination-nav__link, html[data-theme="light"] .pagination-nav__label, html[data-theme="light"] .dropdown__link {
+    border-color: var(--brand-primary);
+    color: var(--brand-primary);
+}
+
+html[data-theme="light"] .pagination-nav__link:hover, html[data-theme="light"] .pagination-nav__link:active, html[data-theme="light"] .pagination-nav__label:hover,
+html[data-theme="light"] .dropdown__link:hover, html[data-theme="light"] .dropdown__link--active {
+    border-color: var(--brand-second);
+    color: var(--brand-second);
+}
+
+.navbar__title{
+	color: #FFFFFF;
+}
+.navbar__title:hover, .navbar__title:active{
+	color: var(--brand-second);
+}
+
+
 
 h1{
 	line-height:1.6;
-	font-size: 4.5vw;
+	font-size: 6vw;
 }
 
 @media (min-width: 768px) {
@@ -61,9 +145,113 @@ h1{
 	flex-flow: row wrap;
 	justify-content: center;
 	align-items: flex-start;
-	margin-bottom: 30px;
+	margin: 30px 6%;
+text-align: center;
 }
 
-.menu__link{
-line-height: 2;
+.alert {
+    margin: 25px 0;
 }
+
+.admonition.admonition-danger.alert.alert--danger,
+.admonition.admonition-tip.alert.alert--success {
+    color: #FFFFFF !important;
+}  
+
+.admonition.admonition-info.alert.alert--info {
+    color: #111111 !important;
+}  
+
+.admonition.admonition-info.alert.alert--info svg {
+    color: #111111 !important;
+    fill: #111111 !important;
+    stroke: #111111 !important;
+}
+
+.admonition.admonition-danger.alert.alert--danger svg,
+.admonition.admonition-tip.alert.alert--success svg {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+}
+
+
+
+html[data-theme="light"] .modal-main {
+background: var(--bkg-dark-mode);
+}
+
+html[data-theme="dark"] .modal-main {
+background: var(--bkg-dark-mode);
+}
+
+html[data-theme="light"] .menu.menu--responsive.thin-scrollbar.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+    background: var(--brand-primary);
+}
+
+html[data-theme="dark"] .menu.menu--responsive.thin-scrollbar.menu_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocSidebar- {
+    background: var(--brand-primary-dark);
+}
+
+
+
+html[data-theme="light"] .table-of-contents__link {
+    color: var(--brand-primary);
+}
+html[data-theme="dark"] .table-of-contents__link {
+    color: var(--textcolor-light-mode);
+}
+
+html[data-theme="light"] .menu__link:hover, 
+html[data-theme="light"] .menu__link.menu__link--active.active:active, 
+html[data-theme="light"] .menu__link:active, 
+html[data-theme="light"] .table-of-contents__link:hover, 
+html[data-theme="light"] .table-of-contents__link:hover code, 
+html[data-theme="light"] .table-of-contents__link--active, 
+html[data-theme="light"] .table-of-contents__link--active code, 
+html[data-theme="light"] .navbar__link:hover, 
+html[data-theme="light"] .navbar__link--active, 
+html[data-theme="light"] .navbar__item.navbar__link.navbar__link--active:hover:active {
+    color: var(--brand-second);
+}
+html[data-theme="dark"] .menu__link:hover, 
+html[data-theme="dark"] .menu__link.menu__link--active.active:active, 
+html[data-theme="dark"] .menu__link:active, 
+html[data-theme="dark"] .table-of-contents__link:hover, 
+html[data-theme="dark"] .table-of-contents__link:hover code, 
+html[data-theme="dark"] .table-of-contents__link--active, 
+html[data-theme="dark"] .table-of-contents__link--active code, 
+html[data-theme="dark"] .navbar__link:hover, 
+html[data-theme="dark"] .navbar__link--active, 
+html[data-theme="dark"] .navbar__item.navbar__link.navbar__link--active:hover:active {
+    color: var(--brand-second);
+}
+
+html[data-theme="light"] .navbar.navbar--fixed-top{
+	background: var(--brand-primary);
+}
+html[data-theme="dark"] .navbar.navbar--fixed-top{
+	background: var(--brand-primary-dark);
+}
+
+.token.plain {
+    color: white;
+}
+.navbar__item.navbar__link {
+    color: var(--textcolor-light-mode);
+}
+.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- img {
+    margin: 25px 0;
+}
+
+
+html[data-theme="light"] footer{
+	background:var(--brand-primary) !important;
+}
+
+html[data-theme="dark"] footer{
+	background:var(--brand-primary-dark) !important;
+}
+
+
+

@@ -86,7 +86,7 @@ html[data-theme="dark"] .upgradeItem.undefined:hover {
     text-align: center;
     margin: 10px 5px 20px 5px;
 	font-weight: bold;
-	font-size: 4vw;
+	font-size: 6vw;
     font-weight:bold;
 }
 
@@ -175,10 +175,18 @@ html[data-theme="dark"] .upgradeItem.undefined:hover {
 
 .legendaUpgrades {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+		flex-flow: column wrap;
+		justify-content: center;
     margin: 0 20px 30px;
 }
+
+@media (min-width: 450px) {
+    .legendaUpgrades {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+	}
+}
+
 .legendaUpgrades p{
     margin:0;
 }
@@ -187,6 +195,7 @@ html[data-theme="dark"] .upgradeItem.undefined:hover {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    margin: 5px 10px;
 }
 .legendaUpgrades-color{
     width: 50px;
