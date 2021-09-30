@@ -12,6 +12,8 @@
 html[data-theme="dark"] .modal-main {
 background: var(--bkg-dark-mode);
 }
+
+
   .modal-main {
     position:fixed;
     background: var(--ifm-background-color);
