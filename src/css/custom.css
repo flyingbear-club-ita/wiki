@@ -43,16 +43,108 @@ body{
 	line-height:1.5;
 	padding: 0 !important;
 }
+p {
+    line-height: 1.8;
+}
+.heroBanner_src-pages- {
+    background:url(https://m.media-amazon.com/images/I/61I6N5-sbLL._SL1500_.jpg) center center;
+    background-size: contain;
+    height: 65vh;
+    text-align: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	color: orange;
+    margin-bottom: 50px;
+}
+.hero__name {
+    font-size: 2vw;
+    margin: 50px 0;
+}
+.text-visual-home{
+	text-align:center
+}
+
+.sezione-wiki, .sezione-upgrades, .sezione-ricambi {
+    text-align:center;
+    margin: 50px 10px;
+}
+
+.sezione-wiki p {
+    font-size: 1.5rem;
+}
+
+.features_src-pages- .row {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.features_src-pages- .row .colonna-social {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_src-pages- .row .colonna-social div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .navbar__toggle {
     color: white;
     }
+
+.sezione-upgrades-ricambi {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.sezione-upgrades-ricambi div {
+    max-width: 45vw;
+}
+
+html[data-theme="light"] .features_src-pages- a{
+    color: var(--brand-primary) !important;
+}
+
+html[data-theme="dark"] .features_src-pages- a{
+    color: var(--brand-second) !important;
+}
+html[data-theme="light"] .features_src-pages- a:hover{
+    color: var(--brand-second) !important;
+}
+
+html[data-theme="dark"] .features_src-pages- a:hover{
+    color: var(--textcolor-light-mode) !important;
+}
+
+html[data-theme="light"] .button.button--secondary.button--outline:not(.button--active):not(:hover){
+	background: var(--brand-primary) ;
+	color: var(--textcolor-light-mode);
+}
+
+html[data-theme="dark"] .button.button--secondary.button--outline:not(.button--active):not(:hover){
+	background: var(--bkg-light-mode);
+	color: var(--textcolor-dark-mode);
+}
+
+.button--outline:hover{
+background: var(--brand-second) ;
+	color: var(--textcolor-dark-mode);
+}
     
+
 html[data-theme="light"] .navbar-sidebar {
     background: var(--brand-primary) ;
 }
 
-html[data-theme="light"] .docMainContainer_node_modules-@docusaurus-theme-classic-lib-next-theme-DocPage- a {
+html[data-theme="light"] .docMainContainer_node_modules-@docusaurus-theme-classic-lib-next-theme-DocPage- a{
     color: var(--brand-primary) !important;
 }
 
@@ -74,6 +166,7 @@ html[data-theme="dark"] .col.docItemCol_node_modules-@docusaurus-theme-classic-l
 html[data-theme="dark"] .hash-link {
     color: var(--brand-second) !important;
 }
+
 
 .menu__link{
 line-height: 2;
@@ -126,12 +219,19 @@ html[data-theme="light"] .dropdown__link:hover, html[data-theme="light"] .dropdo
 
 h1{
 	line-height:1.6;
-	font-size: 6vw;
+	font-size: 7vw;
+}
+h2{
+	line-height:1.6;
+	font-size: 6.5vw;
 }
 
 @media (min-width: 768px) {
     h1 { 
 		font-size: 3.5vw;
+	}
+    h2 { 
+		font-size: 3vw;
 	}
 }
 
