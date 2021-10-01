@@ -20,15 +20,15 @@
     "description": "The label for category Ideamaker in sidebar docs"
   },
   "sidebar.docs.category.3D Printing in generale": {
-    "message": "3D Printing in generale",
+    "message": "3D Printing in general",
     "description": "The label for category 3D Printing in generale in sidebar docs"
-  },
-  "sidebar.docs.category.Raspberry": {
-    "message": "Raspberry",
-    "description": "The label for category Raspberry in sidebar docs"
   },
   "sidebar.docs.category.Marlin": {
     "message": "Marlin",
     "description": "The label for category Marlin in sidebar docs"
+  },
+  "sidebar.docs.category.Raspberry Pi": {
+    "message": "Raspberry Pi",
+    "description": "The label for category Raspberry Pi in sidebar docs"
   }
 }

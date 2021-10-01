@@ -1,6 +1,7 @@
 ---
 title: Introduzione al Raspberry
 slug: /raspberry/introduzione
+sidebar_label: Introduction to Raspberry Pi
 ---
 
 **Autore: Nick_it**

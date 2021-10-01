@@ -1,6 +1,7 @@
 ---
-title: Firmware MKS Compilato
+title: Compiled MKS Firmware
 slug: /marlin/firmware_compilato
+sidebar_label: Compiled MKS Firmware
 ---
 
 In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su **Marlin 2.0.X**, a cura di The_Wolf_87

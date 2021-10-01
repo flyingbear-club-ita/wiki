@@ -1,6 +1,8 @@
 ---
-title: Errori
+title: Errors
 slug: /errori
+keywords: 3d printing, flyingbear, flying bear, flyingbear ghost, errors, manual
+sidebar_label: Errors
 ---
 
 Lista degli errori presa dal manuale della flyingbear

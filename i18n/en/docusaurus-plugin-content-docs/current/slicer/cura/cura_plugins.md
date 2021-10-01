@@ -1,9 +1,10 @@
 ---
-title: I migliori plugin per Cura
+title: Best plugins for Cura
 slug: /slicer/cura/plugins
 description: Ultimaker Cura Plugins
 keywords: cura, ultimaker, ultimaker cura, 3d printing, flyingbear, flying bear, flyingbear ghost, slicer, slicing, plugins, cura plugins
 image: /img/Ultimaker_cura.png
+sidebar_label: Best plugins for Cura
 ---
 
 export const PluginInfo = ({children, title}) => (

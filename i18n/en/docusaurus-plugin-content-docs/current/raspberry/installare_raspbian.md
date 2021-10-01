@@ -1,6 +1,7 @@
 ---
 title: Installare Octoprint
 slug: /raspberry/installazione_raspbian
+sidebar_label: How to install Raspbian
 ---
 **Autore: Nick_it**
 

@@ -1,6 +1,7 @@
 ---
 title: Multi Boot con Raspberry
 slug: /raspberry/multiboot
+sidebar_label: Multiboot with Raspberry Pi
 ---
 
 ## Premessa

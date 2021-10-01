@@ -1,6 +1,8 @@
 ---
-title: Calibrazione Flusso
+title: Flow Calibration
 slug: /3dprinting/flusso
+sidebar_label: Flow Calibration
+keywords: 3d printing, flyingbear, flying bear, flyingbear ghost, calibration, flow, flow calibration
 ---
 
 Calibrare il flusso e' importante per non andare fuori di testa quando si cercano i parametri ottimali per un nuovo filamento, quello col quale tutti stampano da dio, ma a te viene una mezza schifezza

@@ -1,9 +1,10 @@
 ---
-title: Informazioni
+title: Introduction to Cura
 slug: /slicer/cura
 description: Ultimaker Cura, the most popular slicer
 keywords: cura, ultimaker, ultimaker cura, 3d printing, flyingbear, flying bear, flyingbear ghost, slicer, slicing
 image: /img/Ultimaker_cura.png
+sidebar_label: Introduction to Cura
 ---
 
 Lo slicer piu' diffuso tra i membri della community, contiene gia' le impostazioni per la flyingbear ghost (dalla 4.6.0 quello per la 4s, dalla 4.8.0 quello per la 5)

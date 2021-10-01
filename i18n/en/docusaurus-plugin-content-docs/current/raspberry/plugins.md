@@ -1,6 +1,7 @@
 ---
 title: Plugins per Octoprint
 slug: /raspberry/octoprint-plugins
+sidebar_label: Best plugins for Octoprint
 ---
 
 ## Premessa

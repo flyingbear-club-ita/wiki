@@ -1,9 +1,10 @@
 ---
-title: Creare un profilo di stampa
+title: Create a new profile
 slug: /slicer/cura/profilo_stampa
 description: Ultimaker Cura Profili
 keywords: cura, ultimaker, ultimaker cura, 3d printing, flyingbear, flying bear, flyingbear ghost, slicer, slicing, plugins, cura plugins, profile, pla, petg
 image: /img/Ultimaker_cura.png
+sidebar_label: Create a new profile
 ---
 
 ## Creazione di un nuovo profilo

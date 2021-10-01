@@ -1,6 +1,7 @@
 ---
-title: Ideamaker - Introduzione
+title: Introduction to Ideamaker
 slug: /slicer/ideamaker
+sidebar_label: Introduction to Ideamaker
 ---
 
 Questo slicer sta prendendo sempre piu' piede, grazie anche ai profili per le Ghost disponibili su [ideamaker.io](https://ideamaker.io)
