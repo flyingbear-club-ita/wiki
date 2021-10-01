@@ -37,7 +37,7 @@ module.exports = {
         'manuale',
         {
           type: 'category',
-          label: 'Raspberry',
+          label: 'Raspberry Pi',
           items: [
             'raspberry/introduzione', 
             'raspberry/installare_raspbian', 
