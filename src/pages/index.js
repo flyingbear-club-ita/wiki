@@ -83,7 +83,8 @@ export default function Home() {
   return (
     <Layout
       title={title}
-      description={description}>
+      description={description}
+      keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
       {/*
         Leaving modal here, we'll reactivate for some other surveys
         <SurveyModal/>
