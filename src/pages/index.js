@@ -78,11 +78,13 @@ function Feature({imageUrl, title, description, link}) {
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  const title = translate({id:"pageTitle", message:"Benvenuto nella wiki sulla Flyingbear Ghost"})
-  const description = translate({id:"description", message:"La wiki della community italiana sulla Flyingbear Ghost"})
+  const description = translate({id:"description", message:`
+  La wiki della community italiana sulla Flyingbear Ghost
+  Punto di ritrovo per gli appassionati di stampanti 3d e non solo
+  Guide per la calibrazione, ottimizzazione, modding ed altro, tutte incentrate su Flyingbear Ghost 4s e 5
+`})
   return (
     <Layout
-      title={title}
       description={description}
       keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
       {/*
