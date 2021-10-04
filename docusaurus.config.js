@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Flying Bear Ghost Wiki',
   tagline: 'Setup, calibrazioni, upgrade e molto altro',
-  url: 'https://flyingbear-club-ita.github.io/',
+  url: 'https://flyingbearghost.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
