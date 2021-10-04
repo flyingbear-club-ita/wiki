@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Flying Bear Ghost Wiki',
+  title: 'Flyingbear Ghost Wiki',
   tagline: 'Setup, calibrazioni, upgrade e molto altro',
   url: 'https://flyingbearghost.com',
   baseUrl: '/',
