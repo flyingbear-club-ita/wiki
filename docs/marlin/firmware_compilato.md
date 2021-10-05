@@ -25,7 +25,7 @@ La seconda e' configurare gli step per millimetro tramite interfaccia grafica
 A questo punto, la stampante e' pronta per stampare
 
 ## I vari firmware
-
+<!-- 
 [Ghost 4s Stock](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_4s_base)
 
 [Ghost 4s Stock con BlTouch](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_4s_bltouch)
@@ -34,4 +34,11 @@ A questo punto, la stampante e' pronta per stampare
 
 [Ghost 5 Tutti TMC2209](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_5_tmc2209)
 
-[Ghost 5 Stock con BLTouch](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_5_bltouch)
+[Ghost 5 Stock con BLTouch](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_5_bltouch) -->
+
+:::danger
+Il download dei firmware e' momentaneamente disabilitato a causa di un paio di problemi di incompatibilita' tra firmware e scheda madre
+
+Dateci un po' di tempo per sistemare tutto, poi rimetteremo i link per il download
+
+:::

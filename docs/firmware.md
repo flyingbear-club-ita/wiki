@@ -56,7 +56,15 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
 
 ## Versioni firmware disponibili
 
+
 :::danger
+Il download dei firmware e' momentaneamente disabilitato a causa di un paio di problemi di incompatibilita' tra firmware e scheda madre
+
+Dateci un po' di tempo per sistemare tutto, poi rimetteremo i link per il download
+
+:::
+
+<!-- :::danger
 Ultimamente, Flyingbear ha consegnato delle stampanti con chipset e driver diversi
 
 Prima di scaricare ed installare il firmware, controllate la stampante, per sapere quale modello avete
@@ -77,7 +85,7 @@ Stampante  | Chipset   | Driver    | Versione  | Link
 5          | STM32F103 |  STOCK    | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
 5          | STM32F407 |  TMC2225  | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
 5          | STM32F407 |  STOCK    | **v6**    | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-
+ -->
 
 
 ## Link utili
