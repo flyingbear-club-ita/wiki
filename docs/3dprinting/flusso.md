@@ -1,6 +1,7 @@
 ---
 title: Calibrazione Flusso
 slug: /3dprinting/flusso
+description: Guida alla calibrazione del flusso per filamenti PLA, PETG, ABS per la stampante 3d Flyingbear Ghost
 ---
 
 Calibrare il flusso e' importante per non andare fuori di testa quando si cercano i parametri ottimali per un nuovo filamento, quello col quale tutti stampano da dio, ma a te viene una mezza schifezza
