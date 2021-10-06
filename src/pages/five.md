@@ -1,6 +1,7 @@
 ---
 title: Ghost 5 Specs
 slug: /five
+description: Scheda tecnica Flyingbear Ghost 5. Dimensioni, specifiche tecniche, materiali supportati
 ---
 # Scheda Tecnica Ghost 5
 

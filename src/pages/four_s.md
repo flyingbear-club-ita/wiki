@@ -1,6 +1,7 @@
 ---
 title: Ghost 4s Specs
 slug: /four_s
+description: Scheda tecnica Flyingbear Ghost 4s. Dimensioni, specifiche tecniche, materiali supportati
 ---
 :::danger
 La Ghost 4s e' fuori produzione
