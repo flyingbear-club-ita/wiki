@@ -40,11 +40,11 @@ module.exports = {
           label: 'Wiki',
           position: 'left',
         },
-        {
-          href: '/gallery',
-          label: 'Gallery',
-          position: 'left',
-        },
+        // {
+        //   href: '/gallery',
+        //   label: 'Gallery',
+        //   position: 'left',
+        // },
         {
           href: '/upgrades',
           label: 'Upgrades',
