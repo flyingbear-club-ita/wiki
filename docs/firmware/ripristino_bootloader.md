@@ -25,6 +25,11 @@ Se capite l’inglese e volete affidarvi alla discussione sul problema, potete t
 - [STM32 Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html), compatible con Windows 32bit, Windows 64 bit, Mac OSx e Linux
 - [File per il Bootloader](https://github.com/makerbase-mks/MKS-Robin-Nano-V1.X/archive/refs/heads/master.zip)
 
+:::tip
+STM32 Cube Programmer potrebbe non funzionare su sistemi operativi Windows molto vecchi
+In questo caso, proseguite alla [pagina successiva](/docs/firmware/ripristino_bootloader_alternativo), dove c'e' una guida per un software alternativo
+:::
+
 ## Preparare bootloader e firmware
 
 Una volta scaricato l’archivio del bootloader, estrarre il file *Robin_nano35_v13_f4_boot_210615.hex* contenuto nel percorso */MKS-Robin_Nano-V1.X-master/Bootloader/* e salvarlo sul Desktop per facilitare i passaggi
@@ -73,7 +78,7 @@ Assicuratevi che i cavetti siano saldamente collegati ai Pin della scheda madre 
 Collegare l’ST-LINK ad una porta USB del PC, se i collegamenti sono esatti la scheda e lo schermo della stampante dovrebbero accendersi
 
 
-## Come flashare il bootloader con STM32CubeProgrammer
+## Come flashare il bootloader con STM32 Cube Programmer
 
 Aprite il software STM32CubeProgrammer che avete scaricato precedentemente e seguite i
 prossimi passaggi
