@@ -6,7 +6,13 @@ module.exports = {
       items: [
         'primi-passi',
         'calibrazioni',
-        'firmware',
+        {
+          type: 'category',
+          label: 'Firmware',
+          items: [
+            'firmware/firmware_stock',
+          ],
+        },
         {
           type: 'category',
           label: 'Slicer',

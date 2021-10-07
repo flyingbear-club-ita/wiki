@@ -1,6 +1,6 @@
 ---
-title: Firmware
-slug: /firmware
+title: Firmware Stock
+slug: /firmware/firmware_stock
 ---
 
 In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso
