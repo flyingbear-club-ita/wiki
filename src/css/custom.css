@@ -30,6 +30,7 @@
   --upgrade-textcolor-low: #FFFFFF;
   --upgrade-textcolor-medium: #000000;
   --upgrade-textcolor-high: #FFFFFF;
+  /*--ifm-menu-link-sublist-icon: #FFFFFF;*/
 }
 
 .docusaurus-highlight-code-line {
@@ -47,9 +48,9 @@ p {
     line-height: 1.8;
 }
 .heroBanner_src-pages- {
-    background:url(https://m.media-amazon.com/images/I/61I6N5-sbLL._SL1500_.jpg) center center;
+    background:url(/static/img/ghost5.jpg) center center;
     background-size: contain;
-    height: 65vh;
+    height: 45vh;
     text-align: center;
 	display: flex;
 	flex-flow: row nowrap;
@@ -106,7 +107,13 @@ p {
     width: 100%;
 }
 .sezione-upgrades-ricambi div {
-    max-width: 45vw;
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    .sezione-upgrades-ricambi div { 
+		max-width: 45vw;
+	}
 }
 
 html[data-theme="light"] .features_src-pages- a{
@@ -171,6 +178,15 @@ html[data-theme="dark"] .hash-link {
 .menu__link{
 line-height: 2;
 color: var(--textcolor-light-mode);
+}
+
+.menu__link--sublist::after {
+    background: none;
+    content: "^";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: none;
 }
 
 html[data-theme="light"] table a, html[data-theme="light"] .markdown a {
