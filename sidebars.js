@@ -11,6 +11,8 @@ module.exports = {
           label: 'Firmware',
           items: [
             'firmware/firmware_stock',
+            'firmware/ripristino_bootloader',
+            'firmware/ripristino_bootloader_alternativo',
           ],
         },
         {
