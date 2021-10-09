@@ -116,7 +116,7 @@ Nel caso in cui il processo apparisse bloccato sul messaggio a schermo “Updati
 
 Se il processo è andato a buon fine, dovrebbe apparire a schermo il logo Makerbase ed avrete installato il Custom Firmware che probabilmente tanto agognavate!
 
-(probabilmente qui ci metterei che, a questo punto, e' possibile installare il firmware stock della ghost)
+A questo punto, e' possibile installare il firmware stock della ghost
 
 :::info
 Per qualsiasi domanda in merito a questa guida, non esitate a contattarci via Discord:
