@@ -1,6 +1,7 @@
 ---
 title: Primi Passi
 slug: /
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setup", "hotend", "heath bed", "firmware", "pid"]
 ---
 ## Software
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 

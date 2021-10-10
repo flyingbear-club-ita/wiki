@@ -1,7 +1,7 @@
 ---
 title: Errors
 slug: /errori
-keywords: 3d printing, flyingbear, flying bear, flyingbear ghost, errors, manual
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "errors", "manual"]
 sidebar_label: Errors
 ---
 

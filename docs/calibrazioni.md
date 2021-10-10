@@ -1,7 +1,7 @@
 ---
 title: Calibrazioni
 slug: /calibrazioni
-keywords: 3d printing, flyingbear, flying bear, flyingbear ghost, calibration, hotend, heath bed
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "hotend", "heath bed"]
 ---
 
 ## Piano di stampa 

@@ -1,7 +1,7 @@
 ---
 title: Generic
 slug: /slicer
-keywords: 3d printing, flyingbear, flying bear, flyingbear ghost, slicer, cura, ultimaker, ultimaker cura, ideamaker, prusa slicer, slic3r
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
 sidebar_label: Generic
 ---
 

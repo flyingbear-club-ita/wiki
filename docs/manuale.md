@@ -1,6 +1,7 @@
 ---
 title: Manuale
 slug: /manuale
+keywords: ["flyingbear", "flyingbear ghost", "flying bear", "flying bear ghost", "manual"]
 ---
 
 ![alt text](/img/page01.jpg "Barra di progresso aggiornamento")
