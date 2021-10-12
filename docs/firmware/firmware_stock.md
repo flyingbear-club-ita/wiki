@@ -1,6 +1,6 @@
 ---
-title: Firmware
-slug: /firmware
+title: Firmware Stock
+slug: /firmware/firmware_stock
 ---
 
 In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso
@@ -83,10 +83,10 @@ Una volta trovata la configurazione, consultate la figura qui sotto per decidere
 Stampante  | Chipset   | Driver    | Versione  | Link
 :---------:| :-------: | :------:  | :------:  | :--:
 4S         |   NA      |  STOCK    | **3.5.1** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_4s)
-5          | STM32F103 | TMC2208/9 | **5.8**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F103 |  STOCK    | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F407 |  TMC2225  | **5.9**   | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F407 |  STOCK    | **v6.4**  | **Aspettiamo di testare prima di pubblicare**
+5          | STM32F103 | TMC2208/9 |**5.83-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F103 |  STOCK    | **5.8.5** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F407 |  TMC2225  | **5.95-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | STM32F407 |  STOCK    | **v6.4**  | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
 
 
 

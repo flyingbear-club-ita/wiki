@@ -2,7 +2,7 @@
 title: Manuale
 slug: /manuale
 sidebar_label: Manual
-keywords: flyingbear, flyingbear ghost, flying bear, flying bear ghost, manual
+keywords: ["flyingbear", "flyingbear ghost", "flying bear", "flying bear ghost", "manual"]
 ---
 
 ![alt text](/img/page01.jpg "Barra di progresso aggiornamento")

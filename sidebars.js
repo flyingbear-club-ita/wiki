@@ -6,7 +6,15 @@ module.exports = {
       items: [
         'primi-passi',
         'calibrazioni',
-        'firmware',
+        {
+          type: 'category',
+          label: 'Firmware',
+          items: [
+            'firmware/firmware_stock',
+            'firmware/ripristino_bootloader',
+            'firmware/ripristino_bootloader_alternativo',
+          ],
+        },
         {
           type: 'category',
           label: 'Slicer',

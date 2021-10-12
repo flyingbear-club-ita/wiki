@@ -1,6 +1,7 @@
 ---
 title: Generale
 slug: /slicer
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
 ---
 
 ## GCode

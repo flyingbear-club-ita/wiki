@@ -8,6 +8,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'flyingbear-club-ita',
+  trailingSlash: false,
   projectName: 'wiki',
   themeConfig: {
     navbar: {
@@ -25,12 +26,10 @@ module.exports = {
             {
               href:'/four_s',
               label: 'Ghost 4s',
-              position: 'left',
             },
             {
               href: '/five',
               label: 'Ghost 5',
-              position: 'left',
             }
           ]
         },

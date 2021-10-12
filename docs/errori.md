@@ -1,6 +1,7 @@
 ---
 title: Errori
 slug: /errori
+keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "errors", "manual"]
 ---
 
 Lista degli errori presa dal manuale della flyingbear
