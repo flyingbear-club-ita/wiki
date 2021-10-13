@@ -270,4 +270,97 @@ Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare
 :::
 
 ### Assi
-*Coming soon*
+Stampare elementi con incastri e' una delle cose piu' problematiche della stampa 3d: a causa di espansione del materiale e/o inaccuratezze nel modello originale (per esempio, una errata tolleranza)
+
+Per raggiungere risultati precisi al centesimo di millimetro, anche gli assi hanno bisogno di una calibrazione, che si puo' fare tramite un semplice cubetto da stampare ed un calibro centesimale
+
+Prima di cominciare, scarichiamo il file di test da qui:
+
+[Cubetto di calibrazione 20x20](https://www.thingiverse.com/thing:1278865)
+
+:::tip
+In alternativa, potete anche lanciare il vosto CAD preferito e farvelo da soli
+:::
+
+Una volta stampato il cubetto, prendiamo nota degli step di ciascun asse
+
+Quelli di default per la Ghost sono riportati nella tabella qui sotto
+
+|  X  |  Y  |  Z   |
+| --- |  -- |  --  |
+| 80  |  80 | 400  |
+
+
+In alternativa, potete inviare il gcode **M501** (per esempio tramite repetier host)
+
+Dall'output potete estrapolare la seguente riga:
+
+```
+M92 X__ Y__ Z___ E__
+```
+
+Dove i valori rappresentano, rispettivamente, i passi dell'asse X, Y, Z e dell'estrusore
+
+Una volta stampato il cubetto, andiamo a misurare ciascun asse
+
+:::info
+Il cubetto del link e' molto utile per identificare quale asse si sta misurando
+Se il calibro punta verso la faccia con la X, allora si sta misurando l'asse X, e via dicendo
+:::
+
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - before](/img/calibration/axis/xBeforeCalib.jpg) ](/img/calibration/axis/xBeforeCalib.jpg) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - before](/img/calibration/axis/yBeforeCalib.jpg) ](/img/calibration/axis/yBeforeCalib.jpg) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - before](/img/calibration/axis/zBeforeCalib.jpg) ](/img/calibration/axis/zBeforeCalib.jpg)
+
+
+Adesso andiamo ad applicare una proporzione per rispondere alla domanda "Se con XX step ottengo XX mm, quanti step devo avere per ottenere il mio valore atteso, cioe' 20mm?"
+
+```
+step_attuali : valore_misurato = step_ottimali : valore_atteso
+```
+
+che si traduce nella formula finale:
+```
+step_ottimali = (step_attuali * valore_atteso)/valore_misurato
+```
+
+Nel caso delle misure in foto, avremo:
+
+```
+(80 * 20mm) / 20.14mm = 79.4
+
+(80 * 20mm) / 20.09mm = 79.6
+
+(400 * 20mm) / 20.26mm = 394.8
+```
+
+Adesso possiamo aggiornare gli step sulla stampante
+
+Con il firmware originale, basta aggiornare i valori nel robin_nano_cfg.cur (come descritto precedentemente, flashando la stampante con il solo file di config)
+
+In alternativa, e' possibile settare gli step tramite i comandi gCode (da lanciare uno alla volta!)
+
+```
+M92 X79.4
+
+M92 Y79.2
+
+M92 Z394.8
+
+```
+
+Per salvare i valori sulla EEPROM, invire il comando:
+
+```
+M500
+```
+
+Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a posto con il gcode **M501**
+
+Se tutto e' a posto, siamo pronti a stampare il cubetto un'altra volta e a misurare i nuovi valori
+
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - after](/img/calibration/axis/xAfterCalib.jpg) ](/img/calibration/axis/xAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - after](/img/calibration/axis/yAfterCalib.jpg) ](/img/calibration/axis/yAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - after](/img/calibration/axis/zAfterCalib.jpg) ](/img/calibration/axis/zAfterCalib.jpg)
+
+Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
+- +0.3 sull'asse X, a fronte di uno scarto di +0.14 precedentemente
+- +0.2 sull'asse Y, a fronte di uno scarto di +0.09 precedentemente
+- -0.07 sull'asse Y, a fronte di uno scarto di +0.26 precedentemente
+
