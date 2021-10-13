@@ -180,6 +180,16 @@ line-height: 2;
 color: var(--textcolor-light-mode);
 }
 
+aside[class^="docSidebarContainer"] .menu__link{
+line-height: 2;
+color: var(--textcolor-dark-mode);
+}
+
+html[data-theme="dark"] aside[class^="docSidebarContainer"] .menu__link{
+line-height: 2;
+color: var(--textcolor-light-mode);
+}
+
 .menu__link--sublist::after {
     background: none;
     content: "^";
@@ -269,14 +279,14 @@ text-align: center;
     margin: 25px 0;
 }
 
-.admonition.admonition-danger.alert.alert--danger,
-.admonition.admonition-tip.alert.alert--success {
+html[data-theme="dark"] .admonition.admonition-danger.alert.alert--danger,
+html[data-theme="dark"] .admonition.admonition-tip.alert.alert--success {
     color: #FFFFFF !important;
-}  
+}
 
 .admonition.admonition-info.alert.alert--info {
     color: #111111 !important;
-}  
+}
 
 .admonition.admonition-info.alert.alert--info svg {
     color: #111111 !important;
@@ -284,13 +294,12 @@ text-align: center;
     stroke: #111111 !important;
 }
 
-.admonition.admonition-danger.alert.alert--danger svg,
-.admonition.admonition-tip.alert.alert--success svg {
+html[data-theme="dark"] .admonition.admonition-danger.alert.alert--danger svg,
+html[data-theme="dark"] .admonition.admonition-tip.alert.alert--success svg {
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
     stroke: #FFFFFF !important;
 }
-
 
 
 html[data-theme="light"] .modal-main {
