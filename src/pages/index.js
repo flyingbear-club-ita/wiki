@@ -10,12 +10,12 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const features = [
   {
-    title: translate({id: 'discord.header', message:'Iscriviti alla community su Discord'}),
+    title: translate({id: 'discord.header', message:'Seguici su Discord'}),
     imageUrl: 'img/discordLogoNew.svg',
     description: (
       translate({
         id: 'discord.message',
-        message: "La community su Discord e' il nostro punto di riferimento, tutti i contenuti partono da li'"
+        message: "Il nostro punto di riferimento, tutti i contenuti partono da li'"
       })
     ),
     link: translate({id: 'discord.link', message:"https://discord.gg/p2gtrKm"}),
@@ -84,17 +84,23 @@ export default function Home() {
   Punto di ritrovo per gli appassionati di stampanti 3d e non solo
   Guide per la calibrazione, ottimizzazione, modding ed altro, tutte incentrate su Flyingbear Ghost 4s e 5
 `})
+  const visualstyle = {
+    background: "url(/assets/images/ghost5-208f6d108b5110412665cb7044290043.jpg) center center",
+    backgroundSize: "contain",
+    height: "38vh",
+  };
   return (
     <Layout
       title={title}
-      description={description}
+      description={description}vccvcv
       keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
       {/*
         Leaving modal here, we'll reactivate for some other surveys
         <SurveyModal/>
       */}
       
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <header className={clsx('hero hero--primary', styles.heroBanner)} 
+              style={visualstyle}>
         
       </header>
       

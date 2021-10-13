@@ -47,7 +47,7 @@ body{
 p {
     line-height: 1.8;
 }
-.heroBanner_src-pages- {
+header[class^="heroBanner_"] {
     background:url(/static/img/ghost5.jpg) center center;
     background-size: contain;
     height: 45vh;
@@ -76,13 +76,13 @@ p {
     font-size: 1.5rem;
 }
 
-.features_src-pages- .row {
+section[class^="features_"] .row {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
-.features_src-pages- .row .colonna-social {
+section[class^="features_"] .row .colonna-social {
     width: 300px;
     text-align: center;
     display: flex;
@@ -90,7 +90,7 @@ p {
     align-items: center;
 }
 
-.features_src-pages- .row .colonna-social div {
+section[class^="features_"] .row .colonna-social div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,18 +116,18 @@ p {
 	}
 }
 
-html[data-theme="light"] .features_src-pages- a{
+html[data-theme="light"] section[class^="features_"] a{
     color: var(--brand-primary) !important;
 }
 
-html[data-theme="dark"] .features_src-pages- a{
+html[data-theme="dark"] section[class^="features_"] a{
     color: var(--brand-second) !important;
 }
-html[data-theme="light"] .features_src-pages- a:hover{
+html[data-theme="light"] section[class^="features_"] a:hover{
     color: var(--brand-second) !important;
 }
 
-html[data-theme="dark"] .features_src-pages- a:hover{
+html[data-theme="dark"] section[class^="features_"] a:hover{
     color: var(--textcolor-light-mode) !important;
 }
 
@@ -316,6 +316,10 @@ html[data-theme="light"] .table-of-contents__link {
 }
 html[data-theme="dark"] .table-of-contents__link {
     color: var(--textcolor-light-mode);
+}
+
+.navbar__link{
+    color: #FFFFFF;
 }
 
 html[data-theme="light"] .menu__link:hover, 
