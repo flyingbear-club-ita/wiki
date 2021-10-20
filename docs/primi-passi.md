@@ -3,6 +3,8 @@ title: Primi Passi
 slug: /
 keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setup", "hotend", "heath bed", "firmware", "pid"]
 ---
+import ArticleAd from '../src/components/articleAd'
+
 ## Software
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
 
@@ -39,6 +41,7 @@ Vediamo come e cosa cambiare:
 
 Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
 
+<ArticleAd/>
 
 ### Lingua
  ```
@@ -66,6 +69,8 @@ CFG_WIFI_KEY_CODE # password WiFi, write before #
 Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-Fi
 ![alt text](/img/wifi_config.png "wifi")
 
+<ArticleAd/>
+
 ### Quinto punto calibrazione
 È possibile aggiungere un punto ulteriore di calibrazione (a scelta dell'utente) nell'intefaccia (quattro di standard), per livellare il piatto anche al centro, oltre che negli angoli
 
@@ -81,6 +86,8 @@ Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il qu
 ```
 
 La procedura di aggiornamento e' la solita
+
+<ArticleAd/>
 
 ## Considerazioni finali
 Una volta completati i passi precedenti, e' sempre meglio fare una copia del robin_nano_cfg.txt e cancellare il contenuto della SD
