@@ -131,15 +131,19 @@ Non è necessario calibrare gli step/mm dell'estrusore
 ## LISTA DELLA SPESA
 
 * [Motore LDO NEMA 14 36mm rotondo pancake motore LDO-36STH17-1004AHG/LDO-36STH20-1004AHG](https://it.aliexpress.com/item/4001346055973.html?spm=a2g0s.9042311.0.0.27424c4dW9i6zN)
-* [Ingranaggi BMG](https://it.aliexpress.com/item/4000021186440.html?spm=a2g0s.9042311.0.0.27424c4dg7DpTW)
-* [Prolunga Dupont 4 pin 24 AWG](https://it.aliexpress.com/item/4000272308899.html?spm=a2g0s.9042311.0.0.27424c4dg7DpTW)
-* [Crimpatrice JST PH 2.0](https://it.aliexpress.com/item/1005001564937815.html?spm=a2g0s.9042311.0.0.27424c4dg7DpTW)
-* [Tasselli/dadi da affogare a caldo nel mount e nello sherpa](https://www.amazon.it/gp/product/B08WLQKDZH/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
-* [Viti M3 per lo sherpa](https://www.amazon.it/gp/product/B075RCRVH2/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+* [Ingranaggi BMG](https://s.click.aliexpress.com/e/_A50voN)
+* [Prolunga Dupont 4 pin 24 AWG](https://s.click.aliexpress.com/e/_AEPO97)
+* [Crimpatrice JST PH 2.0](https://s.click.aliexpress.com/e/_A2uBVR)
+* [Tasselli/dadi da affogare a caldo nel mount e nello sherpa](https://amzn.to/3AViSpf)
+* [Viti M3 per lo sherpa](https://amzn.to/3BZVKHK)
 * Vite M3 da 3 centimetri
 
 :::info
 Su aliexpress ci sono alcuni venditori dai quali acquistare lo sherpa mini gia fatto, cioe' parti stampate, viti e motore
+
+Questo link non e' stato testato, ma trianglelab solitamente e' una marca affidabile
+
+https://s.click.aliexpress.com/e/_AKkNuz
 :::
 
 ## Consigli per la stampa dei componenti
