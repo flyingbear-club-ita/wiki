@@ -5,8 +5,9 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import SurveyModal from '../components/SurveyModal';
 import Translate, {translate} from '@docusaurus/Translate';
+import Head from '@docusaurus/Head';
+import ArticleAd from '../components/articleAd';
 
 const features = [
   {
@@ -94,11 +95,11 @@ export default function Home() {
       title={title}
       description={description}vccvcv
       keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
-      {/*
-        Leaving modal here, we'll reactivate for some other surveys
-        <SurveyModal/>
-      */}
       
+      <Head>
+        <script src="anchorAd.js"></script>
+      </Head>
+
       <header className={clsx('hero hero--primary', styles.heroBanner)} 
               style={visualstyle}>
         
@@ -154,7 +155,8 @@ export default function Home() {
               Vai alla Wiki
             </Link>
           </div>
-	  </div>
+  	  </div>
+      <ArticleAd/>
       <div className="sezione-upgrades-ricambi">
 		  <div className="sezione-upgrades">
 		  <h2 className="section-title">Upgrades Flyingbear Ghost</h2>
@@ -178,6 +180,7 @@ export default function Home() {
 				</Link>
 			  </div>
 		  </div>
+      <ArticleAd/>
 		  <div className="sezione-ricambi">
 		  <h2 className="section-title">Ricambi Flyingbear Ghost</h2>
 		  
@@ -202,8 +205,8 @@ export default function Home() {
 				</Link>
 			  </div>
 		  </div>
+      <ArticleAd/>
 	  </div>
-        
       </main>
     </Layout>
   );
