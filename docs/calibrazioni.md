@@ -3,7 +3,9 @@ title: Calibrazioni
 slug: /calibrazioni
 keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "hotend", "heath bed"]
 ---
+import ArticleAd from '../src/components/articleAd'
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Piano di stampa 
 La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da effettuare
 
@@ -24,6 +26,8 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 * Pulire il piano di stampa con alcool isopropilico
 
 *Un ringraziamento a Magnas per aver realizzato la guida*
+
+<ArticleAd/>
 
 ## Calibrazione PID
 :::danger
@@ -145,6 +149,8 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 **Voila', il PID dell'estrusore e' calibrato!**
 
+<ArticleAd/>
+
 ### Calibrazione PID Piatto
 La calibrazione del PID del piatto e' analoga, pero' c'e' una modifica da fare nel file di config
 
@@ -206,6 +212,7 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 **Voila', il PID del piatto e' calibrato!**
 
+<ArticleAd/>
 
 ## Step
 

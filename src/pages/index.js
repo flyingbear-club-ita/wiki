@@ -7,7 +7,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 import Head from '@docusaurus/Head';
-import ArticleAd from '../components/articleAd';
 
 const features = [
   {
@@ -97,7 +96,7 @@ export default function Home() {
       keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
       
       <Head>
-        <script src="anchorAd.js"></script>
+        <script async src="anchorAd.js"></script>
       </Head>
 
       <header className={clsx('hero hero--primary', styles.heroBanner)} 
@@ -156,7 +155,6 @@ export default function Home() {
             </Link>
           </div>
   	  </div>
-      <ArticleAd/>
       <div className="sezione-upgrades-ricambi">
 		  <div className="sezione-upgrades">
 		  <h2 className="section-title">Upgrades Flyingbear Ghost</h2>
@@ -180,7 +178,6 @@ export default function Home() {
 				</Link>
 			  </div>
 		  </div>
-      <ArticleAd/>
 		  <div className="sezione-ricambi">
 		  <h2 className="section-title">Ricambi Flyingbear Ghost</h2>
 		  
@@ -205,7 +202,6 @@ export default function Home() {
 				</Link>
 			  </div>
 		  </div>
-      <ArticleAd/>
 	  </div>
       </main>
     </Layout>

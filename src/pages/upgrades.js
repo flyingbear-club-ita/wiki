@@ -2,11 +2,12 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Upgrades from '../components/Upgrades'
 import { upgradesData } from '../data/upgradesData';
-
+import DisplayAd from '../components/displayAd';
 
 export default function UpgradesPage() {
   return (
     <Layout>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<div >
 			<h1 className='pageTitle'>Upgrades Flying-Bear Ghost</h1>
 		</div>
@@ -20,7 +21,7 @@ export default function UpgradesPage() {
 				<div><div className='legendaUpgrades-color medium'></div><div><p>Medio</p></div></div>
 				<div><div className='legendaUpgrades-color low'></div><div><p>Basso</p></div></div>
 			</div>
-		
+	  <DisplayAd/>
       <Upgrades data={upgradesData}/>
     </Layout>
   );

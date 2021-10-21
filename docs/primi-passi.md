@@ -5,6 +5,7 @@ keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setu
 ---
 import ArticleAd from '../src/components/articleAd'
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Software
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
 
