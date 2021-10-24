@@ -23,6 +23,7 @@ export default function UpgradesPage() {
 			</div>
 	  <DisplayAd/>
       <Upgrades data={upgradesData}/>
+	  <DisplayAd/>
     </Layout>
   );
 }
