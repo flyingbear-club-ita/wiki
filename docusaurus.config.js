@@ -10,6 +10,15 @@ module.exports = {
   organizationName: 'flyingbear-club-ita',
   trailingSlash: false,
   projectName: 'wiki',
+  scripts: [
+    {
+      src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      async: true,
+    },
+    {
+    src: '/anchorAd.js',
+    },
+  ],
   themeConfig: {
     navbar: {
       title: 'Home',
@@ -74,9 +83,6 @@ module.exports = {
       // Optional fields.
       anonymizeIP: false, // Should IPs be anonymized?
     },
-    googleAdsense: {
-      dataAdClient: "ca-pub-3253384067482467",
-    },
   },
   presets: [
     [
@@ -100,7 +106,6 @@ module.exports = {
         systemvars: true,
       },
     ],
-    "docusaurus-plugin-google-adsense",
   ],
   i18n: {
     defaultLocale: 'it',
