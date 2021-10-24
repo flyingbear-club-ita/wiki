@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
-import Head from '@docusaurus/Head';
+import DisplayAd from '../components/displayAd';
 
 const features = [
   {
@@ -89,15 +89,12 @@ export default function Home() {
     backgroundSize: "contain",
     height: "38vh",
   };
+
   return (
     <Layout
       title={title}
       description={description}vccvcv
       keywords='flyingbear, flyingbear ghost, flyingbear ghost 5, flyingbear ghost 4s, ghost, ghost 5, ghost 4s, 3d printing, wiki, calibration, guide, setup'>
-      
-      <Head>
-        <script async src="anchorAd.js"></script>
-      </Head>
 
       <header className={clsx('hero hero--primary', styles.heroBanner)} 
               style={visualstyle}>
@@ -106,8 +103,7 @@ export default function Home() {
       
       <div className="container text-visual-home">
           <h1 className="">{title}</h1>
-                      
-        </div>
+      </div>
         
       <main>
       {features && features.length > 0 && (
@@ -121,30 +117,33 @@ export default function Home() {
             </div>
           </section>
         )}
+
+      <DisplayAd/>
+
       <div className="sezione-wiki">
       <h2 className="section-title">Wiki Flyingbear Ghost</h2>
       <p>
-              <Translate
-                id="homepage.sezione-wiki.par-one"
-                description="homepage sezione-wiki.par-one">
-                Hai Appena comprato la stampante 3d Flying Bear Ghost? 
-              </Translate>
-            </p>
+        <Translate
+          id="homepage.sezione-wiki.par-one"
+          description="homepage sezione-wiki.par-one">
+          Hai Appena comprato la stampante 3d Flying Bear Ghost?
+        </Translate>
+      </p>
       <p>
-              <Translate
-                id="homepage.sezione-wiki.par-two"
-                description="homepage sezione-wiki.par-two">
-                Vuoi regolare la tua Ghost perchè stampi perfettamente?
-              </Translate>
-            </p>
-            <p>
-              <Translate
-                id="homepage.sezione-wiki.par-three"
-                description="homepage sezione-wiki.par-three">
-                Inizia da qui, setup, calibrazioni, upgrade e molto altro ti aspettano
-              </Translate>
-            </p>
-          <div className={styles.buttons}>
+        <Translate
+          id="homepage.sezione-wiki.par-two"
+          description="homepage sezione-wiki.par-two">
+          Vuoi regolare la tua Ghost perchè stampi perfettamente?
+        </Translate>
+      </p>
+      <p>
+        <Translate
+          id="homepage.sezione-wiki.par-three"
+          description="homepage sezione-wiki.par-three">
+          Inizia da qui, setup, calibrazioni, upgrade e molto altro ti aspettano
+        </Translate>
+      </p>
+      <div className={styles.buttons}>
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
@@ -155,19 +154,22 @@ export default function Home() {
             </Link>
           </div>
   	  </div>
+
+      <DisplayAd/>
+
       <div className="sezione-upgrades-ricambi">
 		  <div className="sezione-upgrades">
 		  <h2 className="section-title">Upgrades Flyingbear Ghost</h2>
 		  <p>
-				  <Translate
-					id="homepage.sezione-wiki.par-one"
-					description="homepage sezione-wiki.par-one">
-					Scopri tutti gli upgrades consigliati per la stampante 3d Flying Bear Ghost, e se desideri approfondire
-					ti basta entrare nel nostro Discord ufficiale 
-				  </Translate>
-				</p>
+        <Translate
+        id="homepage.sezione-wiki.par-one"
+        description="homepage sezione-wiki.par-one">
+        Scopri tutti gli upgrades consigliati per la stampante 3d Flying Bear Ghost, e se desideri approfondire
+        ti basta entrare nel nostro Discord ufficiale 
+        </Translate>
+      </p>
 		  
-			  <div className={styles.buttons}>
+      <div className={styles.buttons}>
 				<Link
 				  className={clsx(
 					'button button--outline button--secondary button--lg',
@@ -176,34 +178,37 @@ export default function Home() {
 				  to={useBaseUrl('upgrades')}>
 				  Upgrades Ghost
 				</Link>
-			  </div>
-		  </div>
+      </div>
+      </div>
 		  <div className="sezione-ricambi">
-		  <h2 className="section-title">Ricambi Flyingbear Ghost</h2>
-		  
-		  <p>
-				  <Translate
-					id="homepage.sezione-wiki.par-one"
-					description="homepage sezione-wiki.par-one">
-					Scopri tutti i ricambi originali e non per la stampante 3d Flying Bear Ghost, e se 
-					vuoi maggiori informazioni riguardo un pezzo di ricambio da chi lo ha già provato
-					ti basta entrare nel nostro Discord ufficiale 
-				  </Translate>
-				</p>
+		    <h2 className="section-title">Ricambi Flyingbear Ghost</h2>
+
+        <p>
+            <Translate
+            id="homepage.sezione-wiki.par-one"
+            description="homepage sezione-wiki.par-one">
+            Scopri tutti i ricambi originali e non per la stampante 3d Flying Bear Ghost, e se
+            vuoi maggiori informazioni riguardo un pezzo di ricambio da chi lo ha già provato
+            ti basta entrare nel nostro Discord ufficiale
+            </Translate>
+        </p>
 				
 			  <div className={styles.buttons}>
-				<Link
-				  className={clsx(
-					'button button--outline button--secondary button--lg',
-					styles.getStarted,
-				  )}
-				  to={useBaseUrl('ricambi')}>
-				  Ricambi Ghost
-				</Link>
+          <Link
+            className={clsx(
+            'button button--outline button--secondary button--lg',
+            styles.getStarted,
+            )}
+            to={useBaseUrl('ricambi')}>
+            Ricambi Ghost
+          </Link>
 			  </div>
 		  </div>
-	  </div>
+    </div>
+
+    <DisplayAd/>
+
       </main>
-    </Layout>
+  </Layout>
   );
 }

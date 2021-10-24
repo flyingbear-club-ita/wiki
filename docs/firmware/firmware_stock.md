@@ -3,7 +3,7 @@ title: Firmware Stock
 slug: /firmware/firmware_stock
 ---
 
-import ArticleAd from '../src/components/articleAd'
+import ArticleAd from '../../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 

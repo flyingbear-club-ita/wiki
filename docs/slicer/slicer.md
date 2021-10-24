@@ -3,8 +3,14 @@ title: Generale
 slug: /slicer
 keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
 ---
+import ArticleAd from '../../src/components/articleAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 ## GCode
+
+<ArticleAd/>
+
 ### Start Gcode
 Comune per tutti gli slicer
 
@@ -32,6 +38,9 @@ Comune per tutti gli slicer
  G92 E0 ;Reset Extruder
  G1 Z2.0 F3000 ;Move Z Axis up
 ```
+
+<ArticleAd/>
+
 ### End Gcode
 Comune per tutti gli slicer
 
@@ -60,3 +69,5 @@ Comune per tutti gli slicer
  
  M84 X Y E ;Disable all steppers but Z
 ```
+
+<ArticleAd/>

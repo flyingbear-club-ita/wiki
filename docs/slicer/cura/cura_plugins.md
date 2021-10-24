@@ -6,6 +6,10 @@ keywords: ["cura", "ultimaker", "ultimaker cura", "3d printing", "flyingbear", "
 image: /img/Ultimaker_cura.png
 ---
 
+import ArticleAd from '../../../src/components/articleAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 export const PluginInfo = ({children, title}) => (
   <div
     style={{
@@ -46,6 +50,8 @@ Ogni buona stampa hai dei buoni supporti, se pensate che farete solo stampe senz
 
 </PluginInfo>
 
+<ArticleAd/>
+
 <PluginInfo title="Simpler Slicing: Auto-Orientation">
 
 Aiuta a posizionare l'oggetto per usare meno supporti possibili, non infallibile, ma di certo un buon aiuto
@@ -70,4 +76,4 @@ Per controllare la stampante da remoto, maggiori informazioni nella <a href="mks
 
 </PluginInfo>
 
-  
+<ArticleAd/>

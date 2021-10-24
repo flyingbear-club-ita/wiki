@@ -4,6 +4,10 @@ slug: /firmware/ripristino_bootloader
 description: Guida per il ripristino del bootloader dopo aver flashato il firmware sbagliato
 ---
 
+import ArticleAd from '../../src/components/articleAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 **Autori**: OrkoMastro e matteoberg
 
 :::danger
@@ -11,6 +15,8 @@ description: Guida per il ripristino del bootloader dopo aver flashato il firmwa
 La procedura qui descritta e' stata testata da piu' utenti, ma non ci assumiamo nessuna responsabilita' per eventuali danni a software o hardware della stampante
 
 :::
+
+<ArticleAd/>
 
 Se, dopo aver tentato l’aggiornamento ad un nuovo firmware, il processo di installazione si ferma sulla schermata "Font Table Updating 100% ed al riavvio della stampante, a schermo compare fisso la scritta “Booting...”, e' necessario ricaricare il bootloader sulla scheda madre
 
@@ -29,6 +35,8 @@ Se capite l’inglese e volete affidarvi alla discussione sul problema, potete t
 STM32 Cube Programmer potrebbe non funzionare su sistemi operativi Windows molto vecchi
 In questo caso, proseguite alla [pagina successiva](/docs/firmware/ripristino_bootloader_alternativo), dove c'e' una guida per un software alternativo
 :::
+
+<ArticleAd/>
 
 ## Preparare bootloader e firmware
 
@@ -77,6 +85,7 @@ Assicuratevi che i cavetti siano saldamente collegati ai Pin della scheda madre 
 
 Collegare l’ST-LINK ad una porta USB del PC, se i collegamenti sono esatti la scheda e lo schermo della stampante dovrebbero accendersi
 
+<ArticleAd/>
 
 ## Come flashare il bootloader con STM32 Cube Programmer
 
@@ -122,3 +131,5 @@ A questo punto, e' possibile installare il firmware stock della ghost
 Per qualsiasi domanda in merito a questa guida, non esitate a contattarci via Discord:
 matteoberg#3262 e OrkoMastro#0507
 :::
+
+<ArticleAd/>
