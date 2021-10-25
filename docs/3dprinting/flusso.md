@@ -4,6 +4,11 @@ slug: /3dprinting/flusso
 description: Guida alla calibrazione del flusso per filamenti PLA, PETG, ABS per la stampante 3d Flyingbear Ghost
 keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "flow", "flow calibration"]
 ---
+import ArticleAd from '../../src/components/articleAd'
+import DisplayAd from '../../src/components/displayAd'
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 Calibrare il flusso e' importante per non andare fuori di testa quando si cercano i parametri ottimali per un nuovo filamento, quello col quale tutti stampano da dio, ma a te viene una mezza schifezza
 
@@ -12,6 +17,8 @@ Questo tipo di calibrazione viene fatta per trovare la corretta percentuale di m
 Il test che consigliamo di utilizzare si puo' trovare facilmente su thingiverse
 
 [Test Flusso](https://www.thingiverse.com/thing:3397997)
+
+<ArticleAd/>
 
 Questo test stampa solo quattro pareti, con due perimetri ciascuna
 
@@ -35,7 +42,7 @@ Stampate il file, il risultato sara' come in figura
 
 [ ![Prima stampa calcolo flusso](/img/primaStampaFlow.jpg) ](/img/primaStampaFlow.jpg)
 
-
+<DisplayAd/>
 
 Per trovare il valore corretto del flusso, bisogna prima misurare, col calibro con divisione 0.01, gli ultimi strati delle pareti, nel mezzo, una alla volta, come nelle figure
 
@@ -68,3 +75,5 @@ Primo Lato  | Secondo Lato | Terzo Lato  | Quarto Lato
 
 
 I valori misurati sono in linea, al centesimo di millimetro, con il valore atteso, la calibrazione del flusso adesso e' completa
+
+<DisplayAd/>
