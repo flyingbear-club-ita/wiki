@@ -2,6 +2,7 @@
 title: FAQ
 slug: /faq
 keywords: ["flyingbear", "flyingbear ghost", "flying bear ghost", "flyingbear ghost FAQ", "flying bear ghost FAQ", "3d printing", "aliexpress", "banggood"]
+image: /img/faq.png
 ---
 import DisplayAd from '../components/displayAd'
 
@@ -31,6 +32,7 @@ Flyingbear si riserva un po' di tolleranza per il piatto, non deve essere necess
 
 Se pensate che la distanza sia inaccettabile, contattate Flyingbear: vi diranno loro la procedura corretta per misurarlo, eventualmente vi spediranno un piatto di ricambio
 
+<DisplayAd/>
 
 ## Niente, Flyingbear non mi vuole sostituire il piatto, ma io non lo voglio concavo!!! Cosa posso fare???
 
