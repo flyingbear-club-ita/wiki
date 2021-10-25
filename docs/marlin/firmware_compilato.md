@@ -3,6 +3,11 @@ title: Firmware MKS Compilato
 slug: /marlin/firmware_compilato
 ---
 
+import DisplayAd from '../../../src/components/displayAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
 In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su **Marlin 2.0.X**, a cura di The_Wolf_87
 
 Questo tipo di firmware ha un po' di opzioni in piu' rispetto al firmware stock (per esempio, non e' necessario aggiornare gli step/mm dal config, basta aggiornare nella UI), oltre ad avere una grafica piu' accattivante
@@ -23,6 +28,8 @@ La prima cosa da fare e' resettare la eeprom tramite interfaccia grafica, per ev
 La seconda e' configurare gli step per millimetro tramite interfaccia grafica
 
 A questo punto, la stampante e' pronta per stampare
+
+<DisplayAd/>
 
 ## I vari firmware
 
@@ -47,3 +54,4 @@ In alcuni casi, l'installazione di questo firmware ha scombinato il bootloader d
 [Ghost 5 Stock con BLTouch](https://github.com/flyingbear-club-ita/mks-robin-nano-1.x/tree/master/ghost_5_bltouch)
 
 
+<DisplayAd/>
