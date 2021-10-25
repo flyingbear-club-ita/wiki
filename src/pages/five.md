@@ -3,6 +3,13 @@ title: Ghost 5 Specs
 slug: /five
 description: Scheda tecnica Flyingbear Ghost 5. Dimensioni, specifiche tecniche, materiali supportati
 ---
+
+import DisplayAd from '../components/displayAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<DisplayAd/>
+
 # Scheda Tecnica Ghost 5
 
 La Ghost è una stampante cartesiana in quanto ogni asse è comandato da un motore ma, a differenza delle più famose Ender 3 o Prusa, il piano si muove sull'asse z invece dell'asse y, migliorando notevolmente la qualità di stampa e permettendo una velocità maggiore
@@ -42,3 +49,5 @@ La lista delle feature è completata dal sensore di filamento (per arrestare la 
 |__Massima Temperatura Ugello__ | 260 gradi |
 |__Massima Temperatura Piatto__ | 110 gradi |
 
+
+<DisplayAd/>

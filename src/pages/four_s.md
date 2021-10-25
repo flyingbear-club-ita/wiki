@@ -7,6 +7,13 @@ description: Scheda tecnica Flyingbear Ghost 4s. Dimensioni, specifiche tecniche
 La Ghost 4s e' fuori produzione
 :::
 
+
+import DisplayAd from '../components/displayAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<DisplayAd/>
+
 # Scheda Tecnica Ghost 4s
 
 La Ghost è una stampante cartesiana (vuol dire che l'ugello si muove su un asse x,y, mentre il piatto, sul quale si va a stampare, si muove solo sull'asse delle z), a differenza delle più famose Ender 3 o Prusa. I vantaggi che questo comporta sono una maggiore velocità di stampa e maggiore stabilità, essendo il piatto fisso
@@ -22,3 +29,5 @@ Il fiore all'occhiello della ghost molto probabilmente è il piatto in vetro che
 L'estrusore e' un clone del BMG Bondtech dual drive
 
 La lista delle feature è completata da un bellissimo touch screen e connettività Wi-Fi
+
+<DisplayAd/>
