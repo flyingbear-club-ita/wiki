@@ -3,10 +3,13 @@ title: FAQ
 slug: /faq
 keywords: ["flyingbear", "flyingbear ghost", "flying bear ghost", "flyingbear ghost FAQ", "flying bear ghost FAQ", "3d printing", "aliexpress", "banggood"]
 image: /img/faq.png
+description: FAQ per Flyingbear Ghost 5 e Flyingbear Ghost 4s
 ---
 import DisplayAd from '../components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+# FAQ
 
 ## Mi e' appena arrivata una Ghost!!! Cosa devo controllare??? {#mi-e-appena-arrivata-una-ghost-cosa-devo-controllare}
 
@@ -25,6 +28,7 @@ Successivamente, i controlli importanti da fare sono due:
   Se il foglio passa, vuol dire che il piatto e' concavo
 
   Se il righello balla, vuol dire che il piatto e' convesso
+
 
 ## Il piatto e' concavo! Cosa posso fare? {#il-piatto-e-concavo-cosa-posso-fare}
 
