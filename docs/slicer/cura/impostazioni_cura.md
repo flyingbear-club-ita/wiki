@@ -6,7 +6,7 @@ keywords: ["cura", "ultimaker", "ultimaker cura", "3d printing", "flyingbear", "
 image: /img/Ultimaker_cura.png
 ---
 
-## Creazione di un nuovo profilo
+## Creazione di un nuovo profilo {#creazione-di-un-nuovo-profilo}
 
 Bene, ora che Cura è pronto, direi di iniziare a modificare i paramenti del materiali che andremo a utilizzare modificando la temperatura di fusione, il diametro del filamento e altre impostazioni che vedremo passo dopo passo
 
@@ -75,7 +75,7 @@ Dovreste vedere una schermata come questa:
 [ ![profili_4](/img/profili_4.PNG) ](/img/profili_4.PNG)
 
 
-## Settaggi PLA
+## Settaggi PLA {#settaggi-pla}
 
 Ora vedremo le voci da modificare per avere una buona qualità di stampa con il PLA
 
@@ -123,7 +123,7 @@ Brim
 
 5-6 mm
 
-## Settaggi PET-G
+## Settaggi PET-G {#settaggi-pet-g}
 
 Adesso tocca al PET-G
 
@@ -185,7 +185,7 @@ Brim
 5-6 mm
 
 
-## Risoluzione problemi
+## Risoluzione problemi {#risoluzione-problemi}
 
 Ora come bonus alcune informazioni dettate dall'esperienza su eventuali problemi di stampa
 
@@ -221,7 +221,7 @@ Se l'oggetto non attacca bene, controllate con la calibrazione del piatto se l'u
 
 Usate sempre alcol denaturalizzato e uno straccio pulito o un tovagliolo. Se non vi piace il rosa dell'alcol, lasciatelo una bella giornata sotto al sole, vedrete diventerà bianco
 
-## Conclusioni
+## Conclusioni {#conclusioni}
 
 Come sempre, spero che questa guida vi sia piaciuta, e sia stata utile
 

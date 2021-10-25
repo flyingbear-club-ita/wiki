@@ -6,7 +6,7 @@ keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "cali
 import ArticleAd from '../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-## Piano di stampa 
+## Piano di stampa {#piano-di-stampa}
 La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da effettuare
 
 Inizialmente può sembrare una procedura complicata ma con questi semplici passi potrai ottenere una calibrazione semplice ed efficiente.
@@ -19,7 +19,7 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 3. Iniziare usando la funzione "leveling" della stampante
 4. Usare il foglio in dotazione o un foglio A4 per calibrare tutti e 4 i punti. Tra ugello e foglio dev'essere presente un leggero attrito
 
-### Consigli per una buona calibrazione
+### Consigli per una buona calibrazione {#consigli-per-una-buona-calibrazione}
 * Riscaldare il piano a 60°C durante tutto il processo di calibrazione
 * Ripetere la calibrazione 4/5 volte
 * Tra una calibrazione e l’altra portare tutti gli assi in "home"
@@ -29,7 +29,7 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 
 <ArticleAd/>
 
-## Calibrazione PID
+## Calibrazione PID {#calibrazione-pid}
 :::danger
 La calibrazione del PID deve essere sempre supervisionata: la temperatura dell'estrusore potrebbe salire troppo, se dovesse superare la temperatura desiderata del 15%, SPEGNERE SUBITO la stampante
 :::
@@ -71,7 +71,7 @@ Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potet
 Per dare i comandi Gcode alla stampante andare nel flag Controlli Manuali
 [ ![Controlli Manuali](/img/controlli_manuali.jpg) ](/img/controlli_manuali.jpg)
 
-### Calibrazione PID Blocco riscaldante
+### Calibrazione PID Blocco riscaldante {#calibrazione-pid-blocco-riscaldante}
 Prima di cominciare la calibrazione, bisogna riscaldare il nozzle, portandolo alla temperatura solitamente utilizzata (200/210 nella maggior parte dei casi), ed accendere la ventola
 
 Il gcode per accendere la ventola e':
@@ -108,7 +108,7 @@ Dove ci sono le XX, li' troverete i valori dopo la calibrazione
 
 Per aggiornare i valori ci sono due opzioni:
 
-#### Tramite robin_nano35_cfg.txt
+#### Tramite robin_nano35_cfg.txt {#tramite-robin_nano35_cfgtxt}
 Prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle seguenti righe (i valori riportati sono solo esemplificativi):
  ```
   PIDTEMPE 1 # Mode 1: PID; 0: bang-bang 
@@ -187,7 +187,7 @@ Nella prima, seconda e terza riga, inserire i valori appena trovati con repetier
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
 
-#### Tramite Repetier Host
+#### Tramite Repetier Host {#tramite-repetier-host}
 Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
 
 ```
@@ -214,7 +214,7 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 <ArticleAd/>
 
-## Step
+## Step {#step}
 
 A volte, vi sarà capitato di vedere delle imprecisioni nelle superfici delle vostre stampe, tipo grumi di plastica, oppure una distribuzione non omogenea del filamento
 
@@ -231,7 +231,7 @@ Il valore di default della Ghost è 400, il che vuole dire che, per muoversi di 
 Purtroppo, non tutti i componenti sono uguali, quindi, per regolarizzare il flusso o i movimenti sugli assi, è necessaria una calibrazione
 
 
-### Estrusore
+### Estrusore {#estrusore}
 In questo caso, è necessario l'utilizzo di Repetier Host(RH) (spiegato nella sezione Primi Passi) 
 
 Connettere la stampante col cavo USB, aprire RH, assicurasi che la stampante sia connessa e muoversi nella sezione per inviare comandi GCode
@@ -276,7 +276,7 @@ Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare
 *Consigliati calicat, benchy, calibrationCube*
 :::
 
-### Assi
+### Assi {#assi}
 Stampare elementi con incastri e' una delle cose piu' problematiche della stampa 3d: a causa di espansione del materiale e/o inaccuratezze nel modello originale (per esempio, una errata tolleranza)
 
 Per raggiungere risultati precisi al centesimo di millimetro, anche gli assi hanno bisogno di una calibrazione, che si puo' fare tramite un semplice cubetto da stampare ed un calibro centesimale

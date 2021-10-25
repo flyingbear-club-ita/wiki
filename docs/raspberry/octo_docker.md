@@ -21,7 +21,7 @@ Con questo setup, potrai avere **controllo indipendente su 2 stampanti tramite u
 
 Iniziamo!
 
-## Requisiti
+## Requisiti {#requisiti}
 
 * Raspberry Pi 3B+ o superiore
 * Raspberry Pi Os fresco di installazione (Consiglio la [versione Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip))
@@ -29,7 +29,7 @@ Iniziamo!
 * 2 Stampanti 3D
 * 2 Webcam USB
 
-## Setup iniziale
+## Setup iniziale {#setup-iniziale}
 
 Dopo aver preparato la SD card con l'immagine con [Balena Etcher](/docs/raspberry/installazione_raspbian) o tramite [Raspberry Pi Imager](https://www.raspberrypi.org/software/), passiamo a configurare l'accesso alla wifi e l'abilitazione del protocollo SSH
 
@@ -87,7 +87,7 @@ Digita ```passwd``` e segui le istruzioni a schermo
 
 Ora riavvia il sistema tramite ```sudo reboot```
 
-## Installazione di Docker
+## Installazione di Docker {#installazione-di-docker}
 
 Dopo aver riavviato il sistema ed esserti loggato nel terminale con la nuova password, avvia l'installazione di docker:
 
@@ -105,7 +105,7 @@ sudo usermod -aG docker pi
 reboot
 ```
 
-## Installazione di Portainer
+## Installazione di Portainer {#installazione-di-portainer}
 
 Docker è installato e, siccome ci piace la bella vita, vogliamo anche una bella interfaccia grafica per gestire tutti i nostri contenitori
 
@@ -152,7 +152,7 @@ Portainer è ora configurato, connesso al nostro ambiente docker e pronto per es
 
 [ ![Portainer setup completed](/img/portainer3.png) ](/img/portainer3.png)
 
-## Identificare stampanti e webcam
+## Identificare stampanti e webcam {#identificare-stampanti-e-webcam}
 
 Siamo quasi pronti per eseguire la nostra configurazione multi-istanza di octoprint, dobbiamo solo identificare i nostri dispositivi in Linux per preparare il file docker-compose
 
@@ -196,7 +196,7 @@ I percorsi di cui abbiamo bisogno sono i seguenti:
 
 Con il terminale, abbiamo finito! D'ora in poi procederemo con l'interfaccia del browser
 
-## Crea più istanze di octoprint con docker-compose
+## Crea più istanze di octoprint con docker-compose {#crea-più-istanze-di-octoprint-con-docker-compose}
 
 Da Portainer, clicca su **Stacks** (1) e **Add Stack** (2)
 

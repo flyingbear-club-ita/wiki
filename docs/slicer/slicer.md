@@ -7,11 +7,11 @@ import ArticleAd from '../../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-## GCode
+## GCode {#gcode}
 
 <ArticleAd/>
 
-### Start Gcode
+### Start Gcode {#start-gcode}
 Comune per tutti gli slicer
 
 ``` 
@@ -41,7 +41,7 @@ Comune per tutti gli slicer
 
 <ArticleAd/>
 
-### End Gcode
+### End Gcode {#end-gcode}
 Comune per tutti gli slicer
 
 ```

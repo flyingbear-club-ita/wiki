@@ -4,7 +4,7 @@ slug: /illuminazioneinterna
 ---
 # Illuminazione Interna
 
-## Occorrenti
+## Occorrenti {#occorrenti}
 
 * Striscia LED 24v (o due da 12 da mettere in serie)
 * Interruttore per elettronica
@@ -13,7 +13,7 @@ slug: /illuminazioneinterna
 * Cavi (almeno 1m)
 * Colla a caldo (o simile)
 
-## Procedura
+## Procedura {#procedura}
 Aprire il pannello sotto la stampante e collegare i due capi dei fili (+ e -) all’ingresso della scheda madre dove arriva la 24v dal trasformatore come mostrato in figura (fili verde e bianco cerchiati)
 
 [![](/img/illuminazioneInterna1.jpg)](/img/illuminazioneInterna1.jpg)

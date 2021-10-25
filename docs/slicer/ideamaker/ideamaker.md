@@ -17,10 +17,10 @@ Se invece preferite dei video o volete approfondire un po' di piu' sul processo 
 
 [Come creare un profilo - parte 2](https://www.youtube.com/watch?v=IcyBEYYFn5s&t=1525s)
 
-## Installazione
+## Installazione {#installazione}
 
 **Autore: Nick_it**
-### Premessa
+### Premessa {#premessa}
 
 Faccio questa guida altrimenti l'amministratore della Wiki si offende e non mi parla più
 
@@ -28,7 +28,7 @@ Ideamaker, insieme a Cura e Prusa slicing, e' uno dei programmi più usati nel m
 
 Perché scegliere uno o l'altro è più una preferenza personale, ognuno ha i propri punti positivi e negativi, Io ho scelto di fare 2 guide, una per Ideamaker e una per Cura (a breve online) solo perché hanno la possibilità di usare un raspberry con octoprint
 
-### Partiamo!!! 🚀
+### Partiamo!!! 🚀 {#partiamo-}
 
 Per prima cosa andiamo sulla pagina per scaricare ideamaker (https://www.raise3d.com/ideamaker/) 
 
@@ -58,7 +58,7 @@ Dopo avere accettato nella prossima schermata premete **avanti**
 
 E continuate cosi fino alla fine della installazione
 
-### Lanciamo il software 🏎️
+### Lanciamo il software 🏎️ {#lanciamo-il-software-️}
 
 Dopo avere completato l'installazione, possiamo partire con il primo avvio
 

@@ -22,7 +22,7 @@ Questo processo di traduzione si chiama **compilazione**
 
 Dopo questo pistolotto, cominciamo col vedere cosa ci serve per compilare
 
-## Setup
+## Setup {#setup}
 
 Iniziamo scaricando Visual Studio Code (VS Code), un IDE (**Integrated development environment**, ambiente di sviluppo integrato) nel quale andremo ad editare il nostro sorgente
 

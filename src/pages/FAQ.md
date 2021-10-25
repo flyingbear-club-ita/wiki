@@ -8,7 +8,7 @@ import DisplayAd from '../components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-## Mi e' appena arrivata una Ghost!!! Cosa devo controllare???
+## Mi e' appena arrivata una Ghost!!! Cosa devo controllare??? {#mi-e-appena-arrivata-una-ghost-cosa-devo-controllare}
 
 Ovviamente, bisogna sempre controllare che il contenuto del pacco corrisponda alla lista invitata
 
@@ -26,7 +26,7 @@ Successivamente, i controlli importanti da fare sono due:
 
   Se il righello balla, vuol dire che il piatto e' convesso
 
-## Il piatto e' concavo! Cosa posso fare?
+## Il piatto e' concavo! Cosa posso fare? {#il-piatto-e-concavo-cosa-posso-fare}
 
 Flyingbear si riserva un po' di tolleranza per il piatto, non deve essere necessariamente piano per farvelo rimpiazzare
 
@@ -34,16 +34,16 @@ Se pensate che la distanza sia inaccettabile, contattate Flyingbear: vi diranno 
 
 <DisplayAd/>
 
-## Niente, Flyingbear non mi vuole sostituire il piatto, ma io non lo voglio concavo!!! Cosa posso fare???
+## Niente, Flyingbear non mi vuole sostituire il piatto, ma io non lo voglio concavo!!! Cosa posso fare??? {#niente-flyingbear-non-mi-vuole-sostituire-il-piatto-ma-io-non-lo-voglio-concavo-cosa-posso-fare}
 
 Le opzioni sono due:
 - Installare, sopra al piatto, uno specchio tagliato ad hoc. Bisogna prima rimuovere le mollette, poi poggiare lo specchio sopra al piatto e infine bloccarlo con delle [mollette speciali](https://amzn.to/3niWm4Z) (consigliate perche non fanno perdere spazio di stampa)
 - Utilizzare il supporto per il centro del piatto di Wikizell, che trovate nella [sezione upgrades](upgrades) con il nome di "Spessore livellamento Piatto". Per le istruzioni su come montarlo, basta cliccare sopra al riquadro
 
-## Il piatto e' convesso! Cosa posso fare???
+## Il piatto e' convesso! Cosa posso fare??? {#il-piatto-e-convesso-cosa-posso-fare}
 Non succede di frequente, ma sicuramente dovete contattare Flyingbear per discutere sul da farsi
 
-## Dove posso contattare Flyingbear???
+## Dove posso contattare Flyingbear??? {#dove-posso-contattare-flyingbear}
 Sicuramente non tramite il contatto email che trovate sul loro sito: sembra che non sia monitorato costantemente
 
 Se avete comprato la stampante su Banggood, sappiate che non hanno niente a che fare con Flyingbear: BG compra le stampanti da FB e le rivende, quindi FB se ne lava le mani se l'avete acquistata li'. In questo caso, dovete contattare l'assistenza di Banggood
@@ -52,19 +52,19 @@ Se invece avete comprato la stampante su aliexpress, basta inviare un messaggio 
 
 <DisplayAd/>
 
-## Voglio installare subito il firmware piu' aggiornato!
+## Voglio installare subito il firmware piu' aggiornato! {#voglio-installare-subito-il-firmware-piu-aggiornato}
 Alt! Attenzione: le Ghost arrivano con il firmware piu' recente dalla fabbrica, buttarsi a capofitto a fare gli aggiornamenti potrebbe essere una pessima idea: viste le diverse combinazioni scheda madre/chipset/driver che stanno circolando ultimamente, e' meglio andarci cauti con i firmware e controllare quale sia l'ultimo firmware disponibile STABILE per la propria scheda
 
 Prima di installare un qualunque firmware, controllate la vostra configurazione, aprendo la parte inferiore della macchina e confrontandola con lo schema nella [pagina degli firmware stock](docs/firmware/firmware_stock)
 
-## Si puo' installare il BL Touch sulla Ghost???
+## Si puo' installare il BL Touch sulla Ghost??? {#si-puo-installare-il-bl-touch-sulla-ghost}
 Ni
 
 Sulla scheda stock si puo' installare, ma il firmware stock non e' compatibile con il bl touch
 
 L'unica maniera per installarlo e' usare un [firmware basato su marlin](docs/marlin/firmware_compilato)
 
-## Vorrei installare il BL Touch, ma non c'e' nessuna guida disponibile sulla wiki...
+## Vorrei installare il BL Touch, ma non c'e' nessuna guida disponibile sulla wiki... {#vorrei-installare-il-bl-touch-ma-non-ce-nessuna-guida-disponibile-sulla-wiki}
 
 Con calma e con pazienza, arrivera' pure quella
 

@@ -3,7 +3,7 @@ title: Plugins per Octoprint
 slug: /raspberry/octoprint-plugins
 ---
 
-## Premessa
+## Premessa {#premessa}
 
 Per spiegarvi meglio l'utilità dei plug in in octoprint, vediamo il nostro raspberry con Octoprint come una semplice automobile: utile per svolgere i nostri lavori e andare in giro, ma come sarebbe se avesse anche gli optional, fosse più comoda, avesse l'aria condizionata o il navigatore per portarci più velocemente a destinazione?
 
@@ -17,7 +17,7 @@ Se non vi va di leggere, andate a vedervi il [video su youtube](https://www.yout
 
 **Se avete altri plugin da consigliare, fateci sapere!!!**
 
-## Come si installa un plugin
+## Come si installa un plugin {#come-si-installa-un-plugin}
 
 Prima di dire quali sono i migliori plug in, è importante capire come installarli
 
@@ -40,7 +40,7 @@ Ora abbiamo la lista dei plug-in, e nel campo **Search** andremo a digitare il n
 
   [ ![Install](/img/foto3.PNG) ](/img/foto3.PNG)
 
-## I migliori plugin!
+## I migliori plugin! {#i-migliori-plugin}
 
 export const PluginInfo = ({children, title}) => (
   <div

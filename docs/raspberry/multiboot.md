@@ -3,7 +3,7 @@ title: Multi Boot con Raspberry
 slug: /raspberry/multiboot
 ---
 
-## Premessa
+## Premessa {#premessa}
 
 Non tutti vogliono spendere dei soldi per acquistare un raspberry, le solite motivazioni sono:
 
@@ -21,7 +21,7 @@ Inoltre, se voleste fare prove su Linux, ma avete paura di metterci mano, ecco c
 
 Oggi parleremo di creare una memoria **Multi-Boot**,  dove siete voi a scegliere cosa deve fare il vostro Raspberry all'accensione e, se non sceglierete nulla, partirà il sistema operativo di default (*che è Octoprint, vero????*)
 
-## Materiale Occorrente
+## Materiale Occorrente {#materiale-occorrente}
 
 * Raspberry PI 3B oppure 4
 * Tastiera e mouse usb 
@@ -32,7 +32,7 @@ Oggi parleremo di creare una memoria **Multi-Boot**,  dove siete voi a scegliere
 
 Adesso armatevi di santa pazienza: i vari sistemi operativi devono essere scaricati, perciò ci vorrà tempo
 
-## Iniziamo
+## Iniziamo {#iniziamo}
 
 Cominciamo col parlare di **BerryBoot**. Esistono anche altre soluzioni, ma, dopo le prove effettuate, ho reputato questo il migliore per semplicità e per creazioni di nuove immagini customizzate. Fossimo tutti esperti, le guide non servirebbero...
 BerryBoot e' un bootloader, piuttosto che un installatore. Questa leggera differenza significa che è ottimizzato per eseguire più sistemi operativi
@@ -101,7 +101,7 @@ Se volete altri sistemi operativi, potete scaricarli dal loro sito e poi procede
 
 Per questo tutorial, scarichiamo RaspiOS, vedremo per gli altri piu avanti
 
-## Avvio
+## Avvio {#avvio}
 
 Dopo avere scelto il sistema operativo da installare, completate la procedura di installazione e, dopo il riavvio, potrete scegliere fra tanti, ma uno alla volta
 

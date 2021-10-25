@@ -232,5 +232,17 @@
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
+  },
+  "homepage.sezione-wiki.par-one": {
+    "message": "Scopri tutti i ricambi originali e non per la stampante 3d Flying Bear Ghost, e se vuoi maggiori informazioni riguardo un pezzo di ricambio da chi lo ha già provato ti basta entrare nel nostro Discord ufficiale",
+    "description": "homepage sezione-wiki.par-one"
+  },
+  "homepage.sezione-wiki.par-two": {
+    "message": "Vuoi regolare la tua Ghost perchè stampi perfettamente?",
+    "description": "homepage sezione-wiki.par-two"
+  },
+  "homepage.sezione-wiki.par-three": {
+    "message": "Inizia da qui, setup, calibrazioni, upgrade e molto altro ti aspettano",
+    "description": "homepage sezione-wiki.par-three"
   }
 }

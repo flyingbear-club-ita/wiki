@@ -9,12 +9,12 @@ import ArticleAd from '../../src/components/articleAd'
 
 In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso
 
-## Verifica della versione attualmente installata
+## Verifica della versione attualmente installata {#verifica-della-versione-attualmente-installata}
 1. Dal menu principale della stampante tocca l'icona "Tool"
 2. Tocca l'icona "About"
 3. Troverai la versione del firmware indicata nella riga "Mainboard version"
 
-## Procedura di aggiornamento
+## Procedura di aggiornamento {#procedura-di-aggiornamento}
 1. Scarica il file compresso del firmware
 2. Estrai il file appena scaricato
 3. Collega la microSD della stampante al PC/Mac
@@ -33,7 +33,7 @@ Attenzione: non spegnere per nessun motivo la stampante durante la procedura di 
 
 <ArticleAd/>
 
-## Aumentare la velocita' di stampa
+## Aumentare la velocita' di stampa {#aumentare-la-velocita-di-stampa}
 Il firmware stock limita la velocita' della stampante, che puo' raggiungere accelerazioni piu' elevate
 
 Questa limitazione e' la causa principale della discrepanza tra i tempi stimati da cura e quelli effettivi di stampa
@@ -62,7 +62,7 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
 
 <ArticleAd/>
 
-## Versioni firmware disponibili
+## Versioni firmware disponibili {#versioni-firmware-disponibili}
 
 :::danger
 Ultimamente, Flyingbear ha consegnato delle stampanti con chipset e driver diversi
@@ -91,6 +91,6 @@ Stampante  | Chipset   | Driver    | Versione  | Link
 
 <ArticleAd/>
 
-## Link utili
+## Link utili {#link-utili}
 [Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube](https://youtu.be/YxKrXQ3jQcA) 
     

@@ -6,7 +6,7 @@ keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setu
 import ArticleAd from '../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-## Software
+## Software {#software}
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
 
 Può essere aggiornato molto facilmente tramite la scheda microSD fornita con la stampante
@@ -44,12 +44,12 @@ Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor
 
 <ArticleAd/>
 
-### Lingua
+### Lingua {#lingua}
  ```
  cfg_language_type 7 # Language selection 2 - English 3 - Russian 7 - Italiano
  ```
 
-### Sicurezza
+### Sicurezza {#sicurezza}
  ``` HEATER_0_MINTEMP 5 # It is recommended to set exactly 5 (not -5) to avoid overheating if the sensor 
  HEATER_1_MINTEMP 5 # It is recommended to set exactly 5 (not -5 ) in order to avoid overheating in the event of a sensor breakdown
  THERMAL_PROTECTION_PERIOD 30 # Polling time for thermal protection, seconds 

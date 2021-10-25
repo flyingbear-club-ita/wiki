@@ -20,7 +20,7 @@ Dopo passeremo ai plug in per migliorare la gestione della stampante, e, mia ide
 
 Visto che mi devo guadagnare la pagnotta e pagare i miei innumerevoli vizi, non aspettatevi un nuovo contributo al giorno, ma aggiornamenti regolari e spesso si
 
-## Un po' di storia
+## Un po' di storia {#un-po-di-storia}
 
 Prima di parlare di raspberry, vorrei dire 2 parole su quello che secondo me ha dato ispirazione al raspberry, cioè il progetto arduino
 
@@ -48,14 +48,14 @@ Crediti
 Wikipedia, Raspberry foundation, chiacchere da bar ( non i bar che pensate voi)
 :::
 
-## Versioni della Raspberry PI
+## Versioni della Raspberry PI {#versioni-della-raspberry-pi}
 
 Ad oggi siamo arrivati alla versione 4 dell'hardware, ma in passato le versioni precedenti erano diversificate da modello A e modello B
 
 Ulteriori informazioni verranno aggiunte piu' tardi
 
 
-## Perché usare una Raspberry Pi
+## Perché usare una Raspberry Pi {#perché-usare-una-raspberry-pi}
 
 Una delle cose che più si desidera una volta presa dimestichezza con la propria stampante 3d è quella di pilotarla da remoto, grazie a diversi software molto potenti e al tempo stesso facili da usare e free
 
@@ -63,7 +63,7 @@ Stiamo parlando di **OctoPrint** e **Repetier Host**, che consentono di pilotare
 
 Essendo Raspberry un vero computer, non siete limitati solo a queste operazioni, ma vi si aprirà un mondo di soluzioni dove potrete utilizzare il vostro raspberry
 
-## Cosa è Octoprint
+## Cosa è Octoprint {#cosa-è-octoprint}
 
 OctoPrint è il principale e più diffuso **software open-source per il controllo remoto dei processi di stampa**, programmato in Phyton
 
@@ -73,6 +73,6 @@ Per maggiori approfondimenti, vi suggerisco di guardare l'area Plugins ((Work in
 
 Tutte queste caratteristiche lo rendono lo strumento ideale per elevare il livello del nostro setup ed aggiungere la possibilità di controllo remoto a tutte quelle stampante che ne sono prive
 
-## Come funziona Octoprint
+## Come funziona Octoprint {#come-funziona-octoprint}
 
 OctoPrint **invia via USB alla stampante una serie di comandi** per gestire la stampa e riceve continuamente feedback sullo stato del processo: invece di caricare il nostro gcode su una scheda di memoria e inserirla nella stampante, adesso possiamo gestire il tutto da remoto, e addirittura integrare l’intero sistema con Cura, Ideamaker, Prusa Slicer e diversi client per comunicare con la stampante dal cellulare via Internet

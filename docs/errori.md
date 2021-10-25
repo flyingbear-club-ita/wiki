@@ -12,25 +12,25 @@ import ArticleAd from '../src/components/articleAd'
 
 Lista degli errori presa dal manuale della flyingbear
 
-## Err1
+## Err1 {#err1}
 
 il letto termico supera il limite massimo di temperatura
 
 **Verificare se l'interfaccia termica è in corto**
 
-## Err2
+## Err2 {#err2}
 
 la testina di stampa supera il limite massimo di temperatura
 
 **Verificare se l'interfaccia termica è in corto**
 
-## Err3
+## Err3 {#err3}
 
 il letto caldo supera il limite minimo di temperatura
 
 **Verificare se l'interfaccia termica è disconnessa**
 
-## Err4
+## Err4 {#err4}
 
 la testina di stampa supera il limite di temperatura minima
 
@@ -38,19 +38,19 @@ la testina di stampa supera il limite di temperatura minima
 
 <ArticleAd/>
 
-## Err5
+## Err5 {#err5}
 
 il riscaldamento dell'ugello non riesce, se l'ugello non raggiunge la differenza di temperatura impostata entro il tempo impostato, viene segnalato un errore
 
 **controllare le impostazioni del file di configurazione o verificare che l'alimentazione sia sufficiente**
 
-## Err6
+## Err6 {#err6}
 
 il letto di riscaldamento non riesce a riscaldarsi. Se il letto di riscaldamento raggiunge la differenza di temperatura impostata entro il tempo impostato, viene segnalato un errore
 
 **controllare le impostazioni del file di configurazione o verificare che l'alimentazione sia sufficiente**
 
-## Err7
+## Err7 {#err7}
 
 fuga termica; quando la temperatura sale alla temperatura target, la temperatura corrente è inferiore alla temperatura target e supera la temperatura impostata entro il tempo impostato, viene segnalato un errore 
 

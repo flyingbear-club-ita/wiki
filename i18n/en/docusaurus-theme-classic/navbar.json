@@ -34,5 +34,9 @@
   "item.label.Ghost 5": {
     "message": "Ghost 5",
     "description": "Navbar item with label Ghost 5"
+  },
+  "item.label.FAQ": {
+    "message": "FAQ",
+    "description": "Navbar item with label FAQ"
   }
 }

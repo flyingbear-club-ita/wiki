@@ -25,7 +25,7 @@ Non preoccupatevi: si può sistemare, basta armarsi di un po’ di pazienza
 Se capite l’inglese e volete affidarvi alla discussione sul problema, potete trovarla al [seguente link](https://github.com/makerbase-mks/MKS-Robin-Nano-S-Firmware/issues/3)
 
 
-## Materiale occorrente
+## Materiale occorrente {#materiale-occorrente}
 
 - [Youmile Youmile ST-LINK V2 programmer](https://www.amazon.it/Youmile-Emulator-Downloader-programmatore-programmazione/dp/B07QBLNDPM/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=ST-LINK+V2&qid=1633304784&s=electronics&sr=1-4) **da acquistare su amazon, o dove vi pare**
 - [STM32 Cube Programmer](https://www.st.com/en/development-tools/stm32cubeprog.html), compatible con Windows 32bit, Windows 64 bit, Mac OSx e Linux
@@ -38,7 +38,7 @@ In questo caso, proseguite alla [pagina successiva](/docs/firmware/ripristino_bo
 
 <ArticleAd/>
 
-## Preparare bootloader e firmware
+## Preparare bootloader e firmware {#preparare-bootloader-e-firmware}
 
 Una volta scaricato l’archivio del bootloader, estrarre il file *Robin_nano35_v13_f4_boot_210615.hex* contenuto nel percorso */MKS-Robin_Nano-V1.X-master/Bootloader/* e salvarlo sul Desktop per facilitare i passaggi
 
@@ -49,7 +49,7 @@ Prima di procedere, assicurarsi che la testa di stampa sia nella posizione di ho
 :::
 
 
-## Collegamenti
+## Collegamenti {#collegamenti}
 
 Prima di collegare l’ST-LINK (il programmatore USB precedentemente acquistato) al PC, dovremo prima spegnere la stampante tramite l'interruttore luminoso sul retro, **assicurandoci pero' che il cavo di alimentazione sia collegato alla presa di corrente**
 
@@ -87,7 +87,7 @@ Collegare l’ST-LINK ad una porta USB del PC, se i collegamenti sono esatti la 
 
 <ArticleAd/>
 
-## Come flashare il bootloader con STM32 Cube Programmer
+## Come flashare il bootloader con STM32 Cube Programmer {#come-flashare-il-bootloader-con-stm32-cube-programmer}
 
 Aprite il software STM32CubeProgrammer che avete scaricato precedentemente e seguite i
 prossimi passaggi
@@ -100,7 +100,7 @@ prossimi passaggi
 [ ![STM32 Start Programming](/img/bootloader/06.png) ](/img/bootloader/06.png)
 5. Terminato il processo sarà possibile scollegare l’ ST-LINK dalla porta USB ed il cavo dalla scheda madre della stampante; così facendo, la scheda e lo schermo della stampante dovrebbero spegnersi
 
-## Procedura finale
+## Procedura finale {#procedura-finale}
 Prima di proseguire, potete rimontare la ventola di raffreddamento, richiudere il pannello inferiore della stampante e riposizionarla in posizione verticale
 
 Per poter caricare il nuovo firmware, collegate una Micro SDcard al PC e formattatela in formato

@@ -4,7 +4,7 @@ slug: /raspberry/installazione_raspbian
 ---
 **Autore: Nick_it**
 
-## Installazione e prima configurazione
+## Installazione e prima configurazione {#installazione-e-prima-configurazione}
 
 Come spiegato precedentemente è possibile installare diversi sistemi operativi, ora ne vediamo alcuni e a grandi linee
 
@@ -25,7 +25,7 @@ Materiale occorrente
 :::
 
 
-### Preparare la scheda SD
+### Preparare la scheda SD {#preparare-la-scheda-sd}
 
 Bene, per prima cosa dobbiamo preparare la scheda micro sd e installare il sistema operativo contenente OctoPrint
 
@@ -63,7 +63,7 @@ Con questo step **abbiamo preparato la micro SD** con il sistema operativo già 
 Se dopo la creazione della Micro SD vi viene richiesto di formattarla, ignoratelo: è solo la partizione linux che non viene riconosciuta da Windows
 :::
 
-### Configurazione WiFi
+### Configurazione WiFi {#configurazione-wifi}
 A questo punto, se non abbiamo un cavo di rete per collegare il raspberry a internet, bisogna **configurare il WiFi** in modo che al primo avvio sia tutto funzionante
 
 

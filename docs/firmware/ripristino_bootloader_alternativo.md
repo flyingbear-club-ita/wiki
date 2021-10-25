@@ -6,11 +6,11 @@ slug: /firmware/ripristino_bootloader_alternativo
 Se avete un sistema operativo molto vecchio, oppure avete avuto problemi con STM32 Cube Programmer, potete provare ad utilizzare un software alternativo, chiamato STM32 ST-Link Utility
 
 
-## Download
+## Download {#download}
 
 Il software STM32 ST-Link Utility puo' essere scaricato da [questo link](https://www.st.com/en/development-tools/stsw-link004.html#get-software)
 
-## Procedura
+## Procedura {#procedura}
 
 Dopo aver scaricato il software, aprite STM32 ST-LINK utility e seguite questi passaggi
 

@@ -4,11 +4,11 @@ slug: /illuminazioneesterna
 ---
 # Illuminazione esterna
 
-## Occorrenti
+## Occorrenti {#occorrenti}
 
 * 2 x Striscia LED (da 12v, da mettere in serie)
 
-## Procedura
+## Procedura {#procedura}
 Una volta collegate le strisce, basta montare gli appositi supporti
 
 Ci sono due angolazioni diverse:

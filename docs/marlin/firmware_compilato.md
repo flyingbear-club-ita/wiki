@@ -3,7 +3,7 @@ title: Firmware MKS Compilato
 slug: /marlin/firmware_compilato
 ---
 
-import DisplayAd from '../../../src/components/displayAd'
+import DisplayAd from '../../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -12,7 +12,7 @@ In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su
 
 Questo tipo di firmware ha un po' di opzioni in piu' rispetto al firmware stock (per esempio, non e' necessario aggiornare gli step/mm dal config, basta aggiornare nella UI), oltre ad avere una grafica piu' accattivante
 
-## Come flashare
+## Come flashare {#come-flashare}
 1. Aprire il link relativo alla propria configurazione
 2. Scaricare tutto il contenuto della cartella (un file Robin_nan035.bin ed una cartella assets)
 3. Prendere una SD card, formattata in FAT32 e vuota, e copiare tutti i file scaricati
@@ -21,7 +21,7 @@ Questo tipo di firmware ha un po' di opzioni in piu' rispetto al firmware stock 
 
 A questo punto, la procedura di installazione mostrera' una barra di progresso. Una volta completata, compariranno delle scrite per l'aggiornamento delle immagini. La procedura e' automatica, non e' richiesto nessun intervento
 
-## Primi passi
+## Primi passi {#primi-passi}
 
 La prima cosa da fare e' resettare la eeprom tramite interfaccia grafica, per evitare che valori vecchi vadadno ad interferire col firmware nuovo
 
@@ -31,7 +31,7 @@ A questo punto, la stampante e' pronta per stampare
 
 <DisplayAd/>
 
-## I vari firmware
+## I vari firmware {#i-vari-firmware}
 
 :::danger
 A causa di alcuni problemi di incompatibilita' con le schede robin nano 1.3 e 1.3s, e' altamente sconsigliato installare il firmware su questo tipo di schede! 

@@ -23,7 +23,7 @@ Qui trovate alcuni link interessanti
 *  [Settaggi per stampare miniature al meglio](https://www.youtube.com/watch?v=AqEWl51s9Rw)
 *  [Come rimuovere lo stringing](https://youtu.be/_QRb54zVPfQ)
 :::
-## Installazione e primo avvio
+## Installazione e primo avvio {#installazione-e-primo-avvio}
 
 Per prima cosa, andate sul sito del produttore di cura, ultimaker, a [questo link](https://ultimaker.com/it/software/ultimaker-cura), e cliccate su scarica gratuitamente
 
@@ -71,7 +71,7 @@ Se volete potete farlo in un secondo momento, ma io vi raccomando di farlo
 [ ![registrazione](/img/registrazione.PNG) ](/img/registrazione.PNG)
 
 
-## Configurazione stampante
+## Configurazione stampante {#configurazione-stampante}
 
 Siamo arrivati alla configurazione della stampante 
 

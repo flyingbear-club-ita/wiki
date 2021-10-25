@@ -9,7 +9,7 @@ Purtroppo, questo plugin e' disponibile solo con Cura
 
 L'unica alternativa per il trasferimento dei file tramite wifi e' possedere una raspberry pi con octoprint (per maggiori informazioni, andate nella [sezione apposita](/docs/raspberry/introduzione/))
 
-## Installazione
+## Installazione {#installazione}
 
 Esistono due maniere per installare il plugin:
 
@@ -17,7 +17,7 @@ Esistono due maniere per installare il plugin:
 
 2. Scaricare la versione piu' recente da [github](https://github.com/Jeredian/mks-wifi-plugin) ed inserirla nella cartella dei plugin
 
-### Marketplace
+### Marketplace {#marketplace}
 
 Una volta aperto Cura, cliccare sul pulsante in alto a destra per aprire il marketplace
 
@@ -34,7 +34,7 @@ Dopo aver cliccato sull'icona del plugin, si aprira' un'altra finestra, dalla qu
 Dopo aver cliccato sul pulsante per installare, confermate tutti i passaggi successivi e riavviate Cura
 
 
-### Github
+### Github {#github}
 
 Ogni tanto capita che lo sviluppatore del plugin abbia introdotto dei bugfix o delle migliorie, pero' la versione piu' aggiornata non sia ancora disponibile nel marketplace.
 
@@ -57,7 +57,7 @@ Aprite la sotto cartella **plugin** e copiateci dentro la cartella appena estrat
 Stesso discorso dell'installazione dal marketplace, riavviate Cura dopo questa operazione
 
 
-### Configurare il plugin
+### Configurare il plugin {#configurare-il-plugin}
 
 Innanzitutto, assicurarsi che la stampante sia accesa e connessa alla stessa rete wifi del computer sul quale e' installato Cura
 
@@ -69,7 +69,7 @@ Noterete che c'e' un nuovo bottone per configurare il plugin Mks
 
 Cliccateci sopra, selezionate l'indirizzo della maccchina ed ora dovreste vedere un nuovo pannello, tramite il quale controllare la stampante via wifi
 
-### Non vedo nessun bottone!!!
+### Non vedo nessun bottone!!! {#non-vedo-nessun-bottone}
 
 Questo e' un bug noto
 

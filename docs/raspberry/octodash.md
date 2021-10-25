@@ -3,7 +3,7 @@ title: Octodash
 slug: /raspberry/octodash
 ---
 
-## Premessa
+## Premessa {#premessa}
 
 Ciao a tutti, questo articolo, sarà un po diverso dal solito, perchè da oggi vorrei introdurre un nuovo metodo di divulgazione: oltre al presente articolo, preparerò un [video su youtube](https://www.youtube.com/watch?v=3Z_DiOsfn0Y&t=259s&ab_channel=FlyingbearClubIta), per rendere più semplice e di più immediata comprensione le procedure o le guide che andremo a pubblicare
 
@@ -21,7 +21,7 @@ Il mio desiderio di creare questo sistema è nato dal fatto che se mia figlia vo
 
 Perché mi piace vedere la soddisfazione di mia figlia che è riuscita a stampare, senza il mio supporto (almeno ufficialmente), quello che voleva
 
-## Materiale occorrente
+## Materiale occorrente {#materiale-occorrente}
 
 * Raspberry 3A, 3B, 4B (vedrete, presto uscirà un modello 4A!)
 
@@ -49,7 +49,7 @@ Perché mi piace vedere la soddisfazione di mia figlia che è riuscita a stampar
   Scaricate questo software solo se lavorate con Windows, per linux e mac os esiste già il client ssh abilitato di default, altrimenti, se siete pigri, potete scaricarlo anche per Mac/os o Linux
   :::
 
-## Installazione
+## Installazione {#installazione}
 
 Se siete novizi sulla installazione di una immagine del raspberry su scheda Micro SD, vi suggerisco di seguire [questa mia guida](/docs/raspberry/installazione_raspbian) e poi riprendere dal punto successivo
 

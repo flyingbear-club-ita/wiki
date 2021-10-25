@@ -5,7 +5,7 @@ slug: /copertura
 # Copertura
 Copertura superiore trasparente monopezzo e sportello frontale per Flying Bear Ghost 4S/5
 
-## Materiali
+## Materiali {#materiali}
 
 * [Foglio di Plexiglass (o policarbonato) da 2 mm (max 4 mm)](https://www.amazon.it/gp/product/B00HWRE5O6/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1)
 * Taglierino ben affilato o altro utensile di taglio
@@ -21,7 +21,7 @@ Copertura superiore trasparente monopezzo e sportello frontale per Flying Bear G
 * Opzionale: [Termometro circolare](https://www.amazon.it/Termometro-igrometro-misuratore-temperatura-incorporato/dp/B083BW81SZ/ref=sr_1_11?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=6TV0Z9SG89YV&dchild=1&keywords=termometro+circolare&qid=1605974380&sprefix=termometro+circ%2Caps%2C201&sr=8-11)
 
 
-## Procedura Coperchio
+## Procedura Coperchio {#procedura-coperchio}
 Tagliare il foglio di plexiglass come mostrato in figura escludendo le aree tratteggiate. Le misure esatte (che tengono conto dei raccordi degli spigoli) sono riportate sotto alla figura
 
 [![](/img/foglio.png)](/img/foglio.png)
@@ -90,7 +90,7 @@ Dopo aver stampato il [coperchio posteriore](https://cdn.discordapp.com/attachme
 [![](/img/back.jpg)](/img/back.jpg)
  
 
-## Procedura Sportello
+## Procedura Sportello {#procedura-sportello}
 
 artendo da un pannello 37x50cm (in celeste nell’immagine precedente), mantenendo 37 cm di larghezza, tagliare all’altezza desiderata. Si tenga però conto che, per posizionare i magneti per la chiusura, è necessario lasciare almeno 1 cm di sovrapposizione tra plexiglass e telaio metallico, come mostrato in figura
 

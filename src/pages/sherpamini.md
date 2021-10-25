@@ -2,14 +2,14 @@
 title: Sherpa Mini
 slug: /sherpamini
 ---
-## Sherpa Mini
+## Sherpa Mini {#sherpa-mini}
 [![](/img/sherpaMini1.jpg)](/img/sherpaMini1.jpg)
 
-## Dove scaricare il progetto
+## Dove scaricare il progetto {#dove-scaricare-il-progetto}
 [https://www.thingiverse.com/thing:4878543](https://www.thingiverse.com/thing:4878543)
 
 
-## Descrizione
+## Descrizione {#descrizione}
 Con questo progetto puoi trasformare la tua ghost da bowden in direct drive rendendola una bomba!
 
 Ciò è possibile grazie all’utilizzo del progetto “sherpa mini” e ad un mount/adattatore disegnato da [Rodrigoson](https://www.thingiverse.com/Rodrigoson6), **autore di questa guida**
@@ -20,7 +20,7 @@ Il beneficio di avere meno peso sulla testa consiste nel poter stampare piu' vel
 
 Inoltre, lo sherpa ha una coppia assurda, quindi avrete anche miglior controllo sul filamento
 
-## Per passare al direct drive
+## Per passare al direct drive {#per-passare-al-direct-drive}
 
 1. togliere il bowden
 2. svitare la vite M3 sinistra con la quale viene fissata la cinghia al carrello
@@ -42,7 +42,7 @@ Mi raccomando non stringete troppo altrimenti i tasselli/dadi se ne vengono via
 N.B: per fissare lo sherpa rimuovete un attimo la vite con la molla (quella che serve a far pressione sul filamento)
 10. ora inserite il filamento, inserire la vite con la molla e stringete (non troppo eh !)
 
-## Come montare lo Sherpa Mini
+## Come montare lo Sherpa Mini {#come-montare-lo-sherpa-mini}
 
 [Guida in formato pdf](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder/blob/master/Build_Instructions/Sherpa_Mini_Assembly_Guide_r2.pdf)
 
@@ -57,7 +57,7 @@ N.B: per fissare lo sherpa rimuovete un attimo la vite con la molla (quella che 
 * Prima di fissare lo sherpa al mount, assicurarsi che il filamento scorra bene (cioè che si muovano tutti gli ingranaggi)
 :::
 
-## Collegamenti elettrici
+## Collegamenti elettrici {#collegamenti-elettrici}
 
 Il motore utilizzato per lo sherpa mini (Nema 14 Ldo) ha un connettore di tipo Dupont femmina a 4 pin
 
@@ -99,7 +99,7 @@ La linguetta del connettore jst deve essere verso l'alto e i collegamenti inizia
 * rispetta l'ordine dei collegamenti
 :::
 
-## Firmware
+## Firmware {#firmware}
 
 1. devi modificare la vref. Se hai un driver TMC2209, inserisci una vref tra 0.42 e 0.49 (Io ho impostato la vref a 0.479)
 2. nel firmware originale devi modificare alcune linee di codice e sostituirle con queste:
@@ -122,13 +122,13 @@ Mi raccomando, non inserire queste linee di codice “ad minghiam” ma ognuno a
 
 Non c’è nulla di nuovo, cambiano solo i valori. Tutto ciò che sta dopo “#” è un commento
 
-## Valori Ritrazione
+## Valori Ritrazione {#valori-ritrazione}
 
 Ho inserito su Cura 4.8 una velocità di 40mm/s e una distanza di 0.6 mm, ma e' sempre consigliato fare dei test per trovare il settaggio perfetto, partendo da valori bassi (35mm/s e 0.4mm)
 
 Non è necessario calibrare gli step/mm dell'estrusore
 
-## LISTA DELLA SPESA
+## LISTA DELLA SPESA {#lista-della-spesa}
 
 * [Motore LDO NEMA 14 36mm rotondo pancake motore LDO-36STH17-1004AHG/LDO-36STH20-1004AHG](https://it.aliexpress.com/item/4001346055973.html?spm=a2g0s.9042311.0.0.27424c4dW9i6zN)
 * [Ingranaggi BMG](https://s.click.aliexpress.com/e/_A50voN)
@@ -146,7 +146,7 @@ Questo link non e' stato testato, ma trianglelab solitamente e' una marca affida
 https://s.click.aliexpress.com/e/_AKkNuz
 :::
 
-## Consigli per la stampa dei componenti
+## Consigli per la stampa dei componenti {#consigli-per-la-stampa-dei-componenti}
 
 **mount**
 
