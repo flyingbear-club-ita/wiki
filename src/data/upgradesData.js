@@ -90,6 +90,15 @@ export const upgradesData = [
         description: 'L\'estrusore completo e\' un po\' costoso, cambiare solo la ruota godronata e\' comunque un salto di qualita\'',
     },
     {
+        difficulty: 'medium',
+        title: 'Estrusore Redrex',
+        imgSrc:'',
+        desc:'Estrusore simile a quello della trianglelab, solo che arriva da amazon',
+        links:['https://amzn.to/3EqDVCe',],
+        img: 'img/upgrades/estrusoreRedrex.jpg',
+        description: 'Per garantire una estrusione piu\' costante, questo clone della bmg e\' un ottimo compromesso tra qualita\' e prezzo. Versione: right',
+    },
+    {
         difficulty: 'low',
         title: 'Specchio Ikea per il piatto',
         imgSrc:'',
@@ -278,5 +287,16 @@ export const upgradesData = [
         links:['https://www.thingiverse.com/thing:4659428'],
         img: 'img/fanDuctGhost5.jpg',
         description: 'Quello di default montato dalla Flyingbear non è malaccio, ma non è nemmeno il migliore in circolazione. In alcuni casi, specialmente con alte velocità di stampa, il filamento potrebbe non depositarsi correttamente a causa della eccessiva temperatura. Per ovviare a questo problema, si puo\' utilizzare un convogliatore circolare. N.B. Da stampare con i supporti ove necessario, ma potrebbe funzionare anche senza. Materiale Consigliato: PETG o ABS (funziona anche in PLA+, ma a lungo andare potrebbe subire deformazioni)',
-    },  
+    },
+    {
+        difficulty: 'low',
+        title: 'Calza autoserrante',
+        imgSrc:'',
+        desc:'Per rimuovere quello schifo del corrugato',
+        links:['https://amzn.to/3jM6PF3'],
+        img: 'img/upgrades/calzaAutoserrante.jpg',
+        description: 'Per rimuovere quello schifo del corrugato',
+    },
 ];
+
+

@@ -35,7 +35,7 @@ export const upgradesData = [
         title: 'Ugelli E3D V6',
         imgSrc:'',
         desc:'Ugelli di ricambio compatibili con quelli originali',
-        links:['https://www.amazon.it/dp/B07KWQRSFM/ref=cm_sw_r_cp_apa_i_lVwIFbY1EXJ7G'],
+        links:['https://amzn.to/2XWxVlk'],
         img: 'img/nozzleE3D.jpg',
         description: 'Probabilmente una delle soluzioni piu\' costose, ma certamente ne vale la pena',
     },
@@ -46,6 +46,14 @@ export const upgradesData = [
         links:['https://s.click.aliexpress.com/e/_ANuddX'],
         img: 'img/nozzleTrianglelab.jpg',
         description: 'Alternativa economica ma di ottima qualita\'',
+    },
+    {
+        title: 'Ugelli + Strumenti',
+        imgSrc:'',
+        desc:'Ugelli di ricambio + strumenti per la manutenzione',
+        links:['https://amzn.to/2XRiieL'],
+        img: 'img/ricambi/ugelliAndTools.jpg',
+        description: 'Ugelli di ricambio + strumenti per la manutenzione, spediti da amazon',
     },
     {
         title: 'Motori',
@@ -79,5 +87,23 @@ export const upgradesData = [
         img: 'img/isolamento.jpg',
         description: 'Isolamento piatto',
     },
+    {
+        title: 'Raccordi Pneumatici',
+        imgSrc:'',
+        desc:'Per connettere il ptfe a hotend ed estrusore',
+        links:['https://amzn.to/3blnkmS'],
+        img: 'img/ricambi/connettoriPneumatici.jpg',
+        description: 'Per connettere il ptfe a hotend ed estrusore',
+    },
+    {
+        title: 'Tubo PTFE Capricorn',
+        imgSrc:'',
+        desc:'Tubo Originale capricorn con ricambi',
+        links:['https://amzn.to/3vQelnj'],
+        img: 'img/ricambi/ptfeCapricorn.jpg',
+        description: 'Comprensivo di connettori pneumatici e taglierino',
+    },
 
 ];
+
+
