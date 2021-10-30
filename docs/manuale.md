@@ -41,4 +41,7 @@ import ArticleAd from '../src/components/articleAd'
 ![alt text](/img/page17.jpg "Manuale Flyingbear Ghost Pagina 17")
 ![alt text](/img/page18.jpg "Manuale Flyingbear Ghost Pagina 18")
 
+Il circuit diagram della hot-end nella Ghost 5 (vedi sopra) è leggermente diverso dalla versione 4S (vedi sotto).
+
+![alt text](/img/page184S.jpeg "Manuale Flyingbear Ghost 4S Pagina 18")
 <ArticleAd/>
