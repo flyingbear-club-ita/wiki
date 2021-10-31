@@ -112,6 +112,9 @@ module.exports = {
         systemvars: true,
       },
     ],
+    [require.resolve('@cmfcmf/docusaurus-search-local'), {
+      // Options here
+    }]
   ],
   i18n: {
     defaultLocale: 'it',
