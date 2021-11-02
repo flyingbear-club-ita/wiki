@@ -261,14 +261,22 @@ Se, per esempio, avessimo misurato 265, la formula qui sopra sarebbe:
 
   `400 * (280/265)`
 
-Una volta calcolato il nuovo valore, inserirlo nel file robin_nano35_cfg.txt.
+Una volta calcolato il nuovo valore, bisogna aggiornarlo
 
-Cercare:
+Per la procedura tramite robin_nano35_cfg.txt, cercare:
 
 **DEFAULT_E0_STEPS_PER_UNIT**
 
 
-Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore 
+Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore
+
+Per aggiornare il valore degli step tramite gcode, basta inviare il seguente comando:
+
+```
+M92 EXX.X
+```
+
+Dove XX.X rappresenta il valore degli step/mm calcolato
 
 :::tip
 È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati

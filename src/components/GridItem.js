@@ -1,5 +1,4 @@
 import React from 'react';
-import { url } from '../../docusaurus.config'
 
 import './Upgrades.css';
 import './modal.css'

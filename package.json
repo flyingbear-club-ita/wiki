@@ -14,17 +14,18 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "translate": "yarn run write-translations -- --locale en",
-    "start:en":"yarn run start -- --locale en"
+    "start:en": "yarn run start -- --locale en"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-beta.8",
     "@docusaurus/preset-classic": "^2.0.0-beta.8",
+    "@easyops-cn/docusaurus-search-local": "^0.19.1",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "docusaurus2-dotenv": "^1.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-image-gallery": "^1.0.9",
-    "docusaurus2-dotenv": "^1.4.0"
+    "react-image-gallery": "^1.0.9"
   },
   "browserslist": {
     "production": [

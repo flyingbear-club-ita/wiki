@@ -112,6 +112,15 @@ module.exports = {
         systemvars: true,
       },
     ],
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["it", "en"],
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
   ],
   i18n: {
     defaultLocale: 'it',
