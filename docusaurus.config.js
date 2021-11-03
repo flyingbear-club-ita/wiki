@@ -83,6 +83,15 @@ module.exports = {
     footer: {
       style: 'dark',
       copyright: 'Created by the Flyingbear Italian Community',
+      links: [{
+        title: 'Legal',
+        items: [
+          {
+            label: 'Privacy Policy',
+            to: '/privacypolicy'
+          }
+        ]
+      }],
     },
     googleAnalytics: {
       trackingID: 'UA-199656279-2',
