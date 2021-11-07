@@ -5,7 +5,7 @@ keywords: ["slicer", "3d printing", "flyingbear", "flyingbear ghost", "flying be
 description: Tutorial per generare una temp tower con ideamaker
 ---
 
-import DisplayAd from '../../src/components/displayAd'
+import DisplayAd from '../../../src/components/displayAd'
 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
