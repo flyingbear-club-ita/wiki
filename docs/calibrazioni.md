@@ -1,9 +1,9 @@
 ---
 title: Calibrazioni
 slug: /calibrazioni
-keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "hotend", "heath bed"]
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "calibration", "hotend", "heath bed"]
 ---
-import ArticleAd from '../src/components/articleAd'
+import DisplayAd from '../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Piano di stampa {#piano-di-stampa}
@@ -25,9 +25,27 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 * Tra una calibrazione e l’altra portare tutti gli assi in "home"
 * Pulire il piano di stampa con alcool isopropilico
 
+### Verifica del livellamento del piatto
+Dopo aver livellato, per avere un riscontro dei risultati ottenuti si puo' stampare un file di calibrazione
+
+[Livellamento Piatto - Autore: Wolf](https://www.thingiverse.com/thing:4678933/files)
+
+:::tip
+Il file va stampato molto lentamente, intorno ai 20mm/s, cosi' da poter eventualmente intervenire, per risolvere evidenti problemi di livellamento, girando le manopole sotto al piatto
+:::
+
+Una volta stampato, o proprio durante la stampa, e' possibile valutare la qualita' del livellamento confrontando la stesura del primo layer con la tabella qui sotto
+
+<p align = "center">
+<img src = "/img/calibrazioni/bedLevelExample.jpg"/>
+</p>
+<p align = "center">
+Esempi di livellamento - Credits <a href="https://43dprint.org/">43dprint.org</a>
+</p>
+
 *Un ringraziamento a Magnas per aver realizzato la guida*
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Calibrazione PID {#calibrazione-pid}
 :::danger
@@ -45,7 +63,7 @@ Prima di lanciare RH, connetti la stampante alla porta usb del computer tramite 
 
 Per i sistemi *nix, come **Ubuntu** e **macOS**, non c'e' bisogno di fare niente, basta collegare il cavo
 
-Per **Windows**, a volte potrebbe essere necessario installare il [driver CH341](http://www.cesareriva.com/release/wp-content/uploads/2011/02/usb_serial_converter_ch340_windows_x64_drivers.zip)
+Per **Windows**, a volte potrebbe essere necessario installare il [driver CH34X](/files/CH34x_Install_Windows_v3_4.zip)
 
 Sempre per Windows, per verificare che la stampante sia connessa:
  1. Cercare ed aprire "Pannello di Controllo"
@@ -149,7 +167,7 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 **Voila', il PID dell'estrusore e' calibrato!**
 
-<ArticleAd/>
+<DisplayAd/>
 
 ### Calibrazione PID Piatto
 La calibrazione del PID del piatto e' analoga, pero' c'e' una modifica da fare nel file di config
@@ -212,7 +230,7 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 **Voila', il PID del piatto e' calibrato!**
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Step {#step}
 
@@ -283,6 +301,9 @@ Dove XX.X rappresenta il valore degli step/mm calcolato
 
 *Consigliati calicat, benchy, calibrationCube*
 :::
+
+
+<DisplayAd/>
 
 ### Assi {#assi}
 Stampare elementi con incastri e' una delle cose piu' problematiche della stampa 3d: a causa di espansione del materiale e/o inaccuratezze nel modello originale (per esempio, una errata tolleranza)
@@ -368,14 +389,15 @@ Per salvare i valori sulla EEPROM, invire il comando:
 M500
 ```
 
-Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a posto con il gcode **M501**
+Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a posto con il gcode **M503**
 
 Se tutto e' a posto, siamo pronti a stampare il cubetto un'altra volta e a misurare i nuovi valori
 
 [ ![3d printing - Flyingbear Ghost - X axis steps calibration - after](/img/calibration/axis/xAfterCalib.jpg) ](/img/calibration/axis/xAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - after](/img/calibration/axis/yAfterCalib.jpg) ](/img/calibration/axis/yAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - after](/img/calibration/axis/zAfterCalib.jpg) ](/img/calibration/axis/zAfterCalib.jpg)
 
 Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
-- +0.3 sull'asse X, a fronte di uno scarto di +0.14 precedentemente
-- +0.2 sull'asse Y, a fronte di uno scarto di +0.09 precedentemente
+- +0.03 sull'asse X, a fronte di uno scarto di +0.14 precedentemente
+- +0.02 sull'asse Y, a fronte di uno scarto di +0.09 precedentemente
 - -0.07 sull'asse Y, a fronte di uno scarto di +0.26 precedentemente
 
+<DisplayAd/>
