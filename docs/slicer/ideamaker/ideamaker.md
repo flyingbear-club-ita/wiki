@@ -3,6 +3,11 @@ title: Ideamaker - Introduzione
 slug: /slicer/ideamaker
 ---
 
+import DisplayAd from '../../../src/components/displayAd'
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 Questo slicer sta prendendo sempre piu' piede, grazie anche ai profili per le Ghost disponibili su [ideamaker.io](https://ideamaker.io)
 
 Alcuni membri della community riportano una qualita' di stampa superiore a parita' di parametri
@@ -16,6 +21,8 @@ Se invece preferite dei video o volete approfondire un po' di piu' sul processo 
 [Come creare un profilo - parte 1](https://www.youtube.com/watch?v=bOTC2CZQNgY)
 
 [Come creare un profilo - parte 2](https://www.youtube.com/watch?v=IcyBEYYFn5s&t=1525s)
+
+<DisplayAd/>
 
 ## Installazione {#installazione}
 
@@ -110,4 +117,5 @@ E' una promessa!
 
 :::
 
+<DisplayAd/>
 
