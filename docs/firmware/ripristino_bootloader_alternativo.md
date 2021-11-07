@@ -3,12 +3,19 @@ title: Ripristino bootloader con ST-LINK Utility
 slug: /firmware/ripristino_bootloader_alternativo
 ---
 
+import DisplayAd from '../../src/components/displayAd'
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 Se avete un sistema operativo molto vecchio, oppure avete avuto problemi con STM32 Cube Programmer, potete provare ad utilizzare un software alternativo, chiamato STM32 ST-Link Utility
 
 
 ## Download {#download}
 
 Il software STM32 ST-Link Utility puo' essere scaricato da [questo link](https://www.st.com/en/development-tools/stsw-link004.html#get-software)
+
+
+<DisplayAd/>
 
 ## Procedura {#procedura}
 
@@ -33,3 +40,5 @@ Dopo aver scaricato il software, aprite STM32 ST-LINK utility e seguite questi p
 :::info
 Per completare la procedura, tornate alla [pagina precedente](/docs/firmware/ripristino_bootloader) e seguite le istruzioni nella sezione **Procedura Finale**
 :::
+
+<DisplayAd/>

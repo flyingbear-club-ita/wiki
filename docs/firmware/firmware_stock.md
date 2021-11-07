@@ -3,9 +3,10 @@ title: Firmware Stock
 slug: /firmware/firmware_stock
 ---
 
-import ArticleAd from '../../src/components/articleAd'
+import DisplayAd from '../../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 
 In questa pagina puoi recuperare il firmware per la stampante e le procedure di verifica ed aggiornamento del firmware in uso
 
@@ -31,7 +32,7 @@ In questa pagina puoi recuperare il firmware per la stampante e le procedure di 
 Attenzione: non spegnere per nessun motivo la stampante durante la procedura di aggiornamento!!!
 :::
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Aumentare la velocita' di stampa {#aumentare-la-velocita-di-stampa}
 Il firmware stock limita la velocita' della stampante, che puo' raggiungere accelerazioni piu' elevate
@@ -60,7 +61,7 @@ Per rimuovere le limitazioni, sostituire i seguenti valori nel robin_nano_cgf.tx
  >DEFAULT_MINTRAVELFEEDRATE    0.0    #
 ```
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Versioni firmware disponibili {#versioni-firmware-disponibili}
 
@@ -89,7 +90,7 @@ Stampante  | Chipset   | Driver    | Versione  | Link
 5          | STM32F407 |  STOCK    | **v6.4**  | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
 
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Link utili {#link-utili}
 [Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube](https://youtu.be/YxKrXQ3jQcA) 

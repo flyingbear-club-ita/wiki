@@ -4,7 +4,7 @@ slug: /firmware/ripristino_bootloader
 description: Guida per il ripristino del bootloader dopo aver flashato il firmware sbagliato
 ---
 
-import ArticleAd from '../../src/components/articleAd'
+import DisplayAd from '../../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -16,7 +16,7 @@ La procedura qui descritta e' stata testata da piu' utenti, ma non ci assumiamo 
 
 :::
 
-<ArticleAd/>
+<DisplayAd/>
 
 Se, dopo aver tentato l’aggiornamento ad un nuovo firmware, il processo di installazione si ferma sulla schermata "Font Table Updating 100% ed al riavvio della stampante, a schermo compare fisso la scritta “Booting...”, e' necessario ricaricare il bootloader sulla scheda madre
 
@@ -36,7 +36,7 @@ STM32 Cube Programmer potrebbe non funzionare su sistemi operativi Windows molto
 In questo caso, proseguite alla [pagina successiva](/docs/firmware/ripristino_bootloader_alternativo), dove c'e' una guida per un software alternativo
 :::
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Preparare bootloader e firmware {#preparare-bootloader-e-firmware}
 
@@ -85,7 +85,7 @@ Assicuratevi che i cavetti siano saldamente collegati ai Pin della scheda madre 
 
 Collegare l’ST-LINK ad una porta USB del PC, se i collegamenti sono esatti la scheda e lo schermo della stampante dovrebbero accendersi
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Come flashare il bootloader con STM32 Cube Programmer {#come-flashare-il-bootloader-con-stm32-cube-programmer}
 
@@ -132,4 +132,4 @@ Per qualsiasi domanda in merito a questa guida, non esitate a contattarci via Di
 matteoberg#3262 e OrkoMastro#0507
 :::
 
-<ArticleAd/>
+<DisplayAd/>

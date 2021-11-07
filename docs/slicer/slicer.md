@@ -1,15 +1,15 @@
 ---
 title: Generale
 slug: /slicer
-keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d",  "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
 ---
-import ArticleAd from '../../src/components/articleAd'
+import DisplayAd from '../../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 ## GCode {#gcode}
 
-<ArticleAd/>
+<DisplayAd/>
 
 ### Start Gcode {#start-gcode}
 Comune per tutti gli slicer
@@ -39,7 +39,7 @@ Comune per tutti gli slicer
  G1 Z2.0 F3000 ;Move Z Axis up
 ```
 
-<ArticleAd/>
+<DisplayAd/>
 
 ### End Gcode {#end-gcode}
 Comune per tutti gli slicer
@@ -70,4 +70,4 @@ Comune per tutti gli slicer
  M84 X Y E ;Disable all steppers but Z
 ```
 
-<ArticleAd/>
+<DisplayAd/>

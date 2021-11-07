@@ -4,7 +4,6 @@ slug: /3dprinting/flusso
 description: Guida alla calibrazione del flusso per filamenti PLA, PETG, ABS per la stampante 3d Flyingbear Ghost
 keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "flow", "flow calibration"]
 ---
-import ArticleAd from '../../src/components/articleAd'
 import DisplayAd from '../../src/components/displayAd'
 
 
@@ -18,7 +17,7 @@ Il test che consigliamo di utilizzare si puo' trovare facilmente su thingiverse
 
 [Test Flusso](https://www.thingiverse.com/thing:3397997)
 
-<ArticleAd/>
+<DisplayAd/>
 
 Questo test stampa solo quattro pareti, con due perimetri ciascuna
 

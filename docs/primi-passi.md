@@ -1,9 +1,10 @@
 ---
 title: Primi Passi
 slug: /
-keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setup", "hotend", "heath bed", "firmware", "pid"]
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "setup", "hotend", "heath bed", "firmware", "pid"]
+description: Primi passi da effettuare per cominciare a stampare con una Flyingbear Ghost
 ---
-import ArticleAd from '../src/components/articleAd'
+import DisplayAd from '../src/components/displayAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Software {#software}
@@ -42,7 +43,7 @@ Vediamo come e cosa cambiare:
 
 Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
 
-<ArticleAd/>
+<DisplayAd/>
 
 ### Lingua {#lingua}
  ```
@@ -70,7 +71,7 @@ CFG_WIFI_KEY_CODE # password WiFi, write before #
 Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-Fi
 ![alt text](/img/wifi_config.png "wifi")
 
-<ArticleAd/>
+<DisplayAd/>
 
 ### Quinto punto calibrazione
 È possibile aggiungere un punto ulteriore di calibrazione (a scelta dell'utente) nell'intefaccia (quattro di standard), per livellare il piatto anche al centro, oltre che negli angoli
@@ -88,7 +89,7 @@ Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il qu
 
 La procedura di aggiornamento e' la solita
 
-<ArticleAd/>
+<DisplayAd/>
 
 ## Considerazioni finali
 Una volta completati i passi precedenti, e' sempre meglio fare una copia del robin_nano_cfg.txt e cancellare il contenuto della SD
@@ -96,3 +97,6 @@ Una volta completati i passi precedenti, e' sempre meglio fare una copia del rob
 La stampante, cosi' com'e', e' pronta per stampare. Per aumentare la qualita' di stampa, pero', ci sono alcune calibrazioni da fare
 
 Nella pagina successiva ci sono tutte le calibrazioni necessarie
+
+
+<DisplayAd/>

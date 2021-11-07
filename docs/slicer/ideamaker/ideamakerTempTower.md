@@ -1,7 +1,14 @@
 ---
 title: Temp Tower Ideamaker
 slug: /slicer/ideamaker/temptower
+keywords: ["slicer", "3d printing", "flyingbear", "flyingbear ghost", "flying bear", "flying bear ghost", "ideamaker", "ideamaker temp tower", "ideamaker temptower", "ideamaker slicer"]
+description: Tutorial per generare una temp tower con ideamaker
 ---
+
+import DisplayAd from '../../src/components/displayAd'
+
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 Fare una temp tower in Ideamaker e' semplicissimo
 
@@ -31,6 +38,8 @@ Nella sezione Primary Extruder in alto, inseriamo la temperatura dalla quale vog
 Questo passo e' molto importante, la temperatura iniziale potrebbe non essere sovrascritta dal temperature control, falsando cosi' i risultati
 :::
 
+<DisplayAd/>
+
 Attiviamo il temperature control, spuntando la casella come mostrato in figura, e apriamo il tab dell'hotend
 
 [ ![Temperature Control](/img/temperatureControl.png) ](/img/temperatureControl.png)
@@ -54,3 +63,5 @@ Procedete nella stessa maniera per tutti gli strati, fin quando non ottenete una
 [ ![Temperature List](/img/temperatureList.png) ](/img/temperatureList.png)
 
 Adesso basta salvare il profilo e procedere allo slicing, la temp tower e' pronta!
+
+<DisplayAd/>
