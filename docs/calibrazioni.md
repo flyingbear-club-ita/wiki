@@ -4,6 +4,7 @@ slug: /calibrazioni
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "calibration", "hotend", "heath bed"]
 ---
 import DisplayAd from '../src/components/displayAd'
+import FacebookLink from '../src/components/facebookLink'
 
 ## Piano di stampa {#piano-di-stampa}
 La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da effettuare
@@ -400,3 +401,5 @@ Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
 - -0.07 sull'asse Y, a fronte di uno scarto di +0.26 precedentemente
 
 <DisplayAd/>
+
+<FacebookLink link="https://www.facebook.com/hashtag/calibrazioni?__gid__=600126627631693"/>
