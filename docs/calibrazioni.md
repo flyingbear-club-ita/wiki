@@ -5,7 +5,6 @@ keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "fly
 ---
 import DisplayAd from '../src/components/displayAd'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Piano di stampa {#piano-di-stampa}
 La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da effettuare
 
@@ -25,7 +24,7 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 * Tra una calibrazione e l’altra portare tutti gli assi in "home"
 * Pulire il piano di stampa con alcool isopropilico
 
-### Verifica del livellamento del piatto
+### Verifica del livellamento del piatto {#verifica-del-livellamento-del-piatto}
 Dopo aver livellato, per avere un riscontro dei risultati ottenuti si puo' stampare un file di calibrazione
 
 [Livellamento Piatto - Autore: Wolf](https://www.thingiverse.com/thing:4678933/files)

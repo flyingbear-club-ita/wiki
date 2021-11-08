@@ -248,7 +248,7 @@ export const upgradesData = [
         title: 'Ventola raffreddamento dissipatore',
         imgSrc:'',
         desc:'Ventola piu\' sileziosa',
-        links:['https://s.click.aliexpress.com/e/_AVpKyD'],
+        links:['https://s.click.aliexpress.com/e/_ASpG5P'],
         img: 'img/ventolaDissipatore.webp',
         description: 'ATTENZIONE!!!\nPrendere la ventola da 24v!!!',
     },
