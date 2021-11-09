@@ -1,27 +1,35 @@
-#facebookLink {
+#facebookBanner {
     display: flex;
     flex-direction: row;
     background-color: cornflowerblue;
-    color: white;
     border-radius: 20px;
 }
 
-#facebookLinkParagraph{
+#facebookBannerParagraph{
     width: 80%;
     text-align: center;
     line-height:1.6;
 	font-size: 5vw;
+    margin: auto;
 }
 
-#facebookLinkIcon{
-    border-radius: 20px;
-    margin: 1px;
+#facebookBannerIcon{
+    margin: auto;
+    border-radius: 20px 0px 0px 20px;
     width: 20%;
-    height: 100%;
 }
 
 @media (min-width: 768px) {
-    #facebookLinkParagraph { 
+    #facebookBannerParagraph { 
 		font-size: 3vw;
 	}
 }
+
+#facebookLink {
+    color: white !important;
+}
+
+html[data-theme="dark"] #facebookLink{
+    color: orange !important;
+}
+
