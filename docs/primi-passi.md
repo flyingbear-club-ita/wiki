@@ -5,6 +5,7 @@ keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "fly
 description: Primi passi da effettuare per cominciare a stampare con una Flyingbear Ghost
 ---
 import DisplayAd from '../src/components/displayAd'
+import FacebookLink from '../src/components/facebookLink'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 ## Software {#software}
@@ -100,3 +101,5 @@ Nella pagina successiva ci sono tutte le calibrazioni necessarie
 
 
 <DisplayAd/>
+
+<FacebookLink link="https://www.facebook.com/hashtag/primipassi?__gid__=600126627631693"/>

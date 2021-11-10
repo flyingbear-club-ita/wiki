@@ -4,6 +4,7 @@ slug: /firmware/firmware_stock
 ---
 
 import DisplayAd from '../../src/components/displayAd'
+import FacebookLink from '../../src/components/facebookLink'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -95,3 +96,5 @@ Stampante  | Chipset   | Driver    | Versione  | Link
 ## Link utili {#link-utili}
 [Video-guida "Ghost 4S Firmware Upload Flying Bear" su YouTube](https://youtu.be/YxKrXQ3jQcA) 
     
+
+<FacebookLink link="https://www.facebook.com/hashtag/firmware?__gid__=600126627631693"/>
