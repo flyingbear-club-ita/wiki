@@ -1,4 +1,4 @@
-export const upgradesData = [
+export const ricambiData = [
     {
         title: 'Ventola Raffreddamento Esterna 4S',
         imgSrc:'',
