@@ -4,10 +4,10 @@ slug: /faq
 keywords: ["flyingbear", "flyingbear ghost", "flying bear ghost", "flyingbear ghost FAQ", "flying bear ghost FAQ", "3d printing", "aliexpress", "banggood"]
 image: /img/faq.png
 description: FAQ per Flyingbear Ghost 5 e Flyingbear Ghost 4s
+hide_table_of_contents: true
 ---
 import DisplayAd from '../components/displayAd'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 # FAQ
 
