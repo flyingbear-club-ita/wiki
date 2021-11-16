@@ -8,6 +8,7 @@ import DisplayAd from '../src/components/displayAd'
 import FacebookLink from '../src/components/facebookLink'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
 ## Software {#software}
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
 
