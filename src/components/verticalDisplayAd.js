@@ -15,8 +15,8 @@ export default class VerticalDisplayAd extends React.Component {
 
 render () {
     return (
-      <ins class="adsbygoogle"
-      style="display:block"
+      <ins className="adsbygoogle"
+      style={{display:"block"}}
       data-ad-client="ca-pub-3253384067482467"
       data-ad-slot="2898075240"
       data-ad-format="auto"
