@@ -1,21 +1,3 @@
-// import React from "react";
-
-// export default function DisplayAd() {
-//     return(
-//         <div className="displayAd">
-//             <ins class="adsbygoogle"
-//                 style={{display:"block"}}
-//                 data-ad-client="ca-pub-3253384067482467"
-//                 data-ad-slot="5610548275"
-//                 data-ad-format="auto"
-//                 data-full-width-responsive="true">
-//             </ins>
-//             <script src="articleAdPush.js"></script>
-//         </div>
-//     );
-// }
-
-
 import React from "react";
 
 export default class DisplayHorizontalAd extends React.Component {
@@ -33,13 +15,15 @@ export default class DisplayHorizontalAd extends React.Component {
 
 render () {
     return (
+      <div className="horizontalDisplayAd" key={Math.random()}>
         <ins className="adsbygoogle"
-            style={{"display:block"}}
+            style={{"display":"block"}}
             data-ad-client="ca-pub-3253384067482467"
             data-ad-slot="4327062206"
             data-ad-format="auto"
             data-full-width-responsive="true">
         </ins>
+      </div>
     );
   }
 }

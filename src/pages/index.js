@@ -105,8 +105,9 @@ export default function Home() {
       <div className="container text-visual-home">
           <h1 className="">{title}</h1>
       </div>
-        
+      
       <main>
+      <DisplayAd/>
       {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

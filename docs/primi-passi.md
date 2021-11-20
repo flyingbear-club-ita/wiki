@@ -6,8 +6,11 @@ description: Primi passi da effettuare per cominciare a stampare con una Flyingb
 ---
 import DisplayAd from '../src/components/displayAd'
 import FacebookLink from '../src/components/facebookLink'
+import ArticleAd from '../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<DisplayAd/>
 
 ## Software {#software}
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
@@ -26,6 +29,8 @@ Una volta copiato il contenuto della scheda in una cartella di vostra preferenza
 5. Inserite la scheda nella stampante (attenzione: la scheda va inserita capovolta rispetto a come si inserisce nell'adattatore!)
 6. Spegnere (se accesa) e accendere la stampante
 
+<ArticleAd/>
+
 Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware
 [ ![Barra di progresso aggiornamento](/img/TFT_Update.jpg) ](/img/TFT_Update.jpg)
 
@@ -43,7 +48,7 @@ Questo file contiente tutti i principali parametri della stampante. Cambiare un 
 Vediamo come e cosa cambiare:
 
 
-Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
+Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente, più spazi non contano)
 
 <DisplayAd/>
 
@@ -77,6 +82,8 @@ Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-
 
 ### Quinto punto calibrazione
 È possibile aggiungere un punto ulteriore di calibrazione (a scelta dell'utente) nell'intefaccia (quattro di standard), per livellare il piatto anche al centro, oltre che negli angoli
+
+<ArticleAd/>
 
 Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il quinto punto dovrebbe essere centrale, modificare con coordinate del centro
 

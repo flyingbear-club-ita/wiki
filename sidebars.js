@@ -54,6 +54,7 @@ module.exports = {
             'raspberry/octodash',
             'raspberry/plugins',
             'raspberry/octo_docker',
+            'raspberry/octoprint_pi_zero_2w'
           ],
         },
         {
