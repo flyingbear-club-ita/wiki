@@ -12,6 +12,8 @@ In questa sezione abbiamo raccolto le varie versioni del firmware mks, basato su
 
 Questo tipo di firmware ha un po' di opzioni in piu' rispetto al firmware stock (per esempio, non e' necessario aggiornare gli step/mm dal config, basta aggiornare nella UI), oltre ad avere una grafica piu' accattivante
 
+<DisplayAd/>
+
 ## Come flashare {#come-flashare}
 1. Aprire il link relativo alla propria configurazione
 2. Scaricare tutto il contenuto della cartella (un file Robin_nan035.bin ed una cartella assets)
@@ -28,8 +30,6 @@ La prima cosa da fare e' resettare la eeprom tramite interfaccia grafica, per ev
 La seconda e' configurare gli step per millimetro tramite interfaccia grafica
 
 A questo punto, la stampante e' pronta per stampare
-
-<DisplayAd/>
 
 ## I vari firmware {#i-vari-firmware}
 
