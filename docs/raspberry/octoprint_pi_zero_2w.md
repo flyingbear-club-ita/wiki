@@ -418,6 +418,4 @@ Bene ora fai parte della famiglia di utenti Octoprint, ma per collegare la vostr
 
 <FacebookLink link="https://www.facebook.com/hashtag/raspberrypi?__gid__=600126627631693"/>
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
 <DisplayAd/>
