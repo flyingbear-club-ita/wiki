@@ -7,7 +7,6 @@ import DisplayAd from '../components/displayAd';
 export default function UpgradesPage() {
   return (
     <Layout>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <div >
         <h1 className='pageTitle'>Ricambi Flyingbear Ghost 5 e 4S</h1>
       </div>
@@ -17,8 +16,6 @@ export default function UpgradesPage() {
       </div>
       <DisplayAd/>  
       <Upgrades data={ricambiData}/>
-      <script async src="https://cse.google.com/cse.js?cx=5a2f7c225eb6b460f"></script>
-      <div class="gcse-search"></div>
     </Layout>
   );
 }

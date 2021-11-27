@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'resources/favicon.ico',
   organizationName: 'flyingbear-club-ita',
   trailingSlash: false,
   projectName: 'wiki',
@@ -25,7 +25,7 @@ module.exports = {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'resources/fbghostitaLogo.jpg',
       },
       items: [
         {
@@ -49,6 +49,11 @@ module.exports = {
           label: 'Wiki',
           position: 'left',
         },
+        // {
+        //   to: 'blog',
+        //   label: 'Blog',
+        //   position: 'left'
+        // },
         // {
         //   href: '/gallery',
         //   label: 'Gallery',

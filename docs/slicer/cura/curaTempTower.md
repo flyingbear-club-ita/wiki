@@ -7,6 +7,7 @@ Per migliorare la qualita' di stampa, sia in termini di stringing che di rimozio
 
 Il test piu' semplice e di piu' facile interpretazione e' la temp tower
 
+## Cosa e' una temp tower
 Una temp tower e' un modello stl con una geometria ben definita, che permette di osservare i risultati del cambio di temperatura dell'ugello
 
 Il concetto della temp tower e' semplice: ci sono diversi livelli di una ben determinata altezza, per ogni livello, attraverso l'uso del gcode, possiamo cambiare la temperatura dell'ugello per ognuno di questi livelli, ottenendo un riscontro fisico delle prestazioni del materiale a diverse temperature
@@ -18,7 +19,7 @@ Le temp tower piu' comuni sono le seguenti:
 
 Alcune temp tower sono direttamente in formato gcode, ma questo e' un procedimento sconsigliato, perche' vuol dire che, ad esempio, la distanza di retrazione e' gia' impostata, mentre e' preferibile testare il materiale con le impostazioni che poi verranno utilizzate in fase di stampa
 
-Come si realizza una temp tower?
+## Come si realizza una temp tower?
 Per prima cosa, scegliere un modello da scaricare da Thingiverse ed aprirlo con Cura
 
 [ ![importa temp tower](/img/importaTempTower.png) ](/img/importaTempTower.png)
@@ -68,11 +69,10 @@ Per l'altezza dello strato, controllare che lo strato sia un divisore dell'altez
 Adesso avviate lo slicing e lanciate la stampa
 
 
-:::tip Come si legge una temp tower?
+## Come si legge una temp tower?
 
 Semplice: basta dare un'occhiata al risultato e vedere quale impostazione si avvicini di piu' al risultato desiderato.
 
 I parametri piu' comuni, comunque, sono omogeneita delle pareti, fusione degli strati, pendenze e, nel caso di alcune torri, stringing.
 
 Per alcuni di questi parametri, non esistono criteri oggettivi, a volte sara' necessario scegliere la temperatura in base al tipo di stampa che si intende fare
-:::

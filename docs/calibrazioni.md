@@ -4,6 +4,7 @@ slug: /calibrazioni
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "calibration", "hotend", "heath bed"]
 ---
 import DisplayAd from '../src/components/displayAd'
+import ArticleAd from '../src/components/articleAd'
 import FacebookLink from '../src/components/facebookLink'
 
 ## Piano di stampa {#piano-di-stampa}
@@ -18,6 +19,8 @@ Come misura di riferimento puoi usare la brugola in dotazione, la seconda più p
 :::
 3. Iniziare usando la funzione "leveling" della stampante
 4. Usare il foglio in dotazione o un foglio A4 per calibrare tutti e 4 i punti. Tra ugello e foglio dev'essere presente un leggero attrito
+
+<ArticleAd/>
 
 ### Consigli per una buona calibrazione {#consigli-per-una-buona-calibrazione}
 * Riscaldare il piano a 60°C durante tutto il processo di calibrazione
@@ -70,6 +73,8 @@ Sempre per Windows, per verificare che la stampante sia connessa:
  2. scorrere la lista dei dispositivi
  3. cercare la stampante
 
+<ArticleAd/>
+
 In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
@@ -112,6 +117,8 @@ Il comando da inserire e' questo:
  **C8** rappresenta il numero di cicli da effettuare, 8 e' il valore raccomandato per i firmware basati su Marlin
 :::
 
+<ArticleAd/>
+
 Questo comando inizia la sequenza di calibrazione del PID per l'estrusore
 
 Osservate il log: ad un certo punto, compriranno dei messaggi simili a questi:
@@ -141,6 +148,8 @@ La prima riga cambia il sistema di regolazione della temperatura da bang bang a 
 Nella seconda, terza e quarta riga, inserire i valori appena trovati con repetier host
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
+
+<ArticleAd/>
 
 #### Tramite Repetier Host
 Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
@@ -205,6 +214,8 @@ Nella prima, seconda e terza riga, inserire i valori appena trovati con repetier
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
 
+<ArticleAd/>
+
 #### Tramite Repetier Host {#tramite-repetier-host}
 Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
 
@@ -248,6 +259,8 @@ Il valore di default della Ghost è 400, il che vuole dire che, per muoversi di 
 
 Purtroppo, non tutti i componenti sono uguali, quindi, per regolarizzare il flusso o i movimenti sugli assi, è necessaria una calibrazione
 
+<ArticleAd/>
+
 
 ### Estrusore {#estrusore}
 In questo caso, è necessario l'utilizzo di Repetier Host(RH) (spiegato nella sezione Primi Passi) 
@@ -284,6 +297,8 @@ Una volta calcolato il nuovo valore, bisogna aggiornarlo
 Per la procedura tramite robin_nano35_cfg.txt, cercare:
 
 **DEFAULT_E0_STEPS_PER_UNIT**
+
+<ArticleAd/>
 
 
 Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore
@@ -388,6 +403,8 @@ Per salvare i valori sulla EEPROM, invire il comando:
 ```
 M500
 ```
+
+<ArticleAd/>
 
 Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a posto con il gcode **M503**
 

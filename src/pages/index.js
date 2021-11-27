@@ -7,6 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 import DisplayAd from '../components/displayAd';
+import DisplayHorizontalAd from '../components/displayHorizontalAd';
 
 const features = [
   {
@@ -104,8 +105,9 @@ export default function Home() {
       <div className="container text-visual-home">
           <h1 className="">{title}</h1>
       </div>
-        
+      
       <main>
+      <DisplayAd/>
       {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -118,7 +120,7 @@ export default function Home() {
           </section>
         )}
 
-      <DisplayAd/>
+      <DisplayHorizontalAd/>
 
       <div className="sezione-wiki">
       <h2 className="section-title">Wiki Flyingbear Ghost</h2>
@@ -155,7 +157,7 @@ export default function Home() {
           </div>
   	  </div>
 
-      <DisplayAd/>
+      <DisplayHorizontalAd/>
 
       <div className="sezione-upgrades-ricambi">
 		  <div className="sezione-upgrades">

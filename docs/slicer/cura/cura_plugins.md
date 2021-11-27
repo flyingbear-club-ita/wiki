@@ -26,6 +26,7 @@ export const PluginInfo = ({children, title}) => (
   </div>
 );
 
+## Elenco
 <PluginInfo title="Z Offset">
 Questo plugin e' molto utile per il PETG
 

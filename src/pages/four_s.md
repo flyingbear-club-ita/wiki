@@ -3,6 +3,7 @@ title: Ghost 4s Specs
 slug: /four_s
 description: Scheda tecnica Flyingbear Ghost 4s. Dimensioni, specifiche tecniche, materiali supportati
 keywords: ["flyingbear", "flyingbear ghost", "flyingbear ghost 4s", "flying bear ghost", "flying bear ghost 4s", "flyingbear ghost data sheet", "3d printing", "aliexpress", "banggood"]
+hide_table_of_contents: true
 ---
 :::danger
 La Ghost 4s e' fuori produzione
@@ -11,7 +12,6 @@ La Ghost 4s e' fuori produzione
 
 import DisplayAd from '../components/displayAd'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <DisplayAd/>
 

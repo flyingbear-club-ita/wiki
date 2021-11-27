@@ -3,6 +3,8 @@ import React from 'react';
 import './Upgrades.css';
 import './modal.css'
 
+import ArticleAd from '../components/articleAd'
+
 const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
   

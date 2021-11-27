@@ -2,6 +2,11 @@
 title: Plugins per Octoprint
 slug: /raspberry/octoprint-plugins
 ---
+import DisplayAd from '../../src/components/displayAd'
+import ArticleAd from '../../src/components/articleAd'
+import FacebookLink from '../../src/components/facebookLink'
+
+<DisplayAd/>
 
 ## Premessa {#premessa}
 
@@ -40,6 +45,8 @@ Ora abbiamo la lista dei plug-in, e nel campo **Search** andremo a digitare il n
 
   [ ![Install](/img/foto3.PNG) ](/img/foto3.PNG)
 
+<DisplayAd/>
+
 ## I migliori plugin! {#i-migliori-plugin}
 
 export const PluginInfo = ({children, title}) => (
@@ -70,11 +77,14 @@ Utile per sapere in anticipo se il cavo rimasto nella bobina ci potrà far finir
 
 </PluginInfo>
 
+<ArticleAd/>
 
 <PluginInfo title="Display Layer Progress">
 
 Semplicissimo plugin che va a sopperire ad una mancanza di Octoprint, come dicevamo prima i plug in servono per migliorare il nostro bel programma, cioè quella di informarci costantemente dell’altezza di stampa attuale
 </PluginInfo>
+
+<ArticleAd/>
 
 <PluginInfo title="AstroPrint">
 
@@ -88,6 +98,8 @@ Inoltre possiamo fare lo slicing di modelli STL
 
 </PluginInfo>
 
+<ArticleAd/>
+
 <PluginInfo title="OctoPrint-PrettyGCode">
 
 Il plugin Pretty GCode è un eccellente visualizzatore di modelli 3D
@@ -97,6 +109,7 @@ Fai clic sul tuo file GCode e guardalo renderizzare davanti ai tuoi occhi. Ruota
 Pretty GCode esegue anche il rendering dei comandi arc
 </PluginInfo>
 
+<ArticleAd/>
 
 <PluginInfo title="Octolapse">
 
@@ -105,6 +118,8 @@ Pretty GCode esegue anche il rendering dei comandi arc
 Una miriade di possibilità di scelte, una miriade di ottimizzazioni della telecamera, una modalita per fare quasi tutto in automatico per gli scansafatiche come me
 
 </PluginInfo>
+
+<ArticleAd/>
 
 <PluginInfo title="OctoPrint-Dashboard">
 
@@ -115,6 +130,7 @@ La dashboard funziona con PrintTimeGenius e DisplayLayerProgress per stime accur
 Troverai anche alcuni pulsanti di controllo del lavoro (ad esempio avvio/arresto) e un widget webcam opzionale
 </PluginInfo>
 
+<ArticleAd/>
 
 <PluginInfo title="PrintTimeGenius">
 
@@ -125,12 +141,16 @@ I tempi calcolati da questo plug-in sono molto più precisi, perchè viene effet
 Da usare
 </PluginInfo>
 
+<ArticleAd/>
+
 <PluginInfo title="Octopod">
 
 Uno dei miei preferiti, non si scarica da octoprint ma dallo store del vostro smartphone, e potete gestire nel modo piu completo possibile la vostra stampante 3d dalla vostra LAN e, se avete una VPN, da ogni angolo del mondo
 
 Da avere
 </PluginInfo>
+
+<ArticleAd/>
 
 <PluginInfo title="Bed Level Visualizer">
 
@@ -139,6 +159,8 @@ Se hai un sensore BLtouch  sulla tua macchina, allora Bed Level Visualizer dovre
 [ ![Bed Level Visualizer](/img/bedLevelVisualizer.png) ](/img/bedLevelVisualizer.png)
 
 </PluginInfo>
+
+<ArticleAd/>
 
 <PluginInfo title="Telegram">
 
@@ -152,6 +174,8 @@ Davvero utile!
 
 </PluginInfo>
 
+<ArticleAd/>
+
 <PluginInfo title="Resource Monitor">
 
 Dalla schermata non avete bisogno di presentazioni: non solo la stampante deve essere sottocontrollo, ma anche il raspberry e con questo tool potrete farlo senza problemi
@@ -159,6 +183,8 @@ Dalla schermata non avete bisogno di presentazioni: non solo la stampante deve e
 [ ![Resource Monitor](/img/resourceMonitor.jpg) ](/img/resourceMonitor.jpg)
 
 </PluginInfo>
+
+<ArticleAd/>
 
 <PluginInfo title="BL Touch">
 
@@ -171,3 +197,6 @@ Con questo plugin ottieni alcuni pulsanti che ti consentono di controllare la so
 
 </PluginInfo>
 
+<FacebookLink link="https://www.facebook.com/hashtag/raspberrypi?__gid__=600126627631693"/>
+
+<DisplayAd/>

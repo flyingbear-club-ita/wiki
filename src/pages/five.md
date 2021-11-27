@@ -3,11 +3,11 @@ title: Ghost 5 Specs
 slug: /five
 description: Scheda tecnica Flyingbear Ghost 5. Dimensioni, specifiche tecniche, materiali supportati
 keywords: ["flyingbear", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost", "flying bear ghost 5", "flyingbear ghost data sheet", "3d printing", "aliexpress", "banggood"]
+hide_table_of_contents: true
 ---
 
 import DisplayAd from '../components/displayAd'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <DisplayAd/>
 
