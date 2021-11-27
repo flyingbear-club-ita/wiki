@@ -1,6 +1,7 @@
 ---
 title: Illuminazione Interna
 slug: /illuminazioneinterna
+hide_table_of_contents: true
 ---
 # Illuminazione Interna
 

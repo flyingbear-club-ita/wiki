@@ -1,6 +1,7 @@
 ---
 title: Sherpa Mini
 slug: /sherpamini
+hide_table_of_contents: true
 ---
 ## Sherpa Mini {#sherpa-mini}
 [![](/img/sherpaMini1.jpg)](/img/sherpaMini1.jpg)
