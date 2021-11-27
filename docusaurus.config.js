@@ -50,6 +50,11 @@ module.exports = {
           position: 'left',
         },
         // {
+        //   to: 'blog',
+        //   label: 'Blog',
+        //   position: 'left'
+        // },
+        // {
         //   href: '/gallery',
         //   label: 'Gallery',
         //   position: 'left',
