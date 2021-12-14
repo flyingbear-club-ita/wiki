@@ -52,7 +52,7 @@ Capite che significa???
 
 Niente piu' "ho ideamaker/prusaslicer/qualunquealtroslicerchenonsiacura, come faccio a mandare i file via wifi???"!!!
 
-Ammetto di non averla ancora provata, ma ho visto la demo [qui](http://shorturl.at/rsBDJ) e devo ammettere che sono rimasto a bocca aperta!
+Ammetto di non averla ancora provata, ma ho visto la demo [qui](https://www.youtube.com/watch?v=VzX84yEbjKM&ab_channel=RenzoMischianti) e devo ammettere che sono rimasto a bocca aperta!
 
 Oltre alla possibilita' di inviare file tramite wifi, questo firmware permette di:
 * customizzare una dashboard con varie widget (tra l'altro riposizionabili e ridimensionabili) per accedere le funzioni preferite tramite browser (trovate tutte le descrizioni nel dettaglio nell'articolo linkato qui sopra)
@@ -99,7 +99,7 @@ Questa enclosure comprende:
 
 Poi vabbe', in questa pagina c'e' la chicca che i file stl si vedono in 3d e girano su se stessi (prima o poi sta cosa gliela rubo...). Non vi metto gli screenshot perche' e' meglio se ve li andate a vedere da soli
 
-La descrizione completa del progetto la potete trovare [qui](http://shorturl.at/iIQU2)
+La descrizione completa del progetto la potete trovare [qui](https://www.mischianti.org/2021/07/09/flyingbear-ghost-5-enclosure-front-cover-door/)
 
 ## Conclusione
 
