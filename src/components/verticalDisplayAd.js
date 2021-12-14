@@ -1,5 +1,7 @@
 import React from "react";
 
+import './verticalDisplayAd.css';
+
 export default class VerticalDisplayAd extends React.Component {
   componentDidMount () {
     (window.adsbygoogle = window.adsbygoogle || []).push({});
