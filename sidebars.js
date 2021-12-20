@@ -34,6 +34,13 @@ module.exports = {
             label: 'Ideamaker',
             items: ['slicer/ideamaker/ideamaker','slicer/ideamaker/ideamakerTempTower'],
           },
+          {
+            type: 'category',
+            label: 'SuperSlicer',
+            items: [
+              'slicer/superslicer/superslicer',
+            ],
+          },
           ],
         },
         {
