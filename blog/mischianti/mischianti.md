@@ -111,4 +111,8 @@ Insomma, se non trovate niente che vi interessi sul suo blog, non siete veri ner
 
 <DisplayAd/>
 
-<DisqusComments/>
+<DisqusComments
+  slug="/blog/mischianti"
+  articleId="1"
+  title="Mischianti - Un Blog pieno di sorprese"
+/>
