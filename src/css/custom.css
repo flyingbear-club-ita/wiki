@@ -48,7 +48,7 @@ p {
     line-height: 1.8;
 }
 header[class^="heroBanner_"] {
-    background:url(/static/img/ghost5.jpg) center center;
+    background:url(/static/img/five/ghost5.jpg) center center;
     background-size: contain;
     height: 45vh;
     text-align: center;
