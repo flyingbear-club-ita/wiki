@@ -8,9 +8,6 @@ hide_table_of_contents: true
 
 import DisplayAd from '../components/displayAd'
 
-
-<DisplayAd/>
-
 # Scheda Tecnica Ghost 5
 
 La Ghost è una stampante cartesiana in quanto ogni asse è comandato da un motore ma, a differenza delle più famose Ender 3 o Prusa, il piano si muove sull'asse z invece dell'asse y, migliorando notevolmente la qualità di stampa e permettendo una velocità maggiore
@@ -22,6 +19,8 @@ Nonostante un volume di stampa di 255mmx210mmx210mm (x,y,z), rimane comunque una
 La struttura portante è in metallo, mentre i pannelli, che racchiudono l'area di stampa lateralmente e posteriormente, sono in acrilico
 
 Questa configurazione permette molto facilmente di crearsi in casa una copertura completa, rendendola ottima per la conservazione del calore per stampe con ABS e PETG
+
+<DisplayAd/>
 
 Il fiore all'occhiello della ghost molto probabilmente è il piatto in vetro che, grazie alla finitura porosa, riesce a far aderire le stampe perfettamente a caldo e a staccarle con molta facilità (in alcuni casi sono già staccate) quando il piatto è freddo
 
