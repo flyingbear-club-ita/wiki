@@ -12,7 +12,7 @@ import DisplayAd from '../components/displayAd'
 
 La Ghost è una stampante cartesiana in quanto ogni asse è comandato da un motore ma, a differenza delle più famose Ender 3 o Prusa, il piano si muove sull'asse z invece dell'asse y, migliorando notevolmente la qualità di stampa e permettendo una velocità maggiore
 
-[ ![Ghost 5](/img/ghost5.jpg) ](/img/ghost5.jpg)
+[ ![Ghost 5](/img/five/ghost5.webp) ](/img/five/ghost5.webp)
 
 Nonostante un volume di stampa di 255mmx210mmx210mm (x,y,z), rimane comunque una stampante molto compatta, con dimensioni totali di (392mm x 342mm x 420mm)
 
