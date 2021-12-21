@@ -143,5 +143,5 @@ Ora potete caricare il vostro modello e fare esperimenti, a breve un video e un 
 <DisqusComments 
  slug="/docs/slicer/superslicer"
  articleId="2" 
- articleTitle="Superlicer - Installazione ed Introduzione"
+ articleTitle="Superlicer_Installazione_ed_Introduzione"
 />

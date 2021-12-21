@@ -10,7 +10,7 @@ export default class DisqusComments extends React.Component {
     const disqusShortname = "flyingbearghost-com"
     const disqusConfig = {
       url: `https://flyingbearghost.com${this.props.slug}`,
-      identifier: this.props.articleId,
+      identifier: `${this.props.articleId}_0`,
       title: this.props.articleTitle
     }
 
