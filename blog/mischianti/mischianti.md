@@ -2,12 +2,9 @@
 title: Mischianti.org - Un blog pieno di sorprese
 description: Facciamo un giro su mischianti.org, un ottimo blog per elettronica, stampa 3d e programmazione. Ci sono anche dei begli articoli dedicati alla Flyingbear Ghost!
 slug: mischianti
-authors:
-  - name: ZeroPX
-    title: Censore supremo della community
-    image_url: https://flyingbearghost.com/img/avatars/zeropx.jpg
+authors: zeropx
 tags: [flyingbear ghost, flyingbear, flying bear, flying bear ghost, stampa 3d, 3d printing, elettronica, programmazione]
-image: https://i.imgur.com/mErPwqL.png
+image: /img/blog/mischianti/mischiantiPreview.webp
 hide_table_of_contents: true
 ---
 
@@ -30,7 +27,7 @@ ZAN ZAN ZAN!
 
 Non potete immaginare quanto ho rosicato!!!
 
-[ ![Quanto ho rosicato](/img/blog/mischianti/rosicare.png) ](/img/blog/mischianti/rosicare.png)
+[ ![Quanto ho rosicato](/img/blog/mischianti/rosicare.webp) ](/img/blog/mischianti/rosicare.webp)
 
 <!--truncate-->
 
@@ -46,7 +43,7 @@ Bhe, che vi devo dire: stava sviluppando un'interfaccia web per il modulo wifi d
 
 ## BeePrint Web Interface
 
-[ ![Beeprint Web Interface for Flyingbear Ghost](/img/blog/mischianti/beeprint.jpg) ](/img/blog/mischianti/beeprint.jpg)
+[ ![Beeprint Web Interface for Flyingbear Ghost](/img/blog/mischianti/beeprint.webp) ](/img/blog/mischianti/beeprint.webp)
 
 Capite che significa??? 
 
@@ -57,7 +54,7 @@ Ammetto di non averla ancora provata, ma ho visto la demo [qui](https://www.yout
 Oltre alla possibilita' di inviare file tramite wifi, questo firmware permette di:
 * customizzare una dashboard con varie widget (tra l'altro riposizionabili e ridimensionabili) per accedere le funzioni preferite tramite browser (trovate tutte le descrizioni nel dettaglio nell'articolo linkato qui sopra)
 
-[ ![Beeprint Widgets for Flyingbear Ghost](/img/blog/mischianti/beeprint_dashboard.png) ](/img/blog/mischianti/beeprint_dashboard.png)
+[ ![Beeprint Widgets for Flyingbear Ghost](/img/blog/mischianti/beeprint_dashboard.webp) ](/img/blog/mischianti/beeprint_dashboard.webp)
 
 
 * accedere alla SD card per visualizzarne e/o modificarne il contenuto
@@ -86,7 +83,7 @@ Quel geniaccio del Mischianti non solo e' un mago della programmazione, ma sa an
 
 Se non ci credete, guardate questa enclosure che ha disegnato lui!
 
-[ ![Mischianti - Enclosure for Flyingbear Ghost](/img/blog/mischianti/enclosure_mischianti.jpg) ](/img/blog/mischianti/enclosure_mischianti.jpg)
+[ ![Mischianti - Enclosure for Flyingbear Ghost](/img/blog/mischianti/enclosure_mischianti.webp) ](/img/blog/mischianti/enclosure_mischianti.webp)
 
 
 Ammetto di essere un feticista del rosso, pero' non lasciamoci sviare dall'estetica
