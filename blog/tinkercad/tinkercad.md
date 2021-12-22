@@ -1,7 +1,7 @@
 ---
 title: Tinkercad - Una breve introduzione
 description: Una breve introduzione a Tinkercad, il piu' semplice ed intuitivo programma per la modellazione 3d, gratis ed online
-slug: /blog/tinkercad
+slug: tinkercad
 authors: zeropx
 tags: [flyingbear ghost, flyingbear, flying bear, flying bear ghost, stampa 3d, 3d printing, blender, openscad, tinkercad, fusion360]
 image: /img/blog/tinkercad/tinkercad.webp
@@ -29,6 +29,8 @@ La prima cosa che ho provato e' stata trapanare delle scatole di plastica, pero'
 Ad un certo punto, epifania: in quel periodo, leggevo Magpi e Hackspace, dei mensili dedicati a Raspberry Pi, elettronica, programmazione e altri argomenti vari, tutti incentrati su tecnologia e fai da te, e vedevo sempre piu' articoli in cui l'elettronica veniva integrata con la stampa 3d
 
 A quel punto, il piano era semplice: PRIMA impara a modellare, POI compra la stampante
+
+<!--truncate-->
 
 <ArticleAd/>
 
