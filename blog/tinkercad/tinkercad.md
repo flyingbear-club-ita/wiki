@@ -4,7 +4,7 @@ description: Una breve introduzione a Tinkercad, il piu' semplice ed intuitivo p
 slug: /blog/tinkercad
 authors: zeropx
 tags: [flyingbear ghost, flyingbear, flying bear, flying bear ghost, stampa 3d, 3d printing, blender, openscad, tinkercad, fusion360]
-image: https://i.imgur.com/mErPwqL.png
+image: /img/blog/tinkercad/tinkercad.webp
 hide_table_of_contents: true
 ---
 
@@ -40,7 +40,7 @@ Nel frattempo, pero', avevo imparato a fare qualcosina in tinkercad, un software
 
 ## Cos'e' Tinkercad???
 
-[ ![Tinkercad Home](/img/tinkercad/tinkercad.webp) ](/img/tinkercad/tinkercad.webp)
+[ ![Tinkercad Home](/img/blog/tinkercad/tinkercad.webp) ](/img/blog/tinkercad/tinkercad.webp)
 
 Sicuramente gli snobbini progettatori staranno storcendo il naso e contorcendosi le budella, dicendo che tinkercad e' per bambini, che non e' abbastanza sofisticato, che i veri uomini non usano tinkercad...
 
@@ -67,7 +67,7 @@ Una volta completata la procedura di registrazione e dopo aver effettuato il log
 
 L'area di lavoro di tinkercad si divide in due parti: l'area di lavoro sulla sinistra (che occupa l'ottanta per cento dello schermo) ed un menu per selezionare le forme geometriche da trasportare nell'area di lavoro sulla destra
 
-[ ![Tinkercad Workspace](/img/tinkercad/tinkercadWorkspace.webp) ](/img/tinkercad/tinkercadWorkspace.webp)
+[ ![Tinkercad Workspace](/img/blog/tinkercad/tinkercadWorkspace.webp) ](/img/blog/tinkercad/tinkercadWorkspace.webp)
 
 Io sfido chiunque a non capire come funziona tinkercad: e' veramente intuitivo, subito dopo un paio di secondi si capisce benissimo che una qualunque forma geometrica va selezionata e, tornando col mouse nel workspace, sara' visibile la forma geometrica stessa con un contorno trasparente
 
