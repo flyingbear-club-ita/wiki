@@ -4,7 +4,7 @@ description: Se siete in cerca di ispirazione per nuovi progetti, oppure volete 
 slug: magazines
 authors: zeropx
 tags: [flyingbear ghost, flyingbear, flying bear, flying bear ghost, stampa 3d, 3d printing, elettronica, programmazione, raspberry pi, arduino]
-image: /img/blog/mischianti/mischiantiPreview.webp
+image: /img/blog/magazines/nerd.webp
 hide_table_of_contents: true
 ---
 
