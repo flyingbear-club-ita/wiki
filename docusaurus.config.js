@@ -20,7 +20,7 @@ module.exports = {
     },
   ],
   themeConfig: {
-    image: 'img/ghost5.jpg',
+    image: 'img/five/ghost5.jpg',
     navbar: {
       title: 'Home',
       logo: {

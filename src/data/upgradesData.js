@@ -297,6 +297,13 @@ export const upgradesData = [
         img: 'img/upgrades/calzaAutoserrante.jpg',
         description: 'Per rimuovere quello schifo del corrugato',
     },
+    {
+        difficulty: 'low',
+        title: 'Tappetino magnetico PEI',
+        imgSrc:'',
+        desc:'Migliora l\'adesione',
+        links:['https://s.click.aliexpress.com/e/_9JVLKM'],
+        img: 'img/upgrades/tappetinoPei.webp',
+        description: 'Questo tappetino magnetico aumenta l\'adesione e permette di rimuovere facilmente le stampe immediatamente\nCi sono tre versioni: liscio, con texture (per una finitura piu\' ruvida), oppure con entrambi, per avere piu\' opzioni',
+    },
 ];
-
-
