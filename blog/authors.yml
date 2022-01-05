@@ -1,4 +1,8 @@
 zeropx:
     name: ZeroPX
     title: Censore supremo della community
-    image_url: https://flyingbearghost.com/img/avatars/zeropx.jpg
+    image_url: /img/avatars/zeropx.jpg
+nick_it:
+    name: Nick_IT
+    title: Colui che rimane
+    image_url: /img/avatars/nick.jpg
