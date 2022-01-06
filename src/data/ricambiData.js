@@ -103,7 +103,17 @@ export const ricambiData = [
         img: 'img/ricambi/ptfeCapricorn.jpg',
         description: 'Comprensivo di connettori pneumatici e taglierino',
     },
+    {
+        title: 'Connettore cavo per la testa',
+        imgSrc:'',
+        desc:'Ricambio per l\'attacco del cavo della testa',
+        links:['https://s.click.aliexpress.com/e/_ANpgkA'],
+        img: 'img/ricambi/connettoreTesta.webp',
+        description: 'Set di connettori di ricambio per il cavo della testa \
+        \nContiene dieci coppie maschio/femmina, piu\' le crimpature\n \
+        Per la 4S, scegliere il connettore da 7pinx2\n \
+        Per la 5, scegliere il connettore da 6pinx2\n \
+        In entrambi i casi, scegliere straight needle come insert type',
+    },
 
 ];
-
-
