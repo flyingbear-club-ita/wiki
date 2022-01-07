@@ -353,4 +353,22 @@ export const upgradesData = [
         Il nozzle di acciaio placcato in rame, oltre a promettere una migliore qualita\' nella manifattura, e\' piu\' resistente a materiali abrasivi \n \
         ATTENZIONE!!! Il blocco non include termistore, ne\' cartuccia riscaldante, che vanno acquistati a parte!!!',
     },
+    {
+        difficulty: 'low',
+        title: 'Tappetino magnetico con rivestimento in PEI',
+        imgSrc:'',
+        desc:'Migliora l\'adesione, permette di staccare subito le stampe dal piatto',
+        links:['https://s.click.aliexpress.com/e/_AXDwxu'],
+        img: 'img/upgrades/tappetinoPei.webp',
+        description: 'Sebbene il piatto della ghost garantisca adesione ottima, un rivestimento in PEI e\' anche meglio! \n\
+        Questo tappetino magnetico e\' composto da due parti: \n\
+        una base magnetica, che va applicata direttamente sul piatto\n\
+        una lastra di acciaio ricoperta in PEI, che va applicata sulla base magnetica\n\
+        \n\
+        Le varie opzioni: \n\
+        con o senza base magnetica (in base alle vostre esigenze e se gia\' ne avete applicata una)\n\
+        un solo lato con tessitura (textured on one side)\n\
+        entrambi i lati con tessitura (double side texture)\n\
+        un lato con tessitura, uno liscio (textured and smooth)'
+    },
 ];
