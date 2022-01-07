@@ -20,12 +20,21 @@ module.exports = {
     },
   ],
   themeConfig: {
+    announcementBar: {
+      id: 'new_content_banner',
+      content:
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/docs/connessione_remota/introduzione">Introduzione alla connessione remota, by Nick_IT!</a>',
+      backgroundColor: '#eb9534',
+      textColor: '#091E42',
+      isCloseable: true,
+    },
     image: 'img/five/ghost5.jpg',
     navbar: {
       title: 'Home',
       logo: {
         alt: 'My Site Logo',
         src: 'resources/fbghostitaLogo.jpg',
+        href: 'https://flyingbearghost.com',
       },
       items: [
         {
