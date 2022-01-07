@@ -71,6 +71,13 @@ module.exports = {
             'marlin/firmware_compilato',
           ],
         },
+        {
+          type: 'category',
+          label: 'Connessione Remota',
+          items: [
+            'connessione_remota/preparare_la_rete_domestica',
+          ],
+        },
       ],
     },
   ],
