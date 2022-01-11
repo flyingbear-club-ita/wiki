@@ -76,20 +76,19 @@ Purtroppo, l'unica maniera per farlo e' aprire la parte inferiore della stampant
 Si prega di seguire la foto sottostante, oppure chiedere su facebook o discord
 
 Una volta trovata la configurazione, consultate la figura qui sotto per decidere quale firmware scaricare
+
+Se non riuscite a vedere bene l'immagine, cliccateci sopra e si aprira' ingrandita in una nuova finestra
 :::
 
-[ ![Configurazioni Firmware](/img/ghost5_configuration.jpg) ](/img/ghost5_configuration.jpg)
 
-
-
-Stampante  | Chipset   | Driver    | Versione  | Link
-:---------:| :-------: | :------:  | :------:  | :--:
-4S         |   NA      |  STOCK    | **3.5.1** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_4s)
-5          | STM32F103 | TMC2208/9 |**5.83-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F103 |  STOCK    | **5.8.5** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F407 |  TMC2225  | **5.95-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-5          | STM32F407 |  STOCK    | **v6.4**  | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
-
+Stampante  | Immagine  |  Chipset   | Driver    | Versione  | Link
+:---------:| :-------: | :------:   | :------:  |   :--:    | :--:
+4S         |   NA      |    NA      | STOCK     | **3.5.1** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_4s)
+5          | [ ![Reborn TMC2209](/img/comboMoboDrivers/RebornV3_TMC2209.webp) ](/img/comboMoboDrivers/RebornV3_TMC2209.webp) | STM32F103 | TMC2208/9  |**5.83-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | [ ![Reborn TMC2209 A4889](/img/comboMoboDrivers/RebornV3_A4889_TMC2209.webp) ](/img/comboMoboDrivers/RebornV2_A4889_TMC2209.webp) | STM32F103 |  STOCK     | **5.8.5** | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | [ ![Robin Nano TMC2225](/img/comboMoboDrivers/RobinNano1_3_TMC2225.webp) ](/img/comboMoboDrivers/RobinNano1_3_TMC2225.webp) | STM32F407 |  TMC2225   | **5.96-T25**| [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | [ ![Robin Nano TMC2209 A4889](/img/comboMoboDrivers/RobinNano1_3_TMC2209_A4889.webp) ](/img/comboMoboDrivers/RobinNano1_3_TMC2209_A4889.webp) | STM32F407 |  STOCK     | **v6.4**  | [Firmware Stock](https://github.com/flyingbear-club-ita/firmware_stock_5)
+5          | [ ![Reborn TMC2225](/img/comboMoboDrivers/RebornV3_TMC2225.webp) ](/img/comboMoboDrivers/RebornV3_TMC2225.webp) | STM32F407 |  TMC2225     | **v71**  | **NON TESTATO!!!**
 
 <DisplayAd/>
 

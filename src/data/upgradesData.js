@@ -369,6 +369,22 @@ export const upgradesData = [
         con o senza base magnetica (in base alle vostre esigenze e se gia\' ne avete applicata una)\n\
         un solo lato con tessitura (textured on one side)\n\
         entrambi i lati con tessitura (double side texture)\n\
-        un lato con tessitura, uno liscio (textured and smooth)'
+        un lato con tessitura, uno liscio (textured and smooth)\n \
+        \n \
+        Istruzioni: \n\
+        1. Rimuovere le mollette che reggono il piatto (ci sono dei grani da svitare sotto alle mollette)\n \
+        2. Applicare la base magnetica DIRETTAMENTE SUL PIATTO, assicurandosi di non lasciare bolle di aria \n \
+        3. Applicare la lastra di acciaio sopra al tappetino magnetico, correttamente allineata (ma se non e\' perfetta, non succede niente...)\n\
+        4. Stampare!'
+    },
+    {
+        difficulty: 'high',
+        title: 'Supporto Bltouch Ghost 5',
+        imgSrc:'',
+        desc:'Supporto per il bltouch per la Ghost 5',
+        links:['/bltouch'],
+        img: 'img/upgrades/bltouchReneThumbnail.webp',
+        description: 'Sul bltouch c\'e\' veramente troppo da dire, non riusciamo a racchiudere tutto in questa box \n\n \
+        Seguite il link qui sotto per una spiegazione completa'
     },
 ];
