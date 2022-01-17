@@ -1,7 +1,13 @@
 ---
 title: Mks Wifi Plugin
 slug: /slicer/cura/mkswifi
+description: Mks Wifi Plugin, un plugin per controllare la stampante tramite wifi e avviare le stampe
+keywords: ["cura", "ultimaker", "ultimaker cura", "3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "slicing"]
+image: /img/Ultimaker_cura.png
 ---
+import DisplayAd from '../../../src/components/displayAd'
+
+import DisqusComments from '../../../src/components/disqusComments'
 
 Per utilizzare la funzione del trasferimento dei file tramite Wifi, e' necessario installare un plugin
 
@@ -16,6 +22,8 @@ Esistono due maniere per installare il plugin:
 1. Scaricarlo direttamente dal marketplace di Cura
 
 2. Scaricare la versione piu' recente da [github](https://github.com/Jeredian/mks-wifi-plugin) ed inserirla nella cartella dei plugin
+
+<DisplayAd/>
 
 ### Marketplace {#marketplace}
 
@@ -69,6 +77,8 @@ Noterete che c'e' un nuovo bottone per configurare il plugin Mks
 
 Cliccateci sopra, selezionate l'indirizzo della maccchina ed ora dovreste vedere un nuovo pannello, tramite il quale controllare la stampante via wifi
 
+<DisplayAd/>
+
 ### Non vedo nessun bottone!!! {#non-vedo-nessun-bottone}
 
 Questo e' un bug noto
@@ -92,3 +102,23 @@ Salvate, riavviate Cura e adesso dovreste vedere il bottone per collegarsi
 :::info
 Ringraziamo RALOCIN per averci fornito gli screenshot
 :::
+
+
+## Bonus: visualizzazione anteprima
+
+Un'altra caratteristica carina del plugin mks wifi e' la possibilita' di generare la preview del file da stampare e visualizzarla sullo schermo della stampante, sia quando si sta selezionando il file da stampare che quando il file e' in stampa
+
+Prima di inviare il file alla stampante, pero', bisogna abilitare questa opzione:
+
+[ ![mks wifi plugin enable preview](/img/cura/mksWifiPluginEnablePreview.webp) ](/img/cura/mksWifiPluginEnablePreview.webp)
+
+Per avere la preview ci sono due possibilita':
+- inviare il file tramite wifi
+- inserire una scheda/penna usb e selezionare, tra le varie opzioni per salvare il file, "Save as TFT"
+
+Una volta fatto cio', sulla stampante sara' disponibile la preview!
+
+[ ![mks wifi plugin preview](/img/cura/mksWifiPluginPreview.webp) ](/img/cura/mksWifiPluginPreview.webp)
+
+
+Grazie a **m1nd-** per gli screenshot!
