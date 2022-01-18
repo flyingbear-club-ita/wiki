@@ -311,6 +311,11 @@ M92 EXX.X
 
 Dove XX.X rappresenta il valore degli step/mm calcolato
 
+Per immagazzinare il valore in memoria, completare la procedura lanciando il gcode:
+```
+M500
+```
+
 :::tip
 È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati
 
