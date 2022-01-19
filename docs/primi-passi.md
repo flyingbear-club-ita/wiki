@@ -10,16 +10,17 @@ import ArticleAd from '../src/components/articleAd'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<DisplayAd/>
 
-## Software {#software}
+## Firmware {#firmware}
 Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
 
 Può essere aggiornato molto facilmente tramite la scheda microSD fornita con la stampante
 
-Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare da Github (link in alto a destra, oppure nella sezione *Firmware*): conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki
+Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare da Github (link in alto a destra, oppure nella sezione [Firmware](/docs/firmware/firmware_stock)): conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki
 
 Per prima cosa, effettuare un backup della scheda (passo facoltativo, se non vi importa niente del contenuto, che, di default, dovrebbe essere il file di config per il firmware e i file stl e gcode della vite e del bullone)
+
+<DisplayAd/>
 
 Una volta copiato il contenuto della scheda in una cartella di vostra preferenza:
 1. Scaricate il firmware
@@ -32,7 +33,7 @@ Una volta copiato il contenuto della scheda in una cartella di vostra preferenza
 <ArticleAd/>
 
 Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware
-[ ![Barra di progresso aggiornamento](/img/TFT_Update.jpg) ](/img/TFT_Update.jpg)
+[ ![Flyingbear Ghost - Firmware - Barra di progresso installazione](/img/primi_passi/TFT_Update.webp) ](/img/primi_passi/TFT_Update.webp)
 
 
 Completata questa operazione, vi si presentarà il menu. Siete un passo più vicini alla vostra prima stampa con la Flying Bear Ghost!
@@ -76,7 +77,8 @@ CFG_WIFI_AP_NAME # name of WiFi, write before #
 CFG_WIFI_KEY_CODE # password WiFi, write before #
 ```
 Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-Fi
-![alt text](/img/wifi_config.png "wifi")
+
+[ ![Flyingbear ghost - Configure Wi Fi network](/img/primi_passi/wifi_config.webp) ](/img/primi_passi/wifi_config.webp)
 
 <DisplayAd/>
 

@@ -3,21 +3,40 @@ title: Ghost 4s Specs
 slug: /four_s
 ---
 :::danger
-La Ghost 4s e' fuori produzione
+Ghost 4s is out of production and it's impossible to get spare parts from Flyingbear, although many alternative replacements can be found online (Aliexpress or Amazon). Go check the [Upgrades](/upgrades) and [Spare Parts](/ricambi) sections for further information 
 :::
 
-# Scheda Tecnica Ghost 4s
+# Ghost 4s Quick Review
 
-La Ghost è una stampante cartesiana (vuol dire che l'ugello si muove su un asse x,y, mentre il piatto, sul quale si va a stampare, si muove solo sull'asse delle z), a differenza delle più famose Ender 3 o Prusa. I vantaggi che questo comporta sono una maggiore velocità di stampa e maggiore stabilità, essendo il piatto fisso
+The Ghost 4s is a cartesian printer, which means the head is moving along an X,Y plane, while the plate, where you can print, is moving only along the Z axis
 
-Nonostante un volume di stampa di 255mmx210mmx210mm (x,y,z), rimane comunque una stampante molto compatta, con dimensioni totali di (392mm x 342mm x 420mm)
+The advantage brought by this design is faster print speed and improved stability of the printer, due to the only moving part being the print head
 
-La struttura portante è in metallo, mentre i pannelli, che racchiudono l'area di stampa lateralmente e posteriormente, sono in acrilico
+[ ![Ghost 4S](/img/four_s/ghost4s.webp) ](/img/four_s/ghost4s.webp)
 
-Questa configurazione permette molto facilmente di crearsi in casa una copertura completa, rendendola ottima per la conservazione del calore per stampe con ABS e PETG
+Despite a generous print volume, with 255mmx210mmx210mm (x,y,z), it is still fairly small (dimensions: 392mm x 342mm x 420mm)
 
-Il fiore all'occhiello della ghost molto probabilmente è il piatto in vetro che, grazie alla finitura porosa, riesce a far aderire le stampe perfettamente a caldo e a staccarle con molta facilità (in alcuni casi sono già staccate) quando il piatto è freddo
+The structure of the printer is made of metal, while the panels, which enclose the printing area laterally and at the back, are made of acrylic
 
-L'estrusore e' un clone del BMG Bondtech dual drive
+This kind of setup makes it really easy to build a complete enclosure, making it perfect to keep the heath for printing more complicated materials, like ABS, Nylon or ASA
 
-La lista delle feature è completata da un bellissimo touch screen e connettività Wi-Fi
+One of the best features of the Ghost 4S is the Ultrabase plate, which, thanks to the micro pores, guarantees perfect adhesion while hot and completely releases prints when it's completely cooled down
+
+The extruder is a BMG Bondtech dual drive clone, maybe not the best you can find on the market, but easily replaceable with a superior one
+
+The list of features is completed by a wonderful touch screen and Wi-Fi connectivity
+
+| | |
+|-|-|
+|__Dimensions__| 392mm x 342mm x 420mm |
+|__Weight__| 13.5Kg |
+|__Layer Resolution__ | 0.05-0.3mm |
+|__Print Volume__| 255mm x 210mm x 200mm |
+|__Filament Diameter__ | 1.75mm |
+|__Nozzle Diameter__ | 0.4mm |
+|__Print Speed__ | 20-150mm/s |
+|__Movement Speed__ | 120mm/s |
+|__Supported Filaments__ | PLA, PET, PETG, ABS, etc |
+|__Supported Formats__ | .gcode |
+|__Max Nozzle Temperature__ | 260 celsius degrees |
+|__Max Bed Temperature__ | 110 celsius degrees |

@@ -1,53 +1,80 @@
 ---
 title: First Steps
 slug: /
-sidebar_label: First Steps
-keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "setup", "hotend", "heath bed", "firmware", "pid"]
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "hotend", "heath bed", "firmware", "pid"]
+description: First steps before starting to print with a Flyingbear Ghost
 ---
-## Software
-Il firmware, cioè il programma che fa funzionare la stampante, è installato nella memoria della scheda madre, contenuta nella base 
+import DisplayAd from '../../../../src/components/displayAd'
+import FacebookLink from '../../../../src/components/facebookLink'
+import ArticleAd from '../../../../src/components/articleAd'
 
-Può essere aggiornato molto facilmente tramite la scheda microSD fornita con la stampante
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-Un primo consiglio che possiamo darvi è di aggiornare immediatamente la stampante con il più recente firmware, da scaricare da Github (link in alto a destra, oppure nella sezione *Firmware*): conterrà diversi bugfix e vi eviterà problemi di compatibilità con le guide su questa Wiki
+## Firmware {#firmware}
+The firmware, which is the "operating system" of a 3d printer, is installed in the motherboard memory, located inside the printer base
 
-Per prima cosa, effettuare un backup della scheda (passo facoltativo, se non vi importa niente del contenuto, che, di default, dovrebbe essere il file di config per il firmware e i file stl e gcode della vite e del bullone)
+It can be be easily updated using the SD provided with the printer, although we strongly suggest you replace it with a more performing one
 
-Una volta copiato il contenuto della scheda in una cartella di vostra preferenza:
-1. Scaricate il firmware
-2. Scompattatelo in una cartella che terrete come backup per sicurezza
-3. Copiatene il contenuto nella microSD
-4. Rimuovete il dispositivo USB
-5. Inserite la scheda nella stampante (attenzione: la scheda va inserita capovolta rispetto a come si inserisce nell'adattatore!)
-6. Spegnere (se accesa) e accendere la stampante
+The first advice we can give you is to update the firmware with the most updated tested firmware, which you can download from Github (you can find the link in the top right of this website or, alternatively, in the [Firmware section](/docs/firmware/firmware_stock)): it usually contains multiple bugfixes and will prevent you from having inconsistencies with the guides in the wiki (which are usually targetting the latest tested firmware for any given motherboard/drivers combination)
 
-Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware
-[ ![Barra di progresso aggiornamento](/img/TFT_Update.jpg) ](/img/TFT_Update.jpg)
+:::tip
+Alternatively, if you feel brave, you can find the latest firmwares released by Flyingbear [here](https://drive.google.com/drive/folders/1ZUuk_V8Bdn0Vt0OC19J2wQ0Nd3v5MbL4)
+:::
 
+<DisplayAd/>
 
-Completata questa operazione, vi si presentarà il menu. Siete un passo più vicini alla vostra prima stampa con la Flying Bear Ghost!
-Non fatevi tentare dallo smanettare con il menu: 
-1. Prendete subito la microSD
-2. Estraetela
-3. Inseritela nel computer
-4. Scaricate il file robin_nano35_cfg.cur (controllare nome ed estensione)
-5. Apritelo e salvatelo come robin_nano35_cfg.txt (*shortcut: F2 per Ubuntu, Enter per macOS*)
+The first thing to do is to backup the content of the SD (this is not mandatory, if you don't care about the original content of the SD, which should the config file for your printer and the stl and gcode files for the nut and screw, the test print provided by Flyingbear)
 
-Questo file contiente tutti i principali parametri della stampante. Cambiare un valore in questo file permette di modificare quel valore sul firmware installato
+Once you've backed up the content of the SD, you can:
+1. Download the firmware
+2. Extract it in a folder (we strongly suggest to keep it in a safe location, as a backup)
+3. Format the SD card in FAT32
+4. Copy the content of the folder (including the sub folders!!!) in the SD card
+5. Safely remove the SD from your computer
+6. Inser the SD card into the printer (be careful: the SD card should be inserted upside down, with the metal pins facing upwards!!!)
+7. Switch off the printer (only if it's already on)
+8. Turn the printer on
 
-Vediamo come e cosa cambiare:
+<ArticleAd/>
 
+Once you've turned the printer on, the Flyingbear logo will appear, then a progress bar, showing you the progess status of the installation
 
-Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor preferito. Cercate le seguenti linee e cambiate il parametro corrispondente (sempre almeno uno spazio tra la parola in maiuscolo ed il valore corrispondente. più spazi non contano)
+[ ![Flyingbear firmware update - Progress Bar](/img/primi_passi/TFT_Update.webp) ](/img/primi_passi/TFT_Update.webp)
 
+Once installation is completed, you should see the main menu appearing on the screen
 
-### Lingua
+Congratulations: you're one step closer to your first 3d print with the Flyingbear Ghost!
+
+Now, don't get tempted to start playing around with the menu:
+
+1. Extract the SD card from the 3d printer
+2. Insert it in your computer
+3. Download the **robin_nano35_cfg.cur** file from the SD card to a safe location in your computer
+4. Open it with Notepad (or your favourite text editor, but NEVER EVER with word, or any other word processing application!!!)
+5. Save it as **robin_nano35_cfg.txt** (if you want to rename it from the File Manager, you can select the file and hit **F2** for Windows and Ubuntu or **Enter** for Mac)
+
+This file contains the main parameters of your printer. Changing a value in this file will let you updated the related parameter in the firmware
+
+Now let's go and see what we have to change
+
+Open the file **robin_nano35_cfg.txt** you saved previously, then look for the following lines and amend the corresponding value
+
+:::tip
+Always remember to leave at least one space between the parameter, which is in capital letters, and the corresponding value
+
+Multiple spaces don't matter
+:::
+
+<DisplayAd/>
+
+### Language {#language}
  ```
  cfg_language_type 7 # Language selection 2 - English 3 - Russian 7 - Italiano
  ```
 
-### Sicurezza
- ``` HEATER_0_MINTEMP 5 # It is recommended to set exactly 5 (not -5) to avoid overheating if the sensor 
+### Safety {#safety}
+ ``` 
+ HEATER_0_MINTEMP 5 # It is recommended to set exactly 5 (not -5) to avoid overheating if the sensor 
  HEATER_1_MINTEMP 5 # It is recommended to set exactly 5 (not -5 ) in order to avoid overheating in the event of a sensor breakdown
  THERMAL_PROTECTION_PERIOD 30 # Polling time for thermal protection, seconds 
  THERMAL_PROTECTION_HYSTERESIS 10 # Change in degrees C 
@@ -64,13 +91,22 @@ Aprite il file robin_nano35_cfg.txt che avevate creato prima con il vosto editor
 CFG_WIFI_AP_NAME # name of WiFi, write before # 
 CFG_WIFI_KEY_CODE # password WiFi, write before #
 ```
-Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-Fi
-![alt text](/img/wifi_config.png "wifi")
+Just insert, like in the picture below, the name of your Wi Fi network and your Wi Fi password
 
-### Quinto punto calibrazione
-È possibile aggiungere un punto ulteriore di calibrazione (a scelta dell'utente) nell'intefaccia (quattro di standard), per livellare il piatto anche al centro, oltre che negli angoli
+[ ![Flyingbear ghost - Configure Wi Fi network](/img/primi_passi/wifi_config.webp) ](/img/primi_passi/wifi_config.webp)
 
-Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il quinto punto dovrebbe essere centrale, modificare con coordinate del centro
+<DisplayAd/>
+
+### Fifth calibration point
+It is possible to add a fifth calibration point to the interface (by default, they are four, located in the corners), to be able to level the bed in the middle too, other than in the corners
+
+<ArticleAd/>
+
+:::tip
+The first four points are ok, coordinates are correct, but the fifth point should be central
+
+Amend the coordinates to get to the center of the bed, you can check this by manually moving the head to middle of the hotbed
+:::
 
 ```
  cfg_point_number 5
@@ -81,11 +117,19 @@ Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il qu
  cfg_point5:125,105
 ```
 
-La procedura di aggiornamento e' la solita
+Procedure to update is always the same as mentioned before
 
-## Considerazioni finali
-Una volta completati i passi precedenti, e' sempre meglio fare una copia del robin_nano_cfg.txt e cancellare il contenuto della SD
+<DisplayAd/>
 
-La stampante, cosi' com'e', e' pronta per stampare. Per aumentare la qualita' di stampa, pero', ci sono alcune calibrazioni da fare
+## Final remarks
+Once you've completed the previous steps, your best move will always be making a copy of the **robin_nano_cfg.txt** and the delete the content of the SD
 
-Nella pagina successiva ci sono tutte le calibrazioni necessarie
+Right now, your printer is finally ready to print! Exciting!!!
+
+To increase print quality, though, there are some further calibrations to perform
+
+In the next page, you'll find all the necessary calibrations to get the most out of your 3d printer
+
+<DisplayAd/>
+
+<FacebookLink link="https://www.facebook.com/hashtag/primipassi?__gid__=600126627631693"/>
