@@ -24,10 +24,12 @@ Potevi ricevere email da qualsiasi angolo del mondo, esisteva un servizio di Cha
 A quel tempo avevo un android come secondo telefono, con 200 mega di ram, un HTC, altro marchio pionieristico ormai finito nell'oblio, e le potenzialità si vedevano tutte, poi sostituito con il primo iphone quando si inizio' a parlare di jailbreak, visto che la tentazione di esplorare nuovi pascoli vergini era troppa
 
 Il primo iphone che ho avuto è stato il 3G, ma questa è un'altra storia
+<!--truncate-->
 
 Tornando a Blackberry, è stato sviluppato nei primi anni della sua vita in java, e ricordo ancora il blackberry 5, il primo adottato dalla mia azienda nel 2009, se non ricordo male, e fu questa versione del telefono, assieme a google ed android, ad iniziare a mettere una pietra tombale sui telefoni Nokia
 
 [ ![Blackberry Q5](/img/blog/blackberry/BBq5.webp) ](/img/blog/blackberry/BBq5.webp)
+
 
 <DisplayAd/>
 

@@ -28,6 +28,8 @@ Questa volta e' andato tutto liscio, quindi, avendo un sacco di tempo a disposiz
 
 Non solo ho trovato il giornaletto di Peppa Pig (sempre sia lodata per il suo contributo alla riduzione dell'inquinamento acustico) ma, nella sezione **riviste per nerd**, ho rivisto un mio vecchio amore: Hackspace
 
+<!--truncate-->
+
 [ ![Hackspace Issue 50](/img/blog/magazines/hackSpace50.webp) ](/img/blog/magazines/hackSpace50.webp)
 
 <DisplayAd/>
