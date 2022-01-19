@@ -33,8 +33,6 @@ The printer is fairly quiet, although rectractions might be a bit noisy if you a
 
 The biggest sources of noise are the fans, which can be replaced with some more quiet ones, although you might have to compromise between cooling and noise
 
-La lista delle feature è completata dal sensore di filamento (per arrestare la stampa quando il filamento finisce o si spezza), un bellissimo touch screen e connettività Wi-Fi
-
 The list of features is completed by a wonderful touch screen, a filament runout sensor (to stop printing when running out of filament or filament breaks up) and Wi-Fi connectivity
 
 | | |

@@ -13,9 +13,9 @@ import ArticleAd from '../../../../src/components/articleAd'
 ## Firmware {#firmware}
 The firmware, which is the "operating system" of a 3d printer, is installed in the motherboard memory, located inside the printer base
 
-It can be be easily updated using the SD provided with the printer, although we strongly suggest you replace it with a more performing one
+It can be be easily updated using the SD provided with the printer, although we strongly suggest to replace it with a more performing one
 
-The first advice we can give you is to update the firmware with the most updated tested firmware, which you can download from Github (you can find the link in the top right of this website or, alternatively, in the [Firmware section](/docs/firmware/firmware_stock)): it usually contains multiple bugfixes and will prevent you from having inconsistencies with the guides in the wiki (which are usually targetting the latest tested firmware for any given motherboard/drivers combination)
+The first advice we can give is to install the most up to date tested firmware, which can be downloaded from Github (you can find the link in the top right of this website or, alternatively, in the [Firmware section](/docs/firmware/firmware_stock)): it usually contains multiple bugfixes and will prevent you from having inconsistencies with the guides in the wiki (which are usually targetting the latest tested firmware for any given motherboard/drivers combination)
 
 :::tip
 Alternatively, if you feel brave, you can find the latest firmwares released by Flyingbear [here](https://drive.google.com/drive/folders/1ZUuk_V8Bdn0Vt0OC19J2wQ0Nd3v5MbL4)
@@ -23,7 +23,7 @@ Alternatively, if you feel brave, you can find the latest firmwares released by 
 
 <DisplayAd/>
 
-The first thing to do is to backup the content of the SD (this is not mandatory, if you don't care about the original content of the SD, which should the config file for your printer and the stl and gcode files for the nut and screw, the test print provided by Flyingbear)
+The first thing to do is to backup the content of the SD (this is not mandatory, if you don't care about the original content of the SD, which should contain only the config file for your printer and the stl and gcode files for the nut and screw, the test print provided by Flyingbear)
 
 Once you've backed up the content of the SD, you can:
 1. Download the firmware
@@ -45,7 +45,7 @@ Once installation is completed, you should see the main menu appearing on the sc
 
 Congratulations: you're one step closer to your first 3d print with the Flyingbear Ghost!
 
-Now, don't get tempted to start playing around with the menu:
+Now, don't get tempted to start playing around with the menu, but follow the next steps:
 
 1. Extract the SD card from the 3d printer
 2. Insert it in your computer
@@ -53,7 +53,7 @@ Now, don't get tempted to start playing around with the menu:
 4. Open it with Notepad (or your favourite text editor, but NEVER EVER with word, or any other word processing application!!!)
 5. Save it as **robin_nano35_cfg.txt** (if you want to rename it from the File Manager, you can select the file and hit **F2** for Windows and Ubuntu or **Enter** for Mac)
 
-This file contains the main parameters of your printer. Changing a value in this file will let you updated the related parameter in the firmware
+This file contains the main parameters of your printer. Changing a value in this file will let you update the related parameter in the firmware
 
 Now let's go and see what we have to change
 
