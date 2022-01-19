@@ -1,6 +1,7 @@
 ---
 title: Illuminazione Esterna
 slug: /illuminazioneesterna
+hide_table_of_contents: true
 ---
 # Illuminazione esterna
 

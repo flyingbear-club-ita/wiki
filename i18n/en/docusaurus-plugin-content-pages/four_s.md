@@ -1,6 +1,9 @@
 ---
 title: Ghost 4s Specs
 slug: /four_s
+description: Brief review of the Flyingbear Ghost 4S 3D printer --WARNING-- Ghost 4S IS OUT OF PRODUCTION! 
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 4s", "flying bear ghost 4s"]
+hide_table_of_contents: true
 ---
 :::danger
 Ghost 4s is out of production and it's impossible to get spare parts from Flyingbear, although many alternative replacements can be found online (Aliexpress or Amazon). Go check the [Upgrades](/upgrades) and [Spare Parts](/ricambi) sections for further information 
@@ -24,11 +27,12 @@ One of the best features of the Ghost 4S is the Ultrabase plate, which, thanks t
 
 The extruder is a BMG Bondtech dual drive clone, maybe not the best you can find on the market, but easily replaceable with a superior one
 
-The list of features is completed by a wonderful touch screen and Wi-Fi connectivity
+The list of features is completed by a wonderful touch screen, a filament runout sensor and Wi-Fi connectivity
 
 | | |
 |-|-|
 |__Dimensions__| 392mm x 342mm x 420mm |
+|__Bed Dimensions__| 275mm x 215mm |
 |__Weight__| 13.5Kg |
 |__Layer Resolution__ | 0.05-0.3mm |
 |__Print Volume__| 255mm x 210mm x 200mm |

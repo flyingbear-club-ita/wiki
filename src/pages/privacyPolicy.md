@@ -1,6 +1,7 @@
 ---
 slug: /privacypolicy
 id: privacyPolicy
+hide_table_of_contents: true
 ---
 
 <h1>Privacy Policy</h1>

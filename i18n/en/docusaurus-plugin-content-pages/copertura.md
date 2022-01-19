@@ -1,6 +1,7 @@
 ---
 title: Copertura
 slug: /copertura
+hide_table_of_contents: true
 ---
 # Copertura
 Copertura superiore trasparente monopezzo e sportello frontale per Flying Bear Ghost 4S/5

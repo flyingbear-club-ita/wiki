@@ -1,5 +1,6 @@
 ---
 title: FAQ
 slug: /faq
+hide_table_of_contents: true
 ---
 # WIP
