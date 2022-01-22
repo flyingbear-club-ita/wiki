@@ -79,7 +79,7 @@ In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
-[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/impostazioni_rh.webp)
+[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/calibration/repetierHost/impostazioni_rh.webp)
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 

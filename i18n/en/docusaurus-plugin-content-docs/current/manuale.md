@@ -5,7 +5,7 @@ description: Flyingbear Ghost 5 Manual - A digital copy of the Flyingbear Ghost 
 keywords: ["flyingbear", "flyingbear ghost", "flying bear", "flying bear ghost", "manual", "3d printing", "3d print", "flyingbear ghost manual", "flying bear ghost manual"]
 ---
 
-import ArticleAd from '../src/components/articleAd'
+import ArticleAd from '../../../../src/components/articleAd'
 
 [ ![Flyingbear Ghost 5  - Instructions manual - Page 1](/img/manuale/page01.webp) ](/img/manuale/page01.webp)
 [ ![Flyingbear Ghost 5  - Instructions manual - Page 2](/img/manuale/page02.webp) ](/img/manuale/page02.webp)

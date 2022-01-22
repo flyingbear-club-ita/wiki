@@ -3,9 +3,9 @@ title: Calibrations
 slug: /calibrazioni
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "calibrations", "hotend", "heath bed", "3d printing"]
 ---
-import DisplayAd from '../src/components/displayAd'
-import ArticleAd from '../src/components/articleAd'
-import FacebookLink from '../src/components/facebookLink'
+import DisplayAd from '../../../../src/components/displayAd'
+import ArticleAd from '../../../../src/components/articleAd'
+import FacebookLink from '../../../../src/components/facebookLink'
 
 ## Build plate {#build-plate}
 Calibrating the build plate is one of the necessary calibrations to perform
@@ -83,7 +83,7 @@ In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
-[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/impostazioni_rh.webp)
+[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/calibration/repetierHost/impostazioni_rh.webp)
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 
