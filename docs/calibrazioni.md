@@ -40,7 +40,7 @@ Il file va stampato molto lentamente, intorno ai 20mm/s, cosi' da poter eventual
 Una volta stampato, o proprio durante la stampa, e' possibile valutare la qualita' del livellamento confrontando la stesura del primo layer con la tabella qui sotto
 
 <p align = "center">
-<img src = "/img/calibrazioni/bedLevelExample.jpg"/>
+<img src = "/img/calibration/plate/bedLevelExample.webp"/>
 </p>
 <p align = "center">
 Esempi di livellamento - Credits <a href="https://43dprint.org/">43dprint.org</a>
@@ -79,11 +79,11 @@ In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
-[ ![Settings Repetier Host](/img/impostazioni_rh.jpg) ](/img/impostazioni_rh.jpg)
+[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/impostazioni_rh.webp)
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 
-[ ![Home Repetier Host](/img/home_rh.jpg) ](/img/home_rh.jpg)
+[ ![Home Repetier Host](/img/calibration/repetierHost/home_rh.webp) ](/img/calibration/repetierHost/home_rh.webp)
 
 A questo punto, dovreste vedere un po' di log scorrere. 
 
@@ -92,7 +92,7 @@ Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potet
 :::
 
 Per dare i comandi Gcode alla stampante andare nel flag Controlli Manuali
-[ ![Controlli Manuali](/img/controlli_manuali.jpg) ](/img/controlli_manuali.jpg)
+[ ![Controlli Manuali Repetier Host](/img/calibration/repetierHost/controlli_manuali.webp) ](/img/calibration/repetierHost/controlli_manuali.webp)
 
 ### Calibrazione PID Blocco riscaldante {#calibrazione-pid-blocco-riscaldante}
 Prima di cominciare la calibrazione, bisogna riscaldare il nozzle, portandolo alla temperatura solitamente utilizzata (200/210 nella maggior parte dei casi), ed accendere la ventola
@@ -364,7 +364,7 @@ Il cubetto del link e' molto utile per identificare quale asse si sta misurando
 Se il calibro punta verso la faccia con la X, allora si sta misurando l'asse X, e via dicendo
 :::
 
-[ ![3d printing - Flyingbear Ghost - X axis steps calibration - before](/img/calibration/axis/xBeforeCalib.jpg) ](/img/calibration/axis/xBeforeCalib.jpg) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - before](/img/calibration/axis/yBeforeCalib.jpg) ](/img/calibration/axis/yBeforeCalib.jpg) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - before](/img/calibration/axis/zBeforeCalib.jpg) ](/img/calibration/axis/zBeforeCalib.jpg)
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - before](/img/calibration/axis/xBeforeCalib.webp) ](/img/calibration/axis/xBeforeCalib.webp) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - before](/img/calibration/axis/yBeforeCalib.webp) ](/img/calibration/axis/yBeforeCalib.webp) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - before](/img/calibration/axis/zBeforeCalib.webp) ](/img/calibration/axis/zBeforeCalib.webp)
 
 
 Adesso andiamo ad applicare una proporzione per rispondere alla domanda "Se con XX step ottengo XX mm, quanti step devo avere per ottenere il mio valore atteso, cioe' 20mm?"
@@ -415,7 +415,7 @@ Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a pos
 
 Se tutto e' a posto, siamo pronti a stampare il cubetto un'altra volta e a misurare i nuovi valori
 
-[ ![3d printing - Flyingbear Ghost - X axis steps calibration - after](/img/calibration/axis/xAfterCalib.jpg) ](/img/calibration/axis/xAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - after](/img/calibration/axis/yAfterCalib.jpg) ](/img/calibration/axis/yAfterCalib.jpg) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - after](/img/calibration/axis/zAfterCalib.jpg) ](/img/calibration/axis/zAfterCalib.jpg)
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - after](/img/calibration/axis/xAfterCalib.webp) ](/img/calibration/axis/xAfterCalib.webp) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - after](/img/calibration/axis/yAfterCalib.webp) ](/img/calibration/axis/yAfterCalib.webp) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - after](/img/calibration/axis/zAfterCalib.webp) ](/img/calibration/axis/zAfterCalib.webp)
 
 Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
 - +0.03 sull'asse X, a fronte di uno scarto di +0.14 precedentemente

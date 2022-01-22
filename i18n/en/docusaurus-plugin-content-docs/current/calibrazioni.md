@@ -1,32 +1,60 @@
 ---
 title: Calibrations
 slug: /calibrazioni
-keywords: ["3d printing", "flyingbear", "flying bear", "flyingbear ghost", "calibration", "hotend", "heath bed"]
-sidebar_label: Calibrations
+keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "calibrations", "hotend", "heath bed", "3d printing"]
 ---
+import DisplayAd from '../src/components/displayAd'
+import ArticleAd from '../src/components/articleAd'
+import FacebookLink from '../src/components/facebookLink'
 
-## Piano di stampa 
-La calibrazione del piano di stampa rientra nelle calibrazioni essenziali da effettuare
+## Build plate {#build-plate}
+Calibrating the build plate is one of the necessary calibrations to perform
 
-Inizialmente può sembrare una procedura complicata ma con questi semplici passi potrai ottenere una calibrazione semplice ed efficiente.
+Initially, it might look like an impossible task to complete: you'll feel daunted and frustrated when you have to  repeat the same procedure from scratch more than once, but the benefits you'll get from having a perfectly calibrated build plate are going to be priceless
 
-1. Chiudere (stringere) le 4 molle del piano a fine corsa
-2. Regolare la vite di fine corsa del piano "Z" in modo tale da ottenere uno spazio tra punta e ugello di 2mm. 
+Furthermore, it is a lenghty operation, but you're likely to do it once a year or so, and the more you do it, the easier it will be
+
+1. Thighten **completely** the four springs under the bed
+2. Adjust the Z endstop screw, until you get 2mm between the tip of the nozzle and the plate when homing
+
 :::tip
-Come misura di riferimento puoi usare la brugola in dotazione, la seconda più piccola
+you can use one of the hex keys provided with the printer as reference, the second smallest one
 :::
-3. Iniziare usando la funzione "leveling" della stampante
-4. Usare il foglio in dotazione o un foglio A4 per calibrare tutti e 4 i punti. Tra ugello e foglio dev'essere presente un leggero attrito
 
-### Consigli per una buona calibrazione
-* Riscaldare il piano a 60°C durante tutto il processo di calibrazione
-* Ripetere la calibrazione 4/5 volte
-* Tra una calibrazione e l’altra portare tutti gli assi in "home"
-* Pulire il piano di stampa con alcool isopropilico
+3. Initiate the bed levelling procedure via the printer GUI (graphical user interface)
+4. Start turning the spring handles clockwise, using the provided sheet or, alternatively, an A4 sheet (which is usually 0.1mm thick) to ensure there is a little friction between the nozzle and the bed. Repeat this procedure multiple times, until every friction is the same for all the four (or five, if you activated the central one) points
+
+<ArticleAd/>
+
+### Tips for a good calibration {#tips-for-a-good-calibration}
+* Before starting calibrating the plate, heat it up to the temperature you usually use to print (most common is 60 celsius degrees) and keep it hot until you're done calibrating: this is due the thermal expansion of the plate support
+* Repeat calibration multiple times
+* Home on Z every time you move to a different point, then home all the axes before repeating rounds of calibration
+* Clean the bed with isopropyl alcohol (99% pure)
+
+### Test bed levelling {#test-bed-levelling}
+When you're sure the bed is calibrated, in order to test levelling, you can print a calibration file, which is going to give you visual feedback
+
+[Bed levelling - Author: Wolf](https://www.thingiverse.com/thing:4678933/files)
+
+:::tip
+This file should be printed very slowly, about 20mm/s, to be able to adjust any misalignement by just rotating the handles below the bed
+:::
+
+Once completed the test print, or even while printing, it is possible to evaluate levelling by comparing your results with the table below:
+
+<p align = "center">
+<img src = "/img/calibration/plate/bedLevelExample.webp"/>
+</p>
+<p align = "center">
+Esempi di livellamento - Credits <a href="https://43dprint.org/">43dprint.org</a>
+</p>
 
 *Un ringraziamento a Magnas per aver realizzato la guida*
 
-## Calibrazione PID
+<DisplayAd/>
+
+## Calibrazione PID {#calibrazione-pid}
 :::danger
 La calibrazione del PID deve essere sempre supervisionata: la temperatura dell'estrusore potrebbe salire troppo, se dovesse superare la temperatura desiderata del 15%, SPEGNERE SUBITO la stampante
 :::
@@ -42,22 +70,24 @@ Prima di lanciare RH, connetti la stampante alla porta usb del computer tramite 
 
 Per i sistemi *nix, come **Ubuntu** e **macOS**, non c'e' bisogno di fare niente, basta collegare il cavo
 
-Per **Windows**, a volte potrebbe essere necessario installare il [driver CH341](http://www.cesareriva.com/release/wp-content/uploads/2011/02/usb_serial_converter_ch340_windows_x64_drivers.zip)
+Per **Windows**, a volte potrebbe essere necessario installare il [driver CH34X](/files/CH34x_Install_Windows_v3_4.zip)
 
 Sempre per Windows, per verificare che la stampante sia connessa:
  1. Cercare ed aprire "Pannello di Controllo"
  2. scorrere la lista dei dispositivi
  3. cercare la stampante
 
+<ArticleAd/>
+
 In entrambi i casi, adesso potete lanciare repetier host
 
 Appena lanciato, il programma non riconosce automaticamente la stampante, bisogna selezionare la porta di comunicazione 
 
-[ ![Settings Repetier Host](/img/impostazioni_rh.jpg) ](/img/impostazioni_rh.jpg)
+[ ![Settings Repetier Host](/img/calibration/repetierHost/impostazioni_rh.webp) ](/img/impostazioni_rh.webp)
 
 Se la porta di comunicazione e' stata selezionata correttamente, il tasto "connetti" si attivera'. Cliccateci sopra
 
-[ ![Home Repetier Host](/img/home_rh.jpg) ](/img/home_rh.jpg)
+[ ![Home Repetier Host](/img/calibration/repetierHost/home_rh.webp) ](/img/calibration/repetierHost/home_rh.webp)
 
 A questo punto, dovreste vedere un po' di log scorrere. 
 
@@ -66,9 +96,9 @@ Se vi da' fastidio il m105, che e' semplicemente un ping per la stampante, potet
 :::
 
 Per dare i comandi Gcode alla stampante andare nel flag Controlli Manuali
-[ ![Controlli Manuali](/img/controlli_manuali.jpg) ](/img/controlli_manuali.jpg)
+[ ![Repetier Host Manual control](/img/calibration/repetierHost/controlli_manuali.webp) ](/img/calibration/repetierHost/controlli_manuali.webp)
 
-### Calibrazione PID Blocco riscaldante
+### Calibrazione PID Blocco riscaldante {#calibrazione-pid-blocco-riscaldante}
 Prima di cominciare la calibrazione, bisogna riscaldare il nozzle, portandolo alla temperatura solitamente utilizzata (200/210 nella maggior parte dei casi), ed accendere la ventola
 
 Il gcode per accendere la ventola e':
@@ -91,6 +121,8 @@ Il comando da inserire e' questo:
  **C8** rappresenta il numero di cicli da effettuare, 8 e' il valore raccomandato per i firmware basati su Marlin
 :::
 
+<ArticleAd/>
+
 Questo comando inizia la sequenza di calibrazione del PID per l'estrusore
 
 Osservate il log: ad un certo punto, compriranno dei messaggi simili a questi:
@@ -105,7 +137,7 @@ Dove ci sono le XX, li' troverete i valori dopo la calibrazione
 
 Per aggiornare i valori ci sono due opzioni:
 
-#### Tramite robin_nano35_cfg.txt
+#### Tramite robin_nano35_cfg.txt {#tramite-robin_nano35_cfgtxt}
 Prendete questi valori e inseriteli nel file robin_nano35_cfg.txt nelle seguenti righe (i valori riportati sono solo esemplificativi):
  ```
   PIDTEMPE 1 # Mode 1: PID; 0: bang-bang 
@@ -120,6 +152,8 @@ La prima riga cambia il sistema di regolazione della temperatura da bang bang a 
 Nella seconda, terza e quarta riga, inserire i valori appena trovati con repetier host
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
+
+<ArticleAd/>
 
 #### Tramite Repetier Host
 Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
@@ -145,6 +179,8 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 
 **Voila', il PID dell'estrusore e' calibrato!**
+
+<DisplayAd/>
 
 ### Calibrazione PID Piatto
 La calibrazione del PID del piatto e' analoga, pero' c'e' una modifica da fare nel file di config
@@ -182,7 +218,9 @@ Nella prima, seconda e terza riga, inserire i valori appena trovati con repetier
 
 Come al solito, caricare il file robin_nano35_cfg.txt sulla SD, inserire la scheda nella stampante, spegnere e riaccendere
 
-#### Tramite Repetier Host
+<ArticleAd/>
+
+#### Tramite Repetier Host {#tramite-repetier-host}
 Nella finestra per l'inserimento del gcode, inviare il seguente comando, sostituendo i valori ottenuti (i valori riportati sono solo esemplificativi):
 
 ```
@@ -207,8 +245,9 @@ Nel terminale dovrebbero comparire i valori attuali dei parametri del PID, che d
 
 **Voila', il PID del piatto e' calibrato!**
 
+<DisplayAd/>
 
-## Step
+## Step {#step}
 
 A volte, vi sarà capitato di vedere delle imprecisioni nelle superfici delle vostre stampe, tipo grumi di plastica, oppure una distribuzione non omogenea del filamento
 
@@ -224,8 +263,10 @@ Il valore di default della Ghost è 400, il che vuole dire che, per muoversi di 
 
 Purtroppo, non tutti i componenti sono uguali, quindi, per regolarizzare il flusso o i movimenti sugli assi, è necessaria una calibrazione
 
+<ArticleAd/>
 
-### Estrusore
+
+### Estrusore {#estrusore}
 In questo caso, è necessario l'utilizzo di Repetier Host(RH) (spiegato nella sezione Primi Passi) 
 
 Connettere la stampante col cavo USB, aprire RH, assicurasi che la stampante sia connessa e muoversi nella sezione per inviare comandi GCode
@@ -255,14 +296,29 @@ Se, per esempio, avessimo misurato 265, la formula qui sopra sarebbe:
 
   `400 * (280/265)`
 
-Una volta calcolato il nuovo valore, inserirlo nel file robin_nano35_cfg.txt.
+Una volta calcolato il nuovo valore, bisogna aggiornarlo
 
-Cercare:
+Per la procedura tramite robin_nano35_cfg.txt, cercare:
 
 **DEFAULT_E0_STEPS_PER_UNIT**
 
+<ArticleAd/>
 
-Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore 
+
+Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare il firmware col nuovo valore
+
+Per aggiornare il valore degli step tramite gcode, basta inviare il seguente comando:
+
+```
+M92 EXX.X
+```
+
+Dove XX.X rappresenta il valore degli step/mm calcolato
+
+Per immagazzinare il valore in memoria, completare la procedura lanciando il gcode:
+```
+M500
+```
 
 :::tip
 È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati
@@ -270,5 +326,106 @@ Sostituire il valore di default con il valore ottenuto dalla formula, aggiornare
 *Consigliati calicat, benchy, calibrationCube*
 :::
 
-### Assi
-*Coming soon*
+
+<DisplayAd/>
+
+### Assi {#assi}
+Stampare elementi con incastri e' una delle cose piu' problematiche della stampa 3d: a causa di espansione del materiale e/o inaccuratezze nel modello originale (per esempio, una errata tolleranza)
+
+Per raggiungere risultati precisi al centesimo di millimetro, anche gli assi hanno bisogno di una calibrazione, che si puo' fare tramite un semplice cubetto da stampare ed un calibro centesimale
+
+Prima di cominciare, scarichiamo il file di test da qui:
+
+[Cubetto di calibrazione 20x20](https://www.thingiverse.com/thing:1278865)
+
+:::tip
+In alternativa, potete anche lanciare il vosto CAD preferito e farvelo da soli
+:::
+
+Una volta stampato il cubetto, prendiamo nota degli step di ciascun asse
+
+Quelli di default per la Ghost sono riportati nella tabella qui sotto
+
+|  X  |  Y  |  Z   |
+| --- |  -- |  --  |
+| 80  |  80 | 400  |
+
+
+In alternativa, potete inviare il gcode **M501** (per esempio tramite repetier host)
+
+Dall'output potete estrapolare la seguente riga:
+
+```
+M92 X__ Y__ Z___ E__
+```
+
+Dove i valori rappresentano, rispettivamente, i passi dell'asse X, Y, Z e dell'estrusore
+
+Una volta stampato il cubetto, andiamo a misurare ciascun asse
+
+:::info
+Il cubetto del link e' molto utile per identificare quale asse si sta misurando
+Se il calibro punta verso la faccia con la X, allora si sta misurando l'asse X, e via dicendo
+:::
+
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - before](/img/calibration/axis/xBeforeCalib.webp) ](/img/calibration/axis/xBeforeCalib.webp) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - before](/img/calibration/axis/yBeforeCalib.webp) ](/img/calibration/axis/yBeforeCalib.webp) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - before](/img/calibration/axis/zBeforeCalib.webp) ](/img/calibration/axis/zBeforeCalib.webp)
+
+
+Adesso andiamo ad applicare una proporzione per rispondere alla domanda "Se con XX step ottengo XX mm, quanti step devo avere per ottenere il mio valore atteso, cioe' 20mm?"
+
+```
+step_attuali : valore_misurato = step_ottimali : valore_atteso
+```
+
+che si traduce nella formula finale:
+```
+step_ottimali = (step_attuali * valore_atteso)/valore_misurato
+```
+
+Nel caso delle misure in foto, avremo:
+
+```
+(80 * 20mm) / 20.14mm = 79.4
+
+(80 * 20mm) / 20.09mm = 79.6
+
+(400 * 20mm) / 20.26mm = 394.8
+```
+
+Adesso possiamo aggiornare gli step sulla stampante
+
+Con il firmware originale, basta aggiornare i valori nel robin_nano_cfg.cur (come descritto precedentemente, flashando la stampante con il solo file di config)
+
+In alternativa, e' possibile settare gli step tramite i comandi gCode (da lanciare uno alla volta!)
+
+```
+M92 X79.4
+
+M92 Y79.2
+
+M92 Z394.8
+
+```
+
+Per salvare i valori sulla EEPROM, invire il comando:
+
+```
+M500
+```
+
+<ArticleAd/>
+
+Adesso andiamo a leggere i valori degli step per assicurarci che tutto sia a posto con il gcode **M503**
+
+Se tutto e' a posto, siamo pronti a stampare il cubetto un'altra volta e a misurare i nuovi valori
+
+[ ![3d printing - Flyingbear Ghost - X axis steps calibration - after](/img/calibration/axis/xAfterCalib.webp) ](/img/calibration/axis/xAfterCalib.webp) [ ![3d printing - Flyingbear Ghost - Y axis steps calibration - after](/img/calibration/axis/yAfterCalib.webp) ](/img/calibration/axis/yAfterCalib.webp) [ ![3d printing - Flyingbear Ghost - Z axis steps calibration - after](/img/calibration/axis/zAfterCalib.webp) ](/img/calibration/axis/zAfterCalib.webp)
+
+Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
+- +0.03 sull'asse X, a fronte di uno scarto di +0.14 precedentemente
+- +0.02 sull'asse Y, a fronte di uno scarto di +0.09 precedentemente
+- -0.07 sull'asse Y, a fronte di uno scarto di +0.26 precedentemente
+
+<DisplayAd/>
+
+<FacebookLink link="https://www.facebook.com/hashtag/calibrazioni?__gid__=600126627631693"/>
