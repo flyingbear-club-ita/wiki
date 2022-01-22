@@ -1,47 +1,55 @@
 ---
 title: Manuale
 slug: /manuale
+description: Flyingbear Ghost 5 Manual - A digital copy of the Flyingbear Ghost manual, scanned by one of the members of our community. Includes instructions, connections and circuit diagrams
 keywords: ["flyingbear", "flyingbear ghost", "flying bear", "flying bear ghost", "manual", "3d printing", "3d print", "flyingbear ghost manual", "flying bear ghost manual"]
 ---
 
 import ArticleAd from '../src/components/articleAd'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+[ ![Flyingbear ghost - Manual - Page 1](/img/manuale/page01.webp) ](/img/manuale/page01.webp)
+[ ![Flyingbear ghost - Manual - Page 2](/img/manuale/page02.webp) ](/img/manuale/page02.webp)
+[ ![Flyingbear ghost - Manual - Page 3](/img/manuale/page03.webp) ](/img/manuale/page03.webp)
+[ ![Flyingbear ghost - Manual - Page 4](/img/manuale/page04.webp) ](/img/manuale/page04.webp)
+
 
 <ArticleAd/>
 
-![alt text](/img/page01.jpg "Manuale Flyingbear Ghost Pagina 1")
-![alt text](/img/page02.jpg "Manuale Flyingbear Ghost Pagina 2")
-![alt text](/img/page03.jpg "Manuale Flyingbear Ghost Pagina 3")
-![alt text](/img/page04.jpg "Manuale Flyingbear Ghost Pagina 4")
+[ ![Flyingbear ghost - Manual - Page 5](/img/manuale/page05.webp) ](/img/manuale/page05.webp)
+[ ![Flyingbear ghost - Manual - Page 6](/img/manuale/page06.webp) ](/img/manuale/page06.webp)
+[ ![Flyingbear ghost - Manual - Page 7](/img/manuale/page07.webp) ](/img/manuale/page07.webp)
+[ ![Flyingbear ghost - Manual - Page 8](/img/manuale/page08.webp) ](/img/manuale/page08.webp)
+
 
 <ArticleAd/>
 
-![alt text](/img/page05.jpg "Manuale Flyingbear Ghost Pagina 5")
-![alt text](/img/page06.jpg "Manuale Flyingbear Ghost Pagina 6")
-![alt text](/img/page07.jpg "Manuale Flyingbear Ghost Pagina 7")
-![alt text](/img/page08.jpg "Manuale Flyingbear Ghost Pagina 8")
+[ ![Flyingbear ghost - Manual - Page 9](/img/manuale/page09.webp) ](/img/manuale/page09.webp)
+[ ![Flyingbear ghost - Manual - Page 10](/img/manuale/page10.webp) ](/img/manuale/page10.webp)
+[ ![Flyingbear ghost - Manual - Page 11](/img/manuale/page11.webp) ](/img/manuale/page11.webp)
+[ ![Flyingbear ghost - Manual - Page 12](/img/manuale/page12.webp) ](/img/manuale/page12.webp)
 
 <ArticleAd/>
 
-![alt text](/img/page09.jpg "Manuale Flyingbear Ghost Pagina 9")
-![alt text](/img/page10.jpg "Manuale Flyingbear Ghost Pagina 10")
-![alt text](/img/page11.jpg "Manuale Flyingbear Ghost Pagina 11")
-![alt text](/img/page12.jpg "Manuale Flyingbear Ghost Pagina 12")
+[ ![Flyingbear ghost - Manual - Page 13](/img/manuale/page13.webp) ](/img/manuale/page13.webp)
+[ ![Flyingbear ghost - Manual - Page 14](/img/manuale/page14.webp) ](/img/manuale/page14.webp)
+[ ![Flyingbear ghost - Manual - Page 15](/img/manuale/page15.webp) ](/img/manuale/page15.webp)
+[ ![Flyingbear ghost - Manual - Page 16](/img/manuale/page16.webp) ](/img/manuale/page16.webp)
 
 <ArticleAd/>
 
-![alt text](/img/page13.jpg "Manuale Flyingbear Ghost Pagina 13")
-![alt text](/img/page14.jpg "Manuale Flyingbear Ghost Pagina 14")
-![alt text](/img/page15.jpg "Manuale Flyingbear Ghost Pagina 15")
-![alt text](/img/page16.jpg "Manuale Flyingbear Ghost Pagina 16")
-
-<ArticleAd/>
-
-![alt text](/img/page17.jpg "Manuale Flyingbear Ghost Pagina 17")
-![alt text](/img/page18.jpg "Manuale Flyingbear Ghost Pagina 18")
+[ ![Flyingbear ghost - Manual - Page 17](/img/manuale/page17.webp) ](/img/manuale/page17.webp)
+[ ![Flyingbear ghost - Manual - Page 18](/img/manuale/page18.webp) ](/img/manuale/page18.webp)
 
 Il circuit diagram della hot-end nella Ghost 5 (vedi sopra) è leggermente diverso dalla versione 4S (vedi sotto).
 
-![alt text](/img/page184S.jpeg "Manuale Flyingbear Ghost 4S Pagina 18")
+[ ![Flyingbear ghost 4s- Circuit Diagram](/img/manuale/page184S.webp) ](/img/manuale/page184S.webp)
+
 <ArticleAd/>
+
+## Schema circuitale della scheda madre
+
+Lo schema qua sotto fa riferimento ad una scheda **robin nano 1.2**, che pero' e' la base di tutte le schede della Ghost
+
+[ ![Flyingbear ghost - Circuit Diagram](/img/manuale/schemaPcb.webp) ](/img/manuale/schemaPcb.webp)
+
+__immagine fornita da zeppi186__
