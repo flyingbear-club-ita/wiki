@@ -111,9 +111,8 @@ export const ricambiData = [
         img: 'img/ricambi/connettoreTesta.webp',
         description: 'Set di connettori di ricambio per il cavo della testa \
         \nContiene dieci coppie maschio/femmina, piu\' le crimpature\n \
-        Per la 4S, scegliere il connettore da 7pinx2\n \
-        Per la 5, scegliere il connettore da 6pinx2\n \
-        In entrambi i casi, scegliere straight needle come insert type',
+        Scegliere il connettore da 7pinx2\n \
+        Scegliere straight needle come insert type',
     },
 
 ];
