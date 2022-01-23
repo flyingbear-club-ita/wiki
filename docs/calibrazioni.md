@@ -319,7 +319,10 @@ M500
 :::tip
 È ampiamente consigliato fare delle stampe di prova prima e dopo la calibrazione, per comparare i risultati
 
-*Consigliati calicat, benchy, calibrationCube*
+Consigliati:
+- [calicat](https://www.thingiverse.com/thing:1545913)
+- [benchy](https://www.thingiverse.com/thing:763622)
+- [calibrationCube](https://www.thingiverse.com/thing:1278865)
 :::
 
 
@@ -347,7 +350,7 @@ Quelli di default per la Ghost sono riportati nella tabella qui sotto
 | 80  |  80 | 400  |
 
 
-In alternativa, potete inviare il gcode **M501** (per esempio tramite repetier host)
+In alternativa, potete inviare il gcode **M503** (per esempio tramite repetier host)
 
 Dall'output potete estrapolare la seguente riga:
 
@@ -420,7 +423,7 @@ Se tutto e' a posto, siamo pronti a stampare il cubetto un'altra volta e a misur
 Come si puo' vedere dalle immagini, il risultato e' uno scarto di:
 - +0.03 sull'asse X, a fronte di uno scarto di +0.14 precedentemente
 - +0.02 sull'asse Y, a fronte di uno scarto di +0.09 precedentemente
-- -0.07 sull'asse Y, a fronte di uno scarto di +0.26 precedentemente
+- -0.07 sull'asse Z, a fronte di uno scarto di +0.26 precedentemente
 
 <DisplayAd/>
 
