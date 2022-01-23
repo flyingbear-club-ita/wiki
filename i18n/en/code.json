@@ -162,7 +162,7 @@
     "message": "Our community on discord is the main source of this wiki, all contents spawn from there"
   },
   "discord.link": {
-    "message": "https://discord.gg/xvhYs25C"
+  "message": "https://discord.gg/2gdVS3HvQZ"
   },
   "instagram.header": {
     "message": "Follow us on Instagram"
@@ -234,15 +234,19 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "homepage.sezione-wiki.par-one": {
-    "message": "Scopri tutti i ricambi originali e non per la stampante 3d Flying Bear Ghost, e se vuoi maggiori informazioni riguardo un pezzo di ricambio da chi lo ha già provato ti basta entrare nel nostro Discord ufficiale",
+    "message": "All the spare parts for the Flyingbear Ghost 3d printer! If you need more information regarding a spare part, or you simply want an opinion from someone that's used it already, join the discord community!",
     "description": "homepage sezione-wiki.par-one"
   },
   "homepage.sezione-wiki.par-two": {
-    "message": "Vuoi regolare la tua Ghost perchè stampi perfettamente?",
+    "message": "Want to calibrate your Ghost to print perfectly???",
     "description": "homepage sezione-wiki.par-two"
   },
   "homepage.sezione-wiki.par-three": {
-    "message": "Inizia da qui, setup, calibrazioni, upgrade e molto altro ti aspettano",
+    "message": "Start here: setup, calibration guides, upgrades and more!",
     "description": "homepage sezione-wiki.par-three"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
   }
 }
