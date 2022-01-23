@@ -34,5 +34,13 @@
   "sidebar.docs.category.Firmware": {
     "message": "Firmware",
     "description": "The label for category Firmware in sidebar docs"
+  },
+  "sidebar.docs.category.SuperSlicer": {
+    "message": "SuperSlicer",
+    "description": "The label for category SuperSlicer in sidebar docs"
+  },
+  "sidebar.docs.category.Connessione Remota": {
+    "message": "Remote Connection",
+    "description": "The label for category Connessione Remota in sidebar docs"
   }
 }
