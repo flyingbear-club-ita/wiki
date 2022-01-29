@@ -300,7 +300,7 @@ In questo caso, va disabilitato il riscaldamento sia del piatto che del nozzle, 
 
 ## Dove scaricare il progetto {#dove-scaricare-il-progetto}
 
-Per ora il file e' disponibile da scaricare direttamente da [qui](/stl/BLTOUCH_NO_SCREW.stl), seguira' un progetto dettagliato su thingiverse
+Il file e' disponibile su Thingiverse, insieme ad una breve descrizione a [questo link](https://www.thingiverse.com/thing:5216034)
 
 ## Cablatura del BL Touch
 Coming Soon
