@@ -1,6 +1,8 @@
 ---
 title: Firmware Stock
 slug: /firmware/firmware_stock
+keywords: ["stampa 3d", 3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "flyingbear ghost firmware"]
+description: Istruzioni sull'installazione del firmware e link per i firmware stock per la Flyingbear Ghost piu' aggiornati testati dalla community
 ---
 
 import DisplayAd from '../../src/components/displayAd'
