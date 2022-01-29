@@ -10,6 +10,9 @@ import Tabs from '@theme/Tabs';
 
 import TabItem from '@theme/TabItem';
 
+import DisplayAd from '../../src/components/displayAd';
+
+
 Autori: ZeroPX, Nick_IT & ReneG
 
 ## Bltouch - Introduzione {#bltouch-introduzione}
@@ -34,6 +37,8 @@ Dall'esempio qui sopra potete vedere che ci sono alcune parti concave e altre co
 Maggiori sono i punti misurati, maggiore sara' la precisione 
 
 Solitamente si fa un mesh di 3x3, cioe' 9 misurazioni (per capirci, e' come dividere il piatto sull'asse y in tre parti uguali e sull'asse x in 3 parti uguali e le intersezioni saranno i punti di misurazione del piatto) ma io solitamente preferisco una misurazione di 5x5, cioe 25 misurazione sul piatto
+
+<DisplayAd/>
 
 ## Vari tipi di sensori di livellamento per stampanti 3D
 
@@ -67,7 +72,7 @@ Prima di entrare nel dettaglio sul vedere come funziona il BL touch su stampanti
   <TabItem value="apple" label="Ghost 5">
     <ul>
       <li>
-        <a href="https://s.click.aliexpress.com/e/_AC1URZ">Flyingbear Ghost 5 - Aliexpress</a>
+        <a href="https://it.aliexpress.com/item/32868752710.html?spm=a2g0o.store_pc_home.productList_6001926859558.subject_0">Flyingbear Ghost 5 - Aliexpress</a>
       </li>
       <li>
         <a href="https://www.banggood.com/custlink/GvvEnikywN">Flyingbear Ghost 5 - Bangood</a>
@@ -125,6 +130,8 @@ Dovremo quindi usare, come descritto in precedenza, un sensore ad "Effetto Hall"
   </TabItem>
 </Tabs>
 :::
+
+<DisplayAd/>
 
 ## BL Touch
 [![BL Touch](/img/bltouch/bltouch.webp)](/img/bltouch/bltouch.webp)
@@ -297,6 +304,8 @@ G1 Z2.0 F3000 ;Move Z Axis up
 :::
 
 In questo caso, va disabilitato il riscaldamento sia del piatto che del nozzle, che vanno abilitati tramite gcode come mostrato sopra
+
+<DisplayAd/>
 
 ## Dove scaricare il progetto {#dove-scaricare-il-progetto}
 
