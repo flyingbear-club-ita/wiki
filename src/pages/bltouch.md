@@ -12,10 +12,6 @@ import TabItem from '@theme/TabItem';
 
 Autori: ZeroPX, Nick_IT & ReneG
 
-:::warning
-Questa pagina e' ancora un work in progress!!!
-:::
-
 ## Bltouch - Introduzione {#bltouch-introduzione}
 [![Bltouch Flyingbear Ghost 3d Printer](/img/bltouch/bltouchReneCompleto.webp)](/img/bltouch/bltouchReneCompleto.webp)
 
@@ -307,7 +303,7 @@ In questo caso, va disabilitato il riscaldamento sia del piatto che del nozzle, 
 Per ora il file e' disponibile da scaricare direttamente da [qui](/stl/BLTOUCH_NO_SCREW.stl), seguira' un progetto dettagliato su thingiverse
 
 ## Cablatura del BL Touch
-WIP
+Coming Soon
 
 ## Firmware
-WIP
+Coming Soon
