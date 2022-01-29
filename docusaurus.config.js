@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: 'new_content_banner',
       content:
-        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/docs/connessione_remota/introduzione">Introduzione alla connessione remota, by Nick_IT!</a>',
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/bltouch">Guida al BL Touch, by Nick_IT, ZeroPX e ReneG!</a>',
       backgroundColor: '#eb9534',
       textColor: '#091E42',
       isCloseable: true,
