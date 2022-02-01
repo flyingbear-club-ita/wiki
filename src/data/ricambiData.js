@@ -4,7 +4,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ventola silenziosa',
         links:['https://s.click.aliexpress.com/e/_9QNxqD'],
-        img: 'img/externalCoolingFan4s.jpg',
+        img: 'img/ricambi/externalCoolingFan4s.webp',
         description: 'Scegliere 4010 24V Ball 9500RPM XH2.54',
     },
     {
@@ -12,7 +12,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ventola silenziosa',
         links:['https://s.click.aliexpress.com/e/_A9pFF3'],
-        img: 'img/heathsinkCoolingFan.jpg',
+        img: 'img/ricambi/heathsinkCoolingFan.webp',
         description: '3010 24V Ball XH2.54',
     },
     {
@@ -20,7 +20,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Cinghie per gli assi X ed Y',
         links:['https://a.aliexpress.com/_B16WgJ'],
-        img: 'img/cinghieOriginali.jpg',
+        img: 'img/ricambi/cinghieOriginali.webp',
         description: 'Cinghie per gli assi X ed Y',
     },
     {
@@ -28,7 +28,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Cinghie per gli assi X e Y',
         links:['https://s.click.aliexpress.com/e/_AekobX'],
-        img: 'img/cinghiePowge.jpg',
+        img: 'img/ricambi/cinghiePowge.webp',
         description: 'Cinghie per gli assi X ed Y',
     },
     {
@@ -36,7 +36,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ugelli di ricambio compatibili con quelli originali',
         links:['https://amzn.to/2XWxVlk'],
-        img: 'img/nozzleE3D.jpg',
+        img: 'img/ricambi/nozzleE3D.webp',
         description: 'Probabilmente una delle soluzioni piu\' costose, ma certamente ne vale la pena',
     },
     {
@@ -44,7 +44,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ugelli di ricambio compatibili con quelli originali',
         links:['https://s.click.aliexpress.com/e/_ANuddX'],
-        img: 'img/nozzleTrianglelab.jpg',
+        img: 'img/ricambi/nozzleTrianglelab.webp',
         description: 'Alternativa economica ma di ottima qualita\'',
     },
     {
@@ -52,7 +52,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ugelli di ricambio + strumenti per la manutenzione',
         links:['https://amzn.to/2XRiieL'],
-        img: 'img/ricambi/ugelliAndTools.jpg',
+        img: 'img/ricambi/ugelliAndTools.webp',
         description: 'Ugelli di ricambio + strumenti per la manutenzione, spediti da amazon',
     },
     {
@@ -60,7 +60,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Motori originali di ricambio Nema 17',
         links:['https://bit.ly/3ujEUPB'],
-        img: 'img/stepperMotor.jpg',
+        img: 'img/ricambi/stepperMotor.webp',
         description: 'Motori originali dallo store ufficiale su aliexpress della Flyingbear',
     },
     {
@@ -68,7 +68,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'V5, simile all\'originale',
         links:['https://s.click.aliexpress.com/e/_9AsyCh'],
-        img: 'img/hotendv5.png',
+        img: 'img/ricambi/hotendv5.webp',
         description: 'V5, simile all\'originale',
     },
     {
@@ -76,7 +76,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Ricambio per la gola',
         links:['https://s.click.aliexpress.com/e/_A9ZXjT'],
-        img: 'img/gola.jpg',
+        img: 'img/ricambi/gola.webp',
         description: 'Compatibile sia col blocco riscaldante originale che con quello in questa pagina',
     },
     {
@@ -84,7 +84,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Isolamento piatto',
         links:['https://s.click.aliexpress.com/e/_9j4XAh'],
-        img: 'img/isolamento.jpg',
+        img: 'img/ricambi/isolamento.webp',
         description: 'Isolamento piatto',
     },
     {
@@ -92,7 +92,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Per connettere il ptfe a hotend ed estrusore',
         links:['https://amzn.to/3blnkmS'],
-        img: 'img/ricambi/connettoriPneumatici.jpg',
+        img: 'img/ricambi/connettoriPneumatici.webp',
         description: 'Per connettere il ptfe a hotend ed estrusore',
     },
     {
@@ -100,7 +100,7 @@ export const ricambiData = [
         imgSrc:'',
         desc:'Tubo Originale capricorn con ricambi',
         links:['https://amzn.to/3vQelnj'],
-        img: 'img/ricambi/ptfeCapricorn.jpg',
+        img: 'img/ricambi/ptfeCapricorn.webp',
         description: 'Comprensivo di connettori pneumatici e taglierino',
     },
     {
@@ -114,5 +114,20 @@ export const ricambiData = [
         Scegliere il connettore da 7pinx2\n \
         Scegliere straight needle come insert type',
     },
-
+    {
+        title: 'Cavo per i motori',
+        imgSrc:'',
+        desc:'Cavo per i motori Nema17 originali',
+        links:['https://s.click.aliexpress.com/e/_AbOBZ9'],
+        img: 'img/ricambi/cavoNema17.webp',
+        description: 'Lungo un metro (1mt), va tagliato se non si usa il direct drive',
+    },
+    {
+        title: 'Supporto Ventola Hotend',
+        imgSrc:'',
+        desc:'Ricambio da stampare per la ventola del radiatore',
+        links:['stl/E3D-v6-cooling-hotend-fan-suport.stl'],
+        img: 'img/ricambi/hotendFan.webp',
+        description: 'Da stampare solamente con materiali resistenti ad alte temperature, come ABS o ASA',
+    },
 ];
