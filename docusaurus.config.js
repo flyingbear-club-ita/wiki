@@ -35,6 +35,8 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'resources/fbghostitaLogo.jpg',
         href: 'https://flyingbearghost.com',
+        width: 32,
+        height: 32
       },
       items: [
         {
@@ -78,6 +80,21 @@ module.exports = {
           label: 'Ricambi',
           position: 'left',
         },
+        // {
+        //   href: '/',
+        //   label: 'Filamenti',
+        //   position: 'left',
+        //   items:[
+        //     {
+        //       href:'/basicfilPlaRed',
+        //       label: 'Basicfil PLA Red',
+        //     },
+        //     {
+        //       href: '/eryoneSilkRainbow',
+        //       label: 'Eryone Silk Rainbow',
+        //     }
+        //   ]
+        // },
         {
           href: '/faq',
           label: 'FAQ',
@@ -107,11 +124,6 @@ module.exports = {
         ]
       }],
     },
-    googleAnalytics: {
-      trackingID: 'UA-199656279-2',
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    },
   },
   presets: [
     [
@@ -121,6 +133,11 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/flyingbear-club-ita/wiki/tree/master',
+        },
+        googleAnalytics: {
+          trackingID: 'UA-199656279-2',
+          // Optional fields.
+          anonymizeIP: false, // Should IPs be anonymized?
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
