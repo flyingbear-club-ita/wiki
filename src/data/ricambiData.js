@@ -118,9 +118,11 @@ export const ricambiData = [
         title: 'Cavo per i motori',
         imgSrc:'',
         desc:'Cavo per i motori Nema17 originali',
-        links:['https://s.click.aliexpress.com/e/_AbOBZ9'],
+        links:['https://s.click.aliexpress.com/e/_AbOBZ9', 'https://amzn.to/3gfdxRI'],
         img: 'img/ricambi/cavoNema17.webp',
-        description: 'Lungo un metro (1mt), va tagliato se non si usa il direct drive',
+        description: 'Lungo un metro (1mt), va tagliato se non si usa il direct drive\n \
+        Primo link aliexpress, secondo link Amazon\
+        ',
     },
     {
         title: 'Supporto Ventola Hotend',
