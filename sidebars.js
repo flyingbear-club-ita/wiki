@@ -76,6 +76,7 @@ module.exports = {
           label: 'Connessione Remota',
           items: [
             'connessione_remota/preparare_la_rete_domestica',
+            'connessione_remota/router',
           ],
         },
       ],
