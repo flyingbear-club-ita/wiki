@@ -89,6 +89,12 @@ ll prossimo articolo sarà come gestire il router nella vostra rete interna e po
 
 Tranquilli: essendo un blog di stampa 3D non mancheranno le soluzioni per collegare e gestire le nostre stampanti in remoto!
 
+<div class="disclaimer">
+  <sub>
+    <p>Qualsiasi riproduzione del materiale contenuto in questa pagina e' consentita, <strong>a patto di citarne la fonte</strong></p>
+  </sub>
+</div>
+
 <DisqusComments
   slug="/docs/connessione_remota/introduzione"
   articleId="7"
