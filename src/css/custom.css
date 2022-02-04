@@ -382,5 +382,9 @@ html[data-theme="dark"] footer{
 	background:var(--brand-primary-dark) !important;
 }
 
-
+.disclaimer{
+    border-radius: 25px;
+    padding: 20px;
+    background-color:rgba(93, 182, 227, 0.5);
+}
 
