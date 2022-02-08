@@ -258,23 +258,20 @@ Si usa un rubino  perché il foro può essere realizzato in modo molto preciso, 
 
 La punta in rubino dell'ugello fornisce un'ulteriore resistenza all'usura, particolarmente utile durante la lavorazione di filamenti speciali. Rispetto agli altri tipi di ugelli, l'ugello rubino e' il più costoso
 #### Utilizzi consigliati
-- Stampa bene ogni tipo di materiale abrasivo, tecnico o semplice
+Stampa bene ogni tipo di materiale abrasivo, tecnico o semplice
 #### A cosa bisogna prestare attenzione
-- Non usare mai la procedura di cold pull se non volete piangere per il resto della giornata
+Non usare **mai** la procedura di cold pull, se non volete piangere per il resto della giornata
 #### Come si pulisce
-- mettendolo a bagno in soluzioni chimiche o prodotti chimici atti a sciogliere i filamenti
+Mettendolo a bagno in soluzioni chimiche o prodotti chimici atti a sciogliere i filamenti
 
 
 [Esempi di ugelli di qualità con punta in rubino per la Ghost5](https://amzn.to/35USxOs)
 
 [Esempi di ugelli di qualità con punta in rubino per la Genius Pro](https://amzn.to/3Kk2x3B)
 
+<ArticleAd/>
 
 
-### Come capire se l'ugello e' otturato o parzialmente otturato
-- Smontate e mettete l'ugello di fronte a una fonte di luce, per vedere se la luce passa, oppure no
-- Aprite la leva dello spingifilo e spingete il filamento a mano. Se si arriccia, oppure e' difficile da far passare, o non passa affatto, l'ugello e' intasato. Attenzione: non occorre spingere con forza il filo, se non scorre subito con una minima pressione significa che qualcosa non va all'interno dell'ugello, che probabilmente e' parzialmente o totalmente otturato
--  Quando iniziamo a sentire un ticchettio arrivare dall’estrusore
 
 ### Vari metodi di pulizia
 
@@ -284,6 +281,11 @@ La punta in rubino dell'ugello fornisce un'ulteriore resistenza all'usura, parti
 - **Fiamma ossidrica, fiamma di calore o il fornello del GAS** 
 - **Cold pull** usando filamento di nilon (esempio corde della chitarra),  oppure di un materiale con un punto di fusione maggiore di quello che sti sta usando ( esempio se si usa pla, si puo usare il PETG), attenzione il filo deve essere dello stesso diametro del foro del nozzle.  {+spiegonoe ed esempio istruzioni passo passo}
 - **Panno/straccio** non abrasivo per uso esterno
+
+## Come capire se l'ugello e' otturato o parzialmente otturato
+- Smontate e mettete l'ugello di fronte a una fonte di luce, per vedere se la luce passa, oppure no
+- Aprite la leva dello spingifilo e spingete il filamento a mano. Se si arriccia, oppure e' difficile da far passare, o non passa affatto, l'ugello e' intasato. Attenzione: non occorre spingere con forza il filo, se non scorre subito con una minima pressione significa che qualcosa non va all'interno dell'ugello, che probabilmente e' parzialmente o totalmente otturato
+-  Quando iniziamo a sentire un ticchettio arrivare dall’estrusore
 
 ## Cause dell'otturazione degli ugelli per stampanti 3D
 Per comprendere come mai si ottura un ugello, probabilmente e' meglio prima conoscere le cause del problema:
@@ -296,7 +298,7 @@ Per comprendere come mai si ottura un ugello, probabilmente e' meglio prima cono
 e' sempre buona norma cercare di mantenere il filamento sigillato e pulito per evitare che si verifichino possibili intasamenti all'ugello
 :::
 
-## Come Cambiare un ugello
+## Come cambiare un ugello
 
 Fondamentalmente e' una operazione molto semplice, però necessita di attenzione, sopratutto per le temperature alle quali il nozzle arriverà per effettuare un corretto cambio
 
