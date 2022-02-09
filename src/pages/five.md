@@ -14,7 +14,7 @@ La Ghost è una stampante cartesiana in quanto ogni asse è comandato da un moto
 
 [ ![Ghost 5](/img/five/ghost5.webp) ](/img/five/ghost5.webp)
 
-Nonostante un volume di stampa di 255mmx210mmx210mm (x,y,z), rimane comunque una stampante molto compatta, con dimensioni totali di (392mm x 342mm x 420mm)
+Nonostante un volume di stampa di 255mm x 210mm x 200mm (x,y,z), rimane comunque una stampante molto compatta, con dimensioni totali di 388mm x 337mm * 411mm (x, y, z)
 
 La struttura portante è in metallo, mentre i pannelli, che racchiudono l'area di stampa lateralmente e posteriormente, sono in acrilico
 
