@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './Upgrades.css';
 import './modal.css'
 
@@ -42,7 +42,12 @@ class GridItem extends React.Component{
     }
     
     showModal()  {
-        this.setState({ show: true });
+        console.log(this.props.opensInNewPage);
+        if(!this.props.opensInNewPage){
+            this.setState({ show: true });
+        } else {
+            window.open(this.props.pageUrl);
+        }
     }
     
     hideModal() {
@@ -50,34 +55,50 @@ class GridItem extends React.Component{
         this.setState({ show: false });
     }
 
-    render(){        
-        return(
-		
-            <div className='upgradeItemContainer'>
-                <div className={`upgradeItem ${this.props.difficulty}`} onClick={this.showModal}>
-                    <span className='upgradeItemTitle'>{this.props.title}</span>
-                    <div className='upgradeItemInfo'>
-                        <img className='upgradeItemImg' src={this.imgUrl}/>
-                        <p className='upgradeItemDescription'>{this.props.description}</p>
-                    </div>    
-                </div>
-                <Modal show={this.state.show} handleClose={this.hideModal}>
-                        <h1 className={`title ${this.props.difficulty}`}>{this.props.title}</h1>
-                        <div className='infoContainer'>
-                            <img width="200" height="200" src={setBaseUrl(this.props.img)}></img>
-                            <div className='descriptionContainer'>
-                                <p className="description">{this.props.detailedDescription}</p>
-                                { this.props.descriptionImage!=null &&
-                                    <img src={setBaseUrl(this.props.descriptionImage)} width="70%" height="80%"/>
-                                }
-                            </div>
+    render(){
+        if (this.props.opensInNewPage){
+            return(
+                <Link to={this.props.pageUrl}>
+                    <div className='upgradeItemContainer'>
+                        <div className={`upgradeItem ${this.props.difficulty}`}>
+                            <span className='upgradeItemTitle'>{this.props.title}</span>
+                            <div className='upgradeItemInfo'>
+                                <img className='upgradeItemImg' src={this.imgUrl}/>
+                                <p className='upgradeItemDescription'>{this.props.description}</p>
+                            </div>    
                         </div>
-                        {this.props.links.map(function (link, i) {
-                           return <a className='link' href={link} target="_blank">Link {i+1}</a>
-                        })}
-                </Modal>
-            </div>
-        )
+                    </div>
+                </Link>
+            )
+        } else {     
+            return(		
+                <div className='upgradeItemContainer'>
+                    <div className={`upgradeItem ${this.props.difficulty}`} onClick={this.showModal}>
+                        <span className='upgradeItemTitle'>{this.props.title}</span>
+                        <div className='upgradeItemInfo'>
+                            <img className='upgradeItemImg' src={this.imgUrl}/>
+                            <p className='upgradeItemDescription'>{this.props.description}</p>
+                        </div>    
+                    </div>
+                    <Modal show={this.state.show} handleClose={this.hideModal}>
+                            <h1 className={`title ${this.props.difficulty}`}>{this.props.title}</h1>
+                            <div className='infoContainer'>
+                                <img width="200" height="200" src={setBaseUrl(this.props.img)}></img>
+                                <div className='descriptionContainer'>
+                                    <p className="description">{this.props.detailedDescription}</p>
+                                    { this.props.descriptionImage!=null &&
+                                        <img src={setBaseUrl(this.props.descriptionImage)} width="70%" height="80%"/>
+                                    }
+                                </div>
+                            </div>
+                            {this.props.links.map(function (link, i) {
+                            return <a className='link' href={link} target="_blank">Link {i+1}</a>
+                            })}
+                    </Modal>
+                </div>
+                
+            )
+        }
     }
 }
 

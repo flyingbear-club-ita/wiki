@@ -134,7 +134,7 @@ export const upgradesData = [
         title: 'Cuscinetti Lineari per gli assi',
         imgSrc:'',
         desc:'Modello LM8LUU',
-        links:['https://www.3djake.it/brozzl/cuscinetto-lineare'],
+        links:['https://tidd.ly/3gDSR6r'],
         img: 'img/cuscinetti.jpg',
         description: 'Cuscinetto ad alta qualità che riduce ulteriormente il rumore durante gli spostamenti degli assi',
     },
@@ -386,5 +386,36 @@ export const upgradesData = [
         img: 'img/upgrades/bltouchReneThumbnail.webp',
         description: 'Sul bltouch c\'e\' veramente troppo da dire, non riusciamo a racchiudere tutto in questa box \n\n \
         Seguite il link qui sotto per una spiegazione completa'
+    },
+    {
+        difficulty: 'medium',
+        title: 'Sportello stiloso Ghost 5',
+        imgSrc:'',
+        desc:'Perche\' anche l\'occhio vuole la sua parte',
+        links:['stl/sportelloFrontale/1.3mf', 'stl/sportelloFrontale/2.3mf', 'stl/sportelloFrontale/3.3mf', 'files/quote.png'],
+        img: 'img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp',
+        description: 'Lo sportello disegnato da Filippo non solo e\' funzionale al mantenimento della temperatura, ma ha anche un design molto accattivante\n \
+        Le dimensioni del plexiglass sono ridotte rispetto agli sportelli classici, il frame con gli angoli e\' una piacevole variazione sul tema, che rende la stampante visivamente piu\' accattivante, quasi un oggetto di design\n \
+        Il progetto e\' composto da tre file, i link li trovate qui sotto, per le quote del plexiglass, scaricate l\'immagine dal quarto link',
+        opensInNewPage: true,
+        pageUrl: '/upgrades/sportello_stiloso'
+    },
+    {
+        difficulty: 'low',
+        title: 'Convogliatore per ventola 5015 - Ghost 4S',
+        imgSrc:'',
+        desc:'Convogliatore per ventola piu\' potente per la 4S',
+        links:['stl/convogliatore5015_4s/Flying_Bear_Ghost_4S_FAN5015_edit5_.STL'],
+        img: 'img/upgrades/ventola5015_4s/ventola5015_4sThumbnail.webp',
+        description: 'Convogliatore per ventola 5015, aumenta il flusso di aria \n \
+        ATTENZIONE: prendere una ventola da 24V!!!'
+    },
+    {
+        difficulty: 'medium',
+        title: 'Testa con convogliatore alleggerita - Ghost 4S',
+        desc:'Soluzione compatta e leggera per una testa con convogliatore incluso',
+        img: 'img/upgrades/ventola5015_4s/ventola5015_4sThumbnail.webp',
+        opensInNewPage: true,
+        pageUrl: '/upgrades/testa_compatta'
     },
 ];

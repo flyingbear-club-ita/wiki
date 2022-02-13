@@ -21,6 +21,8 @@ class Upgrades extends React.Component{
                         detailedDescription={item.description}
                         difficulty={item.difficulty}
                         descriptionImage={item.descriptionImage}
+                        opensInNewPage={item.opensInNewPage}
+                        pageUrl={item.pageUrl}
                     />
                 ))
                 }

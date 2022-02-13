@@ -12,7 +12,7 @@ import DisplayAd from '../../../../src/components/displayAd'
 
 import DisqusComments from '../../../../src/components/disqusComments'
 
-import YouTubeVideo from '../../../../src/components/youtubeVideo'
+import ResponsivePlayer from '../../../../src/components/videoPlayer'
 
 ## Due parole per cominciare
 Ciao a tutti!
@@ -63,9 +63,8 @@ Oltre alla possibilita' di inviare file tramite wifi, questo firmware permette d
 
 Se usate il firmware stock sul modulo wifi, caricare BeePrint e' semplicissimo, basta seguire le istruzioni nell'articolo, o in questo video youtube:
 
-<YouTubeVideo
+<ResponsivePlayer
   src="https://www.youtube.com/embed/VzX84yEbjKM"
-  title="Test Title"
 />
 
 :::tip Verdetto

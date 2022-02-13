@@ -5,8 +5,8 @@ keywords: ["stampa 3d", 3d printing", "flying bear", "flyingbear", "flying bear 
 description: Instructions to install firmware for Flyingbear Ghost and links to download the most up to date AND tested firmwares
 ---
 
-import DisplayAd from '../../src/components/displayAd'
-import FacebookLink from '../../src/components/facebookLink'
+import DisplayAd from '../../../../../src/components/displayAd'
+import FacebookLink from '../../../../../src/components/facebookLink'
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
@@ -68,7 +68,7 @@ To increase the printer speed limits, replace the following values in the **robi
 
 ## Available firmwares {#available-firmwares}
 
-::tip
+:::tip
 We store only firmwares we've tested
 
 These firmwares might be behind the ones released by Flyingbear, which you can find [here](https://drive.google.com/drive/folders/1ZUuk_V8Bdn0Vt0OC19J2wQ0Nd3v5MbL4)
