@@ -8,6 +8,7 @@ import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 import DisplayAd from '../components/displayAd';
 import DisplayHorizontalAd from '../components/displayHorizontalAd';
+import CookieConsent from "react-cookie-consent";
 
 const features = [
   {
@@ -57,6 +58,20 @@ const features = [
       message:"https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
     })
   },
+  // {
+  //   title: translate({id: "playstore.header", message:"Disponibile anche per Android!"}),
+  //   imageUrl: 'img/google-play-badge.png',
+  //   description: (
+  //     translate({
+  //       id: "playstore.message",
+  //       message: "L'app della wiki per Android"
+  //     })
+  //   ),
+  //   link: translate({
+  //     id: "playstore.link",
+  //     message:"https://play.google.com/store/apps/details?id=com.clayblock.flyingbearghostwiki"
+  //   })
+  // },
 ];
 
 function Feature({imageUrl, title, description, link}) {
@@ -107,7 +122,7 @@ export default function Home() {
       </div>
       
       <main>
-      <DisplayAd/>
+
       {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
@@ -119,7 +134,11 @@ export default function Home() {
             </div>
           </section>
         )}
-
+      <div style={{margin:"auto", width:"80%"}}>
+        <a href='https://play.google.com/store/apps/details?id=com.clayblock.flyingbearghostwiki'>
+            <img style={{marginLeft:"auto", marginRight:"auto", display:"block"}} alt='Disponibile su Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/it_badge_web_generic.png'/>
+        </a>
+      </div>
       <DisplayHorizontalAd/>
 
       <div className="sezione-wiki">
@@ -156,8 +175,6 @@ export default function Home() {
             </Link>
           </div>
   	  </div>
-
-      <DisplayHorizontalAd/>
 
       <div className="sezione-upgrades-ricambi">
 		  <div className="sezione-upgrades">
@@ -211,6 +228,8 @@ export default function Home() {
     <DisplayAd/>
 
       </main>
+      {/* <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent> */}
+
   </Layout>
   );
 }

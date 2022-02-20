@@ -38,31 +38,39 @@ Questa configurazione, a differenza di altre gia' presenti su thingiverse, conse
 
 Inoltre sono state fatte delle simulazioni CFD che confermano una maggiore efficienza rispetto al modello precedente e persino rispetto al [duct realizzato da SIBMAKER](https://www.thingiverse.com/thing:4764623). E' stato anche fatto un confronto reale (adattando il pezzo di SIBMAKER alla 4S) per conferma
 
-Lato Posteriore  | Visione Frontale | Lato Anteriore  
+Lato Posteriore  | Vista in Sezione | Lato Anteriore  
 :----------:|:------------:|:-----------:
-[![](/img/upgrades/testa_compatta/testa_compatta_cad_1.png)](/img/upgrades/testa_compatta/testa_compatta_cad_1.png)|  [![](/img/upgrades/testa_compatta/testa_compatta_cad_2.png)](/img/upgrades/testa_compatta/testa_compatta_cad_2.png)|  [![](/img/upgrades/testa_compatta/testa_compatta_cad_3.png)](/img/upgrades/testa_compatta/testa_compatta_cad_3.png)
+[![](/img/upgrades/testa_compatta/testa_compatta_cad_1.webp)](/img/upgrades/testa_compatta/testa_compatta_cad_1.webp)|  [![](/img/upgrades/testa_compatta/testa_compatta_cad_2.webp)](/img/upgrades/testa_compatta/testa_compatta_cad_2.webp)|  [![](/img/upgrades/testa_compatta/testa_compatta_cad_3.webp)](/img/upgrades/testa_compatta/testa_compatta_cad_3.webp)
+
+<DisplayAd/>
 
 ## Dettagli tecnici
 
 Per quanto riguarda la realizzazione, si consiglia di stampare il pezzo in PETG (o materiali più resistenti termicamente), imponendo supporti solo a contatto con il piano, essendo il resto autoportante. La cosa importante e' evitare supporti nel condotto interno, che risulterebbero difficili da rimuovere
 
-[![Flyingbear Ghost 4s - Testa Compatta - Cura](/img/upgrades/testa_compatta/testa_compatta_cura.png)](/img/upgrades/testa_compatta/testa_compatta_cura.png)
+[![Flyingbear Ghost 4s - Testa Compatta - Cura](/img/upgrades/testa_compatta/testa_compatta_cura.webp)](/img/upgrades/testa_compatta/testa_compatta_cura.webp)
 
-In alternativa, si può realizzare con stampante a resina per una migliore finitura superficiale che, oltre alla resa estetica, riduce l'aderenza" del flusso d'aria e, di conseguenza, le turbolenze, migliorandone quindi le performance
+In alternativa, si può realizzare con stampante a resina per una migliore finitura superficiale che, oltre alla resa estetica, riduce l'"aderenza" del flusso d'aria e, di conseguenza, le turbolenze, migliorandone quindi le performance
 
 Per la stampa a resina si suggerisce il posizionamento con le facce frontali perpendicolari al piatto di stampa, ricordandosi, prima dello slicing, di eliminare i supporti all'interno del condotto che risulterebbero, anche in questo caso, problematici da rimuovere
 
-[![Flyingbear Ghost 4s - Testa Compatta - Chitubox 1](/img/upgrades/testa_compatta/testa_compatta_chitubox_1.png)](/img/upgrades/testa_compatta/testa_compatta_chitubox_1.png)
+[![Flyingbear Ghost 4s - Testa Compatta - Chitubox 1](/img/upgrades/testa_compatta/testa_compatta_chitubox_1.webp)](/img/upgrades/testa_compatta/testa_compatta_chitubox_1.webp)
 
-[![Flyingbear Ghost 4s - Testa Compatta - Chitubox 2](/img/upgrades/testa_compatta/testa_compatta_chitubox_2.png)](/img/upgrades/testa_compatta/testa_compatta_chitubox_2.png)
+[![Flyingbear Ghost 4s - Testa Compatta - Chitubox 2](/img/upgrades/testa_compatta/testa_compatta_chitubox_2.webp)](/img/upgrades/testa_compatta/testa_compatta_chitubox_2.webp)
 
 Una volta terminata la stampa in resina, si suggerisce di eliminare i segni dei supporti nella parte sottostante tramite carta abrasiva
 
 Il risultato finale è quello a seguire
 
-[![Flyingbear Ghost 4s - Testa Compatta - stampata, fronte](/img/upgrades/testa_compatta/testa_compatta_stampata_1.jpg)](/img/upgrades/testa_compatta/testa_compatta_stampata_1.jpg)
+[![Flyingbear Ghost 4s - Testa Compatta - stampata, fronte](/img/upgrades/testa_compatta/testa_compatta_stampata_1.webp)](/img/upgrades/testa_compatta/testa_compatta_stampata_1.webp)
 
-[![Flyingbear Ghost 4s - Testa Compatta - stampata, retro](/img/upgrades/testa_compatta/testa_compatta_stampata_2.jpg)](/img/upgrades/testa_compatta/testa_compatta_stampata_2.jpg)
+[![Flyingbear Ghost 4s - Testa Compatta - stampata, retro](/img/upgrades/testa_compatta/testa_compatta_stampata_2.webp)](/img/upgrades/testa_compatta/testa_compatta_stampata_2.webp)
+
+## STL
+
+Potete scaricare l'stl [qui](/stl/testa_compatta/Ghost_4S_fan-head.STL)
+
+<DisplayAd/>
 
 ## Video Montaggio
 <ResponsivePlayer

@@ -35,8 +35,6 @@ Once you've backed up the content of the SD, you can:
 7. Switch off the printer (only if it's already on)
 8. Turn the printer on
 
-<ArticleAd/>
-
 Once you've turned the printer on, the Flyingbear logo will appear, then a progress bar, showing you the progess status of the installation
 
 [ ![Flyingbear firmware update - Progress Bar](/img/primi_passi/TFT_Update.webp) ](/img/primi_passi/TFT_Update.webp)
@@ -99,8 +97,6 @@ Just insert, like in the picture below, the name of your Wi Fi network and your 
 
 ### Fifth calibration point
 It is possible to add a fifth calibration point to the interface (by default, they are four, located in the corners), to be able to level the bed in the middle too, other than in the corners
-
-<ArticleAd/>
 
 :::tip
 The first four points are ok, coordinates are correct, but the fifth point should be central

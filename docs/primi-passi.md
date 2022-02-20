@@ -30,11 +30,8 @@ Una volta copiato il contenuto della scheda in una cartella di vostra preferenza
 5. Inserite la scheda nella stampante (attenzione: la scheda va inserita capovolta rispetto a come si inserisce nell'adattatore!)
 6. Spegnere (se accesa) e accendere la stampante
 
-<ArticleAd/>
-
 Una volta accesa, comparirà il logo della Flying Bear e poi una barra di progresso, che indicherà lo stato dell'installazione del firmware
 [ ![Flyingbear Ghost - Firmware - Barra di progresso installazione](/img/primi_passi/TFT_Update.webp) ](/img/primi_passi/TFT_Update.webp)
-
 
 Completata questa operazione, vi si presentarà il menu. Siete un passo più vicini alla vostra prima stampa con la Flying Bear Ghost!
 Non fatevi tentare dallo smanettare con il menu: 
@@ -85,8 +82,6 @@ Inserire come in foto il nome della vostra Wi-Fi e la password di accesso al Wi-
 ### Quinto punto calibrazione
 È possibile aggiungere un punto ulteriore di calibrazione (a scelta dell'utente) nell'intefaccia (quattro di standard), per livellare il piatto anche al centro, oltre che negli angoli
 
-<ArticleAd/>
-
 Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il quinto punto dovrebbe essere centrale, modificare con coordinate del centro
 
 ```
@@ -99,8 +94,6 @@ Suggerimento: i primi quattro punti vanno bene, le coordinate sono giuste, il qu
 ```
 
 La procedura di aggiornamento e' la solita
-
-<DisplayAd/>
 
 ## Considerazioni finali
 Una volta completati i passi precedenti, e' sempre meglio fare una copia del robin_nano_cfg.txt e cancellare il contenuto della SD

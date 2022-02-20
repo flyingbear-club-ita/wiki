@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: 'new_content_banner',
       content:
-        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/blog/ugelli">Aggiornamento dell\'articolo del blog sugli ugelli di Nick_IT: come fare la manutenzione e come cambiarli</a>',
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/upgrades/testa_compatta">Testa compatta per la Ghost 4s, upgrade di nyx_nk</a>',
       backgroundColor: '#eb9534',
       textColor: '#091E42',
       isCloseable: true,
@@ -120,6 +120,10 @@ module.exports = {
           {
             label: 'Privacy Policy',
             to: '/privacypolicy'
+          },
+          {
+            label: 'Contact us',
+            to: '/contactus'
           }
         ]
       }],

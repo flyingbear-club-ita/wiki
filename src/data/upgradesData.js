@@ -414,7 +414,7 @@ export const upgradesData = [
         difficulty: 'medium',
         title: 'Testa con convogliatore alleggerita - Ghost 4S',
         desc:'Soluzione compatta e leggera per una testa con convogliatore incluso',
-        img: 'img/upgrades/ventola5015_4s/ventola5015_4sThumbnail.webp',
+        img: '/img/upgrades/testa_compatta/testa_compatta_stampata_1.webp',
         opensInNewPage: true,
         pageUrl: '/upgrades/testa_compatta'
     },
