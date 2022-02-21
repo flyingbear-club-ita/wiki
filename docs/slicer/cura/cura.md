@@ -29,7 +29,7 @@ Per prima cosa, andate sul sito del produttore di cura, ultimaker, a [questo lin
 
 Vi si aprira una nuova finestra, scegliete la versione adatta al vostro sistema operativo ​e attendete con pazienza il termine del download
 
-[ ![link download](/img/link_download.PNG) ](/img/link_download.PNG)
+[ ![link download](/img/cura/link_download.webp) ](/img/cura/link_download.webp)
 
 
 :::danger
@@ -37,7 +37,7 @@ Se avete una vecchia versione di Cura, verrà disinstallata e se non avete un ba
 
 Per farlo, dovete avete un account utimaker e da li', nel vostro profilo nel cloud, potrete inviare il vostro backup o richiamare un vostro restore
 
-[ ![backup cura](/img/backup_cura.png) ](/img/backup_cura.png)
+[ ![backup cura](/img/cura/backup_cura.webp) ](/img/cura/backup_cura.webp)
 
 Da qui potete fare il backup prima di installare la nuova versione e fare il restore dopo averla installata.
 
@@ -46,20 +46,20 @@ Da qui potete fare il backup prima di installare la nuova versione e fare il res
 
 Ora avviate l'installazione del software e lasciate tutte le impostazioni standard
 
-[ ![inizio installazione cura](/img/install_cura_inizio.PNG) ](/img/install_cura_inizio.PNG)
+[ ![inizio installazione cura](/img/cura/install_cura_inizio.webp) ](/img/cura/install_cura_inizio.webp)
   
 Accettiamo i termini della licenza e continuamo, lasciando tutte le impostazioni di default, fino al termine dell'installazione
 
-[ ![termine installazione cura](/img/termine_installazione.PNG) ](/img/termine_installazione.PNG)
+[ ![termine installazione cura](/img/cura/termine_installazione.webp) ](/img/cura/termine_installazione.webp)
 
 Dopo aver premuto **Chiudi**, il programma partira immediatamente, e, dopo il caricamento, avremo la schermata iniziale di Cura
 
-[ ![schermata iniziale](/img/prima_schermata_di_cura.PNG) ](/img/prima_schermata_di_cura.PNG)
+[ ![schermata iniziale](/img/cura/prima_schermata_di_cura.webp) ](/img/cura/prima_schermata_di_cura.webp)
 
 
 Premiamo il bottone **Per iniziare**. Ci verra' presentato il contratto di licenza e alcune autorizzazioni su materiali e/o stampanti, piu' altri parametri anonimi utili per statistiche e loro marketing interno (*devono mangiare pure loro, non credete?!?*) che dobbiamo accettare se vogliamo utilizzare il software
 
-[ ![licenza](/img/licenza.PNG) ](/img/licenza.PNG)
+[ ![licenza](/img/cura/licenza.webp) ](/img/cura/licenza.webp)
 
 
 Ora arriviamo ad una parte importante: la registrazione del nostro account
@@ -68,7 +68,7 @@ Secondo me, andrebbe fatto anche solo per backup e sincronizzazione delle impost
 
 Se volete potete farlo in un secondo momento, ma io vi raccomando di farlo
 
-[ ![registrazione](/img/registrazione.PNG) ](/img/registrazione.PNG)
+[ ![registrazione](/img/cura/registrazione.webp) ](/img/cura/registrazione.webp)
 
 
 ## Configurazione stampante {#configurazione-stampante}
@@ -79,13 +79,13 @@ Siamo arrivati alla configurazione della stampante
 Anche se la Ghost 5 ha il wifi, dovete aggiungerla come **stampante non di rete**, perchè questa funzione è dedicata alle stampanti Ultimaker (*con la  gloria e il regalare il proprio lavoro non si mangia, non credete?*)
 :::
 
-[ ![scelta stampanti](/img/scelta_stampanti.PNG) ](/img/scelta_stampanti.PNG)
+[ ![scelta stampanti](/img/cura/scelta_stampanti.webp) ](/img/cura/scelta_stampanti.webp)
 
 
 La schermata successiva riguarda le impostazioni della macchina, vi suggerisco per ora di lasciarle cosi come sono
 
-[ ![parametri macchina](/img/parametri_macchina.PNG) ](/img/parametri_macchina.PNG)
+[ ![parametri macchina](/img/cura/parametri_macchina.webp) ](/img/cura/parametri_macchina.webp)
   
 Siamo arrivati alla fine, ora verranno presentate le novità se volete le potrete vedere con il tasto **avanti**, oppure **salta**  per terminare la prima configurazione, poi premiamo **fine**
 
-[ ![fine setup](/img/fine_setup.PNG) ](/img/fine_setup.PNG)
+[ ![fine setup](/img/cura/fine_setup.webp) ](/img/cura/fine_setup.webp)
