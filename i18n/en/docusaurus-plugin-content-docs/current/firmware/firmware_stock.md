@@ -7,8 +7,8 @@ description: Instructions to install firmware for Flyingbear Ghost and links to 
 
 import DisplayAd from '../../../../../src/components/displayAd'
 import FacebookLink from '../../../../../src/components/facebookLink'
+import ResponsivePlayer from '../../../../../src/components/videoPlayer'
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 In this page, you can find the links to a github repository where we store **tested** firmwares for the Flyingbear Ghost 5 and 4S and the procedures to update your 3d printer
 
@@ -103,6 +103,11 @@ Printer  | Image  |  Chipset   | Driver    | Version  | Link
 <DisplayAd/>
 
 ## Useful Links {#useful-links}
+**Video-guide "Ghost 4S Firmware Upload Flying Bear" on YouTube**
+<ResponsivePlayer
+  src="https://youtu.be/YxKrXQ3jQcA"
+/>
+
 [Video-guide "Ghost 4S Firmware Upload Flying Bear" on YouTube](https://youtu.be/YxKrXQ3jQcA) 
     
 
