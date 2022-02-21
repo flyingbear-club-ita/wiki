@@ -4,7 +4,7 @@ slug: /slicer
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d",  "slicer", "cura", "ultimaker", "ultimaker cura", "ideamaker", "prusa slicer", "slic3r"]
 description: Common start and end gcode for Flyingbear Ghost
 ---
-import DisplayAd from '../../src/components/displayAd'
+import DisplayAd from '../../../../../src/components/displayAd'
 
 ## GCode {#gcode}
 
