@@ -1,4 +1,61 @@
 {
+  "discord.header": {
+    "message": "Seguici su Discord"
+  },
+  "discord.message": {
+    "message": "Il nostro punto di riferimento, tutti i contenuti partono da li'"
+  },
+  "discord.link": {
+    "message": "https://discord.gg/p2gtrKm"
+  },
+  "instagram.header": {
+    "message": "Seguici su Instagram"
+  },
+  "instagram.message": {
+    "message": "Le piu' belle stampe della community, manda quelle di cui vai piu' orgoglioso"
+  },
+  "instagram.link": {
+    "message": "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"
+  },
+  "facebook.header": {
+    "message": "Seguici su Facebook"
+  },
+  "facebook.message": {
+    "message": "La nostra pagina su Facebook"
+  },
+  "facebook.link": {
+    "message": "https://www.facebook.com/groups/600126627631693/"
+  },
+  "youtube.header": {
+    "message": "Seguici su Youtube"
+  },
+  "youtube.message": {
+    "message": "Il nostro canale su Youtube!!!"
+  },
+  "youtube.link": {
+    "message": "https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
+  },
+  "pageTitle": {
+    "message": "Benvenuto nella community sulla Flyingbear Ghost"
+  },
+  "description": {
+    "message": "\n  La wiki della community italiana sulla Flyingbear Ghost\n  Punto di ritrovo per gli appassionati di stampanti 3d e non solo\n  Guide per la calibrazione, ottimizzazione, modding ed altro, tutte incentrate su Flyingbear Ghost 4s e 5\n"
+  },
+  "homepage.sezione-wiki.par-one": {
+    "message": "Scopri tutti i ricambi originali e non per la stampante 3d Flying Bear Ghost, e se vuoi maggiori informazioni riguardo un pezzo di ricambio da chi lo ha già provato ti basta entrare nel nostro Discord ufficiale",
+    "description": "homepage sezione-wiki.par-one"
+  },
+  "homepage.sezione-wiki.par-two": {
+    "message": "Vuoi regolare la tua Ghost perchè stampi perfettamente?",
+    "description": "homepage sezione-wiki.par-two"
+  },
+  "homepage.sezione-wiki.par-three": {
+    "message": "Inizia da qui, setup, calibrazioni, upgrade e molto altro ti aspettano",
+    "description": "homepage sezione-wiki.par-three"
+  },
+  "Questo sito utilizza cookie di terze parti per migliorare la tua esperienza": {
+    "message": "Questo sito utilizza cookie di terze parti per migliorare la tua esperienza"
+  },
   "theme.NotFound.title": {
     "message": "Page Not Found",
     "description": "The title of the 404 page"
@@ -14,6 +71,18 @@
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",
@@ -31,10 +100,6 @@
     "message": "One min read|{readingTime} min read",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "theme.tags.tagsListLabel": {
-    "message": "Tags:",
-    "description": "The label alongside a tag list"
-  },
   "theme.blog.post.readMore": {
     "message": "Read More",
     "description": "The label used in blog post item excerpts to link to full blog posts"
@@ -51,9 +116,9 @@
     "message": "Older Post",
     "description": "The blog post button label to navigate to the older/next post"
   },
-  "theme.tags.tagsPageTitle": {
-    "message": "Tags",
-    "description": "The title of the tag list page"
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.blog.post.plurals": {
     "message": "One post|{count} posts",
@@ -87,6 +152,14 @@
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages navigation",
     "description": "The ARIA label for the docs pagination"
@@ -99,21 +172,13 @@
     "message": "Next",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.docs.sidebar.responsiveCloseButtonLabel": {
-    "message": "Close menu",
-    "description": "The ARIA label for close button of mobile doc sidebar"
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "theme.docs.sidebar.responsiveOpenButtonLabel": {
-    "message": "Open menu",
-    "description": "The ARIA label for open button of mobile doc sidebar"
-  },
-  "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
@@ -151,76 +216,6 @@
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
-  "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
-  },
-  "discord.header": {
-    "message": "Join our community on Discord in English!"
-  },
-  "discord.message": {
-    "message": "Our community on discord is the main source of this wiki, all contents spawn from there"
-  },
-  "discord.link": {
-  "message": "https://discord.gg/p2gtrKm"
-  },
-  "instagram.header": {
-    "message": "Follow us on Instagram"
-  },
-  "instagram.message": {
-    "message": "The best prints made with the Flyingbear Ghost, send us the ones you are really proud of!"
-  },
-  "instagram.link": {
-    "message": "https://instagram.com/flyingbear_ghost?igshid=12aaaycdo2k6y"
-  },
-  "facebook.header": {
-    "message": "Follow us on Facebook"
-  },
-  "facebook.message": {
-    "message": "Our Facebook page, open to any language, mostly English"
-  },
-  "facebook.link": {
-    "message": "https://www.facebook.com/groups/600126627631693/"
-  },
-  "youtube.header": {
-    "message": "Follow us on Youtube"
-  },
-  "youtube.message": {
-    "message": "Our channel on Youtube! Mostly videos in italian, but with subtitles!"
-  },
-  "youtube.link": {
-    "message": "https://www.youtube.com/channel/UCvYNczNj85zogLFzAr1Hf6Q"
-  },
-  "pageTitle": {
-    "message": "Welcome to the Flyingbear Ghost wiki"
-  },
-  "description": {
-    "message": "The best wiki about the Flyingbear Ghost 3d printer"
-  },
-  "homepage.subtitle": {
-    "message": "Setup, calibrations and much more",
-    "description": "homepage subtitle"
-  },
-  "theme.blog.archive.title": {
-    "message": "Archive",
-    "description": "The page & hero title of the blog archive page"
-  },
-  "theme.blog.archive.description": {
-    "message": "Archive",
-    "description": "The page & hero description of the blog archive page"
-  },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
-  },
-  "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
-    "description": "The title of the page for a docs tag"
-  },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
@@ -229,28 +224,24 @@
     "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "homepage.sezione-wiki.par-one": {
-    "message": "All the spare parts for the Flyingbear Ghost 3d printer! If you need more information regarding a spare part, or you simply want an opinion from someone that's used it already, join the discord community!",
-    "description": "homepage sezione-wiki.par-one"
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
   },
-  "homepage.sezione-wiki.par-two": {
-    "message": "Want to calibrate your Ghost to print perfectly???",
-    "description": "homepage sezione-wiki.par-two"
-  },
-  "homepage.sezione-wiki.par-three": {
-    "message": "Start here: setup, calibration guides, upgrades and more!",
-    "description": "homepage sezione-wiki.par-three"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
   },
   "cookieConsentMessage": {
-    "message": "This website uses cookies to enhance your experience",
+    "message": "Questo sito utilizza cookie di terze parti per migliorare la tua esperienza",
     "description": "Cookie consent message"
   }
 }

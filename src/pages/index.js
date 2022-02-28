@@ -228,8 +228,17 @@ export default function Home() {
     <DisplayAd/>
 
       </main>
-      {/* <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent> */}
-
+      
+        <CookieConsent
+          buttonText="OK"
+        >
+          <Translate
+          id="cookieConsentMessage"
+          description="Cookie consent message">
+            Questo sito utilizza cookie di terze parti per migliorare la tua esperienza
+          </Translate>
+        </CookieConsent>
+      
   </Layout>
   );
 }

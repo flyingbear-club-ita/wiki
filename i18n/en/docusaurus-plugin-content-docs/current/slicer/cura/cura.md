@@ -1,5 +1,5 @@
 ---
-title: Informazioni
+title: Introduction to Cura
 slug: /slicer/cura
 description: Ultimaker Cura, the most popular slicer
 keywords: ["cura", "ultimaker", "ultimaker cura", "3d printing", "flyingbear", "flying bear", "flyingbear ghost", "slicer", "slicing"]
