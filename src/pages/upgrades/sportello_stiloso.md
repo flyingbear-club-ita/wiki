@@ -29,14 +29,14 @@ import TabItem from '@theme/TabItem';
 
 
 <!-- [ ![Flyingbear Ghost - Sportello - Thumbnail](/img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp) ](/img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp) -->
-
+## Descrizione
 
 <div style={{marginBottom:"10px"}}>
 <a href="/img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp" target="_blank">
-    <img style={{float: "right", marginRight: "30px", height:"100%", width: "320px", height:"420px"}} src="/img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp"/>
+    <img style={{float: "left", marginRight: "30px", height:"100%", width: "320px", height:"420px"}} src="/img/upgrades/sportelloFrontale/thumbnailPortaFilippo.webp"/>
 </a>
 
-## Descrizione
+
 
 Lo sportello disegnato da Filippo non solo e' funzionale al mantenimento della temperatura, ma ha anche un design molto accattivante
 

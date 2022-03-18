@@ -418,4 +418,12 @@ export const upgradesData = [
         opensInNewPage: true,
         pageUrl: '/upgrades/testa_compatta'
     },
+    {
+        difficulty: 'low',
+        title: 'Porta Bobina con doppio rullo',
+        desc:'Sostituisce il porta bobina stock, agevola lo scorrimento della bobina',
+        img: '/img/upgrades/portaBobina/portaBobinaThumbnail.webp',
+        opensInNewPage: true,
+        pageUrl: '/upgrades/porta_bobina'
+    },
 ];

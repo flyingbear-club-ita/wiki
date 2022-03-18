@@ -77,6 +77,7 @@ module.exports = {
           items: [
             'connessione_remota/preparare_la_rete_domestica',
             'connessione_remota/router',
+            'connessione_remota/vpn',
           ],
         },
       ],
