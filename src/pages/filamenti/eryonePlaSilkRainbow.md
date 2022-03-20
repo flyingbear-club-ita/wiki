@@ -70,9 +70,10 @@ Per il test della temperatura, abbiamo usato il seguente modello:
 
 Nella fotografia qui sotto potete vedere i risultati, sia frontali che posteriori
 
-[![Eryone PLA Rainbow Metal Lustre Silk - Temp Tower Front](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerFront.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerFront.webp)
 
-[![Eryone PLA Rainbow Metal Lustre Silk - Temp Tower Back](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerBack.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerBack.webp)
+Fronte  | Retro  
+:----------:|:------------:
+[![](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerFront.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerFront.webp)|  [![](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerBack.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowTempTowerBack.webp)
 
 La temp tower ci mostra che questo filamento si comporta molto bene a temperature piu' basse: 
 
@@ -124,44 +125,37 @@ Il calicat presenta superfici completamente lisce su tre lati su quattro. Questa
 - la tensione delle cinghie
 - il posizionamento della cucitura
 
-Sebbene il calicat sia stato stampato con altezza del layer a 0.2mm, possiamo notare la brillantezza delle pareti
+Sebbene il calicat sia stato stampato con altezza del layer a 0.2mm, possiamo notare la brillantezza delle pareti, al netto di alcune piccole imperfezioni che comunque sono impercettibili ad occhio nudo, soprattutto su stampe piu' grandi (come potete vedere nella galleria qui sotto)
 
 
+Frontale  | Destro | Posteriore  
+:----------:|:------------:|:-----------:
+[![](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface1.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface1.webp)|  [![](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface2.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface2.webp)|  [![](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface3.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaSurface3.webp)
 
+### Ritrazione
+Cosi' come lo vedete, il calicat e' uscito dalla stampante: quattro filetti, quasi invisibili e comunque facili da rimuovere
 
+Solitamente, le zone piu' colpite dallo stringing sono le gambe, lo spazio tra il corpo e la coda e le orecchie: in quei punti, il nozzle si sposta senza stampare, quindi, senza ritrazione, lascerebbe colare del filamento fuso
 
+La giusta combinazione di temperatura, flusso e ritrazione ha prodotto risultati eccellenti, senza bisogno di alcuna postproduzione
 
-La chiglia della benchy e' una ampia superficie liscia, con un angolo a sbalzo che, in alcuni punti, raggiunge i 45 gradi di inclinazione, che rappresentano il punto critico per stampare parti senza supporti
+[![Eryone PLA Rainbow Metal Lustre Silk - Retraction](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaStringing.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaStringing.webp)
 
-La chiglia e' importante per determinare se:
-- le cinghie sono ben tese
-- il flusso e' calibrato bene, sia nelle superfici liscie che negli angoli a sbalzo
-- la ventilazione e' sufficiente a raffreddare il filamento, particolarmente negli angoli a sbalzo
+### Overhang
+Uno dei punti critici del calicat e' l'overhang della coda: un angolo a 45 gradi sempre piu' alto, che solitamente si usa per evidenziare carenze di raffreddamento
 
-A parte alcune sbavature, probabilmente dovute piu' ad un problema di slicer che del filamento o della stampante, il pla red della basicfil si e' comportato molto bene
+Sicuramente la doppia ventola ha influito molto, ma anche avere il flusso tarato bene e ridurre la velocita' delle superfici a 15mm/s ha aiutato ad ottenere risultati ottimi nella prima parte della coda, decenti (quindi non colanti) nella seconda meta' diagonale
 
-Innanzitutto, con il flusso calibrato al 100%, non si nota alcun problema negli angoli a 45 gradi. Qualora ci fossero problemi, si noterebbe del filamento pendente, come in figura (mettere la figura della benchy di qualcuno della community, ricordarsi di dare credito)
+:::tip
+Se non avete la doppia ventola, provate a rallentare fino a 10mm/s
+:::
 
-### La cabina
+[![Eryone PLA Rainbow Metal Lustre Silk - Overhang](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaOverhang.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaOverhang.webp)
 
-La cabina e' importante per capire quanto stringing ci possa essere: e' composta da quattro colonnine, piu' o meno equidistanti, per cui, durante la stampa, finito lo strato di una colonnina, ci deve essere una ritrazione ed un viaggio, superiore ai limiti standard della maggior parte degli slicer, che equivale a 1.5mm (nel mio profilo, il parametro Minimal Travel of Retraction e' impostato a questo valore. Attenzione: questo e' il nome del parametro in ideamaker, in cura si chiama bla bla bla, in superslicer ble ble ble)
+### Bridging
+Bridging solido, anche se su distanza limitata (parliamo di 1cm). Il filamento non ha ceduto, anzi, ha prodotto un bello strato sospeso abbastanza uniforme, che poi e' andato a costruire la base per quelli successivi
 
-Il risultato e' ottimo: non c'e' traccia di stringing ne' di altri artefatti (tipo filetti che sporgono dalle pareti esterne), come blob
-
-(inserire immagine qui)
-
-
-### Il fondo
-Il fondo e' essenziale per individuare problemi di livellamento: troppo distante, le linee saranno molto visibili; troppo schiacciato, le lettere non saranno nitide
-
-Putroppo il piatto in PEI non consente di apprezzare in pieno il livellamento perfetto (ottenuto principalmente grazie all'ausilio del bltouch...), ma possiamo vedere che non c'e' separazione tra le linee e la scritta sul fondo e' facilmente leggibile, anche nei punti piu' piccoli
-
-(inserire immagine qui)
-
-### Superfici
-parlare dei top layer, menzionare che le strisce sono frutto dello zhop non attivato, ma tanto sti cazzi dello zhop
-
-### Forma dei buchi
+[![Eryone PLA Rainbow Metal Lustre Silk - Bridging](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaBridging.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaBridging.webp)
 
 ## Pezzi stampati con questo filamento
 
@@ -174,21 +168,42 @@ parlare dei top layer, menzionare che le strisce sono frutto dello zhop non atti
 
 [STL Unicorn Holder](https://www.thingiverse.com/thing:4423957)
 
-## Configurazione
+## Configurazione Macchina
 
 Questi test sono stati effettuati con la seguente configurazione
 
 
-Macchina: Flyingbear Ghost 4s
+- Macchina: Flyingbear Ghost 4s
 
-Estrusore: [Clone BMG Dual Driver Trianglelab](https://s.click.aliexpress.com/e/_ArwnG9)
+- Estrusore: [Clone BMG Dual Driver Trianglelab](https://s.click.aliexpress.com/e/_ArwnG9)
 
-PTFE: [Clone Capricorn Trianglelab](https://s.click.aliexpress.com/e/_9Jt0dB)
+- PTFE: [Clone Capricorn Trianglelab](https://s.click.aliexpress.com/e/_9Jt0dB)
 
-Superficie: [Piatto in PEI ruvido Energetic](https://s.click.aliexpress.com/e/_AXDwxu)
+- Superficie: [Piatto in PEI ruvido Energetic](https://s.click.aliexpress.com/e/_AXDwxu)
 
-BL Touch: si
+- BL Touch: si
 
-Testa: [Doppia ventola](https://s.click.aliexpress.com/e/_9JhKuV), [hotend trianglelab (nozzle compreso)](https://s.click.aliexpress.com/e/_ApePd3)
+- Testa: [Doppia ventola](https://s.click.aliexpress.com/e/_9JhKuV), [hotend trianglelab (nozzle compreso)](https://s.click.aliexpress.com/e/_ApePd3)
 
-Firmware: Marlin
+- Firmware: Marlin
+
+## Configurazione Slicer
+
+- Slicer: Ideamaker
+- Temperatura Nozzle/bed: 200/60
+- Velocita': 40mm/s
+- Velocita' pareti (interne ed esterne): 30mm/s
+- Velocita' riempimento: 60mm/s
+- Accelerazione: 1000mm/s2
+- Jerk: 10mm/s
+- Flusso: 100%
+- Velocita' Ritrazione: 50mm/s
+- Distanza Ritrazione: 6.5mm
+- Distanza minima per la ritrazione: 1.50mm
+- Velocita' di ripartenza dopo una ritrazione: 50mm/s
+- Strati solidi: 4, sia bottom che top
+- Skirt: 15mm/s, due giri, 3mm di distanza
+- Tempo minimo per strato: 10s
+- Ventola attivata al 100% dal quarto strato
+- Velocita' di bridging: 15mm/s
+

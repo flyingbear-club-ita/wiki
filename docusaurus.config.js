@@ -80,21 +80,21 @@ module.exports = {
           label: 'Ricambi',
           position: 'left',
         },
-        // {
-        //   href: '/',
-        //   label: 'Filamenti',
-        //   position: 'left',
-        //   items:[
-        //     {
-        //       href:'/basicfilPlaRed',
-        //       label: 'Basicfil PLA Red',
-        //     },
-        //     {
-        //       href: '/eryoneSilkRainbow',
-        //       label: 'Eryone Silk Rainbow',
-        //     }
-        //   ]
-        // },
+        {
+          href: '/',
+          label: 'Filamenti',
+          position: 'left',
+          items:[
+            // {
+            //   href:'/basicfilPlaRed',
+            //   label: 'Basicfil PLA Red',
+            // },
+            {
+              href: '/filamenti/eryonePlaSilkRainbow',
+              label: 'Eryone PLA Silk Rainbow',
+            }
+          ]
+        },
         {
           href: '/faq',
           label: 'FAQ',
