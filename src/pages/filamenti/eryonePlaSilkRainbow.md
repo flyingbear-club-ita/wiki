@@ -63,6 +63,8 @@ usando il codice sconto **flyingbearclubita** durante il checkout dal sito della
 Per ordini inferiori ai 35 dollari, viene applicata anche una tariffa di spedizione. Sopra ai 35 dollari, invece, la spedizione e' gratuita
 :::
 
+<DisplayAd/>
+
 ## Temp Tower
 Per il test della temperatura, abbiamo usato il seguente modello:
 
@@ -85,7 +87,7 @@ La temp tower ci mostra che questo filamento si comporta molto bene a temperatur
 
 
 :::tip La temperatura migliore
-La temperatura ottimale per questo filamento sembra essere **190 gradi**: poco stringing con una distanza di ritrazione di 5mm e velocita' di 50mm/s (questi parametri me li sono portati da un profilo precedente, funzionano bene, pero', per ottimizzare la ritrazione, andrebbe fatto un test per lo stringing - forse ce lo aggiungo in un'altra sezione); superfici uniformi; stampa degli angoli a sbalzo senza imperfezioni eclatanti
+La temperatura ottimale per questo filamento sembra essere **190 gradi**: poco stringing con una distanza di ritrazione di 5mm e velocita' di 50mm/s (questi parametri me li sono portati da un profilo precedente, funzionano bene, pero', per ottimizzare la ritrazione, andrebbe fatto un test per lo stringing); superfici uniformi; stampa degli angoli a sbalzo senza imperfezioni eclatanti
 :::
 
 Adesso che abbiamo stabilito la temperatura ottimale, andiamo ad effettuare il test del flusso
@@ -109,6 +111,8 @@ Primo Lato  | Secondo Lato | Terzo Lato  | Quarto Lato
 Il test della calibrazione del flusso e' stato effettuato con il flusso al 100%, senza toccarlo ho ottenuto risultati quasi perfetti (uno scarto di 0.01mm non lo considero nemmeno...)
 
 Un test del flusso del genere e' sintomo di filamento omogeneo e ben arrotolato, quindi il verdetto e' **PROMOSSO A PIENI VOTI!!!**
+
+<DisplayAd/>
 
 ## Lo stress test: il calicat
 
@@ -156,6 +160,8 @@ Se non avete la doppia ventola, provate a rallentare fino a 10mm/s
 Bridging solido, anche se su distanza limitata (parliamo di 1cm). Il filamento non ha ceduto, anzi, ha prodotto un bello strato sospeso abbastanza uniforme, che poi e' andato a costruire la base per quelli successivi
 
 [![Eryone PLA Rainbow Metal Lustre Silk - Bridging](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaBridging.webp)](/img/filamenti/eryone/rainbowSilk/eryoneRainbowPlaBridging.webp)
+
+<DisplayAd/>
 
 ## Pezzi stampati con questo filamento
 
@@ -207,3 +213,4 @@ Questi test sono stati effettuati con la seguente configurazione
 - Ventola attivata al 100% dal quarto strato
 - Velocita' di bridging: 15mm/s
 
+<DisplayAd/>

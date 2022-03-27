@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: 'new_content_banner',
       content:
-        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="/docs/connessione_remota/vpn">Configurare un server vpn con Raspberry Pi, articolo a cura di di Nick_IT</a>',
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="https://flyingbearghost.com/filamenti/eryonePlaSilkRainbow">Recensione del filamento Pla Metal Silk Rainbow della Eryone, articolo a cura di ZeroPX</a>',
       backgroundColor: '#eb9534',
       textColor: '#091E42',
       isCloseable: true,
