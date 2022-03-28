@@ -400,7 +400,7 @@ In alternativa, e' possibile settare gli step tramite i comandi gCode (da lancia
 ```
 M92 X79.4
 
-M92 Y79.2
+M92 Y79.6
 
 M92 Z394.8
 
