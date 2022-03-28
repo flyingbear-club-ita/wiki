@@ -48,7 +48,7 @@ Il circuit diagram della hot-end nella Ghost 5 (vedi sopra) è leggermente diver
 
 ## Schema circuitale della scheda madre
 
-Lo schema qua sotto fa riferimento ad una scheda **robin nano 1.2**, che pero' e' la base di tutte le schede della Ghost
+Lo schema qua sotto fa riferimento ad una scheda **robin nano 1.3**, che pero' e' la base di tutte le schede della Ghost
 
 [ ![Flyingbear ghost - Circuit Diagram](/img/manuale/schemaPcb.webp) ](/img/manuale/schemaPcb.webp)
 
