@@ -5,8 +5,9 @@ hide_table_of_contents: true
 description: Test di stampa e recensione filamento Sunlu Pla+ White
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "bltouch", "bl touch", "3d touch", "artillery genius", "eryone er-20", "sunlu", "pla+", "3d printing white", "sunly pla+ white"]
 ---
-import DisplayAd from '../../../src/components/displayAd';
+import DisplayAd from '../../components/displayAd';
 
+import DisqusComments from '../../components/disqusComments'
 
 ## Sunlu PLA+ Bianco
 
@@ -202,3 +203,9 @@ Le differenze tra PLA e PLA+ sono la scelta dei materiali con cui viene composto
 Di certo le caratteristiche di fusione del filamento e di stampa sono simili, anche se ho notato una migliore stampa di ponti e sbalzi come ho spiegato precedentemente
 
 <DisplayAd/>
+
+<DisqusComments
+  slug="/filamenti/sunluBianco"
+  articleId="11"
+  title="Sunlu_White_PLA+"
+/>
