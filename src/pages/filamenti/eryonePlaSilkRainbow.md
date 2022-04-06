@@ -1,16 +1,15 @@
 ---
 title: Eryone PLA Rainbow Silk - Review
-slug: /filamenti/basicfilPlaRed
+slug: /filamenti/eryonePlaSilkRainbow
 hide_table_of_contents: true
 description: Test di stampa e recensione filamento Eryone Pla Rainbow Silk
 keywords: ["3d printing", "flying bear", "flyingbear", "flying bear ghost", "flyingbear ghost", "flyingbear ghost 5", "flying bear ghost 5", "stampa 3d", "bltouch", "bl touch", "3d touch", "artillery genius", "eryone er-20", "eryone", "pla silk", "3d printing rainbow", "eryone pla silk"]
 ---
 
-import Tabs from '@theme/Tabs';
+import DisplayAd from '../../components/displayAd';
 
-import TabItem from '@theme/TabItem';
+import DisqusComments from '../../components/disqusComments'
 
-import DisplayAd from '../../../src/components/displayAd';
 
 ## Eryone PLA Rainbow Silk
 
@@ -214,3 +213,9 @@ Questi test sono stati effettuati con la seguente configurazione
 - Velocita' di bridging: 15mm/s
 
 <DisplayAd/>
+
+<DisqusComments
+  slug="/filamenti/eryonePlaSilkRainbow"
+  articleId="10"
+  title="Eryone_Pla_Rainbow_Silk_Review"
+/>
