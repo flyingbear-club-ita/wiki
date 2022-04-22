@@ -11,8 +11,6 @@ hide_table_of_contents: true
 import DisplayAd from '../../src/components/displayAd'
 
 
-
-
 import DisqusComments from '../../src/components/disqusComments'
 
 Oggi verrà staccato la spina ai servizi Blackberry
