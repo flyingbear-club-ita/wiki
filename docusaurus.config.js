@@ -100,6 +100,21 @@ module.exports = {
           ]
         },
         {
+          href: '/',
+          label: 'Arduino',
+          position: 'left',
+          items:[
+            {
+              href:'/arduino/arduino_lezione_uno',
+              label: 'Lezione 1',
+            },
+            // {
+            //   href: '/five',
+            //   label: 'Ghost 5',
+            // }
+          ]
+        },
+        {
           href: '/faq',
           label: 'FAQ',
           position: 'left',
