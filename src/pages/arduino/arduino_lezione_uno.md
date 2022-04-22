@@ -22,7 +22,7 @@ E' la stessa domanda che mi sono posto anche io quando ho deciso e ho proposto d
 
 La risposta non è semplice, ma cercherò di darla comunque:  non essendo un corso a cui abbiamo fissato dei paletti e dove abbiamo già deciso a prescindere cosa fare e cosa spiegare, lo renderemo  flessibile e seguirà le idee e i suggerimenti di dove vorranno andare gli utenti che lo seguiranno. Attenti, non voglio dire che salteremo di da un concetto all'altro senza insegnare nulla, seguendo le richieste e le mode come delle banderuole che cambiano direzione e noi obiettivi al cambiare del vento, ma solo che saremo attenti ai vostri suggerimenti e il corso lo costruiremo assieme a voi, lezione dopo lezione, e se servirà di fermeremo tutto il tempo necessario per spiegare e che siano chiare le nozioni fondamentali, perché senza una base solida non si può costruire nulla sopra, e soprattutto perché la mia regola fondamentale è non lasciare mai nessuno indietro e quando servirà fermarsi su alcuni concetti difficili da capire lo faremo, e se qualcuno si lamenterà perché non andiamo avanti veloci viso che il genio ha capito tutto, gli risponderò con estrema gentilezza, "levati dalle palle internet è piena di corsi", ma spero non dovremo mai arrivare a questo. Come ho detto prima lo scopo finale del corso lo conosco solo io, ma non ve lo dico (ma vi basta guardare la figura qui sotto per capirlo)
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Introduction - Otto Robot](/img/arduino/lezione1/otto.webp)](/img/arduino/lezione1/otto.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Introduction - Otto Robot](/img/arduino/lezione1/otto-robot.webp)](/img/arduino/lezione1/otto-robot.webp)
 
 Ora che lo avete capito tutti per cosa useremo la nostra bella scheda Arduino (in questo caso **Arduino nano**, ma ogni altra scheda Arduino che avete già disponibile può andare bene per iniziare)
 
@@ -236,7 +236,9 @@ Un ulteriore svantaggio di Arduino si trova nella portabilità: non esiste una s
 
 Questo viene mitigato dalle librerie e dall'IDE di programmazione, ma non risolto del tutto
 
-Inoltre, nel momento in cui la versione standard delle schede deve essere ampliata tramite interfacce aggiuntive e funzioni I/O, l'hardware consente un upgrade la maggior parte delle volte semplice tramite le cosiddette shields (ne parleremo più approfondatemene più avanti nel corso, ma per una breve introduzione fate affidamento a questa pagina http://playground.arduino.cc/Main/SimilarBoards#goShie) tuttavia l'uso di questi moduli aggiuntivi ad esempio per il collegamento Ethernet, un buzer, il Wi-Fi,un emettitore ad ultrasuoni, ma anche un emettitore ad infrarossi  e un ricevitore sempre ad infrarossi,  la funzione LED e altri fa aumentare velocemente la complessità e i costi del progetto
+Inoltre, nel momento in cui la versione standard delle schede deve essere ampliata tramite interfacce aggiuntive e funzioni I/O, l'hardware consente un upgrade la maggior parte delle volte semplice tramite le cosiddette shields (ne parleremo più approfondatemene più avanti nel corso, ma per una breve introduzione fate affidamento [a questa pagina]( http://playground.arduino.cc/Main/SimilarBoards#goShie) 
+
+Tuttavia l'uso di questi moduli aggiuntivi, come ad esempio un buzzer, il Wi-Fi, un emettitore ad ultrasuoni oppure un emettitore e ricevitore ad infrarossi, fa aumentare velocemente la complessità e i costi del progetto
 
 Ma ora basta teoria, vi starete annoiando e se non avete preso ancora un caffe o un dolcetto, per chi non lo beve ancora e per ZeroPX, andate a farlo, perché iniziamo a smanettare sul Pc ed ad installare l'IDE per la programmazione delle schede Arduino
 
