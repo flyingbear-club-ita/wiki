@@ -1,3 +1,8 @@
+---
+draft: true
+---
+
+
 # Filadryer S2 della Sunlu  contro filamento dimenticato in fondo ad un armadio per almeno 6 mesi.
 
 ![IMG_2949~photo](G:\articoli\Sunlu2 contro filamento Umico\img\IMG_2949~photo.jpg)

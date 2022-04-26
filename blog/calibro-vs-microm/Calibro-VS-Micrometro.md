@@ -1,3 +1,13 @@
+---
+title: Calibro vs Micrometro
+description: Descrizione a caso
+slug: calibrovsmicrometro
+authors: nick_it
+image: /img/blog/blackberry/blackberry.webp
+hide_table_of_contents: true
+draft: true
+---
+
 ## Calibro VS Micrometro
 
 ### Premessa
