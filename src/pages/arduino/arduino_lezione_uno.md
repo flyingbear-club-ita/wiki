@@ -20,7 +20,7 @@ Internet è piena di tutorial, corsi a pagamento o free, video, sulla famiglia d
 
 E' la stessa domanda che mi sono posto anche io quando ho deciso e ho proposto di fare questo corso, potrei dire perché il nostro sarà diverso, sarà più completo, sarà adatto al nostri utenti, e forse un domani potrebbe anche essere cosi ma ora come ora il 99% del corso è ancora nella mia testa e non ha voglia di uscire come un nerd davanti alla playstation... 
 
-La risposta non è semplice, ma cercherò di darla comunque:  non essendo un corso a cui abbiamo fissato dei paletti e dove abbiamo già deciso a prescindere cosa fare e cosa spiegare, lo renderemo  flessibile e seguirà le idee e i suggerimenti di dove vorranno andare gli utenti che lo seguiranno. Attenti, non voglio dire che salteremo di da un concetto all'altro senza insegnare nulla, seguendo le richieste e le mode come delle banderuole che cambiano direzione e noi obiettivi al cambiare del vento, ma solo che saremo attenti ai vostri suggerimenti e il corso lo costruiremo assieme a voi, lezione dopo lezione, e se servirà di fermeremo tutto il tempo necessario per spiegare e che siano chiare le nozioni fondamentali, perché senza una base solida non si può costruire nulla sopra, e soprattutto perché la mia regola fondamentale è non lasciare mai nessuno indietro e quando servirà fermarsi su alcuni concetti difficili da capire lo faremo, e se qualcuno si lamenterà perché non andiamo avanti veloci viso che il genio ha capito tutto, gli risponderò con estrema gentilezza, "levati dalle palle internet è piena di corsi", ma spero non dovremo mai arrivare a questo. Come ho detto prima lo scopo finale del corso lo conosco solo io, ma non ve lo dico (ma vi basta guardare la figura qui sotto per capirlo)
+La risposta non è semplice, ma cercherò di darla comunque:  non essendo un corso a cui abbiamo fissato dei paletti e dove abbiamo già deciso a prescindere cosa fare e cosa spiegare, lo renderemo  flessibile e seguirà le idee e i suggerimenti di dove vorranno andare gli utenti che lo seguiranno. Attenti, non voglio dire che salteremo di da un concetto all'altro senza insegnare nulla, seguendo le richieste e le mode come delle banderuole che cambiano direzione e noi obiettivi al cambiare del vento, ma solo che saremo attenti ai vostri suggerimenti e il corso lo costruiremo assieme a voi, lezione dopo lezione, e se servirà di fermeremo tutto il tempo necessario per spiegare e che siano chiare le nozioni fondamentali, perché senza una base solida non si può costruire nulla sopra, e soprattutto perché la mia regola fondamentale è non lasciare mai nessuno indietro e quando servirà fermarsi su alcuni concetti difficili da capire lo faremo, e se qualcuno si lamenterà perché non andiamo avanti veloci visto che il genio ha capito tutto, gli risponderò con estrema gentilezza, "levati dalle palle internet è piena di corsi", ma spero non dovremo mai arrivare a questo. Come ho detto prima lo scopo finale del corso lo conosco solo io, ma non ve lo dico (ma vi basta guardare la figura qui sotto per capirlo)
 
 [![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Introduction - Otto Robot](/img/arduino/lezione1/otto-robot.webp)](/img/arduino/lezione1/otto-robot.webp)
 
@@ -254,33 +254,33 @@ Dovete andare su [questo indirizzo](https://www.arduino.cc/en/software) e scaric
 
 Vedrete che sulla destra ci sono le diverse versioni disponibili, sconsiglio la versione microsoft app, ma solo per la gestione futura dei debug, e andate a scaricare il pacchetto
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Download IDE](/img/arduino/lezione1/download-ide.webp)](/img/arduino/download-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Download IDE](/img/arduino/lezione1/download-ide.webp)](/img/arduino/lezione1/download-ide.webp)
 
 Scelta la versione corretta per il vostro pc, andiamo avanti (oggi ci concentreremo sulla versione per Windows, se volete anche come fare le installazioni su altri sistemi operativi, vi prego di segnalarcelo)
 
 Facciamo doppio click sulla icona del programma che vogliamo installare e proseguiamo
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 1](/img/arduino/lezione1/step-1-ide.webp)](/img/arduino/step-1-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 1](/img/arduino/lezione1/step-1-ide.webp)](/img/arduino/lezione1/step-1-ide.webp)
 
 Premiamo **I Agree** e andiamo avanti
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 2](/img/arduino/lezione1/step-2-ide.webp)](/img/arduino/step-2-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 2](/img/arduino/lezione1/step-2-ide.webp)](/img/arduino/lezione1/step-2-ide.webp)
 
 Lasciamo le impostazioni di default e premiamo "**next**"
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 3](/img/arduino/lezione1/step-3-ide.webp)](/img/arduino/step-3-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 3](/img/arduino/lezione1/step-3-ide.webp)](/img/arduino/lezione1/step-3-ide.webp)
 
 Lasciamo anche qui le impostazioni di default e partiamo con la installazione premendo il pulsante **Install**
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 4](/img/arduino/lezione1/step-4-ide.webp)](/img/arduino/step-4-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 4](/img/arduino/lezione1/step-4-ide.webp)](/img/arduino/lezione1/step-4-ide.webp)
 
 Lasciamogli continuarela installazione
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 5](/img/arduino/lezione1/step-5-ide.webp)](/img/arduino/step-5-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 5](/img/arduino/lezione1/step-5-ide.webp)](/img/arduino/lezione1/step-5-ide.webp)
 
 A un certo punto vi verrà chiesto di installare un driver, accettate senza problemi e se volete rendete sempre attendibile i driver da "Arduino srl" cosi da velocizzare l'installazione.
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 6](/img/arduino/lezione1/step-6-ide.webp)](/img/arduino/step-6-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 6](/img/arduino/lezione1/step-6-ide.webp)](/img/arduino/lezione1/step-6-ide.webp)
 
 Eccovi l'installazione terminata, premiamo "**Close**" per completarla
 
@@ -288,30 +288,30 @@ Ora avrete una bella icona verde sul vostro desktop e nel vostro "start menu", p
 
 Eccoci al caricamento dell'IDE di arduino
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 7](/img/arduino/lezione1/step-7-ide.webp)](/img/arduino/step-7-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 7](/img/arduino/lezione1/step-7-ide.webp)](/img/arduino/lezione1/step-7-ide.webp)
 
 Se riceverete al primo accesso alcune segnalazioni da parte di Windows Defender, **consentite l'accesso**: e' solo l'apertura delle porte di comunicazione verso la periferiche Arduino
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 8](/img/arduino/lezione1/step-8-ide.webp)](/img/arduino/step-8-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 8](/img/arduino/lezione1/step-8-ide.webp)](/img/arduino/lezione1/step-8-ide.webp)
 
 Ed eccoci nella nostra bella interfaccia di **Arduido IDE**
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 9](/img/arduino/lezione1/step-9-ide.webp)](/img/arduino/step-9-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 9](/img/arduino/lezione1/step-9-ide.webp)](/img/arduino/lezione1/step-9-ide.webp)
 
 Immagino che siete tutti curiosi, beh, vi lascio ancora una operazione da compiere: aggiorniamo le librerie
 
 Andate su strumenti e gestione librerie e vi verrà aperta una nuova finestra
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 10](/img/arduino/lezione1/step-10-ide.webp)](/img/arduino/step-10-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 10](/img/arduino/lezione1/step-10-ide.webp)](/img/arduino/lezione1/step-10-ide.webp)
 
 Qui trovate tutte le maggiori librerie per gli **shield**, ma questo a noi non interessa, lo vedremo più avanti (un'occhiata non ve la vieta nessuno, eh), noi ora siamo interessati ad aggiornarle, le librerie
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 11](/img/arduino/lezione1/step-11-ide.webp)](/img/arduino/step-11-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 11](/img/arduino/lezione1/step-11-ide.webp)](/img/arduino/lezione1/step-11-ide.webp)
 
 
 Vi verrà mostrata una finestra aggiuntiva. Se volete aggiungere altre librerie collegate a questa, selezionate quello che reputate più giusto, e, se siete novelli, selezionate solo la libreria che avete chiesto di aggiornare
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 11](/img/arduino/lezione1/step-12-ide.webp)](/img/arduino/step-12-ide.webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 1 - Setup IDE - Step 11](/img/arduino/lezione1/step-12-ide.webp)](/img/arduino/lezione1/step-12-ide.webp)
 
 <DisplayAd/>
 
