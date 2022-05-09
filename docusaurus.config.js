@@ -106,12 +106,12 @@ module.exports = {
           items:[
             {
               href:'/arduino/arduino_lezione_uno',
-              label: 'Lezione 1',
+              label: 'Lezione 1 - Introduzione',
             },
-            // {
-            //   href: '/five',
-            //   label: 'Ghost 5',
-            // }
+            {
+              href:'/arduino/arduino_lezione_due',
+              label: 'Lezione 2 - Primo programma',
+            },
           ]
         },
         {

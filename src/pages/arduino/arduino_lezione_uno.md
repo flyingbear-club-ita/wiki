@@ -1,5 +1,5 @@
 ---
-title: Corso di Arduino - Lezione 1
+title: Corso di Arduino - Lezione 1 - Introduzione
 slug: /arduino/arduino_lezione_uno
 hide_table_of_contents: true
 description: Prima lezione del corso di Arduino - Introduzione ai vari microcontrollori ed installazione dell'Arduino IDE
