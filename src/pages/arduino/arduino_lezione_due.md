@@ -61,7 +61,7 @@ I pin, oltretutto, possono essere analogici (per collegarci un interruttore) o d
 
 Vediamo di aiutarvi meglio con questo altro disegno
 
-[![Flyingbear Ghost - Arduino Tutorial - Lesson 2 - Get to know better the Arduino Nano - Arduino Nano pinout bigger image](/img/arduino/lezione2/Pinout-of-Arduino-Nano_638x600.webp)](/img/arduino/lezione2/Pinout-of-Arduino-Nano_638x600..webp)
+[![Flyingbear Ghost - Arduino Tutorial - Lesson 2 - Get to know better the Arduino Nano - Arduino Nano pinout bigger image](/img/arduino/lezione2/Pinout-of-Arduino-Nano_638x600.webp)](/img/arduino/lezione2/Pinout-of-Arduino-Nano_638x600.webp)
 
 Questo disegno descrive piu' esplicitamente il tipo di pin del nostro Arduino Nano
 
@@ -75,9 +75,9 @@ Per completezza vi mostro pure i pin out dell'Arduino UNO, soprattutto per chi n
 
 [![Flyingbear Ghost - Arduino Tutorial - Lesson 2 - Get to know better the Arduino Nano - Another Uno](/img/arduino/lezione2/Arduino-Uno.webp)](/img/arduino/lezione2/Arduino-Uno.webp)
 
-Questa scheda ha 14 I/O (nput/Output) digitali e 6 I/O, mentre l'**Arduino Nano** ha 14 I/O digitali e 8 I/O analogici 
+Questa scheda ha 14 I/O (input/Output) digitali e 6 analogici, mentre l'**Arduino Nano** ha 14 I/O digitali e 8 analogici 
 
-Non fatevi trarre in inganno dalla grandezza della scheda: questa ha meno GPIO (General Purpose Input Output, che vuol dire che stiamo parlando di periferiche generiche per la' gestione degli input e degli output), ma è centinaia di volte piu facile da maneggiare e avrete un mondo intero di espansioni con cui usarla
+Non fatevi trarre in inganno dalla grandezza della scheda: questa ha meno GPIO (General Purpose Input Output, che vuol dire che stiamo parlando di periferiche generiche per la gestione degli input e degli output), ma è centinaia di volte piu facile da maneggiare e avrete un mondo intero di espansioni con cui usarla
 
 :::tip
 Le espansioni per gli arduino vengono solitamente chiamati **shield**, mentre per la Raspberry vengono chiamati **HAT**(Hardware Attached on Top)
@@ -95,7 +95,7 @@ Cosa ci è servita vedere tutte queste immagini ?  Ad oggi nulla, ma se un doman
 
 ## Iniziamo a programmare
 
-Per la verità non saremmo ancora pronti, ma una lezione unicamente di teoria farebbe addormenterebbe chiunque, quindi ora vedremo il nostro primo programma, che può girare su tutte le board Arduino esistenti, perché usa i pin comuni a tutte le schede
+Per la verità non saremmo ancora pronti, ma una lezione unicamente di teoria farebbe addormentare chiunque, quindi ora vedremo il nostro primo programma, che può girare su tutte le board Arduino esistenti, perché usa i pin comuni a tutte le schede
 
 Andremo ad **accendere e spegnere un led**, per ora potremo usare quello integrato nella scheda Arduino che fa riferimento al **PIN 13**, ma, se ne avete uno a disposizione, potete collegarlo anche su uno dei vari Pin della scheda 
 
@@ -221,7 +221,7 @@ Queste istruzioni sono una sequenza di segnali positivi e nulli (HIGH e LOW) sul
 Il comando **delay** indica al microcontrollore di mettere in pausa l'esecuzione del programma, in questo caso per 1000 millisecondi (cioe' un secondo), per poi passare all'esecuzione dell'istruzione successiva
 :::
 
-Ma ora vediamo una versione più corta, perché tenete conto avete sempre kbyte di memoria e non megabyte, perciò più il programma che scriviamo è corto, meno spazio occupera', meglio sara'
+Ma ora vediamo una versione più corta, perché tenete conto che avete a disposizione dei kilobyte di memoria, non megabyte, perciò più il programma che scriviamo è corto, meno spazio occupera', meglio sara'
 
 Ora rendiamolo più compatto, nel frattempo impareremo un altro comando
 
@@ -271,7 +271,7 @@ Volevo spiegarvi il funzionamento dei comandi che abbiamo introdotto oggi, cioè
 
 - **pinMode**: pinmode("id del pin che vogliamo utilizzare", "selezionare se è un input oppure un output");
 
-- **digitalWrite** : digitalwrite ("id del PIN che vogliamo cambiare lo stato", "dichiarare lo stato cioe high or low") 
+- **digitalWrite** : digitalwrite ("id del PIN che vogliamo cambiare lo stato", "dichiarare lo stato cioe' high or low") 
 
 - **delay**: delay("quanti millisecondi deve fermarsi ed attendere prima di continuare" )
 

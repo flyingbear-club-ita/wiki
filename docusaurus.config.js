@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: 'new_content_banner',
       content:
-        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="https://flyingbearghost.com/filamenti/sunluBianco">Recensione del filamento Pla+ Bianco della Sunlu, articolo a cura di Nick_IT</a>',
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="https://flyingbearghost.com/arduino/arduino_lezione_due">Seconda puntata del corso su Arduino a cura di Nick_IT</a>',
       backgroundColor: '#eb9534',
       textColor: '#091E42',
       isCloseable: true,
