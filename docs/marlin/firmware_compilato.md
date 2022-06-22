@@ -78,7 +78,7 @@ Visto che, pero', secondo noi vale veramente la pena installare marlin sulla gho
 
 Il link al repository di github e' questo:
 
-[Firmware Marlin Mks Robin Nano 1.3](https://github.com/flyingbear-club-ita/firmware_robin_nano_1.3)
+[Firmware Marlin Mks Robin Nano 1.3](https://github.com/flyingbear-club-ita/flyingbear_ghost_marlin)
 
 ### Istruzioni per l'installazione
 
