@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9445],{51669:function(s){s.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/fusion-360","name":"fusion360","count":1,"permalink":"/en/blog/tags/fusion-360"}')}}]);

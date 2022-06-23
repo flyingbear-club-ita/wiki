@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3160],{35983:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/nozzle","name":"nozzle","count":1,"permalink":"/blog/tags/nozzle"}')}}]);

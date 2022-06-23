@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4086],{46527:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/tinkercad","name":"tinkercad","count":1,"permalink":"/en/blog/tags/tinkercad"}')}}]);

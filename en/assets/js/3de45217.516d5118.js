@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7596],{53718:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/ugelli","name":"ugelli","count":1,"permalink":"/en/blog/tags/ugelli"}')}}]);

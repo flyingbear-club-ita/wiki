@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7943],{34644:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/arduino","name":"arduino","count":1,"permalink":"/en/blog/tags/arduino"}')}}]);

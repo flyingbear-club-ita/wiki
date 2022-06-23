@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[296],{21366:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/openscad","name":"openscad","count":1,"permalink":"/en/blog/tags/openscad"}')}}]);

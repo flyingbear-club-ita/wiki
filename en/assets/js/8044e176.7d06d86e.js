@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7728],{63761:function(a){a.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/stampa-3-d","name":"stampa 3d","count":4,"permalink":"/en/blog/tags/stampa-3-d"}')}}]);

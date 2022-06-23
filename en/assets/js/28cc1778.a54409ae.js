@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3954],{39227:function(e){e.exports=JSON.parse('{"allTagsPath":"/en/blog/tags","slug":"/en/blog/tags/blackberry","name":"blackberry","count":1,"permalink":"/en/blog/tags/blackberry"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2954],{27679:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/raspberry-pi","name":"raspberry pi","count":1,"permalink":"/blog/tags/raspberry-pi"}')}}]);
