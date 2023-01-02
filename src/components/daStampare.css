@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+.collapsible{
+    background-color: #044389;
+    ;
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    padding: 18px;
+    margin: 10px;
+    font-family: 'Bree Serif';
+    font-size: xx-large;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.collapsible:hover {
+    color: coral;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: 92%;
+    margin: auto;
+    border-radius: 5px;;
+}
+
+.content.collapsed {
+    display: none;
+}
+
+.content.expanded {
+    display: block;
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.daStampareLink {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block;
+}
+
+@media (min-width: 500px) {
+    .image-gallery.image-gallery-using-mouse{
+        width: 60%;
+        height: 60%;
+    }
+}
+
+html[data-theme='dark'] .content{
+    --text-color-normal: hsl(210, 10%, 62%);
+    --text-color-light: hsl(210, 15%, 35%);
+    --text-color-richer: hsl(210, 50%, 72%);
+    --text-color-highlight: hsl(25, 70%, 45%);
+    background-color: black;
+  }
+
+  /* @media (prefers-color-scheme: dark) {
+    .content {
+      color: #eee;
+      background: #6b6868;
+    }
+
+  } */

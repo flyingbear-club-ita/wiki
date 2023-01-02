@@ -92,7 +92,7 @@ class GridItem extends React.Component{
                                 </div>
                             </div>
                             {this.props.links.map(function (link, i) {
-                            return <a className='link' href={link} target="_blank">Link {i+1}</a>
+                                return <a className='link' href={link} target="_blank">Link {i+1}</a>
                             })}
                     </Modal>
                 </div>

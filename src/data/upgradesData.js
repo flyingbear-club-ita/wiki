@@ -329,16 +329,17 @@ export const upgradesData = [
         description: 'Per rimuovere quello schifo del corrugato',
     },
     {
-        difficulty: 'low',
+        difficulty: 'medium',
         title: 'Piatto originale Flyingbear in acciaio con tappetino magnetico PEI',
         imgSrc:'',
         desc:'Migliora l\'adesione, riduce la distorsione del piatto',
-        links:['https://www.aliexpress.com/item/1005003308536931.html?spm=a2g0o.store_pc_groupList.8148356.11.19a41f6bjk7B4o'],
         img: 'img/upgrades/piattoPei.webp',
         description: 'Il nuovo piatto di Flyingbear!!! \n \
         La nuova lastra di acciaio dovrebbe diminuire la distorsione del piatto durante il riscaldamento\n \
         L\'adesivo magnetico garantisce tenuta fino a 120 gradi \n \
         Il piatto in acciaio con rivestimento in PEI aumenta l\'adesione e consente di rimuovere immediatamente le stampe, oltre ad avere un lato liscio ed un altro con tessitura, per tipi diversi di finitura dei pezzi stampati',
+        opensInNewPage: true,
+        pageUrl: '/upgrades/piattoFB'
     },
     {
         difficulty: 'high',

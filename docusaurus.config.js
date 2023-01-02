@@ -23,7 +23,7 @@ module.exports = {
     announcementBar: {
       id: 'new_content_banner',
       content:
-        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="https://flyingbearghost.com/arduino/arduino_lezione_due">Seconda puntata del corso su Arduino a cura di Nick_IT</a>',
+        'Ultimo articolo pubblicato: <a target="_blank" rel="noopener noreferrer" href="https://flyingbearghost.com/da_stampare">Nuova sezione "Da Stampare", per quando siete in cerca di ispirazione</a>',
       backgroundColor: '#eb9534',
       textColor: '#091E42',
       isCloseable: true,
@@ -115,6 +115,11 @@ module.exports = {
           ]
         },
         {
+          href: '/da_stampare',
+          label: 'Da Stampare',
+          position: 'left',
+        },
+        {
           href: '/faq',
           label: 'FAQ',
           position: 'left',
@@ -147,11 +152,6 @@ module.exports = {
         ]
       }],
     },
-    googleAnalytics: {
-      trackingID: 'UA-199656279-2',
-      // Optional fields.
-      anonymizeIP: false, // Should IPs be anonymized?
-    },
   },
   presets: [
     [
@@ -166,6 +166,7 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
+      
     ],
   ],
   plugins: [
@@ -182,6 +183,20 @@ module.exports = {
         language: ["it", "en"],
         indexPages: true,
         highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-BQ5B7ZKNJ6',
+        anonymizeIP: true,
+      },
+    ],
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'UA-199656279-2',
+        anonymizeIP: true,
       },
     ],
   ],
