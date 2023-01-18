@@ -24,7 +24,7 @@ Comune per tutti gli slicer
  ; spinge un po' di filamento per spurgare l'ugello e, se il gcode finale opzionale e' attivato, lo reintroduce nell'ugello 
  ;G92 E0 ;Reset Extruder
  ;G91 ;Relative positioning
- ;G1 E60 F2400 ;Introduce filament in the nozzle
+ ;G1 E60 F1500 ;Introduce filament in the nozzle
  ;G90 ;Absolute positionning
 
  ;Code for nozzle cleaning and flow normalization
@@ -33,7 +33,7 @@ Comune per tutti gli slicer
  G1 X10.4 Y20 Z0.28 F5000.0
  G1 X10.4 Y170.0 Z0.28 F1500.0 E15
  G1 X10.1 Y170.0 Z0.28 F5000.0
- G1 X10.1 Y40 Z0.28 F1500.0 E30
+ G1 X10.1 Y40 Z0.28 F1500.0 E15
  
  G92 E0 ;Reset Extruder
  G1 Z2.0 F3000 ;Move Z Axis up

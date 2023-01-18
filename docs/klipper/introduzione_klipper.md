@@ -61,5 +61,19 @@ Non vi aspettate che Klipper sia la soluzione a tutti i vostri problemi: se le s
 
 Personalmente, non posso che raccomandarlo: essendo io uno smanettone, mi trovo spesso a fare cambiamenti al firmware, a modificare parametri. Con Klipper e' questione di secondi: i cambiamenti possono essere verificati immediatamente, senza bisogno di ricompilare il firmware e flasharne una nuova versione
 
-Ovviamente la gestione della stampante da remoto rappresenta un'esperienza completamente diversa, con monitoraggio dei parametri e possibilita' di montare una videocamera e registrare time lapse. Sebbene esistano gia' soluzioni disponibili (come il gia' citato octoprint o beeprint (nota: inserire i link qui))
+Ovviamente la gestione della stampante da remoto rappresenta un'esperienza completamente diversa, con monitoraggio dei parametri e possibilita' di montare una videocamera e registrare time lapse. Sebbene esistano gia' soluzioni disponibili (come il gia' citato octoprint o beeprint (notaDiPaolo: inserire i link qui))
 
+
+## Prima di cominciare ad installare Klipper
+L'ordine da seguire per le guide successive sara' determinato dal tipo di hardware a disposizione
+
+Abbiamo precedentemente parlato del fatto che Klipper sia compatibile con qualunque dispositivo in grado di far girare Linux, pero', fino a poco tempo fa', l'hardware preferito per far girare Klipper era la **Raspberry Pi** (dalla versione 3 in poi). Purtroppo, a causa della scarsita' di silicio a livello mondiale (nota: ricontrollare questa affermazione), la reperibilita' delle Raspberry Pi e' crollata, fino a far raggiungere i prezzi, precedentemente abbordabili per tutte le tasche, oltre le centinaia di euro
+
+Per questo, parecchi produttori si sono gia' organizzati per fornire delle alternative economiche alla Raspberry Pi per far girare Klipper. Vista la moltitudine di alternative, ci concentreremo solo su due prodotti:
+
+- Raspberry Pi, perche' probabilmente, se siete degli smanettoni, ne avete almeno una in giro per casa
+- MKS Pi, la soluzione della MKS (la casa produttrice della scheda madre della Ghost e di altre valide alternative) per far girare Klipper
+
+Per la guida su come installare su raspberry, seguite [questo link](https://flyingbearghost.com)
+
+Per la guida su come installare su mks pi, seguite [questo link](https://flyingbearghost.com)

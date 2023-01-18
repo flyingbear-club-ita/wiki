@@ -35,8 +35,6 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'resources/fbghostitaLogo.jpg',
         href: 'https://flyingbearghost.com',
-        // width: 32,
-        // height: 32
       },
       items: [
         {
@@ -97,21 +95,6 @@ module.exports = {
               href: '/filamenti/sunluBianco',
               label: 'Sunlu PLA+ Bianco',
             }
-          ]
-        },
-        {
-          href: '/',
-          label: 'Arduino',
-          position: 'left',
-          items:[
-            {
-              href:'/arduino/arduino_lezione_uno',
-              label: 'Lezione 1 - Introduzione',
-            },
-            {
-              href:'/arduino/arduino_lezione_due',
-              label: 'Lezione 2 - Primo programma',
-            },
           ]
         },
         {
