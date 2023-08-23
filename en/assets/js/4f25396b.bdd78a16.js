@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[6549],{75269:function(e){e.exports=JSON.parse('{"label":"flying bear ghost","permalink":"/en/blog/tags/flying-bear-ghost","allTagsPath":"/en/blog/tags","count":4}')}}]);
