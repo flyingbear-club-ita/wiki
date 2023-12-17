@@ -71,7 +71,7 @@ export const upgradesData = [
         difficulty: 'medium',
         title: 'Cerniere Porta',
         imgSrc:'',
-        desc:'Copertura per copertura frontale',
+        desc:'Cerniera per sportello frontale',
         links:['https://www.thingiverse.com/thing:4815626'],
         img: 'img/cerniera_1.stl.png',
         description: 'Cerniera per la copertura frontale, non serve bucare il pannello di plexiglass, basta incollarlo\n \
