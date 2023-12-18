@@ -48,7 +48,9 @@ Il circuit diagram della hot-end nella Ghost 5 (vedi sopra) è leggermente diver
 
 ## Schema circuitale della scheda madre
 
-Lo schema qua sotto fa riferimento ad una scheda **robin nano 1.3**, che pero' e' la base di tutte le schede della Ghost
+La scheda madre della ghost è basata sulla MKS Robin Nano v1.X. Lo schema qua sotto fa riferimento ad una **robin nano 1.3**.
+
+Per ulteriori informazioni sulle altre robin nano v1 o su schematici e pinout consultare [questa repository gihub](https://github.com/makerbase-mks/MKS-Robin-Nano-V1.X/tree/master/hardware) di MKS.
 
 [ ![Flyingbear ghost - Circuit Diagram](/img/manuale/schemaPcb.webp) ](/img/manuale/schemaPcb.webp)
 
