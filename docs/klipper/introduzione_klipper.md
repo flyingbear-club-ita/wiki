@@ -20,6 +20,8 @@ Il problema maggiore di Marlin e' che, su schede un po' obsolete, tipo le vecchi
 
 - gestire motori, ventole, cartuccia riscaldante, termistore, etc.
 
+<DisplayAd/>
+
 Tutte queste operazioni si possono tradurre in milioni di operazioni che la scheda madre deve eseguire, tra l'altro in un brevissimo lasso di tempo. Su schede ad 8 bit, la limitata capacita' computazionale comporta non poter sfruttare al meglio le potenzialita' della stampa 3d
 
 Proprio per superare questo limite, nel 2016 e' comparsa la prima version di Klipper, basata su un semplice concetto: spostare l'intensita' del carico di lavoro su microprocessori piu' performanti, come, ad esempio, quello di una **raspberry pi, tipicamente a 32 o 64 bit,** delegando al microcontrollore il solo compito di inviare gli impulsi elettrici che controllano la stampante
@@ -51,7 +53,8 @@ E' possibile quindi controllare la stampante da qualunque dispositivo con access
 Controllare una stampante con klipper puo' essere fatto nei piu' svariati modi: l'importante e' avere un dispositivo in grado di far girare una versione di Linux
 
 Per questo motivo, gli utenti non sono limitati ad utilizzare una raspberry pi, ma possono utilizzare i piu' svariati dispositivi, tra cui cloni della raspberry pi, mini pc e addirittura telefoni android
- 
+
+<DisplayAd/>
 
 ## Mi conviene installare Klipper???
 
@@ -63,17 +66,19 @@ Personalmente, non posso che raccomandarlo: essendo io uno smanettone, mi trovo 
 
 Ovviamente la gestione della stampante da remoto rappresenta un'esperienza completamente diversa, con monitoraggio dei parametri e possibilita' di montare una videocamera e registrare time lapse. Sebbene esistano gia' soluzioni disponibili (come il gia' citato octoprint o beeprint (notaDiPaolo: inserire i link qui))
 
-
 ## Prima di cominciare ad installare Klipper
-L'ordine da seguire per le guide successive sara' determinato dal tipo di hardware a disposizione
+
+Come gia' accennato precedentemente, l'architettura di Klipper si divide in due parti: un **controllore**, che risiede sulla nostra scheda di controllo, ed un **esecutore**, che risiede sulla scheda madre vera e propria (per capirci, quella dove prima andavate ad installare il firmware stock della Ghost o Marlin)
+
+Se la procedura per flashare il firmware della scheda madre, che agira' semplicemente da esecutore, e' uguale per ogni configurazione, quella per configurare il "controllore" varia a seconda del microprocessore. Per questo, l'ordine da seguire per le guide successive sara' determinato dal tipo di hardware a disposizione
 
 Abbiamo precedentemente parlato del fatto che Klipper sia compatibile con qualunque dispositivo in grado di far girare Linux, pero', fino a poco tempo fa', l'hardware preferito per far girare Klipper era la **Raspberry Pi** (dalla versione 3 in poi). Purtroppo, a causa della scarsita' di silicio a livello mondiale (nota: ricontrollare questa affermazione), la reperibilita' delle Raspberry Pi e' crollata, fino a far raggiungere i prezzi, precedentemente abbordabili per tutte le tasche, oltre le centinaia di euro
+
+<DisplayAd/>
 
 Per questo, parecchi produttori si sono gia' organizzati per fornire delle alternative economiche alla Raspberry Pi per far girare Klipper. Vista la moltitudine di alternative, ci concentreremo solo su due prodotti:
 
 - Raspberry Pi, perche' probabilmente, se siete degli smanettoni, ne avete almeno una in giro per casa
 - MKS Pi, la soluzione della MKS (la casa produttrice della scheda madre della Ghost e di altre valide alternative) per far girare Klipper
 
-Per la guida su come installare su raspberry, seguite [questo link](https://flyingbearghost.com)
-
-Per la guida su come installare su mks pi, seguite [questo link](https://flyingbearghost.com)
+Per ora, ci concentreremo su come installare Klipper sulla raspberry Pi, ma, in futuro, aggiungeremo anche una guida per la MKS Pi

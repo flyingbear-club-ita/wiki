@@ -312,7 +312,12 @@ In questo caso, va disabilitato il riscaldamento sia del piatto che del nozzle, 
 Il file e' disponibile su Thingiverse, insieme ad una breve descrizione a [questo link](https://www.thingiverse.com/thing:5216034)
 
 ## Cablatura del BL Touch
-Coming Soon
+Per connettere il BL Touch, riferirsi alla figura qui sotto
+
+[![bltouch cabling Flyingbear Ghost 4s 5](/img/bltouch/blTouchCabling.webp)](/img/bltouch/blTouchCabling.webp )
+
+Sebbene la scheda sia una MKS Robin Nano 1.2, quindi la vostra scheda potrebbe avere colori o driver diversi, non vi preoccupate: le schede della Flyingbear sono delle versioni ribrandizzate delle schede mks, i pin rimangono sempre gli stessi
+
 
 ## Firmware
 Coming Soon

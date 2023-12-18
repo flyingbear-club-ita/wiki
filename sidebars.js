@@ -80,6 +80,15 @@ module.exports = {
             'connessione_remota/vpn',
           ],
         },
+        {
+          type: 'category',
+          label: 'Klipper',
+          items: [
+            'klipper/introduzione_klipper',
+            'klipper/installazione_raspberry',
+            'klipper/kiauh',
+          ],
+        },
       ],
     },
   ],

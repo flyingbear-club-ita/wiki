@@ -4,7 +4,7 @@ export const upgradesData = [
         title: 'Molle Rigide',
         imgSrc:'',
         desc:'Aumentano la rigidita\' del piatto, aumentando la precisione della calibrazione',
-        links:['https://s.click.aliexpress.com/e/_9IPSsp'],
+        links:['https://s.click.aliexpress.com/e/_Dkh5ZEx'],
         img: 'img/molle.png',
         description: 'Consigliate solo per la 4S\nDiciamocelo: a nessuno piace perdere tempo a livellare il piatto...\n \
         Le molle rigide servono a mantenere il piatto più stabile e a non farlo scalibrare tanto velocemente quanto le molle originali',
@@ -178,7 +178,8 @@ export const upgradesData = [
         links:['https://www.thingiverse.com/thing:4394165'],
         img: 'img/universalHead4s.jpg',
         description: 'Nuova Ventola, da collegare in parallelo nello stesso morsetto\n \
-        https://s.click.aliexpress.com/e/_AMdvsV\nModello : 24V Ball XH2.54',
+        https://s.click.aliexpress.com/e/_AMdvsV\nModello : 24V Ball XH2.54 \n \
+        hotend trianglelab clone e3d 24V:\n https://s.click.aliexpress.com/e/_DBgFLUX',
     },
     {
         difficulty: 'high',
@@ -188,7 +189,8 @@ export const upgradesData = [
         links:['https://www.thingiverse.com/thing:4615328'],
         img: 'img/universalHead5.jpg',
         description: 'Nuova Ventola, da collegare in parallelo nello stesso morsetto\n \
-        https://s.click.aliexpress.com/e/_AMdvsV\nModello : 24V Ball XH2.54',
+        https://s.click.aliexpress.com/e/_AMdvsV\nModello : 24V Ball XH2.54 \n \
+        hotend trianglelab clone e3d 24V:\n https://s.click.aliexpress.com/e/_DBgFLUX',
     },
     {
         difficulty: 'low',
@@ -426,5 +428,13 @@ export const upgradesData = [
         img: '/img/upgrades/portaBobina/portaBobinaThumbnail.webp',
         opensInNewPage: true,
         pageUrl: '/upgrades/porta_bobina'
+    },
+    {
+        difficulty: 'high',
+        title: 'Testa magnetica Ghost 5',
+        desc:'Testa facilmente intercambiabile grazie all\'attacco con magneti',
+        img: '/img/upgrades/testaMagnetica/testaMagneticaThumbnail.webp',
+        opensInNewPage: true,
+        pageUrl: '/upgrades/testa_magnetica'
     },
 ];
